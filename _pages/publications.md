@@ -29,8 +29,8 @@ permalink: /publications
 <span class="authors">**Antônio H. Ribeiro**, Luis A. Aguirre </span> <br />
 <span class="conference">Proceedings of American Control Conference (2018) </span><br />
 <span class="source">
-[arXiv](https://arxiv.org/abs/1710.00598)
-[slides](slides/2018-ACC.pdf)
+[arXiv](https://arxiv.org/abs/1710.00598) -
+[slides](slides/2018-ACC.pdf) -
 [code](https://github.com/antonior92/NarmaxLasso.jl)
 </span>
 </div>
