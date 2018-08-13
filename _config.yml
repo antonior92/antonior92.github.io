@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Manoel Horta Ribeiro
+name: Antônio H Ribeiro
 
 # Short bio or description (displayed in the header)
-description: Msc. Student @ UFMG, ML and DM enthusiast
+description: Ph.D. candidate in Electrical Engineering at UFMG. Interested in system identification, machine learning and optimization.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars2.githubusercontent.com/u/6676861?v=4&s=460
+avatar: https://avatars1.githubusercontent.com/u/16557411?s=460&v=4
 
 #
 # Flags below are optional
@@ -18,15 +18,15 @@ avatar: https://avatars2.githubusercontent.com/u/6676861?v=4&s=460
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: manoelhortaribeiro@gmail.com
-  facebook: manel.hr
+  email: antonior92@gmail.com
+  facebook: antonio.hortaribeiro
   flickr:
-  github: manoelhortaribeiro
-  instagram:
-  linkedin: manoelhortaribeiro
+  github: antonior92
+  instagram: antoniohortaribeiro
+  linkedin: antonior92
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: manoelribeiro
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -34,14 +34,14 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: https-manoelhortaribeiro-github-io
+disqus: https-antonior92-github-io
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-110389775-1
+google_analytics: UA-123907938-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://manoelhortaribeiro.github.io
+url: http://antonior92.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
