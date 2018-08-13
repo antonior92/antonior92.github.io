@@ -59,7 +59,7 @@ permalink: /publications
 </div>
 
 <hr />
-<div class="titlebox">National Conference Paper</div>
+<div class="titlebox">National Conference Papers</div>
 
 <div class="paper" markdown="1">
 <div class="category">system identification, nonlinear systems</div>
