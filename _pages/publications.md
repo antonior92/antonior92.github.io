@@ -5,79 +5,45 @@ permalink: /publications
 ---
 
 <hr />
-<div class="titlebox">masters</div>
+<div class="titlebox">Journal Papers</div>
 
 <div class="paper" markdown="1">
-<div class="category">network analysis, social computing</div>
-<span class="papertitle">**Characterizing and Detecting Hateful Users on Twitter** </span> <br />
-<span class="authors">**Manoel Horta Ribeiro**, Yuri A Santos, Pedro H Calais, Virgílio AF Almeida, Wagner Meira Jr </span> <br />
-<span class="conference">To be presented @ ICWSM'18</span> <br />
+<div class="category">system identification, neural networks</div>
+<span class="papertitle">**"Parallel Training Considered Harmful?" : Comparing Series-Parallel and Parallel Feedforward Network Training** </span> <br />
+<span class="authors">**Antônio H Ribeiro**, Luis A Aguirre </span> <br />
+<span class="journal">Neurocomputing (2018)</span> <br />
+<span class="doi">DOI:10.1016/j.neucom.2018.07.071</span> <br />
 <span class="source">
-[extended version](https://arxiv.org/pdf/1803.08977.pdf) - 
-[code](https://github.com/manoelhortaribeiro/AbusiveUsersOSNs) - 
-[data](https://www.kaggle.com/manoelribeiro/hateful-users-on-twitter) -
-</span>
-</div>
-
-<div class="paper" markdown="1">
-<div class="category">network analysis, social computing</div>
-<span class="papertitle">**"Like Sheep Among Wolves": Characterizing Hateful Users on Twitter** </span> <br />
-<span class="authors">**Manoel Horta Ribeiro**, Yuri A Santos, Pedro H Calais, Virgílio AF Almeida, Wagner Meira Jr </span> <br />
-<span class="conference">Presented @ MIS2 Worshop, WSDM'18</span> <br />
-<span class="source">
-[source](https://arxiv.org/pdf/1801.00317.pdf) - 
-[code](https://github.com/manoelhortaribeiro/AbusiveUsersOSNs) - 
-[data](https://www.kaggle.com/manoelribeiro/hateful-users-on-twitter) -
-[slides](slides/misinfo_2018.pdf) -
-[poster](posters/misinfo_2018.pdf)
-</span>
-</div>
-
-<div class="paper" markdown="1">
-<div class="category">network analysis, social computing</div>
-<span class="papertitle">**“Everything I Disagree With is #FakeNews”: Correlating Political Polarization and Spread of Misinformation** </span> <br />
-<span class="authors">**Manoel Horta Ribeiro**, Pedro H Calais, Virgílio AF Almeida, Wagner Meira Jr </span> <br />
-<span class="conference">Presented @ DS+J Worshop, KDD'17</span> <br />
-<span class="source">
-[source](https://arxiv.org/pdf/1706.05924.pdf) -
-[slides](slides/dspj_2017.pdf) -
-[presentation](https://www.youtube.com/watch?v=1z7EINnN11I)
+[arXiv](https://arxiv.org/abs/1706.07119) - 
+[code](https://github.com/antonior92/ParallelTrainingNN.jl)
 </span>
 </div>
 
 <hr />
-<div class="titlebox">undergrad</div>
+<div class="titlebox">International Conference Papers</div>
 
 <div class="paper" markdown="1">
-<div class="category">health informatics, data visualization</div>
-<span class="papertitle">**Portinari: a data exploration tool to personalize cervical cancer screening**  </span> <br />
-<span class="authors">Sagar Sen, **Manoel Horta Ribeiro**, Raquel C de Melo Minardi, Wagner Meira Jr, Mari Nygård</span> <br />
-<span class="conference">Proceedings of the 39th International Conference on Software Engineering: Software Engineering in Society Track </span><br />
+<div class="category">system identification, oil production</div>
+<span class="papertitle">**Selecting Transients Automatically for the Identification of Models for an Oil Well**  </span> <br />
+<span class="authors">**Antônio H Ribeiro**, Luis Antonio Aguirre</span> <br />
+<span class="conference">Proceedings of 2nd IFAC Workshop on Automatic Control in Offshore Oil and Gas Production (2015) </span><br />
+<span class="doi">DOI:10.1016/j.ifacol.2015.08.024</span> <br />
+<span class="source">
+[source](https://www.sciencedirect.com/science/article/pii/S2405896315008915) - 
+[slides](slides/2015-IFACOil.pdf)
+</span>
+</div>
+
+<hr />
+<div class="titlebox">National Conference Paper</div>
+
+<div class="paper" markdown="1">
+<div class="category">system identification, nonlinear systems</div>
+<span class="papertitle">**Relaçoes Estáticas de Modelos NARX MISO e sua Representaçao de Hammerstein**  </span> <br />
+<span class="authors">**Antônio H Ribeiro**, Luis Antonio Aguirre</span> <br />
+<span class="conference">Proceedings of the "XX Congresso Brasileiro de Automática" (2014) </span><br />
 <span class="source">
 [source](https://arxiv.org/pdf/1704.00172.pdf) - 
-[code](https://github.com/manoelhortaribeiro/portinari) -
-[poster](posters/icse_2017.pdf) - 
-[slides](slides/icse_2017.pdf)
+[slides](slides/2014-CBA.pdf)
 </span>
-
-</div>
-
-<div class="paper" markdown="1">
-<div class="category">computer vision, probab. graphical models</div>
-<span class="papertitle">**Complexity-Aware Assignment of Latent Values in Discriminative Models for Accurate Gesture Recognition** </span> <br />
-<span class="authors">**Manoel Horta Ribeiro**, Bruno Teixeira, Antônio Otávio Fernandes, Wagner Meira Jr, Erickson R Nascimento</span> <br />
-<span class="conference">Proceedings of the 2016 29th SIBGRAPI, Conference on Graphics, Patterns and Images (SIBGRAPI)</span> <br />
-<span class="source">
-[source](https://arxiv.org/pdf/1704.00180.pdf) - 
-[code](https://github.com/manoelhortaribeiro/hidden_states) - 
-[poster](posters/sibgrapi_2016.pdf)
-</span>
-</div>
-
-<div class="paper" markdown="1">
-<div class="category">network analysis, social computing</div>
-<span class="papertitle">**Modeling and analyzing the video game live-streaming community**</span> <br />
-<span class="authors">Gustavo Nascimento, **Manoel Ribeiro**, Loïc Cerf, Natália Cesário, Mehdi Kaytoue, Chedy Raïssi, Thiago Vasconcelos, Wagner Meira</span> <br />
-<span class="conference">LA-WEB '14 Proceedings of the 2014 9th Latin American Web Congress</span> <br />
-<span class="source">[source](http://homepages.dcc.ufmg.br/~lcerf/publications/articles/Modeling%20and%20Analyzing%20the%20Video%20Game%20Live-Streaming%20Community.pdf)</span>
 </div>
