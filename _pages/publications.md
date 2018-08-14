@@ -39,7 +39,7 @@ permalink: /publications
 <div class="category">system identification, parameter estimation </div>
 <span class="papertitle">**Shooting Methods for Parameter Estimation of Output Error Models**  </span> <br />
 <span class="authors">**Antônio H. Ribeiro**, Luis A. Aguirre </span> <br />
-<span class="conference">Proceedings of 20th IFAC Workshop on Automatic Control in Offshore Oil and Gas Production (2015) </span><br />
+<span class="conference">Proceedings of 20th IFAC World Congress (2017) </span><br />
 <span class="source">
 [doi](https://doi.org/10.1016/j.ifacol.2017.08.2421) - 
 [poster](posters/2017-IFACWorld.pdf) -
