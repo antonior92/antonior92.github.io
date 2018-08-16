@@ -67,7 +67,7 @@ permalink: /publications
 <span class="authors">**Antônio H. Ribeiro**, Luis A. Aguirre </span> <br />
 <span class="conference">Proceedings of the "XX Congresso Brasileiro de Automática" (2014) </span><br />
 <span class="source">
-[source](http://www.swge.inf.br/CBA2014/anais/PDF/1569890815.pdf) - 
+[pdf](http://www.swge.inf.br/CBA2014/anais/PDF/1569890815.pdf) - 
 [slides](slides/2014-CBA.pdf)
 </span>
 </div>
