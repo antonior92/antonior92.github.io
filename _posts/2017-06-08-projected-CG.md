@@ -183,7 +183,7 @@ The constrain  violation $\\|Ax_k-b\\|$ is monitored
 along the iterations, showing that the roundoff errors 
 can results in very large constraints violations.
 
-![error_per_iteration](https://antonior92.github.io/files/error_per_iteration.png)
+![error_per_iteration](https://antonior92.github.io/images/error_per_iteration.png)
 
 Fortunately, in \[2\] some iterative refinements
 and a new way to update the residuals are proposed to
@@ -193,7 +193,7 @@ the proposed modifications, is displayed bellow
 (indicating acceptable levels of constraint violation
 along the iterations).
 
-![error_per_iteration_corrected](https://antonior92.github.io/files/error_per_iteration_corrected.png)
+![error_per_iteration_corrected](https://antonior92.github.io/images/error_per_iteration_corrected.png)
 
 
 Final Results
@@ -218,7 +218,7 @@ the constraint violation $\\|Ax_k-b\\|$" plane. Each problem was solved
 by the three different methods and solutions obtained throght different 
 methods are being represented by different colors.
 
-![optimality_x_error_after](https://antonior92.github.io/files/optimality_x_error_after.png)
+![optimality_x_error_after](https://antonior92.github.io/images/optimality_x_error_after.png)
 
 The *augmented system approach* seems to provide a slightly more accurate
 result compared with the *normal equation approach*. And both projected CG methods
@@ -232,7 +232,7 @@ slower (more than 10x) for very large problems and can be slightly faster for sm
 problems compared to both CG methods. The executions times (in seconds) are compared on the
 graph bellow for the same set of problems.
 
-![execution_time_after](https://antonior92.github.io/files/execution_time_after.png)
+![execution_time_after](https://antonior92.github.io/images/execution_time_after.png)
 
 References
 ----------
