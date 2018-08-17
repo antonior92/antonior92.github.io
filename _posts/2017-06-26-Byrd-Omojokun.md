@@ -43,7 +43,7 @@ Note that this problem may not be feasible, since the linear constraints
 may not be compatible with the trust-region constraints, as illustrated in the figure
 bellow:
 
-![screenshot 2017-06-09 13 52 38](https://antonior92.github.io/files/TrustRegionSQP.png)
+![screenshot 2017-06-09 13 52 38](https://antonior92.github.io/images/TrustRegionSQP.png)
 
 According to Nocedal and Wright \[1\](p. 546):
 
@@ -183,7 +183,7 @@ equilibrium state distribution (of minimal Coulomb potential) of the electrons p
 conducting sphere.
 
 The performance of other commercial solvers (according to \[1\]) is presented on the table bellow:
-![screenshot 2017-06-22 18 04 34](https://antonior92.github.io/files/ELECtable.png)
+![screenshot 2017-06-22 18 04 34](https://antonior92.github.io/images/ELECtable.png)
 
 I choose this problem because the KNITRO package performs well on it, so our solver is expected to perform well on it as well, since the underlying principle is the same.
 
@@ -203,7 +203,7 @@ The norm of the gradient of the Lagrangian $\\|\nabla_{x} \mathcal{L}(x, \lambda
 at the solution point and is used as a measure of the optimality along the iterations. It is displayed
 on the graph bellow:
 
-![optimality_elec](https://antonior92.github.io/files/optimality_elec_soc.png)
+![optimality_elec](https://antonior92.github.io/images/optimality_elec_soc.png)
 
 The decay of this optimality measure seems consistent along the interactions.
 
