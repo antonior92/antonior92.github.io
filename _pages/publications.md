@@ -72,3 +72,22 @@ permalink: /publications
 [slides](slides/2014-CBA.pdf)
 </span>
 </div>
+
+<hr />
+<div class="titlebox">Conference Abstracts</div>
+
+<div class="paper" markdown="1">
+<div class="category">deep learning, machine learning in heath care, ecg</div>
+<span class="papertitle">**Classificação automática de eletrocardiogramas com 12 derivações por meio de redes neurais convolucionais: Estudo CODE**  </span> <br />
+<span class="authors"> Paulo Rodrigues Gomes, **Antonio Horta Ribeiro**, Manoel Horta Ribeiro, Derick Matheus Oliveira, Gabriela Miana de Mattos Paixão, Jéssica Augusta Canazart, Luís Gustavo Silva e Silva,
+Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
+<span class="conference"> XVI Congresso Brasileiro de Informática em Saúde - CBIS 2018 </span><br />
+<span class="source">
+[poster](poster/2018-CBIS.pdf)
+</span>
+</div>
+
+
+
+
+
