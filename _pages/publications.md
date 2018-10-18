@@ -81,9 +81,9 @@ permalink: /publications
 <span class="papertitle">**Classificação automática de eletrocardiogramas com 12 derivações por meio de redes neurais convolucionais: Estudo CODE**  </span> <br />
 <span class="authors"> Paulo Rodrigues Gomes, **Antonio Horta Ribeiro**, Manoel Horta Ribeiro, Derick Matheus Oliveira, Gabriela Miana de Mattos Paixão, Jéssica Augusta Canazart, Luís Gustavo Silva e Silva,
 Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
-<span class="conference"> XVI Congresso Brasileiro de Informática em Saúde - CBIS 2018 </span><br />
+<span class="conference"> XVI Congresso Brasileiro de Informática em Saúde (2018) </span><br />
 <span class="source">
-[poster](poster/2018-CBIS.pdf)
+[poster](posters/2018-CBIS.pdf)
 </span>
 </div>
 
@@ -95,6 +95,6 @@ Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 <span class="conference"> 73 Congresso Brasileiro de Cardiologia (2018) </span><br />
 <span class="source">
-[abstract](poster/2018-CBC.pdf)
+[abstract](posters/2018-CBC.pdf)
 </span>
 </div>
