@@ -74,7 +74,7 @@ permalink: /publications
 </div>
 
 <hr />
-<div class="titlebox">Conference Abstracts</div>
+<div class="titlebox">Conference Abstracts and Presentations</div>
 
 <div class="paper" markdown="1">
 <div class="category">deep learning, machine learning in heath care, ecg</div>
@@ -86,8 +86,4 @@ Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 [poster](poster/2018-CBIS.pdf)
 </span>
 </div>
-
-
-
-
 
