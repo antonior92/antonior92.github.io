@@ -87,3 +87,14 @@ Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 </span>
 </div>
 
+
+<div class="paper" markdown="1">
+<div class="category">deep learning, machine learning in heath care, ecg</div>
+<span class="papertitle">**Classificação automática de eletrocardiogramas com 12 derivações por meio de redes neurais convolucionais**  </span> <br />
+<span class="authors"> Jéssica Augusta Canazart, **Antonio Horta Ribeiro**, Manoel Horta Ribeiro, Derick Matheus Oliveira, Paulo Rodrigues Gomes, Gabriela Miana de Mattos Paixão,  Luís Gustavo Silva e Silva,
+Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
+<span class="conference"> 73 Congresso Brasileiro de Cardiologia (2018) </span><br />
+<span class="source">
+[abstract](poster/2018-CBC.pdf)
+</span>
+</div>
