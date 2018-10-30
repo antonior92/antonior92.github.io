@@ -79,7 +79,7 @@ permalink: /publications
 <div class="paper" markdown="1">
 <div class="category">deep learning, machine learning in heath care, ecg</div>
 <span class="papertitle">**Classificação automática de eletrocardiogramas com 12 derivações por meio de redes neurais convolucionais: Estudo CODE**  </span> <br />
-<span class="authors"> Paulo Rodrigues Gomes, **Antonio Horta Ribeiro**, Manoel Horta Ribeiro, Derick Matheus Oliveira, Gabriela Miana de Mattos Paixão, Jéssica Augusta Canazart, Luís Gustavo Silva e Silva,
+<span class="authors"> Paulo Rodrigues Gomes, **Antonio H. Ribeiro**, Manoel Horta Ribeiro, Derick Matheus Oliveira, Gabriela Miana de Mattos Paixão, Jéssica Augusta Canazart, Luís Gustavo Silva e Silva,
 Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 <span class="conference"> XVI Congresso Brasileiro de Informática em Saúde (2018) </span><br />
 <span class="source">
@@ -91,7 +91,7 @@ Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 <div class="paper" markdown="1">
 <div class="category">deep learning, machine learning in heath care, ecg</div>
 <span class="papertitle">**Classificação automática de eletrocardiogramas com 12 derivações por meio de redes neurais convolucionais**  </span> <br />
-<span class="authors"> Jéssica Augusta Canazart, **Antonio Horta Ribeiro**, Manoel Horta Ribeiro, Derick Matheus Oliveira, Paulo Rodrigues Gomes, Gabriela Miana de Mattos Paixão,  Luís Gustavo Silva e Silva,
+<span class="authors"> Jéssica Augusta Canazart, **Antonio H. Ribeiro**, Manoel Horta Ribeiro, Derick Matheus Oliveira, Paulo Rodrigues Gomes, Gabriela Miana de Mattos Paixão,  Luís Gustavo Silva e Silva,
 Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 <span class="conference"> 73 Congresso Brasileiro de Cardiologia (2018) </span><br />
 <span class="source">
@@ -106,10 +106,10 @@ Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 <div class="paper" markdown="1">
 <div class="category">system identification, parameter estimation, nonlinear systems</div>
 <span class="papertitle">**Recurrent Structures in System Identification**  </span> <br />
-<span class="authors"> **Antonio Horta Ribeiro** (supervisor: Luis Antonio Aguirre) </span> <br />
+<span class="authors"> **Antonio H. Ribeiro** (supervisor: Luis A. Aguirre) </span> <br />
 <span class="conference"> Master thesis (2017) </span><br />
 <span class="source">
-[pdf](https://www.ppgee.ufmg.br/defesas/1480M.PDF)
+[pdf](https://www.ppgee.ufmg.br/defesas/1480M.PDF) -
 [slides](slides/2017-Ms.pdf)
 </span>
 </div>
@@ -117,11 +117,11 @@ Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 <div class="paper" markdown="1">
 <div class="category">stereo camera, stereo vision, fpga</div>
 <span class="papertitle">**Implementação de uma Câmera Estéreo**  </span> <br />
-<span class="authors"> **Antonio Horta Ribeiro** (supervisor: Guilherme Augusto Silva Pereira) </span> <br />
+<span class="authors"> **Antonio Horta Ribeiro** (supervisor: Guilherme A. S. Pereira) </span> <br />
 <span class="conference"> Trabalho de conclusão de curso (2015) </span><br />
 <span class="source">
 [doi](https://doi.org/10.13140/RG.2.1.1133.2728)
-[pdf](http://www.coro.cpdee.ufmg.br/publications/antonio_ribeiro.pdf)
+[pdf](http://www.coro.cpdee.ufmg.br/publications/antonio_ribeiro.pdf) -
 [slides](slides/2015-TCC.pdf)
 </span>
 </div>
