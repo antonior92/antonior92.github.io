@@ -98,3 +98,30 @@ Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 [abstract](posters/2018-CBC.pdf)
 </span>
 </div>
+
+
+<hr />
+<div class="titlebox">Theses </div>
+
+<div class="paper" markdown="1">
+<div class="category">system identification, parameter estimation, nonlinear systems</div>
+<span class="papertitle">**Recurrent Structures in System Identification**  </span> <br />
+<span class="authors"> **Antonio Horta Ribeiro** (supervisor: Luis Antonio Aguirre) </span> <br />
+<span class="conference"> Master thesis (2017) </span><br />
+<span class="source">
+[pdf](https://www.ppgee.ufmg.br/defesas/1480M.PDF)
+[slides](slides/2017-Ms.pdf)
+</span>
+</div>
+
+<div class="paper" markdown="1">
+<div class="category">stereo camera, stereo vision, fpga</div>
+<span class="papertitle">**Implementação de uma Câmera Estéreo**  </span> <br />
+<span class="authors"> **Antonio Horta Ribeiro** (supervisor: Guilherme Augusto Silva Pereira) </span> <br />
+<span class="conference"> Trabalho de conclusão de curso (2015) </span><br />
+<span class="source">
+[doi](https://doi.org/10.13140/RG.2.1.1133.2728)
+[pdf](http://www.coro.cpdee.ufmg.br/publications/antonio_ribeiro.pdf)
+[slides](slides/2015-TCC.pdf)
+</span>
+</div>
