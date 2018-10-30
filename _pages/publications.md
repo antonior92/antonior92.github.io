@@ -117,10 +117,10 @@ Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 <div class="paper" markdown="1">
 <div class="category">stereo camera, stereo vision, fpga</div>
 <span class="papertitle">**Implementação de uma Câmera Estéreo**  </span> <br />
-<span class="authors"> **Antonio Horta Ribeiro** (supervisor: Guilherme A. S. Pereira) </span> <br />
+<span class="authors"> **Antonio H. Ribeiro** (supervisor: Guilherme A. S. Pereira) </span> <br />
 <span class="conference"> Trabalho de conclusão de curso (2015) </span><br />
 <span class="source">
-[doi](https://doi.org/10.13140/RG.2.1.1133.2728)
+[doi](https://doi.org/10.13140/RG.2.1.1133.2728) -
 [pdf](http://www.coro.cpdee.ufmg.br/publications/antonio_ribeiro.pdf) -
 [slides](slides/2015-TCC.pdf)
 </span>
