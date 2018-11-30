@@ -22,6 +22,16 @@ permalink: /publications
 <hr />
 <div class="titlebox">International Conference Papers</div>
 
+<div class="paper" markdown="1">
+<div class="category">system identification, lasso </div>
+<span class="papertitle">**Automatic Diagnosis of Short-Duration 12-Lead ECG using a Deep Convolutional Network**  </span> <br />
+<span class="authors">**Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela Paixão, Derick Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton Pifano, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz Ribeiro </span> <br />
+<span class="conference">Machine Learning for Health (ML4H) Workshop at NeurIPS (2018) </span><br />
+<span class="source">
+[arXiv](https://arxiv.org/abs/1811.12194) -
+[poster](posters/2018-ML4HNeurIPS.pdf)
+</span>
+</div>
 
 <div class="paper" markdown="1">
 <div class="category">system identification, lasso </div>
@@ -35,6 +45,7 @@ permalink: /publications
 [code](https://github.com/antonior92/NarmaxLasso.jl)
 </span>
 </div>
+
 
 <div class="paper" markdown="1">
 <div class="category">system identification, parameter estimation </div>
