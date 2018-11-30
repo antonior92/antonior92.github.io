@@ -23,7 +23,7 @@ permalink: /publications
 <div class="titlebox">International Conference Papers</div>
 
 <div class="paper" markdown="1">
-<div class="category">system identification, lasso </div>
+<div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
 <span class="papertitle">**Automatic Diagnosis of Short-Duration 12-Lead ECG using a Deep Convolutional Network**  </span> <br />
 <span class="authors">**Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela Paixão, Derick Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton Pifano, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz Ribeiro </span> <br />
 <span class="conference">Machine Learning for Health (ML4H) Workshop at NeurIPS (2018) </span><br />
@@ -88,7 +88,7 @@ permalink: /publications
 <div class="titlebox">Conference Abstracts and Presentations</div>
 
 <div class="paper" markdown="1">
-<div class="category">deep learning, machine learning in heath care, ecg</div>
+<div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
 <span class="papertitle">**Classificação automática de eletrocardiogramas com 12 derivações por meio de redes neurais convolucionais: Estudo CODE**  </span> <br />
 <span class="authors"> Paulo Rodrigues Gomes, **Antonio H. Ribeiro**, Manoel Horta Ribeiro, Derick Matheus Oliveira, Gabriela Miana de Mattos Paixão, Jéssica Augusta Canazart, Luís Gustavo Silva e Silva,
 Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
@@ -100,7 +100,7 @@ Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 
 
 <div class="paper" markdown="1">
-<div class="category">deep learning, machine learning in heath care, ecg</div>
+<div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
 <span class="papertitle">**Classificação automática de eletrocardiogramas com 12 derivações por meio de redes neurais convolucionais**  </span> <br />
 <span class="authors"> Jéssica Augusta Canazart, **Antonio H. Ribeiro**, Manoel Horta Ribeiro, Derick Matheus Oliveira, Paulo Rodrigues Gomes, Gabriela Miana de Mattos Paixão,  Luís Gustavo Silva e Silva,
 Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
