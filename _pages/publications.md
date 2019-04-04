@@ -4,8 +4,29 @@ title:
 permalink: /publications
 ---
 
+
 <hr />
-<div class="titlebox">Journal Papers</div>
+<div class="titlebox">Working manuscripts</div>
+
+<div class="paper" markdown="1">
+<div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
+<span class="papertitle">**Automatic Diagnosis of the Short-Duration 12-Lead ECG using a Deep Neural Network: the CODE Study** </span> <br />
+<span class="authors"> **Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela M.M. Paixão, Derick M. Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton P. S. Ferreira, Carl R. Andersson, Peter W. Macfarlane, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz P. Ribeiro </span> <br />
+<span class="conference">April, 2019</span> <br />
+<span class="source">
+[arXiv](http://arxiv.org/abs/1904.01949)
+</span>
+</div>
+
+<div class="paper" markdown="1">
+<div class="category">system identification, deep neural networks</div>
+<span class="papertitle">**Deep convolutional networks are useful in system identification** </span> <br />
+<span class="authors">Carl Andersson, **Antonio H. Ribeiro**, Koen Tiels, Niklas Wahlström and Thomas B. Schön </span> <br />
+<span class="conference">March, 2019</span> <br />
+</div>
+
+<hr />
+<div class="titlebox">Journal papers</div>
 
 <div class="paper" markdown="1">
 <div class="category">system identification, neural networks</div>
@@ -20,18 +41,7 @@ permalink: /publications
 </div>
 
 <hr />
-<div class="titlebox">International Conference Papers</div>
-
-<div class="paper" markdown="1">
-<div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
-<span class="papertitle">**Automatic Diagnosis of Short-Duration 12-Lead ECG using a Deep Convolutional Network**  </span> <br />
-<span class="authors">**Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela Paixão, Derick Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton Pifano, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz Ribeiro </span> <br />
-<span class="conference">Machine Learning for Health (ML4H) Workshop at NeurIPS (2018) </span><br />
-<span class="source">
-[arXiv](https://arxiv.org/abs/1811.12194) -
-[poster](posters/2018-ML4HNeurIPS.pdf)
-</span>
-</div>
+<div class="titlebox">International conference papers</div>
 
 <div class="paper" markdown="1">
 <div class="category">system identification, lasso </div>
@@ -71,7 +81,21 @@ permalink: /publications
 </div>
 
 <hr />
-<div class="titlebox">National Conference Papers</div>
+<div class="titlebox">Workshops</div>
+
+<div class="paper" markdown="1">
+<div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
+<span class="papertitle">**Automatic Diagnosis of Short-Duration 12-Lead ECG using a Deep Convolutional Network**  </span> <br />
+<span class="authors">**Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela Paixão, Derick Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton Pifano, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz Ribeiro </span> <br />
+<span class="conference">Machine Learning for Health (ML4H) Workshop at NeurIPS (2018) </span><br />
+<span class="source">
+[arXiv](https://arxiv.org/abs/1811.12194) -
+[poster](posters/2018-ML4HNeurIPS.pdf)
+</span>
+</div>
+
+<hr />
+<div class="titlebox">National conference papers</div>
 
 <div class="paper" markdown="1">
 <div class="category">system identification, nonlinear systems</div>
@@ -83,9 +107,9 @@ permalink: /publications
 [slides](slides/2014-CBA.pdf)
 </span>
 </div>
-
 <hr />
-<div class="titlebox">Conference Abstracts and Presentations</div>
+
+<div class="titlebox">Conference abstracts and presentations</div>
 
 <div class="paper" markdown="1">
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
