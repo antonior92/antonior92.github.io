@@ -14,7 +14,8 @@ permalink: /publications
 <span class="authors"> **Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela M.M. Paixão, Derick M. Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton P. S. Ferreira, Carl R. Andersson, Peter W. Macfarlane, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz P. Ribeiro </span> <br />
 <span class="conference">April, 2019</span> <br />
 <span class="source">
-[arXiv](http://arxiv.org/abs/1904.01949)
+[arXiv](http://arxiv.org/abs/1904.01949) -
+[nature website](https://nature-research-under-consideration.nature.com/users/37265-nature-communications/posts/47750-automatic-diagnosis-of-the-short-duration-12-lead-ecg-using-a-deep-neural-network-the-code-study)
 </span>
 </div>
 
