@@ -82,35 +82,31 @@ permalink: /publications
 </div>
 
 <hr />
-<div class="titlebox">Workshops</div>
+<div class="titlebox">Limited peer reviewed workshop, conference papers and abstracts</div>
+
+
+<div class="paper" markdown="1">
+<div class="category">system identification, deep neural networks</div>
+<span class="papertitle">**Deep convolutional networks are useful in system identification** </span> <br />
+<span class="authors">**Antonio H. Ribeiro**, Carl Andersson, Koen Tiels, Niklas Wahlström and Thomas B. Schön </span> <br />
+<span class="conference">Workshop on Nonlinear System Identification Benchmarks (2019)</span> <br />
+<span class="source">
+[abstract](posters/2019-NonLinWorkshop.pdf) - 
+[slides](slides/2019-NonLinWorkshop.pdf)
+</span>
+</div>
 
 <div class="paper" markdown="1">
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
 <span class="papertitle">**Automatic Diagnosis of Short-Duration 12-Lead ECG using a Deep Convolutional Network**  </span> <br />
 <span class="authors">**Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela Paixão, Derick Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton Pifano, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz Ribeiro </span> <br />
-<span class="conference">Machine Learning for Health (ML4H) Workshop at NeurIPS (2018) </span><br />
+<span class="conference">Machine Learning for Health (ML4H) Workshop at NeurIPS (2018),  **(Travel award)**</span><br />
 <span class="source">
 [arXiv](https://arxiv.org/abs/1811.12194) -
 [poster](posters/2018-ML4HNeurIPS.pdf)
 </span>
 </div>
 
-<hr />
-<div class="titlebox">National conference papers</div>
-
-<div class="paper" markdown="1">
-<div class="category">system identification, nonlinear systems</div>
-<span class="papertitle">**Relaçoes Estáticas de Modelos NARX MISO e sua Representaçao de Hammerstein**  </span> <br />
-<span class="authors">**Antônio H. Ribeiro**, Luis A. Aguirre </span> <br />
-<span class="conference">Proceedings of the "XX Congresso Brasileiro de Automática" (2014) </span><br />
-<span class="source">
-[pdf](http://www.swge.inf.br/CBA2014/anais/PDF/1569890815.pdf) - 
-[slides](slides/2014-CBA.pdf)
-</span>
-</div>
-<hr />
-
-<div class="titlebox">Conference abstracts and presentations</div>
 
 <div class="paper" markdown="1">
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
@@ -135,6 +131,20 @@ Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 </span>
 </div>
 
+<hr />
+<div class="titlebox">National conference papers</div>
+
+<div class="paper" markdown="1">
+<div class="category">system identification, nonlinear systems</div>
+<span class="papertitle">**Relaçoes Estáticas de Modelos NARX MISO e sua Representaçao de Hammerstein**  </span> <br />
+<span class="authors">**Antônio H. Ribeiro**, Luis A. Aguirre </span> <br />
+<span class="conference">Proceedings of the "XX Congresso Brasileiro de Automática" (2014) </span><br />
+<span class="source">
+[pdf](http://www.swge.inf.br/CBA2014/anais/PDF/1569890815.pdf) - 
+[slides](slides/2014-CBA.pdf)
+</span>
+</div>
+<hr />
 
 <hr />
 <div class="titlebox">Theses </div>
