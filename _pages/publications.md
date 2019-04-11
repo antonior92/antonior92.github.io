@@ -100,7 +100,7 @@ permalink: /publications
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
 <span class="papertitle">**Automatic Diagnosis of Short-Duration 12-Lead ECG using a Deep Convolutional Network**  </span> <br />
 <span class="authors">**Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela Paixão, Derick Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton Pifano, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz Ribeiro </span> <br />
-<span class="conference">Machine Learning for Health (ML4H) Workshop at NeurIPS (2018),  **(Travel award)**</span><br />
+<span class="conference">Machine Learning for Health (ML4H) Workshop at NeurIPS (2018),  **(Travel award)**.</span><br />
 <span class="source">
 [arXiv](https://arxiv.org/abs/1811.12194) -
 [poster](posters/2018-ML4HNeurIPS.pdf)
@@ -144,7 +144,6 @@ Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 [slides](slides/2014-CBA.pdf)
 </span>
 </div>
-<hr />
 
 <hr />
 <div class="titlebox">Theses </div>
