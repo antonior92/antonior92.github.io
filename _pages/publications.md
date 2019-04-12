@@ -82,7 +82,7 @@ permalink: /publications
 </div>
 
 <hr />
-<div class="titlebox">Limited peer reviewed workshop, conference papers and abstracts</div>
+<div class="titlebox">Workshop papers and abstracts</div>
 
 
 <div class="paper" markdown="1">
@@ -107,6 +107,9 @@ permalink: /publications
 </span>
 </div>
 
+<hr />
+<div class="titlebox">National conference papers and abstracts</div>
+
 
 <div class="paper" markdown="1">
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
@@ -130,9 +133,6 @@ Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
 [abstract](posters/2018-CBC.pdf)
 </span>
 </div>
-
-<hr />
-<div class="titlebox">National conference papers</div>
 
 <div class="paper" markdown="1">
 <div class="category">system identification, nonlinear systems</div>
