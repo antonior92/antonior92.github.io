@@ -9,6 +9,17 @@ permalink: /publications
 <div class="titlebox">Working manuscripts</div>
 
 <div class="paper" markdown="1">
+<div class="category">system identification, nonlinear systems, non-convex optimization</div>
+<span class="papertitle">**On the Smoothness of Nonlinear System Identification** </span> <br />
+<span class="authors"> **Antônio H. Ribeiro**, Koen Tiels, Jack Umenberger, Thomas B. Schön, Luis A. Aguirre </span> <br />
+<span class="conference">May, 2019</span> <br />
+<span class="source">
+[arXiv](https://arxiv.org/abs/1905.00820) -
+[code](https://github.com/antonior92/MultipleShootingPEM.jl)
+</span>
+</div>
+
+<div class="paper" markdown="1">
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
 <span class="papertitle">**Automatic Diagnosis of the Short-Duration 12-Lead ECG using a Deep Neural Network: the CODE Study** </span> <br />
 <span class="authors"> **Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela M.M. Paixão, Derick M. Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton P. S. Ferreira, Carl R. Andersson, Peter W. Macfarlane, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz P. Ribeiro </span> <br />
