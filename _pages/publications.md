@@ -8,6 +8,18 @@ permalink: /publications
 <hr />
 <div class="titlebox">Working manuscripts</div>
 
+
+<div class="paper" markdown="1">
+<div class="category">recurrent neural networks, nonlinear systems, non-convex optimization</div>
+<span class="papertitle">**The trade-off between long-term memory and smoothness for recurrent
+  networks** </span> <br />
+<span class="authors"> **Antônio H. Ribeiro**, Koen Tiels, Luis A. Aguirre, Thomas B. Schön </span> <br />
+<span class="conference">June, 2019</span> <br />
+<span class="source">
+[arXiv](http://arxiv.org/abs/1906.08482)
+</span>
+</div>
+
 <div class="paper" markdown="1">
 <div class="category">system identification, nonlinear systems, non-convex optimization</div>
 <span class="papertitle">**On the Smoothness of Nonlinear System Identification** </span> <br />
@@ -41,7 +53,7 @@ permalink: /publications
 <div class="titlebox">Journal papers</div>
 
 <div class="paper" markdown="1">
-<div class="category">system identification, neural networks</div>
+<div class="category">system identification, recurrent neural networks</div>
 <span class="papertitle">**"Parallel Training Considered Harmful?" : Comparing Series-Parallel and Parallel Feedforward Network Training** </span> <br />
 <span class="authors">**Antônio H. Ribeiro**, Luis A. Aguirre </span> <br />
 <span class="conference">Neurocomputing (2018)</span> <br />
@@ -101,7 +113,7 @@ permalink: /publications
 <span class="papertitle">**Automatic Diagnosis of Short-Duration 12-Lead ECG using a Deep Convolutional
 Network**  </span> <br />
 <span class="authors"> **Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela M.M. Paixão, Derick M. Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton P. S. Ferreira, Carl R. Andersson, Peter W. Macfarlane, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz P. Ribeiro </span> <br />
-<span class="conference">SciLifeLab Science Summit, Uppsala (2019),  **(Best poster award)**.</span><br />
+<span class="conference">Presented both at SciLifeLab Science Summit, Uppsala (2019)  **(Best poster award)** and at the Swedish Symposium on Deep Learning - SSDL (2019)</span><br />
 <span class="source">
 [abstract](posters/2019-SciLifeLab-abstract.png) -
 [poster](posters/2019-SciLifeLab.pdf)
@@ -112,7 +124,7 @@ Network**  </span> <br />
 <div class="category">system identification, deep neural networks</div>
 <span class="papertitle">**Deep convolutional networks are useful in system identification** </span> <br />
 <span class="authors">**Antonio H. Ribeiro**, Carl Andersson, Koen Tiels, Niklas Wahlström and Thomas B. Schön </span> <br />
-<span class="conference">Workshop on Nonlinear System Identification Benchmarks (2019)</span> <br />
+<span class="conference">Workshop on Nonlinear System Identification Benchmarks (2019).</span> <br />
 <span class="source">
 [abstract](posters/2019-NonLinWorkshop.pdf) - 
 [slides](slides/2019-NonLinWorkshop.pdf)
@@ -123,7 +135,7 @@ Network**  </span> <br />
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
 <span class="papertitle">**Automatic Diagnosis of Short-Duration 12-Lead ECG using a Deep Convolutional Network**  </span> <br />
 <span class="authors">**Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela Paixão, Derick Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton Pifano, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz Ribeiro </span> <br />
-<span class="conference">Machine Learning for Health (ML4H) Workshop at NeurIPS (2018),  **(Travel award)**.</span><br />
+<span class="conference">Machine Learning for Health (ML4H) Workshop at NeurIPS (2018),  **(Travel award)**</span><br />
 <span class="source">
 [arXiv](https://arxiv.org/abs/1811.12194) -
 [poster](posters/2018-ML4HNeurIPS.pdf)
