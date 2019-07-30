@@ -74,7 +74,7 @@ permalink: /publications
 <div class="category">system identification, deep neural networks</div>
 <span class="papertitle">**Deep convolutional networks are useful in system identification** </span> <br />
 <span class="authors">Carl Andersson, **Antonio H. Ribeiro**, Koen Tiels, Niklas Wahlström and Thomas B. Schön </span> <br />
-<span class="conference"> Accepted at 58th IEEE Conference on Decision and Control (2019) </span><br />
+<span class="conference"> To be presented in the 58th IEEE Conference on Decision and Control (2019) </span><br />
 </div>
 
 <div class="paper" markdown="1">
