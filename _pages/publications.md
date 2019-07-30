@@ -11,7 +11,7 @@ permalink: /publications
 <div class="paper" markdown="1">
 <div class="category">scientific computing</div>
 <span class="papertitle">**SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python** </span> <br />
-<span class="authors"> Pauli Virtanen, Ralf Gommers, Travis E Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, Stéfan J van der Walt, Matthew Brett, Joshua Wilson, K Jarrod Millman, Nikolay Mayorov, Andrew RJ Nelson, Eric Jones, Robert Kern, Eric Larson, CJ Carey, İlhan Polat, Yu Feng, Eric W Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, EA Quintero, Charles R Harris, Anne M Archibald, **Antônio H Ribeiro**, Fabian Pedregosa, Paul van Mulbregt </span> <br />
+<span class="authors"> Pauli Virtanen, Ralf Gommers, Travis E Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, Stéfan J van der Walt, Matthew Brett, Joshua Wilson, K Jarrod Millman, Nikolay Mayorov, Andrew RJ Nelson, Eric Jones, Robert Kern, Eric Larson, CJ Carey, İlhan Polat, Yu Feng, Eric W Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, EA Quintero, Charles R Harris, Anne M Archibald, **Antônio H Ribeiro**, Fabian Pedregosa, Paul van Mulbregt, SciPy 1.0 Contributors </span> <br />
 <span class="conference">July, 2019</span> <br />
 <span class="source">
 [arXiv](http://arxiv.org/abs/1907.10121)
