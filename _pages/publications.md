@@ -9,6 +9,15 @@ permalink: /publications
 <div class="titlebox">Working manuscripts</div>
 
 <div class="paper" markdown="1">
+<div class="category">bigdata, electrocardiography</div>
+<span class="papertitle">**Tele-electrocardiography and Bigdata: The CODE (Clinical Outcomes in Digital Electrocardiography) Study** </span> <br />
+<span class="authors"> Antonio Ribeiro, Gabriela Paixao, Paulo Gomes, Manoel Ribeiro, **Antonio H. Ribeiro*, Jéssica Canazart, Derick Oliveira, Milton Ferreira, Emilly Lima, Jermana de Moares, Nathalia Castro, Leonardo Bonisson Ribeiro, Peter Macfarlane</span> <br />
+<span class="conference"> Under revision at Journal of Electrocardiology</span> <br />
+<span class="source">
+</span>
+</div>
+
+<div class="paper" markdown="1">
 <div class="category">scientific computing</div>
 <span class="papertitle">**SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python** </span> <br />
 <span class="authors"> Pauli Virtanen, Ralf Gommers, Travis E Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, Stéfan J van der Walt, Matthew Brett, Joshua Wilson, K Jarrod Millman, Nikolay Mayorov, Andrew RJ Nelson, Eric Jones, Robert Kern, Eric Larson, CJ Carey, İlhan Polat, Yu Feng, Eric W Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, EA Quintero, Charles R Harris, Anne M Archibald, **Antônio H Ribeiro**, Fabian Pedregosa, Paul van Mulbregt, SciPy 1.0 Contributors </span> <br />
@@ -29,16 +38,6 @@ permalink: /publications
 </span>
 </div>
 
-<div class="paper" markdown="1">
-<div class="category">system identification, nonlinear systems, non-convex optimization</div>
-<span class="papertitle">**On the Smoothness of Nonlinear System Identification** </span> <br />
-<span class="authors"> **Antônio H. Ribeiro**, Koen Tiels, Jack Umenberger, Thomas B. Schön, Luis A. Aguirre </span> <br />
-<span class="conference">May, 2019</span> <br />
-<span class="source">
-[arXiv](https://arxiv.org/abs/1905.00820) -
-[code](https://github.com/antonior92/MultipleShootingPEM.jl)
-</span>
-</div>
 
 <div class="paper" markdown="1">
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
@@ -54,6 +53,26 @@ permalink: /publications
 
 <hr />
 <div class="titlebox">Journal papers</div>
+
+<div class="paper" markdown="1">
+<div class="category">electrocardiography</div>
+<span class="papertitle">**Evaluation of mortality in bundle branch block patients from an electronic cohort: Clinical Outcomes in Digital Electrocardiography (CODE) study** </span> <br />
+<span class="authors"> Gabriela Paixao, Emilly Lima, Paulo Gomes, Milton Ferreira, Derick Oliveira, Manoel Ribeiro, **Antonio H. Ribeiro**, Jamil Nascimento, Jessica Canazart, Gustavo Cardoso, Leornado Bonisson Ribeiro, Antonio Ribeiro </span> <br />
+<span class="conference"> Journal of Electrocardiology (Sent to production)</span> <br />
+<span class="source">
+</span>
+</div>
+
+<div class="paper" markdown="1">
+<div class="category">system identification, nonlinear systems, non-convex optimization</div>
+<span class="papertitle">**On the Smoothness of Nonlinear System Identification** </span> <br />
+<span class="authors"> **Antônio H. Ribeiro**, Koen Tiels, Jack Umenberger, Thomas B. Schön, Luis A. Aguirre </span> <br />
+<span class="conference"> Automatica (provisionally accepted)</span> <br />
+<span class="source">
+[arXiv](https://arxiv.org/abs/1905.00820) -
+[code](https://github.com/antonior92/MultipleShootingPEM.jl)
+</span>
+</div>
 
 <div class="paper" markdown="1">
 <div class="category">system identification, recurrent neural networks</div>
@@ -75,6 +94,10 @@ permalink: /publications
 <span class="papertitle">**Deep convolutional networks are useful in system identification** </span> <br />
 <span class="authors">Carl Andersson, **Antonio H. Ribeiro**, Koen Tiels, Niklas Wahlström and Thomas B. Schön </span> <br />
 <span class="conference"> To be presented in the 58th IEEE Conference on Decision and Control (2019) </span><br />
+<span class="source">
+[arXiv](https://arxiv.org/abs/1909.01730) - 
+[code](https://github.com/antonior92/sysid-neuralnet)
+</span>
 </div>
 
 <div class="paper" markdown="1">
