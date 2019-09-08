@@ -50,8 +50,9 @@ permalink: /publications
 <div class="category">bigdata, electrocardiography</div>
 <span class="papertitle">**Tele-electrocardiography and Bigdata: The CODE (Clinical Outcomes in Digital Electrocardiography) Study** </span> <br />
 <span class="authors"> Antonio Ribeiro, Gabriela Paixao, Paulo Gomes, Manoel Ribeiro, **Antonio H. Ribeiro**, Jéssica Canazart, Derick Oliveira, Milton Ferreira, Emilly Lima, Jermana de Moares, Nathalia Castro, Leonardo Bonisson Ribeiro, Peter Macfarlane</span> <br />
-<span class="conference"> Journal of Electrocardiology (Sent to production)</span> <br />
+<span class="conference"> Journal of Electrocardiology (2019)</span> <br />
 <span class="source">
+[doi](https://doi.org/10.1016/j.jelectrocard.2019.09.008)
 </span>
 </div>
 
