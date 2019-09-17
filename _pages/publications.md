@@ -49,7 +49,7 @@ permalink: /publications
 <div class="paper" markdown="1">
 <div class="category">bigdata, electrocardiography</div>
 <span class="papertitle">**Tele-electrocardiography and Bigdata: The CODE (Clinical Outcomes in Digital Electrocardiography) Study** </span> <br />
-<span class="authors"> Antonio Ribeiro, Gabriela Paixao, Paulo Gomes, Manoel Ribeiro, **Antonio H. Ribeiro**, Jéssica Canazart, Derick Oliveira, Milton Ferreira, Emilly Lima, Jermana de Moares, Nathalia Castro, Leonardo Bonisson Ribeiro, Peter Macfarlane</span> <br />
+<span class="authors"> Antonio Luiz P.Ribeiro, Gabriela M.M.Paixão, Paulo R.Gomes, Manoel Horta Ribeiro, Antônio H.Ribeiro, Jéssica A. Canazart, Derick M. Oliveira, Milton P.Ferreira, Emilly M.Lima, Jermana Lopes de Moraes, NathaliaCastro, Leonardo B. Ribeiro, Peter W. Macfarlane</span> <br />
 <span class="conference"> Journal of Electrocardiology (2019)</span> <br />
 <span class="source">
 [doi](https://doi.org/10.1016/j.jelectrocard.2019.09.008)
@@ -59,9 +59,10 @@ permalink: /publications
 <div class="paper" markdown="1">
 <div class="category">electrocardiography</div>
 <span class="papertitle">**Evaluation of mortality in bundle branch block patients from an electronic cohort: Clinical Outcomes in Digital Electrocardiography (CODE) study** </span> <br />
-<span class="authors"> Gabriela Paixao, Emilly Lima, Paulo Gomes, Milton Ferreira, Derick Oliveira, Manoel Ribeiro, **Antonio H. Ribeiro**, Jamil Nascimento, Jessica Canazart, Gustavo Cardoso, Leornado Bonisson Ribeiro, Antonio Ribeiro </span> <br />
-<span class="conference"> Journal of Electrocardiology (Sent to production)</span> <br />
+<span class="authors"> Gabriela M.M.Paixão, Emilly M.Lima, Paulo R.Gomes, Milton P.F.Ferreira, Derick M.Oliveira, Manoel H. Ribeiro, **Antonio H. Ribeiro**, Jamil S. Nascimento, Jéssica A. Canazart, Leonardo B. Ribeiro, Antonio L. P. Ribeiro</span> <br />
+<span class="conference"> Journal of Electrocardiology (2019)</span> <br />
 <span class="source">
+[doi](https://doi.org/10.1016/j.jelectrocard.2019.09.004)
 </span>
 </div>
 
