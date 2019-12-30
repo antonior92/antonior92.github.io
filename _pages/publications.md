@@ -10,16 +10,6 @@ permalink: /publications
 
 
 <div class="paper" markdown="1">
-<div class="category">scientific computing</div>
-<span class="papertitle">**SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python** </span> <br />
-<span class="authors"> Pauli Virtanen, Ralf Gommers, Travis E Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, Stéfan J van der Walt, Matthew Brett, Joshua Wilson, K Jarrod Millman, Nikolay Mayorov, Andrew RJ Nelson, Eric Jones, Robert Kern, Eric Larson, CJ Carey, İlhan Polat, Yu Feng, Eric W Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, EA Quintero, Charles R Harris, Anne M Archibald, **Antônio H Ribeiro**, Fabian Pedregosa, Paul van Mulbregt, SciPy 1.0 Contributors </span> <br />
-<span class="conference">July, 2019</span> <br />
-<span class="source">
-[arXiv](http://arxiv.org/abs/1907.10121)
-</span>
-</div>
-
-<div class="paper" markdown="1">
 <div class="category">recurrent neural networks, nonlinear systems, non-convex optimization</div>
 <span class="papertitle">**The trade-off between long-term memory and smoothness for recurrent
   networks** </span> <br />
@@ -42,6 +32,31 @@ permalink: /publications
 </span>
 </div>
 
+<hr />
+<div class="titlebox">Accepted for Publication</div>
+
+
+<div class="paper" markdown="1">
+<div class="category">scientific computing</div>
+<span class="papertitle">**SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python** </span> <br />
+<span class="authors"> Pauli Virtanen, Ralf Gommers, Travis E Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, Stéfan J van der Walt, Matthew Brett, Joshua Wilson, K Jarrod Millman, Nikolay Mayorov, Andrew RJ Nelson, Eric Jones, Robert Kern, Eric Larson, CJ Carey, İlhan Polat, Yu Feng, Eric W Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, EA Quintero, Charles R Harris, Anne M Archibald, **Antônio H Ribeiro**, Fabian Pedregosa, Paul van Mulbregt, SciPy 1.0 Contributors </span> <br />
+<span class="conference"> Nature Methods (February, 2020)</span> <br />
+<span class="source">
+[arXiv](http://arxiv.org/abs/1907.10121)
+</span>
+</div>
+
+
+<div class="paper" markdown="1">
+<div class="category">system identification, nonlinear systems, non-convex optimization</div>
+<span class="papertitle">**On the Smoothness of Nonlinear System Identification** </span> <br />
+<span class="authors"> **Antônio H. Ribeiro**, Koen Tiels, Jack Umenberger, Thomas B. Schön, Luis A. Aguirre </span> <br />
+<span class="conference"> Provisionally accepted at Automatica</span> <br />
+<span class="source">
+[arXiv](https://arxiv.org/abs/1905.00820) -
+[code](https://github.com/antonior92/MultipleShootingPEM.jl)
+</span>
+</div>
 
 <hr />
 <div class="titlebox">Journal papers</div>
@@ -66,16 +81,6 @@ permalink: /publications
 </span>
 </div>
 
-<div class="paper" markdown="1">
-<div class="category">system identification, nonlinear systems, non-convex optimization</div>
-<span class="papertitle">**On the Smoothness of Nonlinear System Identification** </span> <br />
-<span class="authors"> **Antônio H. Ribeiro**, Koen Tiels, Jack Umenberger, Thomas B. Schön, Luis A. Aguirre </span> <br />
-<span class="conference"> Automatica (provisionally accepted)</span> <br />
-<span class="source">
-[arXiv](https://arxiv.org/abs/1905.00820) -
-[code](https://github.com/antonior92/MultipleShootingPEM.jl)
-</span>
-</div>
 
 <div class="paper" markdown="1">
 <div class="category">system identification, recurrent neural networks</div>
@@ -96,12 +101,13 @@ permalink: /publications
 <div class="category">system identification, deep neural networks</div>
 <span class="papertitle">**Deep convolutional networks are useful in system identification** </span> <br />
 <span class="authors">Carl Andersson, **Antonio H. Ribeiro**, Koen Tiels, Niklas Wahlström and Thomas B. Schön </span> <br />
-<span class="conference"> To be presented in the 58th IEEE Conference on Decision and Control (2019) </span><br />
+<span class="conference"> Presented in the 58th IEEE Conference on Decision and Control (2019). </span><br />
 <span class="source">
 [arXiv](https://arxiv.org/abs/1909.01730) - 
 [code](https://github.com/antonior92/sysid-neuralnet)
 </span>
 </div>
+
 
 <div class="paper" markdown="1">
 <div class="category">system identification, lasso </div>
