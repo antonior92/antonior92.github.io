@@ -9,20 +9,21 @@ permalink: /publications
 <div class="titlebox">Working manuscripts</div>
 
 
-<div class="paper" markdown="1">
-<div class="category">recurrent neural networks, nonlinear systems, non-convex optimization</div>
-<span class="papertitle">**The trade-off between long-term memory and smoothness for recurrent
-  networks** </span> <br />
-<span class="authors"> **Antônio H. Ribeiro**, Koen Tiels, Luis A. Aguirre, Thomas B. Schön </span> <br />
-<span class="conference">June, 2019</span> <br />
-<span class="source">
-[arXiv](http://arxiv.org/abs/1906.08482)
-</span>
-</div>
 
 
 <hr />
 <div class="titlebox">Accepted for Publication</div>
+
+
+<div class="paper" markdown="1">
+<div class="category">recurrent neural networks, nonlinear systems, non-convex optimization</div>
+<span class="papertitle">**Beyond exploding and vanishing gradients: analysing RNN training using attractors and smoothness 	** </span> <br />
+<span class="authors"> **Antônio H. Ribeiro**, Koen Tiels, Luis A. Aguirre, Thomas B. Schön </span> <br />
+<span class="conference">To appear in the Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics, AISTATS (2020).</span> <br />
+<span class="source">
+[arXiv](http://arxiv.org/abs/1906.08482)
+</span>
+</div>
 
 <div class="paper" markdown="1">
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
@@ -39,7 +40,7 @@ permalink: /publications
 <div class="category">system identification, nonlinear systems, non-convex optimization</div>
 <span class="papertitle">**On the Smoothness of Nonlinear System Identification** </span> <br />
 <span class="authors"> **Antônio H. Ribeiro**, Koen Tiels, Jack Umenberger, Thomas B. Schön, Luis A. Aguirre </span> <br />
-<span class="conference"> Provisionally accepted at Automatica</span> <br />
+<span class="conference"> Provisionally accepted at Automatica (2020)</span> <br />
 <span class="source">
 [arXiv](https://arxiv.org/abs/1905.00820) -
 [code](https://github.com/antonior92/MultipleShootingPEM.jl)
@@ -56,7 +57,7 @@ permalink: /publications
 <span class="authors"> Pauli Virtanen, Ralf Gommers, Travis E Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, Stéfan J van der Walt, Matthew Brett, Joshua Wilson, K Jarrod Millman, Nikolay Mayorov, Andrew RJ Nelson, Eric Jones, Robert Kern, Eric Larson, CJ Carey, İlhan Polat, Yu Feng, Eric W Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, EA Quintero, Charles R Harris, Anne M Archibald, **Antônio H Ribeiro**, Fabian Pedregosa, Paul van Mulbregt, SciPy 1.0 Contributors </span> <br />
 <span class="conference"> Nature Methods (2020)</span> <br />
 <span class="source">
-[arXiv](http://arxiv.org/abs/1907.10121)
+[arXiv](http://arxiv.org/abs/1907.10121) -
 [doi](10.1038/s41592-019-0686-2)
 </span>
 </div>
