@@ -52,7 +52,7 @@ permalink: /publications
 <span class="conference"> Nature Methods (2020)</span> <br />
 <span class="source">
 [arXiv](http://arxiv.org/abs/1907.10121) -
-[doi](10.1038/s41592-019-0686-2)
+[doi](https://doi.org/10.1038/s41592-019-0686-2)
 </span>
 </div>
 
