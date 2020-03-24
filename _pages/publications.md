@@ -96,8 +96,9 @@ permalink: /publications
 <div class="category">system identification, deep neural networks</div>
 <span class="papertitle">**Deep convolutional networks are useful in system identification** </span> <br />
 <span class="authors">Carl Andersson, **Antonio H. Ribeiro**, Koen Tiels, Niklas Wahlström and Thomas B. Schön </span> <br />
-<span class="conference"> Presented in the 58th IEEE Conference on Decision and Control (2019). </span><br />
+<span class="conference"> Proceedings of the 58th IEEE Conference on Decision and Control (2019). </span><br />
 <span class="source">
+[doi](https://doi.org/10.1109/CDC40024.2019.9030219) -
 [arXiv](https://arxiv.org/abs/1909.01730) - 
 [code](https://github.com/antonior92/sysid-neuralnet)
 </span>
@@ -108,7 +109,7 @@ permalink: /publications
 <div class="category">system identification, lasso </div>
 <span class="papertitle">**Lasso Regularization Paths for NARMAX Models via Coordinate Descent**  </span> <br />
 <span class="authors">**Antônio H. Ribeiro**, Luis A. Aguirre </span> <br />
-<span class="conference">Proceedings of American Control Conference (2018) </span><br />
+<span class="conference">Proceedings of the American Control Conference (2018) </span><br />
 <span class="source">
 [doi](https://doi.org/10.23919/ACC.2018.8430924) - 
 [arXiv](https://arxiv.org/abs/1710.00598) -
@@ -143,7 +144,16 @@ permalink: /publications
 
 
 <hr />
-<div class="titlebox">Others</div>
+<div class="titlebox">Limited peer reviewed workshop, conference papers and abstracts</div>
+
+<div class="paper" markdown="1">
+<div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
+<span class="papertitle">**ECG-AGE FROM ARTIFICIAL INTELLIGENCE: A NEW PREDICTOR FOR MORTALITY? THE CODE (CLINICAL OUTCOMES IN DIGITAL ELECTROCARDIOGRAPHY) STUDY**  </span> <br />
+<span class="authors"> Gabriela Miana Paixão, **Antonio Horta Ribeiro**, Emilly Lima, Bruna Seewald, Manoel Horta Ribeiro, Derick Oliveira, Paulo Gomes, Nathalia Castro, Wagner Meira Jr, Thomas Schön and Antonio L. Ribeiro </span> <br />
+<span class="conference">Journal of the American College of Cardiology (2019) **(Young investigator award competition)**</span><br />
+<span class="source">
+[doi](https://doi.org/10.1016/S0735-1097(20)34299-6)
+</span>
 
 <div class="paper" markdown="1">
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
@@ -181,30 +191,9 @@ Network**  </span> <br />
 
 
 <hr />
-<div class="titlebox">National conference papers and abstracts</div>
-
-<div class="paper" markdown="1">
-<div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
-<span class="papertitle">**Classificação automática de eletrocardiogramas com 12 derivações por meio de redes neurais convolucionais: Estudo CODE**  </span> <br />
-<span class="authors"> Paulo Rodrigues Gomes, **Antonio H. Ribeiro**, Manoel Horta Ribeiro, Derick Matheus Oliveira, Gabriela Miana de Mattos Paixão, Jéssica Augusta Canazart, Luís Gustavo Silva e Silva,
-Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
-<span class="conference"> XVI Congresso Brasileiro de Informática em Saúde (2018) </span><br />
-<span class="source">
-[poster](posters/2018-CBIS.pdf)
-</span>
-</div>
+<div class="titlebox">National conference papers</div>
 
 
-<div class="paper" markdown="1">
-<div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
-<span class="papertitle">**Classificação automática de eletrocardiogramas com 12 derivações por meio de redes neurais convolucionais**  </span> <br />
-<span class="authors"> Jéssica Augusta Canazart, **Antonio H. Ribeiro**, Manoel Horta Ribeiro, Derick Matheus Oliveira, Paulo Rodrigues Gomes, Gabriela Miana de Mattos Paixão,  Luís Gustavo Silva e Silva,
-Milton Pifano, Jamil Nascimento, Antonio L. Ribeiro </span> <br />
-<span class="conference"> 73 Congresso Brasileiro de Cardiologia (2018) </span><br />
-<span class="source">
-[abstract](posters/2018-CBC.pdf)
-</span>
-</div>
 
 <div class="paper" markdown="1">
 <div class="category">system identification, nonlinear systems</div>
