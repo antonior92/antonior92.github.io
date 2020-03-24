@@ -154,6 +154,8 @@ permalink: /publications
 <span class="source">
 [doi](https://doi.org/10.1016/S0735-1097(20)34299-6)
 </span>
+</div>
+
 
 <div class="paper" markdown="1">
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
@@ -165,8 +167,8 @@ Network**  </span> <br />
 [abstract](posters/2019-SciLifeLab-abstract.png) -
 [poster](posters/2019-SciLifeLab.pdf)
 </span>
-
 </div>
+
 <div class="paper" markdown="1">
 <div class="category">system identification, deep neural networks</div>
 <span class="papertitle">**Deep convolutional networks are useful in system identification** </span> <br />
