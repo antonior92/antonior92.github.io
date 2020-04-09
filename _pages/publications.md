@@ -19,16 +19,6 @@ permalink: /publications
 </span>
 </div>
 
-<div class="paper" markdown="1">
-<div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
-<span class="papertitle">**Automatic Diagnosis of the Short-Duration 12-Lead ECG using a Deep Neural Network: the CODE Study** </span> <br />
-<span class="authors"> **Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela M.M. Paixão, Derick M. Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton P. S. Ferreira, Carl R. Andersson, Peter W. Macfarlane, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz P. Ribeiro </span> <br />
-<span class="conference">Nature Communications (2020)</span> <br />
-<span class="source">
-[arXiv](http://arxiv.org/abs/1904.01949) -
-[nature website](https://nature-research-under-consideration.nature.com/users/37265-nature-communications/posts/47750-automatic-diagnosis-of-the-short-duration-12-lead-ecg-using-a-deep-neural-network-the-code-study)
-</span>
-</div>
 
 <div class="paper" markdown="1">
 <div class="category">system identification, nonlinear systems, non-convex optimization</div>
@@ -43,6 +33,20 @@ permalink: /publications
 
 <hr />
 <div class="titlebox">Journal papers</div>
+
+<div class="paper" markdown="1">
+<div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
+<span class="papertitle">**Automatic Diagnosis of the Short-Duration 12-Lead ECG using a Deep Neural Network: the CODE Study** </span> <br />
+<span class="authors"> **Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela M.M. Paixão, Derick M. Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton P. S. Ferreira, Carl R. Andersson, Peter W. Macfarlane, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz P. Ribeiro </span> <br />
+<span class="conference">Nature Communications (2020)</span> <br />
+<span class="source">
+[doi](https://doi.org/10.1038/s41467-020-15432-4) - 
+[arXiv](http://arxiv.org/abs/1904.01949) -
+[code](https://github.com/antonior92/automatic-ecg-diagnosis) - 
+[data](https://doi.org/10.5281/zenodo.3625006) -
+[models](https://doi.org/10.5281/zenodo.3625017)
+</span>
+</div>
 
 
 <div class="paper" markdown="1">
