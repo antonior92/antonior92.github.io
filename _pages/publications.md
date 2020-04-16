@@ -220,7 +220,7 @@ Network**  </span> <br />
 <div class="category">machine learning, system identification, nonlinear systems, signal processing</div>
 <span class="papertitle">**Learning nonlinear differentiable models for signals and systems: with applications**  </span> <br />
 <span class="authors"> **Antonio H. Ribeiro** (supervisor: Luis A. Aguirre, co-supervisor: Thomas B. Schön) </span> <br />
-<span class="conference"> Ph.D. thesis (2017) </span><br />
+<span class="conference"> Ph.D. thesis (2020) </span><br />
 <span class="source">
 [pdf](https://www.ppgee.ufmg.br/defesas/1480D.PDF)
 </span>
