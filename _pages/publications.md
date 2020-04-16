@@ -217,10 +217,20 @@ Network**  </span> <br />
 <div class="titlebox">Theses </div>
 
 <div class="paper" markdown="1">
+<div class="category">machine learning, system identification, nonlinear systems, signal processing</div>
+<span class="papertitle">**Learning nonlinear differentiable models for signals and systems: with applications**  </span> <br />
+<span class="authors"> **Antonio H. Ribeiro** (supervisor: Luis A. Aguirre, co-supervisor: Thomas B. Schön) </span> <br />
+<span class="conference"> Ph.D. thesis (2017) </span><br />
+<span class="source">
+[pdf](https://www.ppgee.ufmg.br/defesas/1480D.PDF)
+</span>
+</div>
+
+<div class="paper" markdown="1">
 <div class="category">system identification, parameter estimation, nonlinear systems</div>
 <span class="papertitle">**Recurrent Structures in System Identification**  </span> <br />
 <span class="authors"> **Antonio H. Ribeiro** (supervisor: Luis A. Aguirre) </span> <br />
-<span class="conference"> Master thesis (2017) </span><br />
+<span class="conference"> M.Sc. thesis (2017) </span><br />
 <span class="source">
 [pdf](https://www.ppgee.ufmg.br/defesas/1480M.PDF) -
 [slides](slides/2017-Ms.pdf)
