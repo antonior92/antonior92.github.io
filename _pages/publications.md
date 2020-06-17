@@ -9,15 +9,6 @@ permalink: /publications
 <div class="titlebox">Accepted for Publication</div>
 
 
-<div class="paper" markdown="1">
-<div class="category">recurrent neural networks, nonlinear systems, non-convex optimization</div>
-<span class="papertitle">**Beyond exploding and vanishing gradients: analysing RNN training using attractors and smoothness** </span> <br />
-<span class="authors"> **Antônio H. Ribeiro**, Koen Tiels, Luis A. Aguirre, Thomas B. Schön </span> <br />
-<span class="conference">To appear in the Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics, AISTATS (2020).</span> <br />
-<span class="source">
-[arXiv](http://arxiv.org/abs/1906.08482)
-</span>
-</div>
 
 
 <div class="paper" markdown="1">
@@ -95,6 +86,19 @@ permalink: /publications
 
 <hr />
 <div class="titlebox">International conference papers</div>
+
+
+<div class="paper" markdown="1">
+<div class="category">recurrent neural networks, nonlinear systems, non-convex optimization</div>
+<span class="papertitle">**Beyond exploding and vanishing gradients: analysing RNN training using attractors and smoothness** </span> <br />
+<span class="authors"> **Antônio H. Ribeiro**, Koen Tiels, Luis A. Aguirre, Thomas B. Schön </span> <br />
+<span class="conference">To appear in the Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics, AISTATS (2020).</span> <br />
+<span class="source">
+[url](http://proceedings.mlr.press/v108/ribeiro20a.html) -
+[arXiv](http://arxiv.org/abs/1906.08482) -
+[code](https://github.com/antonior92/attractors-and-smoothness-RNN)
+</span>
+</div>
 
 <div class="paper" markdown="1">
 <div class="category">system identification, deep neural networks</div>
