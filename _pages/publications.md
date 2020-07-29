@@ -26,6 +26,17 @@ permalink: /publications
 <div class="titlebox">Journal papers</div>
 
 <div class="paper" markdown="1">
+<div class="category">electrocardiography</div>
+<span class="papertitle">**Evaluation of Mortality in Atrial Fibrillation: Clinical Outcomes in Digital Electrocardiography (CODE) Study** </span> <br />
+<span class="authors"> Gabriela M. M. Paixão , Luis Gustavo S. Silva, Paulo R. Gomes, Emilly M. Lima, Milton P. F. Ferreira, Derick M. Oliveira, Manoel H. Ribeiro, **Antonio H. Ribeiro**, Jamil S. Nascimento, Jéssica A. Canazart, Leonardo B. Ribeiro, Emelia J. Benjamin, Peter W. Macfarlane, Milena S. Marcolino, Antonio L. Ribeiro </span> <br />
+<span class="conference">Global Heart (2020)</span> <br />
+<span class="source">
+[doi](https://doi.org/10.5334/gh.772)
+</span>
+</div>
+
+
+<div class="paper" markdown="1">
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
 <span class="papertitle">**Automatic Diagnosis of the Short-Duration 12-Lead ECG using a Deep Neural Network: the CODE Study** </span> <br />
 <span class="authors"> **Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela M.M. Paixão, Derick M. Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton P. S. Ferreira, Carl R. Andersson, Peter W. Macfarlane, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz P. Ribeiro </span> <br />
