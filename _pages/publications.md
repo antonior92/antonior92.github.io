@@ -5,25 +5,21 @@ permalink: /publications
 ---
 
 
+
 <hr />
-<div class="titlebox">Accepted for Publication</div>
-
-
-
+<div class="titlebox">Journal papers</div>
 
 <div class="paper" markdown="1">
 <div class="category">system identification, nonlinear systems, non-convex optimization</div>
-<span class="papertitle">**On the Smoothness of Nonlinear System Identification** </span> <br />
+<span class="papertitle">**On the smoothness of nonlinear system identification** </span> <br />
 <span class="authors"> **Antônio H. Ribeiro**, Koen Tiels, Jack Umenberger, Thomas B. Schön, Luis A. Aguirre </span> <br />
 <span class="conference"> Provisionally accepted at Automatica (2020)</span> <br />
 <span class="source">
 [arXiv](https://arxiv.org/abs/1905.00820) -
-[code](https://github.com/antonior92/MultipleShootingPEM.jl)
+[code](https://github.com/antonior92/MultipleShootingPEM.jl) -
+[doi](https://doi.org/10.1016/j.automatica.2020.109158)
 </span>
 </div>
-
-<hr />
-<div class="titlebox">Journal papers</div>
 
 <div class="paper" markdown="1">
 <div class="category">electrocardiography</div>
