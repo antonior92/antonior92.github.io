@@ -171,7 +171,7 @@ permalink: /publications
 
 
 <hr />
-<div class="titlebox">Limited peer reviewed workshop, conference papers and abstracts</div>
+<div class="titlebox">Workshop papers and non (or lightly) per-reviewed conference papers and abstracts</div>
 
 <div class="paper" markdown="1">
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
