@@ -9,6 +9,18 @@ permalink: /publications
 <hr />
 <div class="titlebox">Journal papers</div>
 
+
+<div class="paper" markdown="1">
+<div class="category">deep supervised learning, electrocardiography, machine learning in heath care, transparency</div>
+<span class="papertitle">**Contextualized Interpretable Machine Learning for Medical Diagnosis** </span> <br />
+<span class="authors"> Wagner Meira Jr, Antonio L.P. Ribeiro, Derick M. Oliveira, **Antônio H. Ribeiro** </span> <br />
+<span class="conference"> Communications of the ACM (2020)</span> <br />
+<span class="source">
+[doi](https://doi.org/10.1145/3416965)
+</span>
+</div>
+
+
 <div class="paper" markdown="1">
 <div class="category">system identification, nonlinear systems, non-convex optimization</div>
 <span class="papertitle">**On the smoothness of nonlinear system identification** </span> <br />
