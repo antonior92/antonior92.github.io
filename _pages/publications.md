@@ -9,6 +9,8 @@ permalink: /publications
 <hr />
 <div class="titlebox">Journal papers</div>
 
+<div class="csl-entry" style="clear: left; ">\n    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">J. H. Friedman, “Fast sparse regression and classification,” <i>International Journal of Forecasting</i>, vol. 28, no. 3, pp. 722–738, Jul. 2012, doi: 10.1016/j.ijforecast.2012.05.001.</div>\n  </div>
+
 
 <div class="paper" markdown="1">
 <div class="category">deep supervised learning, electrocardiography, machine learning in heath care, transparency</div>
