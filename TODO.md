@@ -1,0 +1,17 @@
+- [ ] Finishing writing _data/publications/links.yml
+- [ ] Check with _data/publications/links.yml works with internal links
+- [ ] Highlight my name in _pages/publi.html
+- [ ] Check special characters in _pages/publi.html
+- [ ] Make sure - is included properly in _pages/publi.html between additional items. 
+    Right now, when there is no doi but some additional link it does not work well.
+------   
+- [ ] Update bio
+- [ ] Update personal description
+------
+- [ ] Create python tool to create .tex from .yaml files
+- [ ] Move all my cv info to yaml
+- [ ] Create all the other sections in the website
+------
+- [ ] Create tool to extract external links / pdf from zotero.
+------
+- [ ] Create projects
