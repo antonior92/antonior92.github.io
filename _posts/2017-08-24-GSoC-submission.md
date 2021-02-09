@@ -3,11 +3,7 @@ title: 'GSoC 2017 - Submission'
 date: 2017-08-24
 permalink: /posts/2017/24/GSoC-submission/
 tags:
-  - GSoC 2017
-  - Python
-  - Scipy
-  - Mathematical Programming
-  - Optimization
+  - SciPy and Optimization
 ---
 
 During the last few months I have worked on my Google Summer of Code (GSoC) project, that 

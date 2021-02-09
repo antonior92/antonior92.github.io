@@ -1,0 +1,3 @@
+- name: SciPy and Optimization
+  description: Google Summer of Code. I’ll be working on one of the core Python scientific libraries called
+    Scipy. My task is to implement a constrained optimization algorithm.

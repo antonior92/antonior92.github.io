@@ -1,0 +1,42 @@
+- name: Work in progress
+  papers:
+      - hendriks_deep_2020
+      - ribeiro_beyond_2020
+
+- name: Accepted  Papers
+  papers:
+      - oliveira_explaining_2020
+      - ribeiro_how_2021
+
+- name: Journal Papers
+  papers:
+      - meira_jr_contextualized_2020
+      - paixao_evaluation_2020
+      - ribeiro_smoothness_2020
+      - ribeiro_automatic_2020
+      - virtanen_scipy_2020
+      - ribeiro_telee-lectrocardiography_2019
+      - paixao_evaluation_2019
+      - ribeiro_parallel_2018
+
+- name: International Conference Papers
+  papers:
+      - ribeiro_exploding_2020
+      - andersson_deep_2019
+      - ribeiro_lasso_2018
+      - ribeiro_shooting_2017
+      - ribeiro_selecting_2015
+
+- name: National Conference Papers
+  papers:
+      - ribeiro_relacoes_2014
+
+- name: Workshop papers, conference abstracts and extended abstracts
+  papers:
+      - ribeiro_automatic_2020-1
+      - oliveira_explaining_2020-1
+      - ribeiro_automatic_2018
+      - paixao_ecg-age_2020
+      - ribeiro_deep_2020
+      - gabriela_validation_2020
+      - gabriela_clinical_2018

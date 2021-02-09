@@ -3,13 +3,7 @@ title: 'Interior-Point Method'
 date: 2017-07-07
 permalink: /posts/2017/07/interior-point-method/
 tags:
-  - GSoC 2017
-  - Python
-  - Scipy
-  - Mathematical Programming
-  - Optimization
-  - Nonlinear Programming
-  - Interior-Point Method
+  - SciPy and Optimization
 ---
 
 

@@ -3,15 +3,7 @@ title: 'Projected Conjugate Gradient'
 date: 2017-06-08
 permalink: /posts/2017/05/projected-CG/
 tags:
-  - GSoC 2017
-  - Python
-  - Scipy
-  - Mathematical Programming
-  - Optimization
-  - Projected Conjugate Gradient
-  - Conjugate Gradient
-  - Equality-constrained Quadratic Programming
-  - Quadratic Programming
+  - SciPy and Optimization
 ---
 
 The projected conjugate gradient (CG) method was implemented during my first

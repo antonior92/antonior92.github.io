@@ -3,11 +3,7 @@ title: 'GSoC 2017 - Scipy: Large-scale Constrained Optimization'
 date: 2017-05-08
 permalink: /posts/2017/05/GSoC-proposal/
 tags:
-  - GSoC 2017
-  - Python
-  - Scipy
-  - Mathematical Programming
-  - Optimization
+  - SciPy and Optimization
 ---
 
 This year I was chosen as the student for Google Summer of Code. I’ll be working on one of the core Python scientific libraries called Scipy. My task is to implement a constrained optimization algorithm able to deal with large (and possibly sparse) problems.

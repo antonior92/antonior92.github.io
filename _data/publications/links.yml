@@ -1,0 +1,34 @@
+hendriks_deep_2020:
+  - name: arXiv
+    link: https://arxiv.org/abs/2012.04136
+ribeiro_beyond_2020:
+  - name: arxiv
+    link: https://arxiv.org/abs/2012.06341
+ribeiro_smoothness_2020:
+  - name: code
+    link: https://github.com/antonior92/MultipleShootingPEM.jl
+ribeiro_automatic_2020:
+  - name: arXiv
+    link: http://arxiv.org/abs/1904.01949
+  - name: code
+    link: https://github.com/antonior92/automatic-ecg-diagnosis
+  - name: data
+    link: https://doi.org/10.5281/zenodo.3625006
+  - name: models
+    link: https://doi.org/10.5281/zenodo.3625017
+virtanen_scipy_2020:
+  - name: arXiv
+    link: http://arxiv.org/abs/1907.10121
+ribeiro_parallel_2018:
+  - name: arXiv
+    link: https://github.com/antonior92/ParallelTrainingNN.jl
+ribeiro_exploding_2020:
+  - name: url
+    link: http://proceedings.mlr.press/v108/ribeiro20a.html
+  - name: code
+    link: https://github.com/antonior92/attractors-and-smoothness-RNN
+andersson_deep_2019:
+  - name: arXiv
+    link: https://arxiv.org/abs/1909.01730
+  - name: code
+    link: https://github.com/antonior92/sysid-neuralnet

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title:
 permalink: /
 ---
 
@@ -9,7 +9,5 @@ I'm a postdoctoral associate at the Computer Science Department of the Universid
 
 My current research interests lay in the intersection of machine learning, system theory and signal processing. I am interested in using system theory and signal processing for better understanding deep neural networks and black box machine learning algorithms. But, also, in studying the application of deep neural networks in areas dominated by classical signal processing and control tools, such as the identification of electromechanical systems and the automated analysis of the electrocardiogram. I am also a member of [Scipy](https://www.scipy.org/scipylib/index.html) core development 
 team, having contributed to optimization and signal processing packages.
-
-
 
 

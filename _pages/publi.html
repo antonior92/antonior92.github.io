@@ -1,0 +1,35 @@
+---
+layout: page
+title:
+permalink: /publi
+---
+
+
+{% for categories in site.data.publications.categories %}
+    <hr />
+    <div class="titlebox">{{ categories.name }}</div>
+    {% for paper_id in categories.papers %}
+        {% for paper in site.data.publications.mypapers %}
+            {% if paper.id == paper_id %}
+                <div class="paper" markdown="1">
+                <div class="category"></div>
+                <span class="papertitle"> {{ paper.title }}</span> <br />
+                <span class="authors">
+                    {% for author in paper.author %}
+                        {{ author.given }} {{ author.family }};
+                    {% endfor %}
+                </span> <br />
+                <span class="conference"> {{ paper.container-title }} ({{ paper.issued[0].year }})</span> <br />
+                <span class="source">
+                    {% unless paper.DOI == blank %}
+                        <a href="https://www.doi.org/{{ paper.DOI }}"> [doi] </a>
+                    {% endunless %}
+                    {% for addicional_info in site.data.publications.links[paper_id] %}
+                        - <a href="{{ addicional_info.link }}"> [{{ addicional_info.name }}] </a>
+                    {% endfor %}
+                </span>
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}

@@ -3,13 +3,7 @@ title: 'Byrd-Omojokun Trust-Region SQP'
 date: 2017-06-26
 permalink: /posts/2017/06/Byrd-Omojokun/
 tags:
-  - GSoC 2017
-  - Python
-  - Scipy
-  - Mathematical Programming
-  - Optimization
-  - Trust-Region Method
-  - Equality-constrained Nonlinear Programming
+  - SciPy and Optimization
 ---
 
 During the previous two weeks I have been implementing a 
