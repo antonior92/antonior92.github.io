@@ -8,7 +8,7 @@
 - [ ] Update bio
 - [ ] Update personal description
 ------
-- [ ] Create python tool to create .tex from .yaml files
+- [ ] Create tool to create .tex from .yaml files: idea use liquid markup language! https://github.com/Shopify/liquid
 - [ ] Move all my cv info to yaml
 - [ ] Create all the other sections in the website
 ------
