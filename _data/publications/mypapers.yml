@@ -1,0 +1,1082 @@
+- id: andersson_deep_2019
+  abstract: >-
+    Recent developments within deep learning are relevant for nonlinear system
+    identification problems. In this paper, we establish connections between the
+    deep learning and the system identification communities. It has recently
+    been shown that convolutional architectures are at least as capable as
+    recurrent architectures when it comes to sequence modeling tasks. Inspired
+    by these results we explore the explicit relationships between the recently
+    proposed temporal convolutional network (TCN) and two classic system
+    identification model structures; Volterra series and block-oriented models.
+    We end the paper with an experimental study where we provide results on two
+    real-world problems, the well-known Silverbox dataset and a newer dataset
+    originating from ground vibration experiments on an F-16 fighter aircraft.
+  author:
+    - family: Andersson
+      given: Carl
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Tiels
+      given: Koen
+    - family: Wahlström
+      given: Niklas
+    - family: Schön
+      given: Thomas B.
+  container-title: Proceedings of the 58th IEEE Conference on Decision and Control (CDC)
+  DOI: 10.1109/CDC40024.2019.9030219
+  issued:
+    - year: 2019
+      month: 9
+      day: 4
+  page: 3670-3676
+  title: Deep Convolutional Networks in System Identification
+  type: article-journal
+
+- id: hendriks_deep_2020
+  abstract: >-
+    This paper is directed towards the problem of learning nonlinear ARX models
+    based on system input--output data. In particular, our interest is in
+    learning a conditional distribution of the current output based on a finite
+    window of past inputs and outputs. To achieve this, we consider the use of
+    so-called energy-based models, which have been developed in allied fields
+    for learning unknown distributions based on data. This energy-based model
+    relies on a general function to describe the distribution, and here we
+    consider a deep neural network for this purpose. The primary benefit of this
+    approach is that it is capable of learning both simple and highly complex
+    noise models, which we demonstrate on simulated and experimental data.
+  accessed:
+    - year: 2020
+      month: 12
+      day: 29
+  author:
+    - family: Hendriks
+      given: Johannes N.
+    - family: Gustafsson
+      given: Fredrik K.
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Wills
+      given: Adrian G.
+    - family: Schön
+      given: Thomas B.
+  container-title: arXiv:2012.04136
+  issued:
+    - year: 2020
+      month: 12
+      day: 7
+  source: arXiv.org
+  title: Deep Energy-Based NARX Models
+  type: article-journal
+  URL: http://arxiv.org/abs/2012.04136
+
+- id: meira_jr_contextualized_2020
+  author:
+    - family: Meira Jr
+      given: Wagner
+    - family: Ribeiro
+      given: Antonio L. P.
+    - family: Oliveira
+      given: Derick M.
+    - family: Ribeiro
+      given: Antonio H.
+  container-title: Communications of the ACM
+  DOI: 10.1145/3416965
+  issued:
+    - year: 2020
+  title: Contextualized Interpretable Machine Learning for Medical Diagnosis
+  type: article-journal
+
+- id: oliveira_explaining_2020
+  author:
+    - family: Oliveira
+      given: Derick M.
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Pedrosa
+      given: João A. O.
+    - family: Paixao
+      given: Gabriela M.M.
+    - family: Ribeiro
+      given: Antonio Luiz P.
+    - family: Meira Jr
+      given: Wagner
+  container-title: >-
+    To appear in the proceedings of the The European Conference on Machine
+    Learning and Principles and Practice of Knowledge Discovery in Databases
+    (ECML-PKDD)
+  issued:
+    - year: 2020
+  title: Explaining end-to-end ECG automated diagnosis using contextual features
+  type: paper-conference
+
+- id: oliveira_explaining_2020-1
+  abstract: >-
+    In this work, we present a method to explain “end-toend” electrocardiogram
+    (ECG) signal classiﬁers, where the explanations were built along with
+    seniors cardiologist to provide meaningful features to the ﬁnal users. Our
+    method focuses exclusively on automated ECG diagnosis and analyzes the
+    explanation in terms of clinical accuracy for interpretability and
+    robustness. The proposed method uses a noise-insertion strategy to quantify
+    the impact of intervals and segments of the ECG signals on the automated
+    classiﬁcation outcome. An ECG segmentation method was applied to ECG
+    tracings, to obtain: (1) Intervals, Segments and Axis; (2) Rate, and (3)
+    Rhythm. Noise was added to the signal to disturb the ECG features in a
+    realistic way. The method was tested using Monte Carlo simulation and the
+    feature impact is estimated by the change in the model prediction averaged
+    over 499 executions and a feature is deﬁned as important if its mean value
+    changes the result of the classiﬁer. We demonstrate our method by explaining
+    diagnoses generated by a deep convolutional neural network. The proposed
+    method is particularly effective and useful for modern deep learning models
+    that take raw data as input.
+  author:
+    - family: Oliveira
+      given: Derick M
+    - family: Ribeiro
+      given: Antonio H
+    - family: Pedrosa
+      given: Joao A O
+    - family: Paixao
+      given: Gabriela M M
+    - family: Ribeiro
+      given: Antonio L
+    - family: Jr
+      given: Wagner Meira
+  container-title: 2020 Computing in Cardiology (CinC)
+  issued:
+    - year: 2020
+  title: >-
+    Explaining black-box automated electrocardiogram classiﬁcation to
+    cardiologists
+  type: paper-conference
+  volume: '47'
+
+- id: paixao_clinical_2018
+  abstract: >-
+    Introduction: Telehealth system is an important tool to improve access and
+    quality to health assistance.Large electrocardiogram (ECG) databases, linked
+    to mortality or hospitalization data, can be useful in determining the
+    prognostic value of ECG markers. Atrial fibrillation (AF) is a public health
+    problem with increasing prevalence as the population ages, associated with
+    cardiovascular mortality and morbidity.Hypothesis: Evaluate the association
+    between the presence of AF with overall and cardiovascular mortality in a
+    large electronic cohort of primary care patients of Minas Gerais.Methods:
+    This is an observational retrospective study. Patients over 16 years old who
+    performed digital electrocardiograms by Telehealth Network of Minas Gerais
+    from 2013 to 2016 were assessed. A probabilistic linkage between data from
+    the national mortality information system and our ECG database was made.
+    Clinical data were self-reported, and ECGs were interpreted by a team of
+    trained cardiologists and automatic software (Glasgow and Minnesota).The
+    diagnosis of AF was considered if there was concordance between the
+    cardiologist′s report and one of the automatic systems. In cases of
+    disagreement, ECGs were reviewed manually.Only the first ECG made was
+    analysed. To assess the relation between AF and mortality, Cox regression
+    was used, adjusted by age, sex and clinical conditions.Results: From a
+    dataset of 1,773,689 patients, 1,075,531 were included. The mean age was
+    51.4 years, 40.5% male.The prevalence of AF was 1.15%. There were 2.9%
+    deaths for all causes in 2.69 years of mean follow up. In univariate
+    analysis, AF was a risk factor for death from all causes (HR 6.98, 95%CI
+    6.68-7.28). After adjustment for age, sex and comorbidities, AF remained an
+    independent risk factor for all-cause mortality (HR 2.49; 95% CI 2.39 -
+    2.61). AF was also a predictor of risk for cardiovascular mortality after
+    adjustment for age, sex and clinical conditions (HR 2.35, 95% CI 2.01-2.73).
+    In multivariate analysis by sex, adjusted for age and comorbidities, AF
+    women had higher risk of death for all causes (HR 3.06; 95% CI 2.86-3.26)
+    than men (HR 2.18; 95% CI 2.06-2.32). There were no difference between sex
+    in cardiovascular mortality (HR 2.34; 95% CI 2.01-2.73 for male sex e HR
+    2.49; 95% CI 2.14-2.90 for female).Conclusions: AF was a strong predictor of
+    mortality for all causes and cardiovascular mortality in primary care
+    population with increased risk in women for deaths for all cause.
+  accessed:
+    - year: 2020
+      month: 12
+      day: 29
+  author:
+    - family: Paixao
+      given: Gabriela
+    - family: Silva
+      given: Luis Gustavo Silva
+      dropping-particle: e
+    - family: Gomes
+      given: Paulo R.
+    - family: Ferreira
+      given: Milton
+    - family: Oliveira
+      given: Derick
+    - family: Ribeiro
+      given: Manoel Horta
+    - family: Ribeiro
+      given: Antonio H.
+    - family: Nascimento
+      given: Jamil
+    - family: Cardoso
+      given: Gustavo
+    - family: Araujo
+      given: Rodrigo
+    - family: Santos
+      given: Bruno
+    - family: Canazart
+      given: Jessica
+    - family: Ribeiro
+      given: Leonardo
+    - family: Ribeiro
+      given: Antonio L.
+  container-title: Circulation
+  container-title-short: Circulation
+  DOI: 10.1161/circ.138.suppl_1.16594
+  issue: Suppl_1
+  issued:
+    - year: 2018
+      month: 11
+      day: 6
+  page: A16594-A16594
+  publisher: American Heart Association
+  source: ahajournals.org (Atypon)
+  title: >-
+    Clinical Outcomes in Digital Electrocardiography: Evaluation of Mortality in
+    Atrial Fibrillation (Code Study)
+  title-short: Abstract 16594
+  type: article-journal
+  URL: https://www.ahajournals.org/doi/abs/10.1161/circ.138.suppl_1.16594
+  volume: '138'
+
+- id: paixao_ecg-age_2020
+  author:
+    - family: Paixão
+      given: Gabriela Miana
+    - family: Ribeiro
+      given: Antonio Horta
+    - family: Lima
+      given: Emilly
+    - family: Seewald
+      given: Bruna
+    - family: Ribeiro
+      given: Manoel Horta
+    - family: Oliveira
+      given: Derick
+    - family: Gomes
+      given: Paulo
+    - family: Castro
+      given: Nathalia
+    - family: Meira
+      given: Wagner
+    - family: Schön
+      given: Thomas
+    - family: Ribeiro
+      given: Antonio L.
+  container-title: Journal of the American College of Cardiology
+  DOI: 10.1016/S0735-1097(20)34299-6
+  ISSN: 0735-1097
+  issue: 11 Supplement 1
+  issued:
+    - year: 2020
+  page: '3672'
+  title: >-
+    ECG-AGE FROM ARTIFICIAL INTELLIGENCE: A NEW PREDICTOR FOR MORTALITY? THE
+    CODE (CLINICAL OUTCOMES IN DIGITAL ELECTROCARDIOGRAPHY) STUDY
+  type: article-journal
+  volume: '75'
+
+- id: paixao_evaluation_2019
+  author:
+    - family: Paixão
+      given: Gabriela M. M.
+    - family: Lima
+      given: Emilly M.
+    - family: Gomes
+      given: Paulo R.
+    - family: Ferreira
+      given: Milton P.
+    - family: Oliveira
+      given: Derick M.
+    - family: Ribeiro
+      given: Manoel Horta
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Nascimento
+      given: Jamil
+    - family: Canazart
+      given: Jéssica A.
+    - family: Cardoso
+      given: Gustavo
+    - family: Ribeiro
+      given: Leonardo B.
+    - family: Ribeiro
+      given: Antonio Luiz P.
+  container-title: Journal of Electrocardiology
+  DOI: 10/dcgk
+  ISSN: 0022-0736
+  issued:
+    - year: 2019
+      month: 9
+  title: >-
+    Evaluation of mortality in bundle branch block patients from an electronic
+    cohort: Clinical Outcomes in Digital Electrocardiography (CODE) study
+  type: article-journal
+
+- id: paixao_evaluation_2020
+  abstract: >-
+    Methods: This observational retrospective study of primary care patients was
+    developed with the digital ECG database from the Telehealth Network of Minas
+    Gerais, Brazil. ECGs performed from 2010 to 2017 were interpreted by
+    cardiologists and the University of Glasgow automated analysis software. An
+    electronic cohort was obtained linking data from ECG exams and those from a
+    national mortality information system, using standard probabilistic linkage
+    methods. We considered only the first ECG of each patient. Patients under 16
+    years were excluded. Hazard ratios (HR) for mortality were adjusted for
+    demographic and self-reported clinical factors and estimated with Cox
+    regression.
+
+    Results: From a dataset of 1,773,689 patients, 1,558,421 were included, mean
+    age 51.6 years; 40.2% male. There were 3.34% deaths from all causes in 3.68
+    years of median follow up. The prevalence of AF was 1.33%. AF was an
+    independent risk factor for all-cause mortality (HR 2.10, 95%CI 2.03–2.17)
+    and cardiovascular mortality (HR 2.06, 95%CI 1.86–2.29). Females with AF had
+    a higher risk of overall and cardiovascular mortality compared with males (p
+    < 0.001).
+
+    Conclusions: AF was a strong predictor of cardiovascular and all-cause
+    mortality in a primary care population, with increased risk in women.
+  accessed:
+    - year: 2020
+      month: 8
+      day: 7
+  author:
+    - family: Paixão
+      given: Gabriela M. M.
+    - family: Silva
+      given: Luis Gustavo S.
+    - family: Gomes
+      given: Paulo R.
+    - family: Lima
+      given: Emilly M.
+    - family: Ferreira
+      given: Milton P. F.
+    - family: Oliveira
+      given: Derick M.
+    - family: Ribeiro
+      given: Manoel H.
+    - family: Ribeiro
+      given: Antonio H.
+    - family: Nascimento
+      given: Jamil S.
+    - family: Canazart
+      given: Jéssica A.
+    - family: Ribeiro
+      given: Leonardo B.
+    - family: Benjamin
+      given: Emelia J.
+    - family: Macfarlane
+      given: Peter W.
+    - family: Marcolino
+      given: Milena S.
+    - family: Ribeiro
+      given: Antonio L.
+  container-title: Global Heart
+  DOI: 10.5334/gh.772
+  ISSN: 2211-8179
+  issue: '1'
+  issued:
+    - year: 2020
+      month: 7
+      day: 28
+  page: '48'
+  source: DOI.org (Crossref)
+  title: >-
+    Evaluation of Mortality in Atrial Fibrillation: Clinical Outcomes in Digital
+    Electrocardiography (CODE) Study
+  title-short: Evaluation of Mortality in Atrial Fibrillation
+  type: article-journal
+  URL: https://globalheartjournal.com/articles/10.5334/gh.772/
+  volume: '15'
+
+- id: paixao_validation_2020
+  abstract: >-
+    Introduction: Aging affects the electrocardiogram (ECG) with a higher
+    incidence of abnormalities in older patients. ECG-age can be predicted by
+    artificial intelligence (AI) and can be used as a measure of cardiovascular
+    health.Hypothesis: ECG-age predicted by AI is a risk factor for overall
+    mortality.Methods: The Clinical Outcomes in Digital Electrocardiography
+    (CODE) study is a retrospective cohort with a mean follow-up of 3.67
+    years.The dataset consists of Brazilian patients, mainly from primary care
+    centers. Two established cohorts, ELSA-Brasil, of Brazilian public servants,
+    and SaMi-Trop, of Chagas disease patients, were used for external
+    validation. 2,322,513 ECGs from 1,558,421 patients over 16 years old that
+    underwent an ECG from 2010 to 2017 were included. A deep convolutional
+    neural network was trained in order to predict the age of the patient based
+    solely on ECG 12-lead tracings. The ECG database was split into 85-15%
+    training and test datasets, respectively. Death was ascertained using
+    probabilistic linkage with Brazil′s mortality information data. The Cox
+    regression model, adjusted by age and sex, was used for statistical
+    analysis. The model was validated in two cohorts: ELSA-Brasil (n=14,263) and
+    SaMi-Trop (n=1,631).Results: he mean predicted ECG-age was 52.0 years
+    (±18.7) with a mean absolute error of 8.38 (±7.0) years. Patients with
+    ECG-age >8y older than chronological age had higher mortality rate (HR 1.79,
+    95%CI 1.69-1.90; p<0.001), whereas those ECG-age >8y younger than
+    chronological age were associated with a lower mortality rate (HR 0.78,
+    95%CI 0.74-0.83; p<0.001). These results were similar in ELSA-Brasil and
+    SaMi-Trop external validation cohorts (HR 1.75, 95%CI 1.35-2.27; p<0.001;HR
+    2.42, 95%CI 1.53-3.83; p<0.001 for >8y difference, retrospectively; HR 0.74,
+    95%CI 0.63-0.88; p<0.001;HR 0.89, 95%CI 0.52-1.54; p=0.68 for <8y
+    difference, respectively).Conclusions: ECG-age, predicted by AI, can be
+    useful as a tool for risk stratification of mortality.
+  accessed:
+    - year: 2020
+      month: 12
+      day: 29
+  author:
+    - family: Paixao
+      given: Gabriela
+    - family: Lima
+      given: Emilly M
+    - family: Ribeiro
+      given: Antonio H
+    - family: Gomes
+      given: Paulo R
+    - family: Oliveira
+      given: Derick
+    - family: Junior
+      given: Marcelo M. Pinto
+    - family: Sabino
+      given: Ester
+    - family: Barreto
+      given: Sandhi
+    - family: Giatti
+      given: Luana
+    - family: A
+      given: Paulo Andrade Lotufo
+    - family: Bruce
+      given: Duncan
+    - family: Wagner
+      given: Meira Junior
+    - family: Thomas B. Schon
+      given: ''
+    - family: Ribeiro
+      given: Antonio L.
+  container-title: Circulation
+  container-title-short: Circulation
+  DOI: 10.1161/circ.142.suppl_3.16883
+  issue: Suppl_3
+  issued:
+    - year: 2020
+      month: 11
+      day: 17
+  page: A16883-A16883
+  publisher: American Heart Association
+  source: ahajournals.org (Atypon)
+  title: >-
+    Validation of a Deep Neural Network Electrocardiographic-Age as a Mortality
+    Predictor: The CODE Study
+  title-short: Abstract 16883
+  type: article-journal
+  URL: https://www.ahajournals.org/doi/abs/10.1161/circ.142.suppl_3.16883
+  volume: '142'
+
+- id: ribeiro_automatic_2018
+  abstract: >-
+    We present a model for predicting electrocardiogram (ECG) abnormalities in
+    short-duration 12-lead ECG signals which outperformed medical doctors on the
+    4th year of their cardiology residency. Such exams can provide a full
+    evaluation of heart activity and have not been studied in previous
+    end-to-end machine learning papers. Using the database of a large telehealth
+    network, we built a novel dataset with more than 2 million ECG tracings,
+    orders of magnitude larger than those used in previous studies. Moreover,
+    our dataset is more realistic, as it consist of 12-lead ECGs recorded during
+    standard in-clinics exams. Using this data, we trained a residual neural
+    network with 9 convolutional layers to map 7 to 10 second ECG signals to 6
+    classes of ECG abnormalities. Future work should extend these results to
+    cover a large range of ECG abnormalities, which could improve the
+    accessibility of this diagnostic tool and avoid wrong diagnosis from medical
+    doctors.
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Ribeiro
+      given: Manoel Horta
+    - family: Paixão
+      given: Gabriela
+    - family: Oliveira
+      given: Derick
+    - family: Gomes
+      given: Paulo R.
+    - family: Canazart
+      given: Jéssica A.
+    - family: Pifano
+      given: Milton
+    - family: Meira Jr.
+      given: Wagner
+    - family: Schön
+      given: Thomas B.
+    - family: Ribeiro
+      given: Antonio Luiz
+  container-title: Machine Learning for Health (ML4H) Workshop at NeurIPS
+  issued:
+    - year: 2018
+  source: arXiv.org
+  title: >-
+    Automatic Diagnosis of Short-Duration 12-Lead ECG using a Deep Convolutional
+    Network
+  type: article-journal
+
+- id: ribeiro_automatic_2020
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Ribeiro
+      given: Manoel Horta
+    - family: Paixão
+      given: Gabriela M. M.
+    - family: Oliveira
+      given: Derick M.
+    - family: Gomes
+      given: Paulo R.
+    - family: Canazart
+      given: Jéssica A.
+    - family: Ferreira
+      given: Milton P. S.
+    - family: Andersson
+      given: Carl R.
+    - family: Macfarlane
+      given: Peter W.
+    - family: Meira Jr.
+      given: Wagner
+    - family: Schön
+      given: Thomas B.
+    - family: Ribeiro
+      given: Antonio Luiz P.
+  container-title: Nature Communications
+  DOI: 10/drkd
+  issue: '1'
+  issued:
+    - year: 2020
+  page: '1760'
+  source: arXiv.org
+  title: Automatic diagnosis of the 12-lead ECG using a deep neural network
+  type: article-journal
+  volume: '11'
+
+- id: ribeiro_automatic_2020-1
+  abstract: >-
+    The 12-lead electrocardiogram (ECG) is a major diagnostic test for
+    cardiovascular diseases and enhanced automated analysis tools might lead to
+    more reliable diagnosis and improved clinical practice. Deep neural networks
+    are models composed of stacked transformations that learn tasks by examples.
+    Inspired by the success of these models in computer vision, we propose an
+    end-to-end approach for the task at hand. We trained deep convolutional
+    neural network models in the heterogeneous dataset provided in the Physionet
+    2020 Challenge and used an ensemble of seven of these convolutional models
+    for the classiﬁcation of abnormalities present in the ECG records. Ensembles
+    use the output of multiple models to generate a combined prediction and are
+    known to improve performance and generalization when compared to the
+    individual models. In our submission, we use an ensemble of neural networks
+    with the architecture similar to the one described in Nat Commun 11, 1760
+    (2020) for 12-lead ECGs classiﬁcation. On the partially hidden test dataset
+    from the challenge, the best-scored entry for our team (the “Code Team”) had
+    a performance of 0.657, which place us in the 7-th place team-wise in the
+    challenge leaderboard.
+  author:
+    - family: Ribeiro
+      given: Antonio H
+    - family: Gedon
+      given: Daniel
+    - family: Teixeira
+      given: Daniel Martins
+    - family: Ribeiro
+      given: Manoel Horta
+    - family: Ribeiro
+      given: Antonio L Pinho
+    - family: Schon
+      given: Thomas B
+    - family: Jr
+      given: Wagner Meira
+  container-title: 2020 Computing in Cardiology (CinC)
+  issued:
+    - year: 2020
+  title: Automatic 12-lead ECG classiﬁcation using a convolutional network ensemble
+  type: paper-conference
+
+- id: ribeiro_beyond_2020
+  abstract: >-
+    System identification aims to build models of dynamical systems from data.
+    Traditionally, choosing the model requires the designer to balance between
+    two goals of conflicting nature; the model must be rich enough to capture
+    the system dynamics, but not so flexible that it learns spurious random
+    effects from the dataset. It is typically observed that model validation
+    performance follows a U-shaped curve as the model complexity increases.
+    Recent developments in machine learning and statistics, however, have
+    observed situations where a "double-descent" curve subsumes this U-shaped
+    model-performance curve. With a second decrease in performance occurring
+    beyond the point where the model has reached the capacity of interpolating -
+    i.e., (near) perfectly fitting - the training data. To the best of our
+    knowledge, however, such phenomena have not been studied within the context
+    of the identification of dynamic systems. The present paper aims to answer
+    the question: "Can such a phenomenon also be observed when estimating
+    parameters of dynamic systems?" We show the answer is yes, verifying such
+    behavior experimentally both for artificially generated and real-world
+    datasets.
+  accessed:
+    - year: 2020
+      month: 12
+      day: 29
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Hendriks
+      given: Johannes N.
+    - family: Wills
+      given: Adrian G.
+    - family: Schön
+      given: Thomas B.
+  container-title: arXiv:2012.06341
+  issued:
+    - year: 2020
+      month: 12
+      day: 11
+  source: arXiv.org
+  title: >-
+    Beyond Occam's Razor in System Identification: Double-Descent when Modeling
+    Dynamics
+  title-short: Beyond Occam's Razor in System Identification
+  type: article-journal
+  URL: http://arxiv.org/abs/2012.06341
+
+- id: ribeiro_beyond_2020-1
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Tiels
+      given: Koen
+    - family: Aguirre
+      given: Luis A.
+    - family: Schön
+      given: Thomas B.
+  container-title: >-
+    Proceedings of the 23rd International Conference on Artificial Intelligence
+    and Statistics (AISTATS), PMLR
+  event: '108'
+  issued:
+    - year: 2020
+  page: 2370-2380
+  title: >-
+    Beyond exploding and vanishing gradients: attractors and smoothness in the
+    analysis of recurrent neural network training
+  type: paper-conference
+  URL: http://proceedings.mlr.press/v108/ribeiro20a.html
+  volume: '108'
+
+- id: ribeiro_deep_2019
+  author:
+    - family: Ribeiro
+      given: Antonio H
+    - family: Andersson
+      given: Carl
+    - family: Tiels
+      given: Koen
+    - family: Wahlstrom
+      given: Niklas
+    - family: Schon
+      given: Thomas B
+  container-title: Workshop on nonlinear system identification
+  issued:
+    - year: 2019
+  source: Zotero
+  title: Deep Convolutional Networks are Useful in System Identiﬁcation
+  type: article-journal
+
+- id: ribeiro_how_2021
+  author:
+    - family: Ribeiro
+      given: Antonio H.
+    - family: Schon
+      given: Thomas B.
+  container-title: >-
+    Acepted at the IEEE International Conference on Acoustics, Speech and Signal
+    Processing (ICASSP)
+  issued:
+    - year: 2021
+  title: How convolutional neural networks deal with aliasing
+  type: paper-conference
+
+- id: ribeiro_implementacao_2015
+  abstract: >-
+    A stereo camera is a camera that simultaneously captures two or more images 
+
+    in order to estimate depth. A stereo camera prototype was implemented using
+    two image sensors. Its project was based on v200, a commercial camera
+    produced by Invent Vision (iVision), company for which this prototype was
+    developed. The major steps needed to estimate depth using a stereo camera
+    were followed. They are: calibration (estimation of camera geometry and
+    parameters), retification (aligning images), correspondence (finding
+    correspondent points on the two images and the distance between them)
+
+    and reconstruction (estimation of features depth using triangulation). All
+    algorithms needed were implemented using C++ and integrated to the
+    prototype. The prototype is able to estimate depth in a range of 0.7 to 20
+    meters, it has a resolution on the order of a few centimeters and can reach
+    a frame rate of 5 frames per second. The industrial camera v200 has all its
+    internal processing computed by a FPGA. It is suggested, as a future work,
+    to use the FPGA to speed up the retification and correspondence algorithms.
+    The aim of this work was to take a first step towards a stereo camera based
+    on v200 to be a competitive commercial product, apt to be sold by
+
+    iVision.
+  author:
+    - family: Ribeiro
+      given: Antonio H.
+  event-place: Belo Horizonte, Brazil
+  genre: BSc Thesis
+  issued:
+    - year: 2015
+      month: 12
+      day: 1
+  publisher: Universidade Federal de Minas Gerais
+  publisher-place: Belo Horizonte, Brazil
+  title: Implementação de uma Câmera Estéreo
+  type: thesis
+
+- id: ribeiro_lasso_2018
+  author:
+    - family: Ribeiro
+      given: Antonio H.
+    - family: Aguirre
+      given: Luis A.
+  container-title: 2018 Annual American Control Conference (ACC)
+  DOI: 10/gf7ssz
+  event: 2018 Annual American Control Conference (ACC)
+  ISBN: 2378-5861
+  issued:
+    - year: 2018
+      month: 6
+      day: 27
+    - year: 2018
+      month: 6
+      day: 29
+  page: 5268-5273
+  title: Lasso Regularization Paths for NARMAX Models via Coordinate Descent
+  type: paper-conference
+
+- id: ribeiro_learning_2020
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+  event-place: Belo Horizonte, Brazil
+  genre: PhD Thesis
+  issued:
+    - year: 2020
+  publisher: Universidade Federal de Minas Gerais
+  publisher-place: Belo Horizonte, Brazil
+  title: >-
+    Learning nonlinear differentiable models for signals and systems:  with
+    applications
+  type: thesis
+
+- id: ribeiro_parallel_2018
+  abstract: "Neural network models for dynamic systems can be trained either in parallel or in series-parallel configurations. Influenced by early arguments, several papers justify the choice of series-parallel rather than parallel configuration claiming it has a lower computational cost, better stability properties during training and provides more accurate results. Other published results, on the other hand, defend parallel training as being more robust and capable of yielding more accurate long-term predictions. The main contribution of this paper is to present a study comparing both methods under the same unified framework with special attention to three aspects: (i)\_robustness of the estimation in the presence of noise; (ii)\_computational cost; and, (iii)\_convergence. A unifying mathematical framework and simulation studies show situations where each training method provides superior validation results and suggest that parallel training is generally better in more realistic scenarios. An example using measured data seems to reinforce such a claim. Complexity analysis and numerical examples show that both methods have similar computational cost although series-parallel training is more amenable to parallelization. Some informal discussion about stability and convergence properties is presented and explored in the examples."
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Aguirre
+      given: Luis A.
+  container-title: Neurocomputing
+  container-title-short: Neurocomputing
+  DOI: 10/gfhwnk
+  ISSN: 0925-2312
+  issued:
+    - year: 2018
+      month: 11
+      day: 17
+  page: 222-231
+  title: >-
+    ''Parallel Training Considered Harmful?'': Comparing series-parallel and
+    parallel feedforward network training
+  type: article-journal
+  volume: '316'
+
+- id: ribeiro_recurrent_2017
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+  event-place: Belo Horizonte, Brazil
+  genre: MSc Dissertation
+  issued:
+    - year: 2017
+  publisher: Universidade Federal de Minas Gerais
+  publisher-place: Belo Horizonte, Brazil
+  source: Zotero
+  title: Recurrent Structures in System Identification
+  type: thesis
+
+- id: ribeiro_relacoes_2014
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Aguirre
+      given: Luis A.
+  container-title: XX Congresso Brasileiro de Automática
+  issued:
+    - year: 2014
+  title: Relaçoes Estáticas de Modelos NARX MISO e sua Representaçao de Hammerstein
+  type: paper-conference
+  URL: http://www.swge.inf.br/CBA2014/anais/PDF/1569890815.pdf
+
+- id: ribeiro_selecting_2015
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Aguirre
+      given: Luis A.
+  container-title: IFAC-PapersOnLine
+  DOI: 10/gfjwq8
+  issue: '6'
+  issued:
+    - year: 2015
+  page: 154–158
+  title: >-
+    Selecting transients automatically for the identification of models for an
+    oil well
+  type: article-journal
+  volume: '48'
+
+- id: ribeiro_shooting_2017
+  abstract: >-
+    This paper studies parameter estimation of output error (OE) models. The
+    commonly used approach of minimizing the free-run simulation error is called
+    single shooting in contrast with the new multiple shooting approach proposed
+    in this paper, for which the free-run simulation error of sub-datasets is
+    minimized subject to equality constraints. The names “single shooting” and
+    “multiple shooting” are used due to the similarities with techniques for
+    estimating ODE (ordinary differential equation) parameters. Examples with
+    nonlinear polynomial models illustrate the advantages of OE models as well
+    as the capability of the multiple shooting approach to avoid undesirable
+    local minima.
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Aguirre
+      given: Luis A.
+  container-title: IFAC-PapersOnLine
+  container-title-short: IFAC-PapersOnLine
+  DOI: 10/gfjwmp
+  ISSN: 2405-8963
+  issue: '1'
+  issued:
+    - year: 2017
+      month: 7
+      day: 1
+  page: 13998-14003
+  title: Shooting Methods for Parameter Estimation of Output Error Models
+  type: article-journal
+  volume: '50'
+
+- id: ribeiro_smoothness_2020
+  abstract: >-
+    We shed new light on the smoothness of optimization problems arising in
+    prediction error parameter estimation of linear and nonlinear systems. We
+    show that for regions of the parameter space where the model is not
+    contractive, the Lipschitz constant and beta-smoothness of the objective
+    function might blow up exponentially with the simulation length, making it
+    hard to numerically find minima within those regions or, even, to escape
+    from them. In addition to providing theoretical understanding of this
+    problem, this paper also proposes the use of multiple shooting as a viable
+    solution. The proposed method minimizes the error between a prediction model
+    and the observed values. Rather than running the prediction model over the
+    entire dataset, multiple shooting splits the data into smaller subsets and
+    runs the prediction model over each subset, making the simulation length a
+    design parameter and making it possible to solve problems that would be
+    infeasible using a standard approach. The equivalence to the original
+    problem is obtained by including constraints in the optimization. The new
+    method is illustrated by estimating the parameters of nonlinear systems with
+    chaotic or unstable behavior, as well as neural networks. We also present a
+    comparative analysis of the proposed method with multi-step-ahead prediction
+    error minimization.
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Tiels
+      given: Koen
+    - family: Umenberger
+      given: Jack
+    - family: Schön
+      given: Thomas B.
+    - family: Aguirre
+      given: Luis A.
+  container-title: Automatica
+  DOI: 10.1016/j.automatica.2020.109158
+  issued:
+    - year: 2020
+      month: 11
+  page: '109158'
+  source: arXiv.org
+  title: On the smoothness of nonlinear system identification
+  type: article-journal
+  volume: '121'
+
+- id: ribeiro_tele-electrocardiography_2019
+  abstract: >-
+    Digital electrocardiographs are now widely available and a large number of
+    digital electrocardiograms (ECGs) have been recorded and stored. The present
+    study describes the development and clinical applications of a large
+    database of such digital ECGs, namely the CODE (Clinical Outcomes in Digital
+    Electrocardiology) study. ECGs obtained by the Telehealth Network of Minas
+    Gerais, Brazil, from 2010 to 17, were organized in a structured database. A
+    hierarchical free-text machine learning algorithm recognized specific ECG
+    diagnoses from cardiologist reports. The Glasgow ECG Analysis Program
+    provided Minnesota Codes and automatic diagnostic statements. The presence
+    of a specific ECG abnormality was considered when both automatic and medical
+    diagnosis were concordant; cases of discordance were decided using
+    heuristisc rules and manual review. The ECG database was linked to the
+    national mortality information system using probabilistic linkage methods.
+    From 2,470,424 ECGs, 1,773,689 patients were identified. After excluding the
+    ECGs with technical problems and patients <16 years-old, 1,558,415 patients
+    were studied. High performance measures were obtained using an end-to-end
+    deep neural network trained to detect 6 types of ECG abnormalities, with F1
+    scores >80% and specificity >99% in an independent test dataset. We also
+    evaluated the risk of mortality associated with the presence of atrial
+    fibrillation (AF), which showed that AF was a strong predictor of
+    cardiovascular mortality and mortality for all causes, with increased risk
+    in women. In conclusion, a large database that comprises all ECGs performed
+    by a large telehealth network can be useful for further developments in the
+    field of digital electrocardiography, clinical cardiology and cardiovascular
+    epidemiology.
+  author:
+    - family: Ribeiro
+      given: Antonio Luiz P.
+    - family: Paixão
+      given: Gabriela M. M.
+    - family: Gomes
+      given: Paulo R.
+    - family: Ribeiro
+      given: Manoel Horta
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Canazart
+      given: Jéssica A.
+    - family: Oliveira
+      given: Derick M.
+    - family: Ferreira
+      given: Milton P.
+    - family: Lima
+      given: Emilly M.
+    - family: Moraes
+      given: Jermana Lopes
+      non-dropping-particle: de
+    - family: Castro
+      given: Nathalia
+    - family: Ribeiro
+      given: Leonardo B.
+    - family: MacFarlane
+      given: Peter W.
+  container-title: Journal of Electrocardiology
+  container-title-short: Journal of Electrocardiology
+  DOI: 10/gf7pwg
+  ISSN: 0022-0736
+  issued:
+    - year: 2019
+      month: 9
+      day: 7
+  source: ScienceDirect
+  title: >-
+    Tele-electrocardiography and bigdata: The CODE (Clinical Outcomes in Digital
+    Electrocardiography) study
+  type: article-journal
+
+- id: virtanen_scipy_2020
+  abstract: >-
+    SciPy is an open source scientific computing library for the Python
+    programming language. SciPy 1.0 was released in late 2017, about 16 years
+    after the original version 0.1 release. SciPy has become a de facto standard
+    for leveraging scientific algorithms in the Python programming language,
+    with more than 600 unique code contributors, thousands of dependent
+    packages, over 100,000 dependent repositories, and millions of downloads per
+    year. This includes usage of SciPy in almost half of all machine learning
+    projects on GitHub, and usage by high profile projects including LIGO
+    gravitational wave analysis and creation of the first-ever image of a black
+    hole (M87). The library includes functionality spanning clustering, Fourier
+    transforms, integration, interpolation, file I/O, linear algebra, image
+    processing, orthogonal distance regression, minimization algorithms, signal
+    processing, sparse matrix handling, computational geometry, and statistics.
+    In this work, we provide an overview of the capabilities and development
+    practices of the SciPy library and highlight some recent technical
+    developments.
+  author:
+    - family: Virtanen
+      given: Pauli
+    - family: Gommers
+      given: Ralf
+    - family: Oliphant
+      given: Travis E.
+    - family: Haberland
+      given: Matt
+    - family: Reddy
+      given: Tyler
+    - family: Cournapeau
+      given: David
+    - family: Burovski
+      given: Evgeni
+    - family: Peterson
+      given: Pearu
+    - family: Weckesser
+      given: Warren
+    - family: Bright
+      given: Jonathan
+    - family: Walt
+      given: Stéfan J.
+      non-dropping-particle: van der
+    - family: Brett
+      given: Matthew
+    - family: Wilson
+      given: Joshua
+    - family: Millman
+      given: K. Jarrod
+    - family: Mayorov
+      given: Nikolay
+    - family: Nelson
+      given: Andrew R. J.
+    - family: Jones
+      given: Eric
+    - family: Kern
+      given: Robert
+    - family: Larson
+      given: Eric
+    - family: Carey
+      given: C. J.
+    - family: Polat
+      given: İlhan
+    - family: Feng
+      given: Yu
+    - family: Moore
+      given: Eric W.
+    - family: VanderPlas
+      given: Jake
+    - family: Laxalde
+      given: Denis
+    - family: Perktold
+      given: Josef
+    - family: Cimrman
+      given: Robert
+    - family: Henriksen
+      given: Ian
+    - family: Quintero
+      given: E. A.
+    - family: Harris
+      given: Charles R.
+    - family: Archibald
+      given: Anne M.
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Pedregosa
+      given: Fabian
+    - family: Mulbregt
+      given: Paul
+      non-dropping-particle: van
+    - family: Contributors
+      given: SciPy 1.0
+  container-title: Nature Methods
+  DOI: 10/ggj45f
+  issue: '3'
+  issued:
+    - year: 2020
+  page: 261--272
+  source: arXiv.org
+  title: SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python
+  type: article-journal
+  volume: '17'
