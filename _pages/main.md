@@ -5,7 +5,7 @@ permalink: /
 ---
 
 
-I'm a Postdoctoral fellow in the group of [Thomas Schön](http://user.it.uu.se/~thosc112/index.html)
+I'm postdoctoral fellow in the group of [Thomas Schön](http://user.it.uu.se/~thosc112/index.html)
 at [Uppsala University](http://www.it.uu.se/) (Sweden). My general areas of interest are
 **machine learning**, **system theory** and **signal processing**. My research focuses
 on techniques for extracting information and learning the intrinsic behaviour
