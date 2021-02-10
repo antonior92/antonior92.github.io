@@ -7,6 +7,8 @@ ribeiro_beyond_2020:
 ribeiro_smoothness_2020:
   - name: code
     link: https://github.com/antonior92/MultipleShootingPEM.jl
+  - name: arXiv
+    link: https://arxiv.org/abs/1905.00820
 ribeiro_automatic_2020:
   - name: arXiv
     link: http://arxiv.org/abs/1904.01949
@@ -22,13 +24,64 @@ virtanen_scipy_2020:
 ribeiro_parallel_2018:
   - name: arXiv
     link: https://github.com/antonior92/ParallelTrainingNN.jl
-ribeiro_exploding_2020:
+  - name: code
+    link: https://github.com/antonior92/ParallelTrainingNN.jl
+ribeiro_beyond_2020-1:
   - name: url
     link: http://proceedings.mlr.press/v108/ribeiro20a.html
+  - name: presentation
+    link: https://slideslive.com/38930165/beyond-exploding-and-vanishing-gradients-analysing-rnn-training-using-attractors-and-smoothness
   - name: code
     link: https://github.com/antonior92/attractors-and-smoothness-RNN
+  - name: models
+    link: https://doi.org/10.5281/zenodo.3834894
 andersson_deep_2019:
   - name: arXiv
     link: https://arxiv.org/abs/1909.01730
   - name: code
     link: https://github.com/antonior92/sysid-neuralnet
+ribeiro_lasso_2018:
+  - name: arXiv
+    link: https://arxiv.org/abs/1710.00598
+  - name: slides
+    link: pdfs/slides/2018-ACC.pdf
+  - name: code
+    link: https://github.com/antonior92/NarmaxLasso.jl
+ribeiro_shooting_2017:
+  - name: poster
+    link: pdfs/posters/2017-IFACWorld.pdf
+  - name: code
+    link: https://github.com/antonior92/oe-multiple-shooting
+ribeiro_selecting_2015:
+  - name: slides
+    link: pdfs/slides/2015-IFACOil.pdf
+ribeiro_relacoes_2014:
+  - name: url
+    link: http://www.swge.inf.br/CBA2014/anais/PDF/1569890815.pdf
+  - name: slides
+    link: pdfs/slides/2014-CBA.pdf
+ribeiro_automatic_2018:
+  - name: arXiv
+    link: https://arxiv.org/abs/1811.12194
+  - name: poster
+    link: pdfs/posters/2018-ML4HNeurIPS.pdf
+ribeiro_deep_2019:
+  - name: abstract
+    link: pdfs/abstracts/2019-NonLinWorkshop.pdf
+  - name: slides
+    link: slides/2019-NonLinWorkshop.pdf
+ribeiro_learning_2020:
+  - name: url
+    link: https://www.ppgee.ufmg.br/defesas/1480D.PDF
+ribeiro_recurrent_2017:
+  - name: url
+    link: https://www.ppgee.ufmg.br/defesas/1480M.PDF
+  - name: slides
+    link: pdfs/slides/2017-Ms.pdf
+ribeiro_implementacao_2015:
+  - name: doi
+    link: https://doi.org/10.13140/RG.2.1.1133.2728
+  - name: url
+    link: http://www.coro.cpdee.ufmg.br/publications/antonio_ribeiro.pdf
+  - name: slides
+    link: pdfs/slides/2015-TCC.pdf

@@ -1,7 +1,7 @@
 ---
 layout: page
 title:
-permalink: /publi
+permalink: /publications
 ---
 
 
@@ -15,17 +15,27 @@ permalink: /publi
                 <div class="category"></div>
                 <span class="papertitle"> {{ paper.title }}</span> <br />
                 <span class="authors">
+                    {% assign var = 1 %}
                     {% for author in paper.author %}
-                        {{ author.given }} {{ author.family }};
+                        {% if author.family == "Ribeiro" and author.given contains "Ant" and author.given contains "nio" and author.given contains "H"%}
+                             <strong> {{ author.given }} {{ author.family }}</strong>{% unless paper.author.size == var %}, {% endunless %}
+                        {% else %}
+                             {{ author.given }} {{ author.family }}{% unless paper.author.size == var %}, {% endunless %}
+                        {% endif %}
+                        {% assign var = var | plus: 1 %}
                     {% endfor %}
                 </span> <br />
                 <span class="conference"> {{ paper.container-title }} ({{ paper.issued[0].year }})</span> <br />
                 <span class="source">
+
+                    {% assign var = 1 %}
                     {% unless paper.DOI == blank %}
                         <a href="https://www.doi.org/{{ paper.DOI }}"> [doi] </a>
+                        {% assign var = var | plus: 1 %}
                     {% endunless %}
                     {% for addicional_info in site.data.publications.links[paper_id] %}
-                        - <a href="{{ addicional_info.link }}"> [{{ addicional_info.name }}] </a>
+                         {% unless var == 1 %} - {% endunless %} <a href="{{ addicional_info.link }}"> [{{ addicional_info.name }}] </a>
+                        {% assign var = var | plus: 1 %}
                     {% endfor %}
                 </span>
                 </div>

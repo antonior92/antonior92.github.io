@@ -21,7 +21,7 @@
 
 - name: International Conference Papers
   papers:
-      - ribeiro_exploding_2020
+      - ribeiro_beyond_2020-1
       - andersson_deep_2019
       - ribeiro_lasso_2018
       - ribeiro_shooting_2017
@@ -40,3 +40,9 @@
       - ribeiro_deep_2020
       - gabriela_validation_2020
       - gabriela_clinical_2018
+
+- name: Thesis
+  papers:
+      - ribeiro_learning_2020
+      - ribeiro_recurrent_2017
+      - ribeiro_implementacao_2015

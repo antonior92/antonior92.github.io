@@ -5,9 +5,18 @@ permalink: /
 ---
 
 
-I'm a postdoctoral associate at the Computer Science Department of the Universidade Federal de Minas Gerais (Brazil). I received my Ph.D. in March of 2020 from the Graduate Programme in Electrical Engineering of the same university under the supervision of [Luis A. Aguirre](https://scholar.google.com.br/citations?user=_zkC6_kAAAAJ&hl=en) and [Thomas B. Schön](http://user.it.uu.se/~thosc112/index.html). I was hosted under Thomas supervision during one year of my Ph.D. as a visiting researcher at Uppsala University (Sweden) in the [system and control division](http://www.it.uu.se/research/systems_and_control).
+I'm a Postdoctoral fellow in the group of [Thomas Schön](http://user.it.uu.se/~thosc112/index.html)
+at [Uppsala University](http://www.it.uu.se/) (Sweden). My general areas of interest are
+**machine learning**, **system theory** and **signal processing**. My research focuses
+on techniques for extracting information and learning the intrinsic behaviour
+of time series, signals and dynamical systems. My research is motivated by 
+a range of applications, in particular the ones emerging from 
+computational **eletrocardiography**.
 
-My current research interests lay in the intersection of machine learning, system theory and signal processing. I am interested in using system theory and signal processing for better understanding deep neural networks and black box machine learning algorithms. But, also, in studying the application of deep neural networks in areas dominated by classical signal processing and control tools, such as the identification of electromechanical systems and the automated analysis of the electrocardiogram. I am also a member of [Scipy](https://www.scipy.org/scipylib/index.html) core development 
+
+I received my Ph.D. in 2020 from [UFMG](https://ufmg.br/international-visitors) (Brasil) under the supervision
+[Luis A. Aguirre](https://scholar.google.com.br/citations?user=_zkC6_kAAAAJ&hl=en) 
+and [Thomas B. Schön](http://user.it.uu.se/~thosc112/index.html) (who hosted 
+me in Uppsala University during part of my studies). I am also a member of
+[Scipy](https://www.scipy.org/scipylib/index.html) core development 
 team, having contributed to optimization and signal processing packages.
-
-

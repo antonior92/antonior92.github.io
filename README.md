@@ -10,3 +10,6 @@ That is just run:
 docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
 ```
 Your Jekyll page will be available on `http://localhost:4000`.
+
+OBS: If the port 4000 is occupied you might find out which process by using: `lsof -i:4000
+`.
