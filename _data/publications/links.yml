@@ -4,6 +4,8 @@ hendriks_deep_2020:
 ribeiro_beyond_2020:
   - name: arxiv
     link: https://arxiv.org/abs/2012.06341
+  - name: code
+    link: https://github.com/antonior92/narx-double-descent
 ribeiro_smoothness_2020:
   - name: code
     link: https://github.com/antonior92/MultipleShootingPEM.jl
@@ -85,3 +87,24 @@ ribeiro_implementacao_2015:
     link: http://www.coro.cpdee.ufmg.br/publications/antonio_ribeiro.pdf
   - name: slides
     link: pdfs/slides/2015-TCC.pdf
+ribeiro_how_2021:
+  - name: arXiv
+    link: http://arxiv.org/abs/2102.07757
+  - name: code
+    link: https://github.com/antonior92/aliasing-in-cnns
+oliveira_explaining_2020:
+  - name: presentation
+    link: https://slideslive.com/38932410/explaining-endtoend-ecg-automated-diagnosis-using-contextual-features
+  - name: code
+    link: https://github.com/DerickMatheus/ECG-interpretation
+ribeiro_automatic_2020-1:
+  - name: IEEE
+    link: https://ieeexplore.ieee.org/document/9344356
+  - name: url
+    link: http://www.cinc.org/archives/2020/pdf/CinC2020-130.pdf
+oliveira_explaining_2020-1:
+  - name: IEEE
+    link: https://ieeexplore.ieee.org/document/9344277
+  - name: url
+    link: http://www.cinc.org/archives/2020/pdf/CinC2020-452.pdf
+

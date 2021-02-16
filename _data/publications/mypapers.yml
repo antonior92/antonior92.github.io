@@ -101,9 +101,8 @@
     - family: Meira Jr
       given: Wagner
   container-title: >-
-    To appear in the proceedings of the The European Conference on Machine
-    Learning and Principles and Practice of Knowledge Discovery in Databases
-    (ECML-PKDD)
+    Proceedings of the The European Conference on Machine Learning and
+    Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)
   issued:
     - year: 2020
   title: Explaining end-to-end ECG automated diagnosis using contextual features
@@ -142,6 +141,7 @@
     - family: Jr
       given: Wagner Meira
   container-title: 2020 Computing in Cardiology (CinC)
+  DOI: 10.22489/CinC.2020.452
   issued:
     - year: 2020
   title: >-
@@ -589,6 +589,7 @@
     - family: Jr
       given: Wagner Meira
   container-title: 2020 Computing in Cardiology (CinC)
+  DOI: 10.22489/CinC.2020.130
   issued:
     - year: 2020
   title: Automatic 12-lead ECG classiﬁcation using a convolutional network ensemble

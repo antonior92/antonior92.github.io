@@ -4,14 +4,12 @@
 - [x] Make sure - is included properly in _pages/publi.html between additional items. 
     Right now, when there is no doi but some additional link it does not work well.
 ------   
-- [ ] Update bio
-- [ ] Update personal description
+- [x] Update bio
+- [x] Update personal description
 ------
-- [ ] Create tool to create .tex from .yaml files: idea use liquid markup language! https://github.com/Shopify/liquid
+- [ ] Create tool to create .tex from .yml files, idea: use liquid markup language! https://github.com/Shopify/liquid
 - [ ] Move all my cv info to yaml
 - [ ] Create all the other sections in the website
-------
-- [ ] Create tool to extract external links / pdf from zotero.
 ------
 - [ ] Create projects
 ------
