@@ -1,6 +1,8 @@
 hendriks_deep_2020:
   - name: arXiv
     link: https://arxiv.org/abs/2012.04136
+  - name: code
+    link: https://github.com/jnh277/ebm_arx
 ribeiro_beyond_2020:
   - name: arxiv
     link: https://arxiv.org/abs/2012.06341
@@ -75,6 +77,8 @@ ribeiro_deep_2019:
 ribeiro_learning_2020:
   - name: url
     link: https://www.ppgee.ufmg.br/defesas/1480D.PDF
+  - name: slides
+    link: pdfs/slides/2020-PhD.pdf
 ribeiro_recurrent_2017:
   - name: url
     link: https://www.ppgee.ufmg.br/defesas/1480M.PDF
@@ -102,9 +106,17 @@ ribeiro_automatic_2020-1:
     link: https://ieeexplore.ieee.org/document/9344356
   - name: url
     link: http://www.cinc.org/archives/2020/pdf/CinC2020-130.pdf
+  - name: code
+    link: https://github.com/antonior92/physionet-12ecg-classification
+  - name: slides
+    link: pdfs/slides/2020-CinC.pdf
+  - name: presentation
+    link: hhttps://www.dropbox.com/s/y6evd4m0islhyf2/Presentation.mp4?dl=0
 oliveira_explaining_2020-1:
   - name: IEEE
     link: https://ieeexplore.ieee.org/document/9344277
   - name: url
     link: http://www.cinc.org/archives/2020/pdf/CinC2020-452.pdf
-
+lima_deep_2021:
+  - name: code
+    link: https://github.com/antonior92/ecg-age-prediction
