@@ -7,11 +7,12 @@
   papers:
       - lima_deep_2021
       - ribeiro_automatic_2020
-- name: Artificial intelligence for ECG classifcation and prediction of the risk of death
+- name: Artificial intelligence for ECG classification and prediction of the risk of death
   slide: pdfs/slides/2021-AIMLab.pdf
   place: Techinion, Israel (Online)
   venue: AIMLab group meeting
   date: March 2021
+  website: https://aim-lab.github.io/
   papers:
     - lima_deep_2021
     - ribeiro_automatic_2020

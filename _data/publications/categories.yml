@@ -1,12 +1,11 @@
-- name: Work in progress
+- name: Work in Progress
   papers:
       - lima_deep_2021
       - hendriks_deep_2020
       - ribeiro_beyond_2020
 
-- name: Accepted  Papers
+- name: In Press
   papers:
-      - oliveira_explaining_2020
       - ribeiro_how_2021
 
 - name: Journal Papers
@@ -22,6 +21,7 @@
 
 - name: International Conference Papers
   papers:
+      - oliveira_explaining_2020
       - ribeiro_beyond_2020-1
       - andersson_deep_2019
       - ribeiro_lasso_2018
