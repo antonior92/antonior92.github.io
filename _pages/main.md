@@ -8,7 +8,7 @@ I'm postdoctoral fellow in the group of [Thomas Schön](http://user.it.uu.se/~th
 at [Uppsala University](http://www.it.uu.se/) (Sweden). My general areas of interest are
 **machine learning**, **system theory** and **signal processing**. My research focuses
 on techniques for extracting information and learning the intrinsic behavior
-of time series, signals and dynamical systems. My research is motivated by 
+of time series, signals and dynamical systems. And is motivated by 
 a range of applications, in particular the ones emerging from 
 computational **electrocardiography**.
 

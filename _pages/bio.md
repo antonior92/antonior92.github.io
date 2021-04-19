@@ -4,15 +4,12 @@ title: Biography
 permalink: /bio
 ---
 
-Antônio H. Ribeiro is post-doctoral fellow at Uppsala University. His current research interests are mainly 
-within the areas of machine learning, system theory and signal processing, with applications to health care
-and eletrocardiography. 
-
-Born in Brasil, 1992, he received his bachelor's and master's in Electrical Engineering from
-the Universidade Federal de Minas Gerais, UFMG (Brazil) in 2016 and 2017, respectively.
-He joined the doctoral program of the same university at the same year. During one year 
-of his Ph.D., he was a visiting researcher at the Uppsala University (Sweden).
-And, in 2020, he earned his Ph.D. at UFMG. During 2020, he was a post-doctoral 
-researcher  at the UFMG Department of Computer Science  and, in 2021, he joined 
-the System and Control Division at Uppsala University as post-doctoral fellow.
-
+Antônio Horta Ribeiro is post-doctoral fellow at Uppsala University (Sweden)
+in the group of Thomas Schön. Born in Brasil, in 1992, he received his B.Sc, 
+M.Sc. and Ph.D. degrees in Electrical Engineering from the Federal University
+of Minas Gerais (Brazil) in 2016, 2017 and 2020, respectively. He has held a 
+visiting position in the Department of Information Technology at Uppsala 
+University during one year of his Ph.D. He is also a member of SciPy core 
+development team, having contributed to optimization and signal processing 
+packages. His current research focuses on techniques for extracting information
+and learning the intrinsic behavior of time series, signals and dynamical systems. And is motivated by a range of applications, in particular, the ones emerging from computational electrocardiography.
