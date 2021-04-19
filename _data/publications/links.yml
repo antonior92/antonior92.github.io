@@ -96,6 +96,10 @@ ribeiro_how_2021:
     link: http://arxiv.org/abs/2102.07757
   - name: code
     link: https://github.com/antonior92/aliasing-in-cnns
+  - name: slides
+    link: pdfs/slides/2021-ICASSP.pdf
+  - name: poster
+    link: pdfs/posters/2021-ICASSP.pdf
 oliveira_explaining_2020:
   - name: presentation
     link: https://slideslive.com/38932410/explaining-endtoend-ecg-automated-diagnosis-using-contextual-features
