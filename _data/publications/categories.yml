@@ -1,11 +1,11 @@
 - name: Work in Progress
   papers:
       - lima_deep_2021
-      - hendriks_deep_2020
-      - ribeiro_beyond_2020
 
 - name: In Press
   papers:
+      - hendriks_deep_2021
+      - ribeiro_beyond_2021
       - ribeiro_how_2021
 
 - name: Journal Papers
@@ -34,6 +34,7 @@
 
 - name: Workshop papers, conference abstracts and extended abstracts
   papers:
+      - ribeiro_overparametrized_2021
       - ribeiro_automatic_2020-1
       - oliveira_explaining_2020-1
       - ribeiro_automatic_2018

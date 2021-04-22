@@ -32,7 +32,7 @@
   title: Deep Convolutional Networks in System Identification
   type: article-journal
 
-- id: hendriks_deep_2020
+- id: hendriks_deep_2021
   abstract: >-
     This paper is directed towards the problem of learning nonlinear ARX models
     based on system input--output data. In particular, our interest is in
@@ -44,10 +44,6 @@
     consider a deep neural network for this purpose. The primary benefit of this
     approach is that it is capable of learning both simple and highly complex
     noise models, which we demonstrate on simulated and experimental data.
-  accessed:
-    - year: 2020
-      month: 12
-      day: 29
   author:
     - family: Hendriks
       given: Johannes N.
@@ -59,11 +55,11 @@
       given: Adrian G.
     - family: Schön
       given: Thomas B.
-  container-title: arXiv:2012.04136
+  container-title: >-
+    To appear in the Proceedings of the 19th IFAC Symposium on System
+    Identification (SYSID)
   issued:
-    - year: 2020
-      month: 12
-      day: 7
+    - year: 2021
   source: arXiv.org
   title: Deep Energy-Based NARX Models
   type: article-journal
@@ -667,51 +663,6 @@
   title: Automatic 12-lead ECG classiﬁcation using a convolutional network ensemble
   type: paper-conference
 
-- id: ribeiro_beyond_2020
-  abstract: >-
-    System identification aims to build models of dynamical systems from data.
-    Traditionally, choosing the model requires the designer to balance between
-    two goals of conflicting nature; the model must be rich enough to capture
-    the system dynamics, but not so flexible that it learns spurious random
-    effects from the dataset. It is typically observed that model validation
-    performance follows a U-shaped curve as the model complexity increases.
-    Recent developments in machine learning and statistics, however, have
-    observed situations where a "double-descent" curve subsumes this U-shaped
-    model-performance curve. With a second decrease in performance occurring
-    beyond the point where the model has reached the capacity of interpolating -
-    i.e., (near) perfectly fitting - the training data. To the best of our
-    knowledge, however, such phenomena have not been studied within the context
-    of the identification of dynamic systems. The present paper aims to answer
-    the question: "Can such a phenomenon also be observed when estimating
-    parameters of dynamic systems?" We show the answer is yes, verifying such
-    behavior experimentally both for artificially generated and real-world
-    datasets.
-  accessed:
-    - year: 2020
-      month: 12
-      day: 29
-  author:
-    - family: Ribeiro
-      given: Antônio H.
-    - family: Hendriks
-      given: Johannes N.
-    - family: Wills
-      given: Adrian G.
-    - family: Schön
-      given: Thomas B.
-  container-title: arXiv:2012.06341
-  issued:
-    - year: 2020
-      month: 12
-      day: 11
-  source: arXiv.org
-  title: >-
-    Beyond Occam's Razor in System Identification: Double-Descent when Modeling
-    Dynamics
-  title-short: Beyond Occam's Razor in System Identification
-  type: article-journal
-  URL: http://arxiv.org/abs/2012.06341
-
 - id: ribeiro_beyond_2020-1
   author:
     - family: Ribeiro
@@ -735,6 +686,29 @@
   type: paper-conference
   URL: http://proceedings.mlr.press/v108/ribeiro20a.html
   volume: '108'
+
+- id: ribeiro_beyond_2021
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Hendriks
+      given: Johannes N.
+    - family: Wills
+      given: Adrian G.
+    - family: Schön
+      given: Thomas B.
+  container-title: >-
+    To appear in the Proceedings of the 19th IFAC Symposium on System
+    Identification (SYSID)
+  issued:
+    - year: 2021
+  source: arXiv.org
+  title: >-
+    Beyond Occam's Razor in System Identification: Double-Descent when Modeling
+    Dynamics
+  title-short: Beyond Occam's Razor in System Identification
+  type: paper-conference
+  URL: http://arxiv.org/abs/2012.06341
 
 - id: ribeiro_deep_2019
   author:
@@ -762,8 +736,8 @@
     - family: Schon
       given: Thomas B.
   container-title: >-
-    Acepted at the IEEE International Conference on Acoustics, Speech and Signal
-    Processing (ICASSP)
+    Accepted at the IEEE International Conference on Acoustics, Speech and
+    Signal Processing (ICASSP)
   issued:
     - year: 2021
   title: How convolutional neural networks deal with aliasing
@@ -841,6 +815,20 @@
     Learning nonlinear differentiable models for signals and systems:  with
     applications
   type: thesis
+
+- id: ribeiro_overparametrized_2021
+  author:
+    - family: Ribeiro
+      given: Antonio H
+    - family: Schön
+      given: Thomas B
+  container-title: Workshop on the Theory of Overparameterized Machine Learning (TOPML)
+  event: Workshop on the Theory of Overparameterized Machine Learning (TOPML))
+  issued:
+    - year: 2021
+      month: 4
+  title: Overparametrized Regression Under L2 Adversarial Attacks
+  type: paper-conference
 
 - id: ribeiro_parallel_2018
   abstract: "Neural network models for dynamic systems can be trained either in parallel or in series-parallel configurations. Influenced by early arguments, several papers justify the choice of series-parallel rather than parallel configuration claiming it has a lower computational cost, better stability properties during training and provides more accurate results. Other published results, on the other hand, defend parallel training as being more robust and capable of yielding more accurate long-term predictions. The main contribution of this paper is to present a study comparing both methods under the same unified framework with special attention to three aspects: (i)\_robustness of the estimation in the presence of noise; (ii)\_computational cost; and, (iii)\_convergence. A unifying mathematical framework and simulation studies show situations where each training method provides superior validation results and suggest that parallel training is generally better in more realistic scenarios. An example using measured data seems to reinforce such a claim. Complexity analysis and numerical examples show that both methods have similar computational cost although series-parallel training is more amenable to parallelization. Some informal discussion about stability and convergence properties is presented and explored in the examples."

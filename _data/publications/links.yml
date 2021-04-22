@@ -124,3 +124,8 @@ oliveira_explaining_2020-1:
 lima_deep_2021:
   - name: code
     link: https://github.com/antonior92/ecg-age-prediction
+ribeiro_overparametrized_2021:
+  - name: abstract
+    link: pdfs/abstracts/2021-TOPML.pdf
+  - name: slides
+    link: pdfs/slides/2021-TOPML.pdf
