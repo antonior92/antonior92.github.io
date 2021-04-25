@@ -22,15 +22,11 @@
 - name: International Conference Papers
   papers:
       - oliveira_explaining_2020
-      - ribeiro_beyond_2020-1
+      - ribeiro_beyond_2020
       - andersson_deep_2019
       - ribeiro_lasso_2018
       - ribeiro_shooting_2017
       - ribeiro_selecting_2015
-
-- name: National Conference Papers
-  papers:
-      - ribeiro_relacoes_2014
 
 - name: Workshop papers, conference abstracts and extended abstracts
   papers:
@@ -42,6 +38,12 @@
       - ribeiro_deep_2020
       - gabriela_validation_2020
       - gabriela_clinical_2018
+
+- name: National Conference Papers
+  papers:
+      - ribeiro_relacoes_2014
+
+
 
 - name: Thesis
   papers:
