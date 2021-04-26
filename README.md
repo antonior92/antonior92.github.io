@@ -20,7 +20,7 @@ git submodule init
 git submodule update
 ```
 
-Generate pdf using pdflatex:
+Generate pdf using pdflatex: 
 ```
 cd CV
 mkdir out
