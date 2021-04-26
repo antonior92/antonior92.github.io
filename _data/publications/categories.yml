@@ -30,6 +30,8 @@
 
 - name: Workshop papers, conference abstracts and extended abstracts
   papers:
+      - hendriks_deep_2021-1
+      - ribeiro_beyond_2021-1
       - ribeiro_overparametrized_2021
       - ribeiro_automatic_2020-1
       - oliveira_explaining_2020-1

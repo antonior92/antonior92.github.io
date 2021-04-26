@@ -115,7 +115,7 @@ ribeiro_automatic_2020-1:
   - name: slides
     link: pdfs/slides/2020-CinC.pdf
   - name: presentation
-    link: hhttps://www.dropbox.com/s/y6evd4m0islhyf2/Presentation.mp4?dl=0
+    link: https://www.dropbox.com/s/y6evd4m0islhyf2/Presentation.mp4?dl=0
 oliveira_explaining_2020-1:
   - name: IEEE
     link: https://ieeexplore.ieee.org/document/9344277
@@ -132,3 +132,13 @@ ribeiro_overparametrized_2021:
 paixao_clinical_2018:
   - name: url
     link: https://www.ahajournals.org/doi/abs/10.1161/circ.138.suppl_1.16594
+hendriks_deep_2021-1:
+  - name: book of abstracts
+    link: pdfs/abstracts/2021-NonLinWorkshop.pdf
+  - name: slides
+    link: pdfs/slides/2021-NonLinWorkshop-2.pdf
+ribeiro_beyond_2021-1:
+  - name: book of abstracts
+    link: pdfs/abstracts/2021-NonLinWorkshop.pdf
+  - name: slides
+    link: pdfs/slides/2021-NonLinWorkshop-1.pdf

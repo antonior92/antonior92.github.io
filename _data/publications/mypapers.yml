@@ -65,6 +65,35 @@
   type: article-journal
   URL: http://arxiv.org/abs/2012.04136
 
+- id: hendriks_deep_2021-1
+  abstract: >-
+    This paper is directed towards the problem of learning nonlinear ARX models
+    based on system input–output data. In particular, our interest is in
+    learning a conditional distribution of the current output based on a finite
+    window of past inputs and outputs. To achieve this, we consider the use of
+    so-called energy-based models, which have been developed in allied fields
+    for learning unknown distributions based on data. This energy-based model
+    relies on a general function to describe the distribution, and here we
+    consider a deep neural network for this purpose. The primary benefit of this
+    approach is that it is capable of learning both simple and highly complex
+    noise models, which we demonstrate on simulated and experimental data.
+  author:
+    - family: Hendriks
+      given: Johannes N.
+    - family: Gustafsson
+      given: Fredrik K.
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Wills
+      given: Adrian G.
+    - family: Schön
+      given: Thomas B.
+  container-title: Workshop on Nonlinear System Identification
+  issued:
+    - year: 2021
+  title: Deep Energy-Based NARX Models
+  type: article-journal
+
 - id: lima_deep_2021
   abstract: >-
     The electrocardiogram (ECG) is the most commonly used exam for the screening
@@ -288,8 +317,7 @@
       given: Leonardo
     - family: Ribeiro
       given: Antonio L.
-  container-title: Circulation. Abstracts from American Heart Association's conference.
-  container-title-short: Circulation
+  container-title: Circulation. Abstracts from American Heart Association's.
   issue: Suppl_1
   issued:
     - year: 2018
@@ -297,13 +325,12 @@
       day: 6
   page: A16594-A16594
   publisher: American Heart Association
-  source: ahajournals.org (Atypon)
   title: >-
     Clinical Outcomes in Digital Electrocardiography: Evaluation of Mortality in
     Atrial Fibrillation (Code Study)
   title-short: Abstract 16594
   type: article-journal
-  URL: https://www.ahajournals.org/doi/abs/10.1161/circ.138.suppl\_1.16594
+  URL: https://www.ahajournals.org/doi/abs/10.1161/circ.138.suppl_1.16594
   volume: '138'
 
 - id: paixao_ecg-age_2020
@@ -662,7 +689,7 @@
   title: Automatic 12-lead ECG classiﬁcation using a convolutional network ensemble
   type: paper-conference
 
-- id: ribeiro_beyond_2020-1
+- id: ribeiro_beyond_2020
   author:
     - family: Ribeiro
       given: Antônio H.
@@ -709,6 +736,24 @@
   type: paper-conference
   URL: http://arxiv.org/abs/2012.06341
 
+- id: ribeiro_beyond_2021-1
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Hendriks
+      given: Johannes N.
+    - family: Wills
+      given: Adrian G.
+    - family: Schön
+      given: Thomas B.
+  container-title: Workshop on Nonlinear System Identification
+  issued:
+    - year: 2021
+  title: >-
+    Beyond Occam's Razor in System Identification: Double-Descent when Modeling
+    Dynamics
+  type: paper-conference
+
 - id: ribeiro_deep_2019
   author:
     - family: Ribeiro
@@ -721,7 +766,7 @@
       given: Niklas
     - family: Schon
       given: Thomas B
-  container-title: Workshop on nonlinear system identification
+  container-title: Workshop on Nonlinear System Identification
   issued:
     - year: 2019
   source: Zotero
@@ -884,7 +929,9 @@
       given: Antônio H.
     - family: Aguirre
       given: Luis A.
-  container-title: IFAC-PapersOnLine
+  container-title: >-
+    Proceedings of the 2nd IFAC Workshop on Automatic Control in Offshore Oil
+    and Gas Production. IFAC-PapersOnLine
   DOI: 10/gfjwq8
   issue: '6'
   issued:
@@ -913,7 +960,7 @@
       given: Antônio H.
     - family: Aguirre
       given: Luis A.
-  container-title: IFAC-PapersOnLine
+  container-title: Proceedings of the 20th IFAC World Congress. IFAC-PapersOnLine
   container-title-short: IFAC-PapersOnLine
   DOI: 10/gfjwmp
   ISSN: 2405-8963
