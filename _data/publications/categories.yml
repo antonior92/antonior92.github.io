@@ -33,16 +33,15 @@
       - ribeiro_overparametrized_2021
       - ribeiro_automatic_2020-1
       - oliveira_explaining_2020-1
-      - ribeiro_automatic_2018
-      - paixao_ecg-age_2020
-      - ribeiro_deep_2020
       - gabriela_validation_2020
-      - gabriela_clinical_2018
+      - paixao_ecg-age_2020
+      - ribeiro_deep_2019
+      - ribeiro_automatic_2018
+      - paixao_clinical_2018
 
 - name: National Conference Papers
   papers:
       - ribeiro_relacoes_2014
-
 
 
 - name: Thesis

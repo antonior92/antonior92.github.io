@@ -70,7 +70,7 @@ ribeiro_automatic_2018:
   - name: poster
     link: pdfs/posters/2018-ML4HNeurIPS.pdf
 ribeiro_deep_2019:
-  - name: abstract
+  - name: extended abstract
     link: pdfs/abstracts/2019-NonLinWorkshop.pdf
   - name: slides
     link: slides/2019-NonLinWorkshop.pdf
@@ -129,3 +129,6 @@ ribeiro_overparametrized_2021:
     link: pdfs/abstracts/2021-TOPML.pdf
   - name: slides
     link: pdfs/slides/2021-TOPML.pdf
+paixao_clinical_2018:
+  - name: url
+    link: https://www.ahajournals.org/doi/abs/10.1161/circ.138.suppl_1.16594

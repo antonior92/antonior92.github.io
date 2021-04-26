@@ -288,9 +288,8 @@
       given: Leonardo
     - family: Ribeiro
       given: Antonio L.
-  container-title: Circulation
+  container-title: Circulation. Abstracts from American Heart Association's conference.
   container-title-short: Circulation
-  DOI: 10.1161/circ.138.suppl_1.16594
   issue: Suppl_1
   issued:
     - year: 2018
@@ -304,7 +303,7 @@
     Atrial Fibrillation (Code Study)
   title-short: Abstract 16594
   type: article-journal
-  URL: https://www.ahajournals.org/doi/abs/10.1161/circ.138.suppl_1.16594
+  URL: https://www.ahajournals.org/doi/abs/10.1161/circ.138.suppl\_1.16594
   volume: '138'
 
 - id: paixao_ecg-age_2020
