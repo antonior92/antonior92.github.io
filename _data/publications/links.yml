@@ -30,7 +30,7 @@ ribeiro_parallel_2018:
     link: https://github.com/antonior92/ParallelTrainingNN.jl
   - name: code
     link: https://github.com/antonior92/ParallelTrainingNN.jl
-ribeiro_beyond_2020-1:
+ribeiro_beyond_2020:
   - name: url
     link: http://proceedings.mlr.press/v108/ribeiro20a.html
   - name: presentation
