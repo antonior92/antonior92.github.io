@@ -1,0 +1,35 @@
+upcomming:
+  - position: Lecturer
+    university: Uppsala University, Sweden
+    year: 2021
+    semester: Fall
+    course: Advanced Probabilistic Machine Learning
+    level: MSc
+  - position: Course organizer
+    university: Uppsala University, Sweden
+    year: 2021
+    semester: Fall
+    course: The unreasonable effectiveness of overparameterized machine learning models
+    level: PhD
+
+current:
+  - position: Teaching assistent
+    university: Uppsala University, Sweden
+    year: 2021
+    semester: Spring
+    course: Deep Learning
+    level: PhD
+
+previous:
+  - position: Teaching assistent
+    university: Universidade Federal de Minas Gerais, Brazil
+    year: 2016
+    semester: 2nd
+    course: Engenharia de Controle (Control Engineering)
+    level: BSc
+  - position: Teaching assistent
+    university: Universidade Federal de Minas Gerais, Brazil
+    year: 2016
+    semester: 2nd
+    course: Controle Digital  (Digital Control)
+    level: BSc
