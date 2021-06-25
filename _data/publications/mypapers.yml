@@ -65,7 +65,7 @@
   type: article-journal
   URL: http://arxiv.org/abs/2012.04136
 
-- id: hendriks_deep_2021-1
+- id: hendriks_deep_2021a
   abstract: >-
     This paper is directed towards the problem of learning nonlinear ARX models
     based on system input–output data. In particular, our interest is in
@@ -157,7 +157,7 @@
     predictor
   type: article-journal
 
-- id: meira_jr_contextualized_2020
+- id: meirajr_contextualized_2020
   author:
     - family: Meira Jr
       given: Wagner
@@ -175,37 +175,6 @@
   type: article-journal
 
 - id: oliveira_explaining_2020
-  author:
-    - family: Oliveira
-      given: Derick M.
-    - family: Ribeiro
-      given: Antônio H.
-    - family: Pedrosa
-      given: João A. O.
-    - family: Paixao
-      given: Gabriela M.M.
-    - family: Ribeiro
-      given: Antonio Luiz P.
-    - family: Meira Jr
-      given: Wagner
-  collection-title: Lecture Notes in Computer Science}
-  container-title: >-
-    Machine Learning and Knowledge Discovery in Databases. European Conference
-    on Machine Learning and Principles and Practice of Knowledge Discovery in
-    Databases (ECML-PKDD)
-  DOI: 10.1007/978-3-030-67670-4_13
-  event-place: Ghent, Belgium
-  issued:
-    - year: 2020
-      month: 9
-  page: 204--219
-  publisher: Springer
-  publisher-place: Ghent, Belgium
-  title: Explaining end-to-end ECG automated diagnosis using contextual features
-  type: paper-conference
-  volume: '12461'
-
-- id: oliveira_explaining_2020-1
   abstract: >-
     In this work, we present a method to explain “end-toend” electrocardiogram
     (ECG) signal classiﬁers, where the explanations were built along with
@@ -246,6 +215,37 @@
     cardiologists
   type: paper-conference
   volume: '47'
+
+- id: oliveira_explaining_2020a
+  author:
+    - family: Oliveira
+      given: Derick M.
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Pedrosa
+      given: João A. O.
+    - family: Paixao
+      given: Gabriela M.M.
+    - family: Ribeiro
+      given: Antonio Luiz P.
+    - family: Meira Jr
+      given: Wagner
+  collection-title: Lecture Notes in Computer Science}
+  container-title: >-
+    Machine Learning and Knowledge Discovery in Databases. European Conference
+    on Machine Learning and Principles and Practice of Knowledge Discovery in
+    Databases (ECML-PKDD)
+  DOI: 10.1007/978-3-030-67670-4_13
+  event-place: Ghent, Belgium
+  issued:
+    - year: 2020
+      month: 9
+  page: 204--219
+  publisher: Springer
+  publisher-place: Ghent, Belgium
+  title: Explaining end-to-end ECG automated diagnosis using contextual features
+  type: paper-conference
+  volume: '12461'
 
 - id: paixao_clinical_2018
   abstract: >-
@@ -333,7 +333,7 @@
   URL: https://www.ahajournals.org/doi/abs/10.1161/circ.138.suppl_1.16594
   volume: '138'
 
-- id: paixao_ecg-age_2020
+- id: paixao_ecgage_2020
   author:
     - family: Paixão
       given: Gabriela Miana
@@ -612,43 +612,6 @@
   type: article-journal
 
 - id: ribeiro_automatic_2020
-  author:
-    - family: Ribeiro
-      given: Antônio H.
-    - family: Ribeiro
-      given: Manoel Horta
-    - family: Paixão
-      given: Gabriela M. M.
-    - family: Oliveira
-      given: Derick M.
-    - family: Gomes
-      given: Paulo R.
-    - family: Canazart
-      given: Jéssica A.
-    - family: Ferreira
-      given: Milton P. S.
-    - family: Andersson
-      given: Carl R.
-    - family: Macfarlane
-      given: Peter W.
-    - family: Meira Jr.
-      given: Wagner
-    - family: Schön
-      given: Thomas B.
-    - family: Ribeiro
-      given: Antonio Luiz P.
-  container-title: Nature Communications
-  DOI: 10/drkd
-  issue: '1'
-  issued:
-    - year: 2020
-  page: '1760'
-  source: arXiv.org
-  title: Automatic diagnosis of the 12-lead ECG using a deep neural network
-  type: article-journal
-  volume: '11'
-
-- id: ribeiro_automatic_2020-1
   abstract: >-
     The 12-lead electrocardiogram (ECG) is a major diagnostic test for
     cardiovascular diseases and enhanced automated analysis tools might lead to
@@ -689,7 +652,63 @@
   title: Automatic 12-lead ECG classiﬁcation using a convolutional network ensemble
   type: paper-conference
 
-- id: ribeiro_beyond_2020
+- id: ribeiro_automatic_2020a
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Ribeiro
+      given: Manoel Horta
+    - family: Paixão
+      given: Gabriela M. M.
+    - family: Oliveira
+      given: Derick M.
+    - family: Gomes
+      given: Paulo R.
+    - family: Canazart
+      given: Jéssica A.
+    - family: Ferreira
+      given: Milton P. S.
+    - family: Andersson
+      given: Carl R.
+    - family: Macfarlane
+      given: Peter W.
+    - family: Meira Jr.
+      given: Wagner
+    - family: Schön
+      given: Thomas B.
+    - family: Ribeiro
+      given: Antonio Luiz P.
+  container-title: Nature Communications
+  DOI: 10/drkd
+  issue: '1'
+  issued:
+    - year: 2020
+  page: '1760'
+  source: arXiv.org
+  title: Automatic diagnosis of the 12-lead ECG using a deep neural network
+  type: article-journal
+  volume: '11'
+
+- id: ribeiro_deep_2019
+  author:
+    - family: Ribeiro
+      given: Antonio H
+    - family: Andersson
+      given: Carl
+    - family: Tiels
+      given: Koen
+    - family: Wahlstrom
+      given: Niklas
+    - family: Schon
+      given: Thomas B
+  container-title: Workshop on Nonlinear System Identification
+  issued:
+    - year: 2019
+  source: Zotero
+  title: Deep Convolutional Networks are Useful in System Identiﬁcation
+  type: article-journal
+
+- id: ribeiro_exploding_2020
   author:
     - family: Ribeiro
       given: Antônio H.
@@ -713,66 +732,6 @@
   URL: http://proceedings.mlr.press/v108/ribeiro20a.html
   volume: '108'
 
-- id: ribeiro_beyond_2021
-  author:
-    - family: Ribeiro
-      given: Antônio H.
-    - family: Hendriks
-      given: Johannes N.
-    - family: Wills
-      given: Adrian G.
-    - family: Schön
-      given: Thomas B.
-  container-title: >-
-    To appear in the Proceedings of the 19th IFAC Symposium on System
-    Identification (SYSID)
-  issued:
-    - year: 2021
-  source: arXiv.org
-  title: >-
-    Beyond Occam's Razor in System Identification: Double-Descent when Modeling
-    Dynamics
-  title-short: Beyond Occam's Razor in System Identification
-  type: paper-conference
-  URL: http://arxiv.org/abs/2012.06341
-
-- id: ribeiro_beyond_2021-1
-  author:
-    - family: Ribeiro
-      given: Antônio H.
-    - family: Hendriks
-      given: Johannes N.
-    - family: Wills
-      given: Adrian G.
-    - family: Schön
-      given: Thomas B.
-  container-title: Workshop on Nonlinear System Identification
-  issued:
-    - year: 2021
-  title: >-
-    Beyond Occam's Razor in System Identification: Double-Descent when Modeling
-    Dynamics
-  type: paper-conference
-
-- id: ribeiro_deep_2019
-  author:
-    - family: Ribeiro
-      given: Antonio H
-    - family: Andersson
-      given: Carl
-    - family: Tiels
-      given: Koen
-    - family: Wahlstrom
-      given: Niklas
-    - family: Schon
-      given: Thomas B
-  container-title: Workshop on Nonlinear System Identification
-  issued:
-    - year: 2019
-  source: Zotero
-  title: Deep Convolutional Networks are Useful in System Identiﬁcation
-  type: article-journal
-
 - id: ribeiro_how_2021
   author:
     - family: Ribeiro
@@ -780,10 +739,13 @@
     - family: Schon
       given: Thomas B.
   container-title: >-
-    Accepted at the IEEE International Conference on Acoustics, Speech and
-    Signal Processing (ICASSP)
+    IEEE International Conference on Acoustics, Speech and Signal Processing
+    (ICASSP)
+  DOI: 10.1109/ICASSP39728.2021.9414627
   issued:
     - year: 2021
+  page: 2755-2759
+  publisher: IEEE
   title: How convolutional neural networks deal with aliasing
   type: paper-conference
 
@@ -859,6 +821,47 @@
     Learning nonlinear differentiable models for signals and systems:  with
     applications
   type: thesis
+
+- id: ribeiro_occam_2021
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Hendriks
+      given: Johannes N.
+    - family: Wills
+      given: Adrian G.
+    - family: Schön
+      given: Thomas B.
+  container-title: >-
+    To appear in the Proceedings of the 19th IFAC Symposium on System
+    Identification (SYSID)
+  issued:
+    - year: 2021
+  source: arXiv.org
+  title: >-
+    Beyond Occam's Razor in System Identification: Double-Descent when Modeling
+    Dynamics
+  title-short: Beyond Occam's Razor in System Identification
+  type: paper-conference
+  URL: http://arxiv.org/abs/2012.06341
+
+- id: ribeiro_occam_2021a
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Hendriks
+      given: Johannes N.
+    - family: Wills
+      given: Adrian G.
+    - family: Schön
+      given: Thomas B.
+  container-title: Workshop on Nonlinear System Identification
+  issued:
+    - year: 2021
+  title: >-
+    Beyond Occam's Razor in System Identification: Double-Descent when Modeling
+    Dynamics
+  type: paper-conference
 
 - id: ribeiro_overparametrized_2021
   author:
@@ -1017,7 +1020,7 @@
   type: article-journal
   volume: '121'
 
-- id: ribeiro_tele-electrocardiography_2019
+- id: ribeiro_teleelectrocardiography_2019
   abstract: >-
     Digital electrocardiographs are now widely available and a large number of
     digital electrocardiograms (ECGs) have been recorded and stored. The present
@@ -1187,4 +1190,3 @@
   title: SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python
   type: article-journal
   volume: '17'
-

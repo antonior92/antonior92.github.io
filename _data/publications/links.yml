@@ -3,7 +3,7 @@ hendriks_deep_2021:
     link: https://arxiv.org/abs/2012.04136
   - name: code
     link: https://github.com/jnh277/ebm_arx
-ribeiro_beyond_2021:
+ribeiro_occam_2021:
   - name: arxiv
     link: https://arxiv.org/abs/2012.06341
   - name: code
@@ -13,7 +13,7 @@ ribeiro_smoothness_2020:
     link: https://github.com/antonior92/MultipleShootingPEM.jl
   - name: arXiv
     link: https://arxiv.org/abs/1905.00820
-ribeiro_automatic_2020:
+ribeiro_automatic_2020a:
   - name: arXiv
     link: http://arxiv.org/abs/1904.01949
   - name: code
@@ -100,12 +100,14 @@ ribeiro_how_2021:
     link: pdfs/slides/2021-ICASSP.pdf
   - name: poster
     link: pdfs/posters/2021-ICASSP.pdf
+  - name: sigport
+    link: https://sigport.org/documents/how-convolutional-neural-networks-deal-aliasing
 oliveira_explaining_2020:
   - name: presentation
     link: https://slideslive.com/38932410/explaining-endtoend-ecg-automated-diagnosis-using-contextual-features
   - name: code
     link: https://github.com/DerickMatheus/ECG-interpretation
-ribeiro_automatic_2020-1:
+ribeiro_automatic_2020:
   - name: IEEE
     link: https://ieeexplore.ieee.org/document/9344356
   - name: url
@@ -116,7 +118,7 @@ ribeiro_automatic_2020-1:
     link: pdfs/slides/2020-CinC.pdf
   - name: presentation
     link: https://www.dropbox.com/s/y6evd4m0islhyf2/Presentation.mp4?dl=0
-oliveira_explaining_2020-1:
+oliveira_explaining_2020a:
   - name: IEEE
     link: https://ieeexplore.ieee.org/document/9344277
   - name: url
@@ -132,12 +134,12 @@ ribeiro_overparametrized_2021:
 paixao_clinical_2018:
   - name: url
     link: https://www.ahajournals.org/doi/abs/10.1161/circ.138.suppl_1.16594
-hendriks_deep_2021-1:
+hendriks_deep_2021a:
   - name: book of abstracts
     link: pdfs/abstracts/2021-NonLinWorkshop.pdf
   - name: slides
     link: pdfs/slides/2021-NonLinWorkshop-2.pdf
-ribeiro_beyond_2021-1:
+ribeiro_occam_2021a:
   - name: book of abstracts
     link: pdfs/abstracts/2021-NonLinWorkshop.pdf
   - name: slides

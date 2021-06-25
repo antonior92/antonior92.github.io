@@ -5,8 +5,7 @@
 - name: In Press
   papers:
       - hendriks_deep_2021
-      - ribeiro_beyond_2021
-      - ribeiro_how_2021
+      - ribeiro_occam_2021
 
 - name: Journal Papers
   papers:
@@ -21,7 +20,8 @@
 
 - name: International Conference Papers
   papers:
-      - oliveira_explaining_2020
+      - ribeiro_how_2021
+      - oliveira_explaining_2020a
       - ribeiro_beyond_2020
       - andersson_deep_2019
       - ribeiro_lasso_2018
@@ -30,11 +30,11 @@
 
 - name: Workshop papers, conference abstracts and extended abstracts
   papers:
-      - hendriks_deep_2021-1
-      - ribeiro_beyond_2021-1
+      - hendriks_deep_2021a
+      - ribeiro_occam_2021a
       - ribeiro_overparametrized_2021
-      - ribeiro_automatic_2020-1
-      - oliveira_explaining_2020-1
+      - ribeiro_automatic_2020
+      - oliveira_explaining_2020
       - gabriela_validation_2020
       - paixao_ecg-age_2020
       - ribeiro_deep_2019
