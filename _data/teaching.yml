@@ -11,6 +11,7 @@ upcomming:
     semester: Fall
     course: The unreasonable effectiveness of overparameterized machine learning models
     level: PhD
+    link: http://www.it.uu.se/research/systems_and_control/education/2021/overparameterized-ml
 
 current:
   - position: Teaching assistent
@@ -19,6 +20,7 @@ current:
     semester: Spring
     course: Deep Learning
     level: PhD
+    link: https://uppsala.instructure.com/courses/38705
 
 previous:
   - position: Teaching assistent

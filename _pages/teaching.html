@@ -10,7 +10,11 @@ permalink: /teaching
 
 {% for p in site.data.teaching.upcomming %}
 <div class="container">
-  <h3> {{ p.course }}  ({{ p.year}}, {{p.semester}}) |  {{ p.level}}  level course </h3>
+  <h3>  {% if p.link == blank %}
+      {{ p.course }}
+      {% else %}
+      <a href="{{p.link}}"> {{ p.course }}  </a>
+      {% endif %}  ({{ p.year}}, {{p.semester}}) |  {{ p.level}}  level course </h3>
     <ul>
         <li>{{ p.position }} - {{ p.university }}</li>
     </ul>
@@ -22,7 +26,12 @@ permalink: /teaching
 <hr />
 
 {% for p in site.data.teaching.current %}
-  <h3> {{ p.course }}  ({{ p.year}}, {{p.semester}}) |  {{ p.level}}  level course</h3>
+  <h3>
+      {% if p.link == blank %}
+      {{ p.course }}
+      {% else %}
+      <a href="{{p.link}}"> {{ p.course }}  </a>
+      {% endif %} ({{ p.year}}, {{p.semester}}) |  {{ p.level}}  level course</h3>
     <ul>
         <li>{{ p.position }} - {{ p.university }}</li>
     </ul>
