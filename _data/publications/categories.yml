@@ -9,7 +9,7 @@
 
 - name: Journal Papers
   papers:
-      - meira_jr_contextualized_2020
+      - meirajr_contextualized_2020
       - paixao_evaluation_2020
       - ribeiro_smoothness_2020
       - ribeiro_automatic_2020
@@ -22,7 +22,7 @@
   papers:
       - ribeiro_how_2021
       - oliveira_explaining_2020a
-      - ribeiro_beyond_2020
+      - ribeiro_exploding_2020
       - andersson_deep_2019
       - ribeiro_lasso_2018
       - ribeiro_shooting_2017
