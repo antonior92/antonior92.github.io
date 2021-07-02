@@ -1,6 +1,6 @@
 ---
 layout: default
-title:
+title: projects
 permalink: /projects
 ---
 <article class="post">
@@ -10,15 +10,11 @@ permalink: /projects
 {% for p in site.data.projects %}
   <h3> {{ p.name }} </h3>
   {{ p.description }}
-   {% for tag in site.tags %}
-      {% if p.name == tag[0] %}
-      <ul>
-        {% for post in tag[1] %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a> --- {{ post.date | date: "%B %e, %Y" }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-{% endfor %}
+  <ul>
+    {% for item in p.related-items %}
+      <li><a href="{{ item.link }}">{{ item.title }}</a>  ({{ item.type }})</li>
+    {% endfor %}
+  </ul>
 {% endfor %}
 
 </article>

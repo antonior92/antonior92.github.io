@@ -1,3 +1,18 @@
 - name: SciPy and Optimization
-  description: Google Summer of Code. I’ll be working on one of the core Python scientific libraries called
-    Scipy. My task is to implement a constrained optimization algorithm.
+  description: I have contributed to the the Python scientific library Scipy with implementations of optimization and signal processing algorithms.
+  related-items:
+    - type: blog post
+      title: GSoC 2017 - Scipy. Large-scale Constrained Optimization
+      link: /posts/2017/05/GSoC-proposal/
+    - type: blog post
+      title: Projected Conjugate Gradient
+      link: /posts/2017/05/projected-CG/
+    - type: blog post
+      title: Byrd-Omojokun Trust-Region SQP
+      link: /posts/2017/06/Byrd-Omojokun/
+    - type: blog post
+      title: Interior-Point Method
+      link: /posts/2017/07/interior-point-method/
+    - type: blog post
+      title: GSoC 2017 - Submission
+      link: /posts/2017/24/GSoC-submission/
