@@ -1,18 +1,74 @@
-- name: SciPy and Optimization
-  description: I have contributed to the the Python scientific library Scipy with implementations of optimization and signal processing algorithms.
+- name: Overparametrization, generalization and robustness
+  start: 2020
+  end: Now
+  description: >-
+    During the contributed to the the Python scientific library Scipy with implementations of
+    optimization and signal processing algorithms.
+
+- name: Artificial inteligence for ECG automatic analysis
+  start: 2018
+  end: Now
+  description: >-
+    During the contributed to the the Python scientific library Scipy with implementations of
+    optimization and signal processing algorithms.
+
+- name: Deep learning for dynamical systems
+  start: 2018
+  end: Now
+  description: >-
+    During the contributed to the the Python scientific library Scipy with implementations of
+    optimization and signal processing algorithms.
+
+- name: Smoothness of optimization-based learning of recurrent structures
+  start: 2016
+  end: 2020
+  description: >-
+    During the contributed to the the Python scientific library Scipy with implementations of
+    optimization and signal processing algorithms.
+
+- name: Open source algorithms for optimization and signal processing in Scipy
+  start: 2016
+  end: 2018
+  description: >-
+    During the contributed to the the Python scientific library Scipy with implementations of
+    optimization and signal processing algorithms.
   related-items:
-    - type: blog post
+    - type: Blog post
       title: GSoC 2017 - Scipy. Large-scale Constrained Optimization
       link: /posts/2017/05/GSoC-proposal/
-    - type: blog post
+    - type: Blog post
       title: Projected Conjugate Gradient
       link: /posts/2017/05/projected-CG/
-    - type: blog post
+    - type: Blog post
       title: Byrd-Omojokun Trust-Region SQP
       link: /posts/2017/06/Byrd-Omojokun/
-    - type: blog post
+    - type: Blog post
       title: Interior-Point Method
       link: /posts/2017/07/interior-point-method/
-    - type: blog post
+    - type: Blog post
       title: GSoC 2017 - Submission
       link: /posts/2017/24/GSoC-submission/
+
+- name: FPGA-based stereo vision
+  start: 2015
+  end: 2016
+  description: >-
+    During the contributed to the the Python scientific library Scipy with implementations of
+    optimization and signal processing algorithms.
+
+- name: Modeling oil wells and Soft-Sensors
+  start: 2013
+  end: 2015
+  description: >-
+    Modeling oil wells using historical data from sensors. In offshore oil extraction, the instruments located
+    at the bottom of the well undergo a rapid wear due to extreme conditions. The maintenance and exchange of
+    such equipment is complicated and expensive. In this context, obtain mathematical models for variables at
+    the bottom of the oil well, from platform variables would be a simple and inexpensive solution. These
+    mathematical models are also called virtual sensors. As a undergraduate student I participated on a research and
+    development project coordinated by professor Luis Antônio Aguirre at Universidade Federal de Minas Gerais (Brasil)
+    together with Petrobras Oil Company together with Petrobras for the development of Virtual Sensors.
+  related-items:
+      - type: Publication
+        tag: ribeiro_selecting_2015
+      - type: Publication
+        tag: ribeiro_relacoes_2014
