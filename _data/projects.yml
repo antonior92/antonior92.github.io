@@ -4,6 +4,10 @@
   description: >-
     During the contributed to the the Python scientific library Scipy with implementations of
     optimization and signal processing algorithms.
+  publications:
+    - ribeiro_occam_2021
+    - ribeiro_overparametrized_2021
+    - ribeiro_occam_2021a
 
 - name: Artificial inteligence for ECG automatic analysis
   start: 2018
@@ -11,6 +15,13 @@
   description: >-
     During the contributed to the the Python scientific library Scipy with implementations of
     optimization and signal processing algorithms.
+  publications:
+    - lima_deep_2021
+    - meirajr_contextualized_2020
+    - paixao_evaluation_2020
+    - ribeiro_automatic_2020
+    - ribeiro_tele-electrocardiography_2019
+    - paixao_evaluation_2019
 
 - name: Deep learning for dynamical systems
   start: 2018
@@ -18,6 +29,12 @@
   description: >-
     During the contributed to the the Python scientific library Scipy with implementations of
     optimization and signal processing algorithms.
+  publications:
+      - hendriks_deep_2021
+      - hendriks_deep_2021a
+      - ribeiro_exploding_2020
+      - andersson_deep_2019
+      - ribeiro_deep_2019
 
 - name: Smoothness of optimization-based learning of recurrent structures
   start: 2016
@@ -25,6 +42,12 @@
   description: >-
     During the contributed to the the Python scientific library Scipy with implementations of
     optimization and signal processing algorithms.
+  publications:
+    - ribeiro_learning_2020
+    - ribeiro_smoothness_2020
+    - ribeiro_parallel_2018
+    - ribeiro_recurrent_2017
+    - ribeiro_shooting_2017
 
 - name: Open source algorithms for optimization and signal processing in Scipy
   start: 2016
@@ -32,22 +55,14 @@
   description: >-
     During the contributed to the the Python scientific library Scipy with implementations of
     optimization and signal processing algorithms.
-  related-items:
-    - type: Blog post
-      title: GSoC 2017 - Scipy. Large-scale Constrained Optimization
-      link: /posts/2017/05/GSoC-proposal/
-    - type: Blog post
-      title: Projected Conjugate Gradient
-      link: /posts/2017/05/projected-CG/
-    - type: Blog post
-      title: Byrd-Omojokun Trust-Region SQP
-      link: /posts/2017/06/Byrd-Omojokun/
-    - type: Blog post
-      title: Interior-Point Method
-      link: /posts/2017/07/interior-point-method/
-    - type: Blog post
-      title: GSoC 2017 - Submission
-      link: /posts/2017/24/GSoC-submission/
+  publications:
+    - virtanen_scipy_2020
+  blog-posts:
+    - /posts/2017/05/GSoC-proposal/
+    - /posts/2017/05/projected-CG/
+    - /posts/2017/06/Byrd-Omojokun/
+    - /posts/2017/07/interior-point-method/
+    - /posts/2017/24/GSoC-submission/
 
 - name: FPGA-based stereo vision
   start: 2015
@@ -55,6 +70,8 @@
   description: >-
     During the contributed to the the Python scientific library Scipy with implementations of
     optimization and signal processing algorithms.
+  publications:
+    - ribeiro_implementacao_2015
 
 - name: Modeling oil wells and Soft-Sensors
   start: 2013
@@ -68,8 +85,6 @@
     development project coordinated by professor Luis Antônio Aguirre at Universidade Federal de Minas Gerais (Brasil)
     together with Petrobras Oil Company together for the development of virtual sensors of the instrumented located at
     the bottom of the oil well.
-  related-items:
-      - type: Publication
-        tag: ribeiro_selecting_2015
-      - type: Publication
-        tag: ribeiro_relacoes_2014
+  publications:
+        - ribeiro_selecting_2015
+        - ribeiro_relacoes_2014

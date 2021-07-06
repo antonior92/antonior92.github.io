@@ -10,16 +10,15 @@ permalink: /projects
   <article class="post">
   <h2>  ({{ p.start }} -  {{ p.end }})  {{ p.name }} </h2>
     <div class="entry">
-      {{ p.description }}
-      <ul>
-        {% for item in p.related-items %}
-          {% if item.type == "Blog post" %}
-            <li><a href="{{ item.link }}">{{ item.title }}</a>  ({{ item.type }})</li>
-          {% elsif item.type == "Publication" %}
+        <p style="margin-bottom:0.1cm;">{{ p.description }}</p>
+        {% if p.publications.size > 0 %}
+        <br>
+        <b>Publications:</b>
+        <ul>
+        {% for item in p.publications %}
             {% for paper in site.data.publications.mypapers %}
-                {% if paper.id == item.tag %}
-                  <li> <b>{{ item.type }}:</b> <br>
-                    <span style="font-size:0.7em">
+                {% if paper.id == item %}
+                    <li><span style="font-size:0.7em">
                     {{ paper.title }} ({{ paper.issued[0].year }}). <i> {{ paper.container-title }}.</i>
                                {% assign var = 1 %}
                                 {% for author in paper.author %}
@@ -29,14 +28,12 @@ permalink: /projects
                                            {{ author.given }} {{ author.family }}{% unless paper.author.size == var %}, {% endunless %}
                                       {% endif %}
                                       {% assign var = var | plus: 1 %}
-                                  {% endfor %}
-                      </>
-                    </li>
+                               {% endfor %}
+                    </span></li>
                 {% endif %}
             {% endfor %}
-          {% endif %}
         {% endfor %}
-      </ul>
+        </ul>{% endif %}
     </div>
   </article>
   <hr />
