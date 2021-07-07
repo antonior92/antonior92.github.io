@@ -68,8 +68,21 @@
   start: 2015
   end: 2016
   description: >-
-    During the contributed to the the Python scientific library Scipy with implementations of
-    optimization and signal processing algorithms.
+    Building a stereo camera based on FPGA technology. A stereo camera is a camera
+    that captures two (or more images) simultaneously from different viewpoints for the purpose of estimating depth.
+    The idea mimics our own eyes, which give us a sense of depth precisely
+    because they capture two simultaneous images from different points of view.
+    I worked in all stages of its development, from the image aquisition using FPGA technology to the
+    several steps required to estimate the depth of a scene using a stereo camera calibration (determination of geometry
+    and parameters of the stereo camera), rectification (alignment of the images), correspondence (determination of the
+    corresponding points in the two images and the distance between them) and reconstruction (calculating the
+    position of objects by triangulation). The project was develop during my interniship at Invent Vision hardware
+    development team. The company develops cameras and provides computer vision solutions for industry. At that point
+    the company was commissioned to make a decoking monitoring system at an oil refinery. For this task, it was
+    interesting to have a cloud of points  containing the internal structure of the refinery drum, which sparked the
+    company's interest in stereo vision technology. Working there, I developed a prototype of a stereo camera which is
+    described in a monograph I wrote during my undergraduate course as requirement for obtaing the Bachelor degree in
+    Electrical Engineering.
   publications:
     - ribeiro_implementacao_2015
 
@@ -81,10 +94,10 @@
     at the bottom of the well undergo a rapid wear due to extreme conditions. The maintenance and exchange of
     such equipment is complicated and expensive. In this context, obtain mathematical models for variables at
     the bottom of the oil well, from platform variables would be a simple and inexpensive solution. These
-    mathematical models are also called virtual sensors. As a undergraduate student I participated on a research and
+    mathematical models are also called virtual sensors. As a undergraduate student, I participated on a research and
     development project coordinated by professor Luis Antônio Aguirre at Universidade Federal de Minas Gerais (Brasil)
-    together with Petrobras Oil Company together for the development of virtual sensors of the instrumented located at
-    the bottom of the oil well.
+    together with Petrobras Oil Company together for the development of virtual sensors for the measurement
+    instrumented located at the bottom of the production column in offshore oil extraction.
   publications:
         - ribeiro_selecting_2015
         - ribeiro_relacoes_2014
