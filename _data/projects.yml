@@ -53,8 +53,28 @@
   start: 2016
   end: 2018
   description: >-
-    During the contributed to the the Python scientific library Scipy with implementations of
-    optimization and signal processing algorithms.
+    Scipy is a library of numerical routines implemented in the Python programming language. The library contains
+    fundamental blocks for solving scientific problems. Several important projects mention it in their development
+    (from the first image of a black hole to the first helicopter in Mars).
+    My first contribution to SciPy happened while I was taken a master's class in signal processing
+    and needed to implement a filter for removing the powerline interference from the signal of ECG exams
+    (which was the theme of my final project). I integrated the filter design routine I used in a pull request
+    to the SciPy signal processing library, now the function
+    <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.iirnotch.html"> "iirnotch"</a>.
+    Latter that same year, I contributed with an implementation of a trust-region optimization method, now the method
+    <a href="https://docs.scipy.org/doc/scipy/reference/optimize.minimize-trustexact.html#optimize-minimize-trustexact"> "trust-exact"</a>.
+    In the sequence, I submited a
+    <a href="https://github.com/antonior92/GSoC2017-Scipy">proposal</a>
+    to Google Summer of Project to work on algorithms for constrained optimization
+    in SciPy. My proposal was accepted and I was mentored by three SciPy developers (Nikolay Mayorov, Matt Haberland
+    and Ralf Gommes)  through the development of a interior point methods for solving nonlinear constrained
+    optimization problems. The implementation was based on a similar technique to that of the commercial software KNITRO
+    (that was described in research papers by the authors of the solver). The implementation is now integrated to SciPy
+    <a href="https://docs.scipy.org/doc/scipy/reference/optimize.minimize-trustconstr.html">trust-constr</a>. In
+    September 2017, because of my contributions to the library, I was invited to join the project's core developer team
+    and participated on the writting of the paper describing the version 1.0 of the library, published in Nature
+    Methods.
+
   publications:
     - virtanen_scipy_2020
   blog-posts:
@@ -76,7 +96,7 @@
     several steps required to estimate the depth of a scene using a stereo camera calibration (determination of geometry
     and parameters of the stereo camera), rectification (alignment of the images), correspondence (determination of the
     corresponding points in the two images and the distance between them) and reconstruction (calculating the
-    position of objects by triangulation). The project was develop during my interniship at Invent Vision hardware
+    position of objects by triangulation). The project was develop during my internship at Invent Vision
     development team. The company develops cameras and provides computer vision solutions for industry. At that point
     the company was commissioned to make a decoking monitoring system at an oil refinery. For this task, it was
     interesting to have a cloud of points  containing the internal structure of the refinery drum, which sparked the
