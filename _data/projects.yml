@@ -13,8 +13,17 @@
   start: 2018
   end: Now
   description: >-
-    During the contributed to the the Python scientific library Scipy with implementations of
-    optimization and signal processing algorithms.
+    The electrocardiogram is a medical test used to measure cardiac electrical activity, being the
+    most common complementary exam to assess the heart condition. I am interested in the use of machine
+    learning techniques for the automatic analysis of electrocardiogram. And my current research leverages
+    the latest developments in machine learning for extending and improving how ECG is used in clinical practice.
+    The research is conducted together with Telehealth Network of Minas Gerais and researches from the Department
+    of UFMG School of Medicine in Brazil. And, also, more recently with the  Clinical Epidemiology Unit,
+    Department of Medical Sciences, Uppsala University.  My envolvment with ECG analysis started during my Master's
+    course in Signal Processing, I chose to work with electrocardiogram exam for my final project, in 2016, using data
+    provided by the Telehealth Network of Minas Gerais. In 2018, I got envolved with the center again, when I
+    joined the research group CODE (Clinical Outcomes in Eletrocardiography) which work on research using
+    historical data colected from the center
   publications:
     - lima_deep_2021
     - meirajr_contextualized_2020
@@ -63,17 +72,18 @@
     <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.iirnotch.html"> "iirnotch"</a>.
     Latter that same year, I contributed with an implementation of a trust-region optimization method, now the method
     <a href="https://docs.scipy.org/doc/scipy/reference/optimize.minimize-trustexact.html#optimize-minimize-trustexact"> "trust-exact"</a>.
-    In the sequence, I submited a
+    Interested in continuing contributing to SciPy, I submitted a
     <a href="https://github.com/antonior92/GSoC2017-Scipy">proposal</a>
-    to Google Summer of Project to work on algorithms for constrained optimization
-    in SciPy. My proposal was accepted and I was mentored by three SciPy developers (Nikolay Mayorov, Matt Haberland
-    and Ralf Gommes)  through the development of a interior point methods for solving nonlinear constrained
+    to Google Summer of Code to work on algorithms for constrained optimization
+    in SciPy. My proposal was accepted, I was sponsored by Google and mentored by three SciPy
+    developers (Nikolay Mayorov, Matt Haberland and Ralf Gommes)  through the development of
+    a interior point methods for solving nonlinear constrained
     optimization problems. The implementation was based on a similar technique to that of the commercial software KNITRO
     (that was described in research papers by the authors of the solver). The implementation is now integrated to SciPy
     <a href="https://docs.scipy.org/doc/scipy/reference/optimize.minimize-trustconstr.html">trust-constr</a>. In
-    September 2017, because of my contributions to the library, I was invited to join the project's core developer team
-    and participated on the writting of the paper describing the version 1.0 of the library, published in Nature
-    Methods.
+    September 2017, because of my contributions to the library, I was invited to join the project in the core
+    developer team and participated on the writting of the paper describing the version 1.0 of the library, published
+    in Nature Methods.
 
   publications:
     - virtanen_scipy_2020
@@ -88,14 +98,14 @@
   start: 2015
   end: 2016
   description: >-
-    Building a stereo camera based on FPGA technology. A stereo camera is a camera
-    that captures two (or more images) simultaneously from different viewpoints for the purpose of estimating depth.
-    The idea mimics our own eyes, which give us a sense of depth precisely
+    A stereo camera is a camera that captures two (or more images) simultaneously from different viewpoints
+    for the purpose of estimating depth. The idea mimics our own eyes, which give us a sense of depth precisely
     because they capture two simultaneous images from different points of view.
-    I worked in all stages of its development, from the image aquisition using FPGA technology to the
-    several steps required to estimate the depth of a scene using a stereo camera calibration (determination of geometry
-    and parameters of the stereo camera), rectification (alignment of the images), correspondence (determination of the
-    corresponding points in the two images and the distance between them) and reconstruction (calculating the
+    I worked in all stages of the development of stereo camera based on FPGA technology,
+    from the image acquisition from an image sensor through an FPGA chip to the several steps
+    required to estimate the depth of a scene using a stereo camera: calibration (determination of geometry
+    and parameters of the stereo camera); rectification (alignment of the images); correspondence (determination of the
+    corresponding points in the two images and the distance between them); and, reconstruction (calculating the
     position of objects by triangulation). The project was develop during my internship at Invent Vision
     development team. The company develops cameras and provides computer vision solutions for industry. At that point
     the company was commissioned to make a decoking monitoring system at an oil refinery. For this task, it was
@@ -110,14 +120,15 @@
   start: 2013
   end: 2015
   description: >-
-    Modeling oil wells using historical data from sensors. In offshore oil extraction, the instruments located
-    at the bottom of the well undergo a rapid wear due to extreme conditions. The maintenance and exchange of
-    such equipment is complicated and expensive. In this context, obtain mathematical models for variables at
-    the bottom of the oil well, from platform variables would be a simple and inexpensive solution. These
-    mathematical models are also called virtual sensors. As a undergraduate student, I participated on a research and
-    development project coordinated by professor Luis Antônio Aguirre at Universidade Federal de Minas Gerais (Brasil)
-    together with Petrobras Oil Company together for the development of virtual sensors for the measurement
-    instrumented located at the bottom of the production column in offshore oil extraction.
+    In offshore oil extraction, the instruments located at the bottom of the well undergo a rapid wear due to extreme
+    conditions. The maintenance and exchange of such equipment is complicated and expensive. In this context, obtaining
+    mathematical models for variables at the bottom of the oil well from platform variables is a simple and
+    inexpensive solution. These mathematical models are also called virtual sensors. As a undergraduate student,
+    I participated on a research and development project coordinated by professor Luis Antônio Aguirre fromm
+    Universidade Federal de Minas Gerais (Brasil) together with Petrobras Oil Company together for the development
+    of virtual sensors from  historical data of the oil well operation. These virtual sensors could replace
+    the measurement instrumented located at the bottom of the production column in offshore oil extraction
+    temporarily in case of malfunctioning.
   publications:
         - ribeiro_selecting_2015
         - ribeiro_relacoes_2014
