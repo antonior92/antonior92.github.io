@@ -14,16 +14,18 @@
   end: Now
   description: >-
     The electrocardiogram is a medical test used to measure cardiac electrical activity, being the
-    most common complementary exam to assess the heart condition. I am interested in the use of machine
-    learning techniques for the automatic analysis of electrocardiogram. And my current research leverages
+    most common complementary exam to assess the heart condition. My current research leverages
     the latest developments in machine learning for extending and improving how ECG is used in clinical practice.
-    The research is conducted together with Telehealth Network of Minas Gerais and researches from the Department
-    of UFMG School of Medicine in Brazil. And, also, more recently with the  Clinical Epidemiology Unit,
-    Department of Medical Sciences, Uppsala University.  My envolvment with ECG analysis started during my Master's
-    course in Signal Processing, I chose to work with electrocardiogram exam for my final project, in 2016, using data
-    provided by the Telehealth Network of Minas Gerais. In 2018, I got envolved with the center again, when I
-    joined the research group CODE (Clinical Outcomes in Eletrocardiography) which work on research using
-    historical data colected from the center
+    My involvement with ECG analysis started in 2018 when I joined the research group CODE
+    (Clinical Outcomes in Eletrocardiography) at Universidade Federal de Minas Gerais. Using a
+    dataset with more then 2 million entries collected and anotated between 2010 to 2017 by the Telehealth Network
+    of Minas Gerais we developed a system capable of detecting some ECG abnormalities with greater accuracy
+    then cardiology residents. After this successful proof of concept project, I am now involved on diverse projects
+    using AI for ECG analysis including: the prediction of age from the ECG and its use for improving
+    risk assessment; the creation of tools to detect Atrial Fibrilation before its development; and, tools for
+    detecting non-ST segment elevation myocardial infarction. Now, working not only with data from Brazil,
+    but also, since 2021, with the Clinical Epidemiology Unit in Uppsala University to power new AI applications for
+    ECG analysis using more than one million ECG collected in Stockholm region between 2007 and 2016.
   publications:
     - lima_deep_2021
     - meirajr_contextualized_2020
@@ -32,26 +34,18 @@
     - ribeiro_tele-electrocardiography_2019
     - paixao_evaluation_2019
 
-- name: Deep learning for dynamical systems
-  start: 2018
+- name: Learning dynamical systems with nonlinear models
+  start: 2017
   end: Now
   description: >-
     During the contributed to the the Python scientific library Scipy with implementations of
     optimization and signal processing algorithms.
   publications:
-      - hendriks_deep_2021
-      - hendriks_deep_2021a
-      - ribeiro_exploding_2020
-      - andersson_deep_2019
-      - ribeiro_deep_2019
-
-- name: Smoothness of optimization-based learning of recurrent structures
-  start: 2016
-  end: 2020
-  description: >-
-    During the contributed to the the Python scientific library Scipy with implementations of
-    optimization and signal processing algorithms.
-  publications:
+    - hendriks_deep_2021
+    - hendriks_deep_2021a
+    - ribeiro_exploding_2020
+    - andersson_deep_2019
+    - ribeiro_deep_2019
     - ribeiro_learning_2020
     - ribeiro_smoothness_2020
     - ribeiro_parallel_2018
