@@ -17,12 +17,12 @@
     most common complementary exam to assess the heart condition. My current research leverages
     the latest developments in machine learning for extending and improving how ECG is used in clinical practice.
     My involvement with ECG analysis started in 2018 when I joined the research group CODE
-    (Clinical Outcomes in Eletrocardiography) at Universidade Federal de Minas Gerais. Using a
-    dataset with more then 2 million entries collected and anotated between 2010 to 2017 by the Telehealth Network
+    (Clinical Outcomes in Electrocardiography) at Universidade Federal de Minas Gerais. Using a
+    dataset with more then 2 million entries collected and annotated between 2010 to 2017 by the Telehealth Network
     of Minas Gerais we developed a system capable of detecting some ECG abnormalities with greater accuracy
     then cardiology residents. After this successful proof of concept project, I am now involved on diverse projects
     using AI for ECG analysis including: the prediction of age from the ECG and its use for improving
-    risk assessment; the creation of tools to detect Atrial Fibrilation before its development; and, tools for
+    risk assessment; the creation of tools to detect Atrial Fibrillation before its development; and, tools for
     detecting non-ST segment elevation myocardial infarction. Now, working not only with data from Brazil,
     but also, since 2021, with the Clinical Epidemiology Unit in Uppsala University to power new AI applications for
     ECG analysis using more than one million ECG collected in Stockholm region between 2007 and 2016.
@@ -34,14 +34,23 @@
     - ribeiro_tele-electrocardiography_2019
     - paixao_evaluation_2019
 
-- name: Learning dynamical systems with nonlinear models
+- name: Learning nonlinear models for dynamical systems
   start: 2017
   end: Now
   description: >-
-    During the contributed to the the Python scientific library Scipy with implementations of
-    optimization and signal processing algorithms.
+    Mathematical models of dynamic systems are of fundamental importance for science and engineering.
+    Linear models of dynamic systems are well understood and are the standard choice for most engineering
+    applications. However, pushing the forefront of current engineering technology requires us to better
+    understand, model, and control nonlinear systems. With applications ranging from using
+    flexible wings for building more efficient airplanes to using amplifiers near the saturation
+    region to meet the needs of the future generation of wireless communication.
+    My research focus on analysing and developing new methods for identifying  dynamical
+    systems and learning its behavior from empirical data. This was the theme of my Master's
+    and Ph.D. Thesis and a topic of current research.
   publications:
+    - ribeiro_occam_2021
     - hendriks_deep_2021
+    - ribeiro_occam_2021a
     - hendriks_deep_2021a
     - ribeiro_exploding_2020
     - andersson_deep_2019
