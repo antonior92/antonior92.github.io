@@ -2,8 +2,25 @@
   start: 2020
   end: Now
   description: >-
-    During the contributed to the the Python scientific library Scipy with implementations of
-    optimization and signal processing algorithms.
+    Along the last decade, machine learning underwent many breakthroughs, usually led by empirical improvements that
+    allowed very large models to perform well and attain state-of-the-art performance on tasks ranging from image
+    classification to playing online games. These models, however, often have millions or, even, billions of parameters.
+    Parsimoniousness is a key principle in the philosophy behind science and engineering and it is often pursued in
+    popular machine learning and statistical methods (ideas about pruning, distilling or building sparse neural networks
+    are popular as it is, in a more classical setting, the idea of selecting a subset of regressors). The traditional
+    bias-variance trade-off can be thought of as a formalization of this principle in probabilistic terms. However, as
+    the bias-variance trade-off gets revisited, with the study of overparametrized models and the observation of a
+    second descent in the risk as we increase the model capacity beyond the point of (almost) perfectly fitting the
+    training data, one might wonder if there are other instances of how the models are evaluated where parsimonious
+    models are still the best alternative. My most recent line of research focus on the interplay between
+    overparametrization and generalization studying how different overparamentrized models generalize. With two special
+    focus: the first is how dynamic models generalize and the second is how robust to out-of-distribution scenarios
+    overparametrized models are. Indeed, robustness is a fundamental goal in machine learning. In many situations,
+    the data distribution observed in using the final model is not exactly the same
+    as the one used to develop the model. Furthermore, the ability to generalize to out-of-distribution scenarios
+    is an important capability for the successful deployment of these models. Indeed, it has recently been observed
+    that the interplay between overparametrization and robustness might be a key question for the deployment of
+    modern machine learning models.
   publications:
     - ribeiro_occam_2021
     - ribeiro_overparametrized_2021
@@ -41,7 +58,7 @@
     Mathematical models of dynamic systems are of fundamental importance for science and engineering.
     Linear models of dynamic systems are well understood and are the standard choice for most engineering
     applications. However, pushing the forefront of current engineering technology requires us to better
-    understand, model, and control nonlinear systems. With applications ranging from using
+    understand, model, and control nonlinear systems. Applications range from using
     flexible wings for building more efficient airplanes to using amplifiers near the saturation
     region to meet the needs of the future generation of wireless communication.
     My research focus on analysing and developing new methods for identifying  dynamical
@@ -87,7 +104,6 @@
     September 2017, because of my contributions to the library, I was invited to join the project in the core
     developer team and participated on the writting of the paper describing the version 1.0 of the library, published
     in Nature Methods.
-
   publications:
     - virtanen_scipy_2020
   blog-posts:
