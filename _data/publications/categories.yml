@@ -1,14 +1,13 @@
-- name: Work in Progress
+- name: Preprints
   papers:
+      - gustafsson_artificial_2021
       - lima_deep_2021
-
-- name: In Press
-  papers:
       - hendriks_deep_2021
-      - ribeiro_occam_2021
+      - ribeiro_occam_2021b
 
 - name: Journal Papers
   papers:
+      - biton_atrial_2021
       - meirajr_contextualized_2020
       - paixao_evaluation_2020
       - ribeiro_smoothness_2020
@@ -18,7 +17,7 @@
       - paixao_evaluation_2019
       - ribeiro_parallel_2018
 
-- name: International Conference Papers
+- name: Conference Papers
   papers:
       - ribeiro_how_2021
       - oliveira_explaining_2020a
@@ -41,7 +40,7 @@
       - ribeiro_automatic_2018
       - paixao_clinical_2018
 
-- name: National Conference Papers
+- name: National Conference Papers (in Portuguese)
   papers:
       - ribeiro_relacoes_2014
 

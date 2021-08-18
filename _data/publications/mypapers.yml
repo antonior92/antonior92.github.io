@@ -32,6 +32,123 @@
   title: Deep Convolutional Networks in System Identification
   type: article-journal
 
+- id: biton_atrial_2021
+  abstract: >-
+    This study aims to assess whether information derived from the raw 12-lead
+    electrocardiogram (ECG) combined with clinical information is predictive of
+    atrial fibrillation (AF) development.We use a subset of the Telehealth
+    Network of Minas Gerais (TNMG) database consisting of patients that had
+    repeated 12-lead ECG measurements between 2010-2017 that is 1,130,404
+    recordings from 415,389 unique patients. Median and interquartile of age for
+    the recordings were 58 (46-69) and 38% of the patients were males.
+    Recordings were assigned to train-validation and test sets in an 80:20%
+    split which was stratified by class, age and gender. A random forest
+    classifier was trained to predict, for a given recording, the risk of AF
+    development within 5-years. We use features obtained from different
+    modalities, namely demographics, clinical information, engineered features,
+    and features from deep representation learning.The best model performance on
+    the test set was obtained for the model combining features from all
+    modalities with an AUROC=0.909 against the best single modality model which
+    had an AUROC=0.839.Our study has important clinical implications for AF
+    management. It is the first study integrating feature engineering, deep
+    learning and EMR metadata to create a risk prediction tool for the
+    management of patients at risk of AF. The best model that includes features
+    from all modalities demonstrates that human knowledge in electrophysiology
+    combined with deep learning outperforms any single modality approach. The
+    high performance obtained suggest that structural changes in the 12-lead ECG
+    are associated with existing or impending AF.
+  accessed:
+    - year: 2021
+      month: 8
+      day: 10
+  author:
+    - family: Biton
+      given: Shany
+    - family: Gendelman
+      given: Sheina
+    - family: Ribeiro
+      given: Antônio H
+    - family: Miana
+      given: Gabriela
+    - family: Moreira
+      given: Carla
+    - family: Ribeiro
+      given: Antonio Luiz P
+    - family: Behar
+      given: Joachim A
+  container-title: European Heart Journal - Digital Health
+  container-title-short: European Heart Journal - Digital Health
+  DOI: 10.1093/ehjdh/ztab071
+  ISSN: 2634-3916
+  issued:
+    - year: 2021
+  title: >-
+    Atrial fibrillation risk prediction from the 12-lead ECG using digital
+    biomarkers and deep representation learning
+  type: article-journal
+  URL: https://doi.org/10.1093/ehjdh/ztab071
+
+- id: gustafsson_artificial_2021
+  abstract: >-
+    Background: Myocardial infarctions are often missed in the emergency
+    department. Deep learning models have shown promise in ECG classification in
+    managed settings. We postulate that deep learning models can be useful for
+    ECG myocardial infarction discrimination also in real-world emergency
+    department patients with a high suspicion of an acute coronary
+    syndrome.Methods: We studied emergency department patients in the Stockholm
+    region between 2007 and 2016 that had an ECG obtained and were admitted to a
+    coronary care unit. We developed a deep neural network based on
+    convolutional layers similar to a residual network. Inputs were ECG, age and
+    sex; output label was non-ST-elevation myocardial infarction (NSTEMI),
+    ST-elevation myocardial infarction (STEMI), and control status as registered
+    in the SWEDEHEART registry by the discharging coronary care unit physician.
+    We used an ensemble of five models.Findings: Of the included 12,311 coronary
+    care unit admissions, 3,993 were recorded with an NSTEMI, 1,340 a STEMI, and
+    6,978 had not had a myocardial infarction. In a random test set, our model
+    could discriminate STEMIs with fair precision, with a C-statistic of 0.85
+    and a Brier score of 0.10. Discrimination of NSTEMIs was poorer, with a
+    C-statistic of 0.76 and a Brier score of 0.18. The performance was similar
+    in a temporal test set that did not overlap in time with the training
+    set.Interpretation: We developed and validated a deep learning model with
+    human-level performance in classifying NSTEMI and STEMI on the presenting
+    ECG of a real-world sample of emergency department patients with a high
+    suspicion of an acute coronary syndrome. Deep learning models for ECG
+    decision support could be valuable in the emergency department.Funding: The
+    Kjell and Märta Beijer Foundation, Anders Wiklöf, the Wallenberg AI,
+    AutonomousSystems and Software Program (WASP) funded by the Knut and Alice
+    WallenbergFoundation, and Uppsala University.Declaration of Interest: JS
+    reports stock ownership in companies providing services to Itrim, Amgen,
+    Janssen, Novo Nordisk, Eli Lilly, Boehringer, Bayer, Pfizer and AstraZeneca,
+    outside the submitted work. No other authors have anything to declare.
+    Ethical Approval: The study was approved by the Swedish Ethical Review
+    Agency, application number 2020-01654.
+  author:
+    - family: Gustafsson
+      given: Stefan
+    - family: Gedon
+      given: Daniel
+    - family: Lampa
+      given: Erik
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Holzmann
+      given: Martin J.
+    - family: Schön
+      given: Thomas B.
+    - family: Sundstrom
+      given: Johan
+  container-title: SSRN
+  DOI: 10.2139/ssrn.3857655
+  issued:
+    - year: 2021
+      month: 6
+      day: 8
+  source: papers.ssrn.com
+  title: >-
+    Artificial Intelligence-Based ECG Diagnosis of Myocardial Infarction in
+    High-Risk Emergency Department Patients
+  type: article-journal
+
 - id: hendriks_deep_2021
   abstract: >-
     This paper is directed towards the problem of learning nonlinear ARX models
@@ -145,13 +262,11 @@
       given: Thomas B.
     - family: Ribeiro
       given: Antonio Luiz P.
-  container-title: medRxiv
+  container-title: To appear in Nature Communications
   DOI: 10.1101/2021.02.19.21251232
   issued:
     - year: 2021
-      month: 2
-      day: 23
-  source: www.medrxiv.org
+  source: medRxiv.org
   title: >-
     Deep neural network estimated electrocardiographic-age as a mortality
     predictor
@@ -822,7 +937,25 @@
     applications
   type: thesis
 
-- id: ribeiro_occam_2021
+- id: ribeiro_occam_2021a
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Hendriks
+      given: Johannes N.
+    - family: Wills
+      given: Adrian G.
+    - family: Schön
+      given: Thomas B.
+  container-title: Workshop on Nonlinear System Identification
+  issued:
+    - year: 2021
+  title: >-
+    Beyond Occam's Razor in System Identification: Double-Descent when Modeling
+    Dynamics
+  type: paper-conference
+
+- id: ribeiro_occam_2021b
   author:
     - family: Ribeiro
       given: Antônio H.
@@ -844,24 +977,6 @@
   title-short: Beyond Occam's Razor in System Identification
   type: paper-conference
   URL: http://arxiv.org/abs/2012.06341
-
-- id: ribeiro_occam_2021a
-  author:
-    - family: Ribeiro
-      given: Antônio H.
-    - family: Hendriks
-      given: Johannes N.
-    - family: Wills
-      given: Adrian G.
-    - family: Schön
-      given: Thomas B.
-  container-title: Workshop on Nonlinear System Identification
-  issued:
-    - year: 2021
-  title: >-
-    Beyond Occam's Razor in System Identification: Double-Descent when Modeling
-    Dynamics
-  type: paper-conference
 
 - id: ribeiro_overparametrized_2021
   author:
