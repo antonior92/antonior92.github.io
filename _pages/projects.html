@@ -10,10 +10,15 @@ permalink: /projects
   <article class="post">
   <h2>  ({{ p.start }} -  {{ p.end }})  {{ p.name }} </h2>
     <div class="entry">
-        <p style="margin-bottom:0.1cm;">{{ p.description }}</p>
+        <p style="margin-bottom:0.1cm;">
+            {% if p.image %}
+                <img src={{ p.image.path }} style="float:right;width:{{ p.image.width }};height:{{ p.image.height }};">
+            {% endif %}
+            {{ p.description }}
+        </p>
         {% if p.publications.size > 0 %}
         <br>
-        <b>Publications:</b>
+        <b>Selected publications:</b>
         <ul>
         {% for item in p.publications %}
             {% for paper in site.data.publications.mypapers %}
