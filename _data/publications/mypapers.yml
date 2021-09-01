@@ -262,15 +262,17 @@
       given: Thomas B.
     - family: Ribeiro
       given: Antonio Luiz P.
-  container-title: To appear in Nature Communications
-  DOI: 10.1101/2021.02.19.21251232
+  container-title: Nature Communications
+  DOI: 10.1038/s41467-021-25351-7
   issued:
     - year: 2021
+  note: 'medRxiv doi: 10.1101/2021.02.19.21251232'
   source: medRxiv.org
   title: >-
     Deep neural network estimated electrocardiographic-age as a mortality
     predictor
   type: article-journal
+  volume: '12'
 
 - id: meirajr_contextualized_2020
   author:

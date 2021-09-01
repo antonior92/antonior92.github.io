@@ -8,6 +8,8 @@ ribeiro_occam_2021b:
     link: https://arxiv.org/abs/2012.06341
   - name: code
     link: https://github.com/antonior92/narx-double-descent
+  - name: slides
+    link: pdfs/slides/2021-SYSID.pdf
 ribeiro_smoothness_2020:
   - name: code
     link: https://github.com/antonior92/MultipleShootingPEM.jl
@@ -126,6 +128,14 @@ oliveira_explaining_2020a:
 lima_deep_2021:
   - name: code
     link: https://github.com/antonior92/ecg-age-prediction
+  - name: medRxiv
+    link: https://www.medrxiv.org/content/10.1101/2021.02.19.21251232v1
+  - name: dataset 1
+    link: https://doi.org/10.5281/zenodo.4916206
+  - name: dataset 2
+    link: https://doi.org/10.5281/zenodo.4905618
+  - name: model
+    link: https://doi.org/10.5281/zenodo.4892365
 ribeiro_overparametrized_2021:
   - name: abstract
     link: pdfs/abstracts/2021-TOPML.pdf

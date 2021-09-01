@@ -1,4 +1,7 @@
 upcomming:
+
+
+current:
   - position: Lecturer
     university: Uppsala University, Sweden
     year: 2021
@@ -12,8 +15,6 @@ upcomming:
     course: The unreasonable effectiveness of overparameterized machine learning models
     level: PhD
     link: http://www.it.uu.se/research/systems_and_control/education/2021/overparameterized-ml
-
-current:
   - position: Teaching assistent
     university: Uppsala University, Sweden
     year: 2021
