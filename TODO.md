@@ -7,13 +7,9 @@
 - [x] Update bio
 - [x] Update personal description
 ------
-- [ ] Create tool to create .tex from .yml files, idea: use liquid markup language! https://github.com/Shopify/liquid
-- [ ] Move all my cv info to yaml
-- [ ] Create all the other sections in the website
+- [x] Create projects
 ------
-- [ ] Create projects
-------
-- [ ] Make pdf files to use pdf.html, rather then just open the pdf somewhere else?
+- [x] Make pdf files to use pdf.html, rather then just open the pdf somewhere else?
 ----
 - [ ] Add Presented both at SciLifeLab Science Summit, Uppsala (2019)  **(Best poster award)** and at the Swedish Symposium on Deep Learning - SSDL (2019)
 ```
@@ -29,3 +25,6 @@ Network**  </span> <br />
 </span>
 </div>
 ```
+----
+- [ ] Add datasets section
+- [ ] Add midia section
