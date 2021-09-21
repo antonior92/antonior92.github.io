@@ -1,8 +1,6 @@
 - name: Preprints
   papers:
       - gustafsson_artificial_2021
-      - hendriks_deep_2021
-      - ribeiro_occam_2021b
 
 - name: Journal Papers
   papers:
@@ -19,6 +17,8 @@
 
 - name: Conference Papers
   papers:
+      - hendriks_deep_2021
+      - ribeiro_occam_2021b
       - ribeiro_how_2021
       - oliveira_explaining_2020a
       - ribeiro_exploding_2020

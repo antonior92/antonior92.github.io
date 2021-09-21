@@ -173,14 +173,17 @@
     - family: Schön
       given: Thomas B.
   container-title: >-
-    To appear in the Proceedings of the 19th IFAC Symposium on System
-    Identification (SYSID)
+    Proceedings of the 19th IFAC Symposium on System Identification (SYSID) -
+    IFAC-PapersOnLine
+  DOI: 10.1016/j.ifacol.2021.08.410
+  issue: '7'
   issued:
     - year: 2021
+  page: 505-510
   source: arXiv.org
   title: Deep Energy-Based NARX Models
   type: article-journal
-  URL: http://arxiv.org/abs/2012.04136
+  volume: '54'
 
 - id: hendriks_deep_2021a
   abstract: >-
@@ -968,17 +971,20 @@
     - family: Schön
       given: Thomas B.
   container-title: >-
-    To appear in the Proceedings of the 19th IFAC Symposium on System
-    Identification (SYSID)
+    Proceedings of the 19th IFAC Symposium on System Identification (SYSID) -
+    IFAC-PapersOnLine
+  DOI: 10.1016/j.ifacol.2021.08.341
   issued:
     - year: 2021
+  page: 97-102
+  publisher: Elsevier
   source: arXiv.org
   title: >-
     Beyond Occam's Razor in System Identification: Double-Descent when Modeling
     Dynamics
   title-short: Beyond Occam's Razor in System Identification
   type: paper-conference
-  URL: http://arxiv.org/abs/2012.06341
+  volume: '54'
 
 - id: ribeiro_overparametrized_2021
   author:
