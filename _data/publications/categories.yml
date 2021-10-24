@@ -1,9 +1,11 @@
 - name: Preprints
   papers:
       - gustafsson_artificial_2021
+      - sangha_automated_2021
 
 - name: Journal Papers
   papers:
+      - paixao_electrocardiographic_2021
       - lima_deep_2021
       - biton_atrial_2021
       - meirajr_contextualized_2020
