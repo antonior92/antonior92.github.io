@@ -1,19 +1,46 @@
+- name: Aprendendo modelos para sinais e sistemas
+  youtube: CSjBICRX8_o
+  venue: Premio UFMG de Teses
+  date: Oct. 2021
+  slide: pdfs/slides/2021-PremioTeses.pdf
+  publications:
+    - ribeiro_learning_2020
+- name: "Beyond Occam's Razor in System Identification: Double-Descent when Modeling Dynamics"
+  slide: pdfs/slides/2021-SYSID.pdf
+  venue: "19th IFAC symposium on System Identification: learning models for decision and control"
+  date: July 2021
+  website: https://www.sysid2021.org/
+  publications:
+    - ribeiro_occam_2021b
+- name: How convolutional neural networks deal with aliasing
+  slide: pdfs/slides/2021-ICASSP.pdf
+  venue: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+  date: June 2021
+  website: https://www.2021.ieeeicassp.org/
+  publications:
+    - ribeiro_how_2021
+- name: Overparametrized Regression Under L2 Adversarial Attacks
+  youtube: lznrSfbxJyE?start=498
+  venue: Workshop on the Theory of Overparameterized Machine Learning
+  website: https://topml.rice.edu/
+  date: April 2021
+  slide: pdfs/slides/2021-TOPML.pdf
+  publications:
+    - ribeiro_overparametrized_2021
 - name: Artificial intelligence for ECG classifcation and prediction of the risk of death
   slide: pdfs/slides/2021-ICE.pdf
-  recorded: https://www.youtube.com/watch?v=zoIbT4VUH9c
-  place: Poland (Online)
+  youtube: zoIbT4VUH9c?mute=1
   venue: International Congress on Electrocardiology
   website: https://ice2021.pl/
   date: April 2021
-  papers:
+  publications:
       - lima_deep_2021
       - ribeiro_automatic_2020
 - name: Artificial intelligence for ECG classification and prediction of the risk of death
   slide: pdfs/slides/2021-AIMLab.pdf
-  place: Techinion, Israel (Online)
-  venue: AIMLab group meeting
+  venue: AIMLab group meeting -  Techinion, Israel (Online)
   date: March 2021
   website: https://aim-lab.github.io/
-  papers:
+  publications:
     - lima_deep_2021
     - ribeiro_automatic_2020
