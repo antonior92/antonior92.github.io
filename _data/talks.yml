@@ -44,3 +44,9 @@
   publications:
     - lima_deep_2021
     - ribeiro_automatic_2020
+- name: "Beyond exploding and vanishing gradients: analysing RNN training using attractors and smoothness"
+  slidelive: 38930165
+  venue: International Conference On Artificial Intelligence And Statistics (AISTATS)
+  date: 2020
+  publications:
+    - ribeiro_exploding_2020

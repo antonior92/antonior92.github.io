@@ -11,25 +11,37 @@ permalink: /talks
     <h3>{{ t.name }}  ({{ t.venue }}, {{ t.date }})</h3>
 
         <center>
-    {% unless t.youtube == blank %}
-     <div style="display: inline-block">
-        <iframe width="350" height="315"
-        src="https://www.youtube.com/embed/{{ t.youtube }}">
-        </iframe>
-     </div>
-    {% endunless %}
+        {% unless t.youtube == blank %}
+         <div style="display: inline-block">
+            <iframe width="350" height="315"
+            src="https://www.youtube.com/embed/{{ t.youtube }}">
+            </iframe>
+         </div>
+        {% endunless %}
 
-    {% unless t.slide == blank %}
-            <div style="display: inline-block">
-    <object data={{ t.slide }} type="application/pdf" width="350" height="315">
-    <embed src={{ t.slide }} type="application/pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it:
-            <a href={{ t.slide }}>Download PDF</a>.</p>
-    </embed></div>
-    </object>
-    {% endunless %}
+        {% unless t.slide == blank %}
+                <div style="display: inline-block">
+        <object data={{ t.slide }} type="application/pdf" width="350" height="315">
+        <embed src={{ t.slide }} type="application/pdf">
+            <p>This browser does not support PDFs. Please download the PDF to view it:
+                <a href={{ t.slide }}>Download PDF</a>.</p>
+        </embed></div>
+        </object>
+        {% endunless %}
 
-    </center>
+        {% unless t.slidelive == blank %}
+                <div id="presentation-embed-{{ t.slidelive }}"></div>
+                <script src='https://slideslive.com/embed_presentation.js'></script>
+                <script>
+                    embed = new SlidesLiveEmbed('presentation-embed-{{ t.slidelive }}', {
+                        presentationId: {{ t.slidelive }},
+                        autoPlay: false, // change to true to autoplay the embedded presentation
+                        verticalEnabled: false
+                    });
+                </script>
+        {% endunless %}
+
+     </center>
 
     {% if t.publications.size > 0 %}
         <br>
@@ -57,7 +69,4 @@ permalink: /talks
 {% endif %}
 <br />
 <hr />
-
-    </div>
 {% endfor %}
-
