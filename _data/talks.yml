@@ -1,8 +1,17 @@
+- name: On the robustness of overparametrized models
+  venue: Microseminar - System and Control Division, Uppsala University, Sweden
+  date: Nov. 2021
+  slide: pdfs/slides/2021-Microseminar.pdf
+  github: antonior92/micro-seminar
+  publications:
+    - ribeiro_overparametrized_2021
+    - ribeiro_occam_2021b
 - name: Aprendendo modelos para sinais e sistemas
   youtube: CSjBICRX8_o
   venue: Premio UFMG de Teses
   date: Oct. 2021
   slide: pdfs/slides/2021-PremioTeses.pdf
+  github: antonior92/premio-teses
   publications:
     - ribeiro_learning_2020
 - name: "Beyond Occam's Razor in System Identification: Double-Descent when Modeling Dynamics"
