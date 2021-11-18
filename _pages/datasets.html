@@ -1,0 +1,20 @@
+---
+layout: page
+title:
+permalink: /datasets
+---
+
+
+{% for p in site.data.datasets %}
+  <h2>  {{ p.name }} </h2>
+
+    {{ p.description }}
+
+    <ul>
+        <li> <a href="{{ p.url }}"> {{ p.url }} </a> ({{ p.avaibility }})
+    </ul>
+
+
+  <hr />
+{% endfor %}
+
