@@ -1,4 +1,10 @@
-- name: "CODE-test: An annotated 12-lead ECG dataset"
+- name: "CODE: an annotated 12-lead ECG dataset containing exams from more than a million patients"
+  url: https://doi.org/10.17044/scilifelab.15169716
+  avaibility: available for research upon request
+  description: Dataset with annotated 12-lead ECG records. The exams were taken in 811 counties in the state of
+    Minas Gerais/Brazil by the Telehealth Network of Minas Gerais (TNMG) between 2010 and 2016. And organized by
+    the CODE (Clinical outcomes in digital electrocardiography) group.
+- name: "CODE-test: an 12-lead ECG dataset annotated by multiple experts"
   url: https://doi.org/10.5281/zenodo.3765780
   avaibility: openly available
   description: Annotated 12 lead ECG dataset. Contain 827 ECG tracings from different patients,
