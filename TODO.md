@@ -32,8 +32,8 @@ Network**  </span> <br />
 ----
 # Database
 Keep updated database with:
-- [ ] Education
-- [ ] Work
+- [x] Education
+- [x] Work
 - [ ] Professional activities
 - [ ] Awards
 - [ ] Scholarships

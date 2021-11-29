@@ -1,0 +1,40 @@
+- position: Postdoctoral Researcher
+  start: Fev. 2021
+  end: Now
+  institution: Department of Information Technology, Uppsala University
+  place: Uppsala, Sweden
+  description: I am working under the supervision of Thomas Schön on the intersection of
+    machine learning, signal processing, and control theory.
+- position: Postdoctoral Associate
+  start: Mar. 2020
+  end: Fev. 2021
+  institution: Department of Computer Science, Universidade Federal de Minas Gerais (UFMG)
+  place: Belo Horizonte, Brasil
+  description: I worked on developing new machine learning algorithms and studying
+    its application to engineering and health care. My position was funded by the
+    Brasilian Agency CAPES, through the institutional internalization program (PRINT).
+- position: Software Developer
+  start: May. 2017
+  end: Aug. 2017
+  institution: Google Summer of Code
+  place: Scipy
+  description: I have successfully completed Google Summer of Code program under the mentorship
+    of Matt Haberland, Nikolay Mayorov and Ralf Gommers. My project was the implementation of an
+    interior-point solver for large-scale nonlinear programming problems. The result is the method
+    trust-contr, now openly available as part of the open source scientific library SciPy, in Python.
+- position: Hardware Team Intern
+  start: Jan. 2015
+  end:  Dec. 2015
+  institution: Invent Vision
+  place: Belo Horizonte, Brazil
+  description: I was part of the hardware development team and worked designing FPGA-based cameras.
+    The major project I have worked on while there was the design and implementation of a stereo
+    camera.
+- position: Undergraduate Researcher Intern
+  start: Jun. 2013
+  end: Jan. 2015
+  institution: Research and development project with Petrobras Oil Company, UFMG
+  place: Belo Horizonte, Brazil
+  description: I worked on the development of methods for identification of oil well mathematical models
+    under the supervision of Professor Luis Antonio Aguirre. My position was funded by the Petrobras Oil Company
+    through the Christiano Ottoni Foundation (FCO) in the modality bolsa de iniciação científica.
