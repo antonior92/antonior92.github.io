@@ -26,5 +26,21 @@ Network**  </span> <br />
 </div>
 ```
 ----
-- [x] Add datasets section
+# Website
 - [ ] Add midia section
+- [ ] Add news section
+----
+# Database
+Keep updated database with:
+- [ ] Education
+- [ ] Work
+- [ ] Professional activities
+- [ ] Awards
+- [ ] Scholarships
+- [ ] Supervision
+- [ ] Additional Education
+- [ ] Language skills
+----
+# Autocv
+Generate CV from databases
+(Use python-liquid)
