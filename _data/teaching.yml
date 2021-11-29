@@ -8,10 +8,10 @@
   nstudents: 125
   ncredits: 5 + 2.5
   notes: The credits equivalent to ECTS credits. Each week of full-time
-  study is worth 1.5 credits. The course was offered in two versions
-  1RT705 (5 course credits) and 1RT003 (7.5 course credits), 69 students
-  were enrolled in 1RT003 and 56 in the 1RT705. The longer version
-  of the course 1RT003 the contains additional assignments and extra content.
+    study is worth 1.5 credits. The course was offered in two versions
+    1RT705 (5 course credits) and 1RT003 (7.5 course credits), 69 students
+    were enrolled in 1RT003 and 56 in the 1RT705. The longer version
+    of the course 1RT003 the contains additional assignments and extra content.
 - position: Course organizer
   university: Uppsala University, Sweden
   year: 2021
@@ -22,7 +22,7 @@
   nstudents: 13
   ncredits: 3
   notes: Credits equivalent to ECTS credits. Each week of full-time
-  study is worth 1.5 credits.
+    study is worth 1.5 credits.
 - position: Teaching assistent
   university: Uppsala University, Sweden
   year: 2021
@@ -33,8 +33,8 @@
   nstudents: 54
   ncredits: 5 + 3
   notes: Credits equivalent to ECTS credits. Each week of full-time
-  study is worth 1.5 credits. The students that presented a final project
-  were awarded the additional 3 credits.
+    study is worth 1.5 credits. The students that presented a final project
+    were awarded the additional 3 credits.
 - position: Teaching assistent
   university: Universidade Federal de Minas Gerais, Brazil
   year: 2016
