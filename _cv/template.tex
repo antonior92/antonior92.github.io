@@ -26,51 +26,20 @@
 
 {% for e in education %}
     {\bf {{ e.degree }} } \hfill {\em  {{ e.start }} -   {{ e.end }}  } \\
+    {{ e.university }}
 {% endfor %}
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	Academic Positions
-%----------------------------------------------------------------------------------------
+\begin{rSection}{Work experience}
 
-\begin{rSection}{Work Experience}
-
-
-  \begin{rSubsection}{Postdoctoral Researcher}{Fev. 2021 - Now}{Department of Information Technology, Uppsala University}{Uppsala, Sweden}
-
-      \item I am working under the supervision of Thomas Sch\"on on the intersection of machine learning, signal processing, and control theory.
-  \end{rSubsection}
-
-  \begin{rSubsection}{Postdoctoral Associate}{Mar. 2020 - Fev. 2021}{Department of Computer Science, Universidade Federal de Minas Gerais (UFMG)}{Belo Horizonte, Brasil}
-
-  \item I worked on developing new machine learning algorithms and studying its application to engineering and health care. My position was funded by the Brasilian Agency CAPES, through the institutional internalization program (PRINT).
-  \end{rSubsection}
-
-
-  \begin{rSubsection}{Google Summer of Code}{May. 2017 - Aug. 2017}{Software Developer}{Scipy}
-
-  \item I have successfully completed Google Summer of Code program under the mentorship
-    of \href{http://mdhaber.wixsite.com/home}{Matt Haberland},
-    \href{https://github.com/nmayorov}{Nikolay Mayorov} and
-    \href{https://www.linkedin.com/in/ralf-gommers-97317b4}{Ralf Gommers}. My project was the implementation of an interior-point solver for large-scale nonlinear programming problems. The result is the method \href{http://scipy.github.io/devdocs/optimize.minimize-trustconstr.html}{\texttt{trust-contr}}, now openly available as part of the open source scientific library \href{https://www.scipy.org}{SciPy}, in Python.
-  \end{rSubsection}
-
-\begin{rSubsection}{Invent Vision}{Jan. 2015 - Dec. 2015}{Hardware Team Intern}{Belo Horizonte, Brazil}
-\item I was part of the hardware development team and worked designing FPGA-based cameras. The major project I have worked on while there was the design and implementation of a stereo camera.
-\end{rSubsection}
-
-%------------------------------------------------
-
-\begin{rSubsection}{Undergraduate Researcher Intern}{Jun. 2013 - Jan. 2015}{Research and development project with Petrobras Oil Company, UFMG}{Belo Horizonte, Brazil}
-\item I worked on the development of methods for identification of oil well mathematical models under the supervision of Professor \href{https://scholar.google.com.br/citations?user=_zkC6_kAAAAJ&hl=en}{Luis Antonio Aguirre}. My position was funded by the Petrobras Oil Company through the \textit{Christiano Ottoni Foundation} (FCO) in the modality \textit{``bolsa de inicia\c{c}\~ao cient\'ifica''}.
-\end{rSubsection}
+{% for w in work %}
+    \begin{rSubsection}{ {{w.position }} }{ {{ w.start }} -   {{ w.end }} }{ {{ w.institution }} }{ {{ w.place }} }
+      \item  {{ w.description }}
+    \end{rSubsection}
+{% endfor %}
 
 \end{rSection}
-
-
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
 
 
 %----------------------------------------------------------------------------------------
@@ -89,36 +58,13 @@
 \begin{rSection}{Professional Activities}
 
 \begin{rSubsection}{Peer reviewing: journal papers}{}{}
-
 \item  \hspace{3pt}
-{\em Heart} (2021), % 1 manuscript
-{\em IEEE Transactions on Instrumentation and Measurement} (2021), % 1 manuscript
-{\em International Journal of System Science} (2021), % 1 manuscript
-{\em Proceedings of the National Academy of Sciences (PNAS)} (2020), % 1 manuscript
-{\em Automatica} (2020),  %1 manuscript.
-{\em IEEE Transactions on Biomedical Engineering} (2020), % 1 manuscript.
-{\em IEEE Control Systems Letters (L-CSS)} (2020), % Reviewed  1 manuscript. Submited jointly for IEEE L-CSS and \\ IEEE Conference on Decision and Control (CDC).}
-{\em Systems \& Control Letters} (2020),
-{\em Chaos, Solutions \& Fractals} (2020),
-{\em CHEST} (2020), % 1 manuscript
-{\em  Journal of Electrocardiology} (2020), % 1 manuscript
-{\em Journal of Control, Automation and Electrical Systems} (2015-2018). % 4 manuscripts
-
+{% for p in professional.journalreviews %} {\em {{ p.journal }} } ({{ p.year }}), {% endfor %}
 \end{rSubsection}
 
 \begin{rSubsection}{Peer reviewing: conference papers}{}{}
-
 \item \hspace{3pt}
-{\em The 25th International Conference on Artificial Intelligence and Statistics (AISTATS)} (2022),
-{\em The 19th IFAC Symposium on System Identification} (2021), % Reviewed  3 manuscript.
-{\em Learning for Dynamics and Control (L4DC)} (2021), % Reviewed  1 manuscript.
-{\em European Control Conference (ECC)} (2021), % Reviewed  1 manuscript.
-{\em IEEE Conference on Decision and Control (CDC)} (2020), % Reviewed  1 manuscript. Submited jointly for IEEE L-CSS and \\ IEEE Conference on Decision and Control (CDC).}
-{\em The 21st IFAC World Conference} (2020), % Reviewed  1 manuscript.
-{\em The American Control Conference} (2018), % Reviewed 1 manuscript.}
-{\em The 12th International Conference on Modelling, Identification and Control } (2017), % Reviewed 1 manuscript.}
-{\em The 20th IFAC World Conference} (2017).  % Reviewed 1 manuscript.
-
+{% for p in professional.conferencereviews %} {\em {{ p.conference }} } ({{ p.year }}), {% endfor %}
 \end{rSubsection}
 
 \begin{rSubsection}{Expert assignments}{}{}
@@ -143,31 +89,15 @@
 
 \begin{rSection}{Awards}
 
-\begin{rSubsection}{Best Ph.D. Thesis (\textit{Grande Premio de Teses})}{2021}{Universidade Federal de Minas Gerais}{Belo Horizonte, Brazil}
 
-\item My thesis ``Learning nonlinear differentiable models for signals and systems: with applications'' was awarded the best Ph.D. thesis in the area of engineering and physical sciences  at the Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, Brazil. \textit{In portuguese: Minha tese foi ganhadora do grande premio de teses da UFMG na \'area de ci\^encias exatas e da terra e  engenharias.}
+{% for p in awards %}
+\begin{rSubsection}{ {{ p.award }} }{ {{ p.year }} }{  {{ p.grantedby }} }{ {{p.place}} }
+    \item {{ p.description }}
 \end{rSubsection}
-
-\begin{rSubsection}{Young Author Award (Honorable Mention)}{2021}{19th IFAC Symposium on System Identification}{Online}
-
-\item I have been one of the three finalists of the Young Author Award of the 19th IFAC Symposium on System identification. I was competing with the paper ``Beyond Occam’s Razor in System Identification: Double-Descent when Modeling Dynamics''.
-\end{rSubsection}
-
-\begin{rSubsection}{Best Poster Award}{2019}{SciLifeLab Science Summit}{Uppsala, Sweden}
-
-\item We have been awarded the best poster award for the work \textit{``Automatic Diagnosis of Short-Duration 12-Lead ECG using a Deep Convolutional Network''} presented at SciLifeLab Science Summit (Uppsala, 2019).
-\end{rSubsection}
-
-
-\begin{rSubsection}{Travel Award}{2018}{Machine Learning for Health (ML4H) Workshop at NeurIPS}{Montreal, Canada}
-\item  We have been awarded the travel award for the work \textit{``Automatic Diagnosis of Short-Duration 12-Lead ECG using a Deep Convolutional Network''} presented at Machine Learning for Health (ML4H) Workshop at NeurIPS (Motreal, 2019).
-\end{rSubsection}
-
-%------------------------------------------------
+{% endfor %}
 
 \end{rSection}
 
-\newpage
 
 \begin{rSection}{Scholarships}
 
@@ -195,22 +125,10 @@
 
 \begin{rSection}{Teaching}
 
-{\bf Course organizer}  \hfill {\em Uppsala University, Sweden}\\
-\textit{The unreasonable effectiveness of overparameterized machine learning models}  -  PhD level course \hfill {\em Fall - 2021}
-
-{\bf Lecturer}  \hfill {\em Uppsala University, Sweden}\\
-\textit{Advanced Probabilistic Machine Learning}  -  MSc level course \hfill {\em Fall - 2021}
-
-
-{\bf Teaching assistant}  \hfill {\em Uppsala University, Sweden}\\
-\textit{Deep learning}  -  PhD level course \hfill {\em Spring - 2021}
-
-{\bf Teaching assistant}  \hfill {\em Universidade Federal de Minas Gerais, Brazil}\\
-Engenharia de Controle  (\textit{Control Engineering}) -  BSc level course\hfill {\em 1st semester - 2017}
-
-
-{\bf Teaching assistant}  \hfill {\em Universidade Federal de Minas Gerais, Brazil}\\
-Controle Digital  (\textit{Digital Control})  -  BSc level course \hfill {\em 2nd semester - 2016}
+{% for p in teaching %}
+    {\bf {{ p.position }} } \hfill {\em {{ p.university }}} \\
+    { {{  p.course }}  - {{ p.level }} level course } - \hfill {\em {{ p.semester }} - {{ p.year }} }
+{% endfor %}
 
 
 \end{rSection}
@@ -228,15 +146,6 @@ Controle Digital  (\textit{Digital Control})  -  BSc level course \hfill {\em 2n
 \end{rSection}
 
 
-%\begin{rSection}{Research projects}
-
-%{\bf \textit{Clinical Outcomes in Eletrocardiography} (CODE)} \hfill {\em 2018-Present}\\
-%I integrate the CODE group. The group conducts clinical studies and develops artificial intelligence in electrocardiography. The research project is led by the Professor Antonio Luiz Pinho Ribeiro and is funded by the Brasilian Agency CNPq.
-
-%{\bf  \textit{Identification of mathematical models  of an Oil Well} -  R\&D Petrobras} \hfill {\em %2013-2015}\\
-%This project focused on the development of tools to easily generate models for an oil well and in the integration of these tools. The project was funded by the Brazilian oil company Petrobras and led by the Professor Luis Antonio Aguirre.
-%\end{rSection}
-
 
 
 %----------------------------------------------------------------------------------------
@@ -248,76 +157,16 @@ Controle Digital  (\textit{Digital Control})  -  BSc level course \hfill {\em 2n
 
 \begin{rSection}{Publications}
 
-\begin{rSubsection}{Preprints}{}{}{}
-\begin{refsection}
-    \nocite{sangha_automated_2021}
-    \nocite{gustafsson_artificial_2021}
-   \printbibliography[heading=none]
-\end{refsection}
-\end{rSubsection}
-
-
-\begin{rSubsection}{Journal Papers}{}{}{}
-\begin{refsection}
-    \nocite{paixao_electrocardiographic_2021}
-    \nocite{lima_deep_2021}
-    \nocite{biton_atrial_2021}
-    \nocite{meirajr_contextualized_2020}
-    \nocite{paixao_evaluation_2020}
-    \nocite{ribeiro_smoothness_2020}
-    \nocite{ribeiro_automatic_2020a}
-    \nocite{virtanen_scipy_2020}
-    \nocite{ribeiro_telee-lectrocardiography_2019}
-    \nocite{paixao_evaluation_2019}
-    \nocite{ribeiro_parallel_2018}
-   \printbibliography[heading=none]
-\end{refsection}
-\end{rSubsection}
-
-\begin{rSubsection}{Conference Papers}{}{}{}
-\begin{refsection}
-    \nocite{hendriks_deep_2021}
-    \nocite{ribeiro_occam_2021b}
-    \nocite{ribeiro_how_2021}
-    \nocite{ribeiro_exploding_2020}
-    \nocite{oliveira_explaining_2020a}
-    \nocite{andersson_deep_2019}
-    \nocite{ribeiro_lasso_2018}
-    \nocite{ribeiro_shooting_2017}
-   \printbibliography[heading=none]
-\end{refsection}
-\begin{refsection}
-    \nocite{ribeiro_selecting_2015}
-   \printbibliography[heading=none]
-\end{refsection}
-\end{rSubsection}
-
-
-\begin{rSubsection}{Workshop papers, conference abstracts and extended abstracts}{}{}{}
-\begin{refsection}
-    \nocite{hendriks_deep_2021a}
-    \nocite{ribeiro_occam_2021a}
-    \nocite{ribeiro_overparametrized_2021}
-    \nocite{ribeiro_automatic_2020}
-    \nocite{oliveira_explaining_2020}
-    \nocite{gabriela_validation_2020}
-    \nocite{paixao_ecg-age_2020}
-    \nocite{ribeiro_deep_2019}
-    \nocite{ribeiro_automatic_2018}
-    \nocite{paixao_clinical_2018}
-   \printbibliography[heading=none]
-\end{refsection}
-\end{rSubsection}
-
-\begin{rSubsection}{National Conference Papers (in Portuguese)}{}{}{}
-\begin{refsection}
-    \nocite{ribeiro_relacoes_2014}
-    \renewcommand*{\UrlFont}{\rmfamily}
-   \printbibliography[heading=none]
-\end{refsection}
-\end{rSubsection}
-
-
+{% for p in publications.categories %}
+    \begin{rSubsection}{ {{ p.name }} }{}{}{}
+    \begin{refsection}
+        {% for tag in p.papers %}
+            \nocite{ {{ tag }}}
+        {% endfor %}
+       \printbibliography[heading=none]
+    \end{refsection}
+    \end{rSubsection}
+{% endfor %}
 
 \end{rSection}
 

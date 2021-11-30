@@ -12,23 +12,26 @@ if __name__ == '__main__':
                         help='where to save the output')
     args = parser.parse_args()
     mydata = {}
+
     for subdir, dirs, files in os.walk(args.datafolder):
+        relative_path = os.path.relpath(subdir, args.datafolder)
+
+        mycurrentdict = mydata
+        for t in os.path.normpath(relative_path).split('/'):
+            if t in mycurrentdict.keys():
+                mycurrentdict = mycurrentdict[t]
+
+        for dir in dirs:
+            mycurrentdict[dir] = {}
         for file in files:
             filepath = subdir + os.sep + file
-            relative_path = os.path.relpath(filepath, args.datafolder)
-            name, ext = os.path.splitext(relative_path)
+            name, ext = os.path.splitext(file)
 
             if ext == ".yml":
-                tags = os.path.normpath(name).split('/')
-                tags.reverse()
-
                 # Read YAML file
                 with open(filepath, 'r') as stream:
                     localdict = yaml.safe_load(stream)
-                # Assign it to dictionary
-                for t in tags[:-1]:
-                    localdict = {t: localdict}
-                mydata[tags[-1]] = localdict
+                mycurrentdict.update(**{name: localdict})
 
     with open(args.file, "r") as f:
         latex_template = f.read()

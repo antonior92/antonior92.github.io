@@ -1,0 +1,26 @@
+- award: Best Ph.D. Thesis (Grande Premio de Teses)
+  year: 2021
+  grantedby: Universidade Federal de Minas Gerais
+  place: Belo Horizonte, Brazil
+  description: "My thesis `Learning nonlinear differentiable models for signals and systems: with applications'
+    was awarded the best Ph.D. thesis in the area of engineering and physical sciences at the Universidade
+    Federal de Minas Gerais (UFMG), Belo Horizonte, Brazil. In portuguese: Minha tese foi ganhadora
+    do grande premio de teses da UFMG na área de ciências exatas e da terra e engenharias."
+- award: Young Author Award (Honorable Mention)
+  year: 2021
+  grantedby: 19th IFAC Symposium on System Identification
+  place: Online
+  description: "I have been one of the three finalists of the Young Author Award with the paper
+   `Beyond Occam’s Razor in System Identification:  Double-Descent when Modeling Dynamics'."
+- award: Best Poster Award
+  year: 2019
+  grantedby: SciLifeLab Science Summit
+  place: Uppsala, Sweden
+  description: "I have been awarded the best poster award for the work `Automatic Diagnosis of Short-Duration
+    12-Lead ECG using a Deep Convolutional Network'."
+- award: Travel Award
+  year: 2018
+  grantedby: Machine Learning for Health (ML4H) Workshop at NeurIPS
+  place: Montreal, Canada
+  description: "I have been awarded the travel award for the work `Automatic Diagnosis of Short-Duration 12-Lead
+     ECG using a Deep Convolutional Network' and had my expenses covered by the award."

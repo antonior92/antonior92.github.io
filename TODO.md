@@ -34,8 +34,8 @@ Network**  </span> <br />
 Keep updated database with:
 - [x] Education
 - [x] Work
-- [ ] Professional activities
-- [ ] Awards
+- [ ] Additional professional activities
+- [x] Awards
 - [ ] Scholarships
 - [ ] Supervision
 - [ ] Additional Education

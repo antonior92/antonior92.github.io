@@ -9,7 +9,7 @@ main.bbl: main.bcf
 main.bcf: main.tex
 	pdflatex -interaction=nonstopmode main.tex
 
-main.tex: template.tex ../_data/*
+main.tex: template.tex ../_data/* ../scripts/render_from_template.py
 	python ../scripts/render_from_template.py template.tex ../_data -o ./main.tex
 
 .PHONY : clean
