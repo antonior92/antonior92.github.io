@@ -38,7 +38,7 @@ Keep updated database with:
 - [x] Awards
 - [x] Scholarships
 - [x] Supervision
-- [ ] Additional Education
+- [x] Additional Education
 - [ ] Language skills
 ----
 # Autocv

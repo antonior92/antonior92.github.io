@@ -183,20 +183,13 @@
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Additional Education}
 
-\begin{rSubsection}{Mini-course on Nonlinear System Identification}{2019}{}{Eindhoven University of Technology (The Netherlands)}
+{% for p in additionaleducation %}
+\begin{rSubsection}{ {{ p.name }} }{ {{ p.year }} }{ {{ p.institution }} }{ {{ p.place }} }
 
-  \item I took part on the 3 days mincourse on nonlinear system identification to take place on Eindhoven University of Technology.
+  \item {{ p.description }}
 \end{rSubsection}
 
-\begin{rSubsection}{Probabilistic Graphical Models Specialization}{2018}{Coursera}{Stanford}
-
-  \item I have successfully completed the 3 online courses about probabilistic graphical models offered by \textit{Stanford}: ``\textit{Representation}'', ``\textit{Inference}'', ``\textit{Learning}''.
-\end{rSubsection}
-
-\begin{rSubsection}{Deep Learning Specialization}{2018}{Coursera}{deeplearning.ai}
-
-  \item I have successfully completed the 5 online courses about deep learning offered in Coursera: ``\textit{Neural Networks and Deep Learning}'', ``\textit{Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization}'', ``\textit{Structuring Mechine Learning Projects}'', ``\textit{Convolutional Neural Networks}'', ``\textit{Sequence Models}''.
-\end{rSubsection}
+{% endfor %}
 
 
 \end{rSection}
