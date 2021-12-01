@@ -69,16 +69,13 @@
 
 \begin{rSubsection}{Expert assignments}{}{}
 
+{% for p in professional.others %}
 \item \hspace{3pt}
-{\em ELLIS (European Laboratory for Learning and Intelligent Systems) PhD Program: Recruitment evaluator} (2020)
+{{ p.name }} ( {{ p.year }} )
+{% endfor %}
+
 
 \end{rSubsection}
-
-\begin{rSubsection}{Chair}{}{}
-
-\item \hspace{3pt} Co-chair at the regular session  \textit{Parameter Estimation 1} at the 19th IFAC Symposium on System Identification (2021).
-\end{rSubsection}
-
 
 \end{rSection}
 
@@ -101,22 +98,11 @@
 
 \begin{rSection}{Scholarships}
 
-\begin{rSubsection}{Split-site Ph.D. Scholarship}{2019}{CNPq}{Uppsala, Sweden}
-
-\item I have been granted a scholarship from the Brasilian Agency CNPq for staying one year  of my Ph.D. in Uppsala University, Sweden.
+{% for p in scholarships %}
+\begin{rSubsection}{ {{ p.name }} }{ {{ p.year }} }{ {{ p.agency }} }{ {{ p.country }} }
+\item {{p.description}}
 \end{rSubsection}
-
-
-\begin{rSubsection}{Ph.D. Scholarship}{2018-2020}{CNPq}{Belo Horizonte, Brasil}
-
-\item I have been granted a scholarship from the Brasilian Agency CNPq during my doctoral studies .
-\end{rSubsection}
-
-
-\begin{rSubsection}{M.S. Scholarship}{2016 - 2017}{CAPES}{Belo Horizonte, Brasil}
-
-\item  I have been granted a scholarship from the Brasilian Agency CAPES during my master studies.
-\end{rSubsection}
+{% endfor %}
 
 %------------------------------------------------
 
@@ -136,12 +122,13 @@
 
 \begin{rSection}{Supervision}
 
-{\bf Ph.D. Co-supervisor: }Daniel Gedon.  \hfill {\em Uppsala University, Sweden}\\
-\textit{Disentangled Representation Learning in Self-Supervised Models} \hfill {\em  In progress}
+
+{% for p in supervision %}
+{\bf {{ p.level }}, {{ p.role }}: } {{ p.student }}  \hfill {\em {{ p.institution }}, {{ p.country }} }\\
+\textit{ {{ p.project }} } \hfill {\em   {{ p.status }} }
+{% endfor %}
 
 
-{\bf M.Sc. Subject reviewer}: Sai Abhishek Guraja.  \hfill {\em Uppsala University, Sweden}\\
-\textit{ADAS scenario classification of in-vehicle sensor data using ML} \hfill {\em In progress}
 
 \end{rSection}
 

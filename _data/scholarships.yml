@@ -1,0 +1,21 @@
+- name: CAPES-PRINT
+  year: 2020-2021
+  agency: CAPES
+  country: Brazil
+  description: I have been granted a scholarship from the Brasilian Agency CAPES for internacionalization.
+- name: Split-site Ph.D. Scholarship
+  year: 2019
+  agency: CNPq
+  country: Brazil
+  description: I have been granted a scholarship from the Brasilian Agency CNPq for staying one year
+    of my Ph.D. in Uppsala University, Sweden.
+- name: Ph.D. Scholarship
+  year: 2018-2020
+  agency: CNPq
+  country: Brazil
+  description:  I have been granted a scholarship from the Brasilian Agency CNPq during my doctoral studies.
+- name: M.S. Scholarship
+  year: 2016-2017
+  agency: CAPES
+  country: Brazil
+  description: I have been granted a scholarship from the Brasilian Agency CAPES during my master studies.

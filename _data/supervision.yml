@@ -1,0 +1,14 @@
+- student: Daniel Gedon
+  role: co-supervisor
+  level: PhD
+  project: Disentangled Representation Learning in Self-Supervised Models
+  status: In progress
+  institution: Uppsala University
+  country: Sweden
+- student: Sai Abhishek Guraja
+  role: subject reviwer (ämnesgranskare)
+  level: MSc
+  status: In progress
+  project: ADAS scenario classification of in-vehicle sensor data using ML
+  institution: Uppsala University
+  country: Sweden

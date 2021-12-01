@@ -34,10 +34,10 @@ Network**  </span> <br />
 Keep updated database with:
 - [x] Education
 - [x] Work
-- [ ] Additional professional activities
+- [x] Additional professional activities
 - [x] Awards
-- [ ] Scholarships
-- [ ] Supervision
+- [x] Scholarships
+- [x] Supervision
 - [ ] Additional Education
 - [ ] Language skills
 ----
