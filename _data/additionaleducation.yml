@@ -1,0 +1,20 @@
+- name: Mini-course on Nonlinear System Identification
+  year: 2019
+  institution: Eindhoven University of Technology
+  place: The Netherlands
+  description: I took part on the 3 days mincourse on nonlinear system identification to take place on
+    Eindhoven University of Technology.
+- name: Probabilistic Graphical Models Specialization
+  year: 2018
+  institution: Coursera (Stanford)
+  place:  Online
+  description: I have successfully completed the 3 online courses about probabilistic graphical models, titled
+    `Representation', `Inference', `Learning'.
+- name: Deep Learning Specialization
+  year: 2018
+  institution: Coursera (deeplearning.ai)
+  place:  Online
+  description: "I have successfully completed the 5 online courses about deep learning offered in Coursera,
+     `Neural Networks and Deep Learning', `Improving Deep Neural Networks: Hyperparameter tuning,
+     Regularization and Optimization', `Structuring Mechine Learning Projects', `Convolutional Neural
+     Networks', `Sequence Models'."
