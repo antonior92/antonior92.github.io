@@ -39,7 +39,6 @@ Keep updated database with:
 - [x] Scholarships
 - [x] Supervision
 - [x] Additional Education
-- [ ] Language skills
 ----
 # Autocv
 Generate CV from databases
