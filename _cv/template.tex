@@ -1,14 +1,13 @@
 \documentclass[10pt,letterpaper]{article} % Use the custom resume.cls style
 
-
-\usepackage{hyperref} % Required for adding links	and customizing them
-
+\usepackage{multicol} % For multicol at the start
+\usepackage{hyperref} % Required for adding links and customizing them
 \usepackage{xcolor}
+\usepackage{tcolorbox}
 \hypersetup{colorlinks,
   linkcolor={red!50!black},
   citecolor={blue!50!black},
   urlcolor={blue!5!black}}
-
 
 \usepackage[left=1cm,top=1.2cm,right=1cm,bottom=1.2cm]{geometry} % Document margins
 
@@ -16,27 +15,69 @@
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 
-\usepackage[sorting=ydnt, maxbibnames=99, style=ieee]{biblatex}
-\DeclareFieldFormat{labelnumberwidth}{}
-\setlength{\biblabelsep}{0pt}
+\usepackage[sorting=ydnt, maxbibnames=99, style=numeric, backend=biber]{biblatex}  % For the references
+%\DeclareFieldFormat{labelnumberwidth}{}
+\setlength{\biblabelsep}{10pt}
 \setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
 \bibliography{refs}
 
-\title{Curriculum vitae}
-\author{Antônio Horta Ribeiro}
+% Define maketitle
+\makeatletter
+\def\@maketitle{
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \bf \@title \par}%
+    \vskip 0.1em%
+    {\large
+      \lineskip .05em%
+      \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}\par}%
+    \vskip 0.1em%
+    {\large \@date}
+  \end{center}
+  \par
+  \vskip 1em}
+\makeatother
+
+% Define title and author
+\title{Curriculum Vitae}
+\author{Ant\^onio Horta Ribeiro}
 
 
 \begin{document}
 
 \maketitle
 
+\begin{tcolorbox}[standard jigsaw, opacityback=0]
+    \vspace{-4pt}
+\begin{multicols}{2}
+    \small
+    \textbf{Current Position:}\\
+    \, Postdoctoral Researcher\\
+    \, Uppsala University (Sweden)\\
+    \, Department of Information Technology,\\
+    \, Division of Systems and Control\\
+    {\bf Work Address:} Room 2340, ITC, Lägerhyddsv. 2, hus 2 \\
+    \phantom{\bf Work address:} 752 37 Uppsala, Sweden\\
+    {\bf Postal address:} Box 337 - 751 05 Uppsala, Sweden\\
+    {\bf Email:} antonio.horta.ribeiro@it.uu.se\\
+    {\bf Website:} antonior92.github.io
+\end{multicols}
+\end{tcolorbox}
+
+
 \section*{Education} % Section title
 
 {% for e in education %}
     {\bf {{ e.degree }} } \hfill {\em  {{ e.start }} -   {{ e.end }}  } \\
     {{ e.university }}  \hfill {\em {{ e.place}} } \\
-    {{ e.credits }} {{ e.grades }}
-    Monography: {\em {{ e.monography}}. } {{e.note}}
+    {% if e.credits %} Credits: {{ e.credits }} \\ {% endif%}
+    {% if e.grades %} Graded point average: {{ e.grades }} \\ {% endif %}
+    {% if e.monography %}  Monography: {\em {{ e.monography }} } \\ {% endif %}
+    {% if e.supervisor %}  Supervisor: {{ e.supervisor }}  \\ {% endif %}
+    {% if e.cosupervisor %} Co-supervisor: {{ e.cosupervisor }} \\ {% endif %}
+    {% if e.note %}  {{ e.note }} {% endif %}
 {% endfor %}
 
 
@@ -64,17 +105,21 @@
         {{ p.name }} \hfill {\em {{ p.year }} }
 {% endfor %}
 
-\subsection*{Open source}
+\subsection*{Open source contributions}
 
 {\bf Scipy  core team member} \hfill {\em 2017 - 2021} \\
-I am one of the 34 \href{https://www.scipy.org}{SciPy} core development  team members\footnote{Checked on February 20, 2020}.
-\href{https://www.scipy.org}{SciPy} is one of the core scientific libraries in Python and I was invited to the core team for having contributed to optimization and signal processing packages with the implementation of signal filters: \href{http://scipy.github.io/devdocs/generated/scipy.signal.iirnotch.html}{\texttt{iirnotch}}, \href{http://scipy.github.io/devdocs/generated/scipy.signal.iirpeak.html}{\texttt{iirpeak}}; and optimization methods: \href{http://scipy.github.io/devdocs/optimize.minimize-trustexact.html}{\texttt{trust-exact}}, \href{http://scipy.github.io/devdocs/optimize.minimize-trustconstr.html}{\texttt{trust-constr}}. My GitHub account: \href{https://github.com/antonior92}{https://github.com/antonior92} contain a complete list of my open-source contributions.
+I was one of the 34 \href{https://www.scipy.org}{SciPy} core development  team members\footnote{Checked on February 20, 2020}.
+\href{https://www.scipy.org}{SciPy} is one of the core scientific libraries in Python and I was invited to the core team
+for having contributed to optimization and signal processing packages with the implementation of signal filters:
+\href{http://scipy.github.io/devdocs/generated/scipy.signal.iirnotch.html}{\texttt{iirnotch}},
+    \href{http://scipy.github.io/devdocs/generated/scipy.signal.iirpeak.html}{\texttt{iirpeak}};
+    and optimization methods: \href{http://scipy.github.io/devdocs/optimize.minimize-trustexact.html}{\texttt{trust-exact}}, \href{http://scipy.github.io/devdocs/optimize.minimize-trustconstr.html}{\texttt{trust-constr}}. My GitHub account: \href{https://github.com/antonior92}{https://github.com/antonior92} contain a complete list of my open-source contributions.
 
 \section*{Awards}
 
 {% for p in awards %}
 {\bf {{ p.award }}} \hfill {\em {{ p.year }} }\\
-{\bf {{ p.grantedby }} } \hfill  {\em {{p.place}} } \\
+{ {{ p.grantedby }} } \hfill  {\em {{p.place}} } \\
     {{ p.description }}
 {% endfor %}
 
@@ -82,8 +127,8 @@ I am one of the 34 \href{https://www.scipy.org}{SciPy} core development  team me
 
 {% for p in scholarships %}
 {\bf {{ p.name }}} \hfill {\em {{ p.year }} } \\
-{\bf {{ p.agency }} } \hfill  {\em {{p.contry}} } \\
-{{ p.description }}
+{ {{ p.agency }} } \hfill  {\em {{p.contry}} } \\
+    {{ p.description }}
 {% endfor %}
 
 \section*{Teaching}
@@ -100,12 +145,25 @@ I am one of the 34 \href{https://www.scipy.org}{SciPy} core development  team me
 
 \section*{Publications}
 
+\begin{tcolorbox}[width=6in, standard jigsaw, opacityback=0]
+    \vspace{-4pt}
+    \footnotesize
+{\bf ORCID}:  \href{https://orcid.org/0000-0003-3632-8529}{0000-0003-3632-8529}\\
+{\bf DBLP}: \href{https://dblp.org/pid/202/1699.html}{202/1699}\\
+{\bf SCOPUS}: ID: \href{https://www.scopus.com/authid/detail.uri?authorId=57191699148}{57191699148} ---
+    Citations: 4654, h-index: 6 (2022-01-14) \\
+{\bf Google Scholar}: \href{https://scholar.google.com.br/citations?user=5t_sZdMAAAAJ}{Antonio H. Ribeiro} ---
+    Citations: 8383, h-index: 9, i10-index: 9 (2022-01-14)
+%{\bf Lattes CV}: \href{http://lattes.cnpq.br/0898576944135254}{0898576944135254}
+\end{tcolorbox}
+
 {% for p in publications.categories %}
-\subsection*{ {{ p.name }} }
+\subsection*{\noindent {{ p.name }}}
     \begin{refsection}
         {% for tag in p.papers %}
-            \nocite{ {{ tag }}}
+            \nocite{ {{ tag }} }
         {% endfor %}
+       \newrefcontext[labelprefix= {% cycle "P", "J", "C", "W", "N", "T" %} ]
        \printbibliography[heading=none]
     \end{refsection}
 {% endfor %}
@@ -114,7 +172,7 @@ I am one of the 34 \href{https://www.scipy.org}{SciPy} core development  team me
 
 {% for p in additionaleducation %}
     {\bf {{ p.name }} } \hfill {\em  {{ p.year }} }\\
-    {\bf {{ p.institution }} } \hfill {\em  {{ p.place }} } \\
+    { {{ p.institution }} } \hfill {\em  {{ p.place }} } \\
     {{ p.description }}
 {% endfor %}
 
@@ -122,70 +180,12 @@ I am one of the 34 \href{https://www.scipy.org}{SciPy} core development  team me
 
 Portuguese (mother tongue)\\
 English (fluent)\\
-\hspace{15pt} {\em  Certificate in Advanced English (Council of Europe Level C1) - Cambridge English Language Assessment, 2014} \\
-Spanish (basic knowledge)\\
+Spanish (intermediate knowledge)
+
+\subsubsection*{Language Certificates}
+
+Certificate in Advanced English (Council of Europe Level C1) - Cambridge English Language Assessment, 2014
+
 
 \end{document}
 
-%----------------------------------------------------------------------------------------
-% Open Source Contributions
-%----------------------------------------------------------------------------------------
-
-
-%----------------------------------------------------------------------------------------
-%	Awards and achievements
-%-------------
-
-
-
-
-%----------------------------------------------------------------------------------------
-
-
-%----------------------------------------------------------------------------------------
-%	Publications
-%----------------------------------------------------------------------------------------
-
-
-
-
-\begin{rSection}{Other links}
-{\bf Lattes CV} {(0898576944135254)} \hfill\href{http://lattes.cnpq.br/0898576944135254}{lattes.cnpq.br/0898576944135254}
-
-{\bf ORCID} {(0000-0003-3632-8529)}\hfill {\href{https://orcid.org/0000-0003-3632-8529}{orcid.org/0000-0003-3632-8529}}
-
-{\bf SCOPUS} {(57191699148)}\hfill{\href{https://www.scopus.com/authid/detail.uri?authorId=57191699148}{www.scopus.com/authid/detail.uri?authorId=57191699148}}
-
-{\bf Google Scholar} {(Antonio H. Ribeiro)}\hfill
-{\href{https://scholar.google.com.br/citations?user=5t_sZdMAAAAJ}{scholar.google.com.br/citations?user=5t\_sZdMAAAAJ}}
-
-{\bf DBLP} {(202/1699)}\hfill{
-\href{https://dblp.org/pid/202/1699.html}{dblp.org/pid/202/1699.html}}
-
-{\bf Microsoft Academic} {(2582984012)}\hfill{
-\href{https://academic.microsoft.com/author/2582984012}{academic.microsoft.com/author/2582984012}}
-
-
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-% Addicional Education
-%----------------------------------------------------------------------------------------
-
-\end{rSection}
-
-
-%----------------------------------------------------------------------------------------
-% Addicional Education
-%----------------------------------------------------------------------------------------
-
-
-\begin{rSection}{Language certificates}
-
-
-{\bf Certificate in Advanced English} (Council of Europe Level C1) \hfill {\em }
-
-
-\end{rSection}
-
-\end{document}

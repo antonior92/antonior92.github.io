@@ -43,12 +43,12 @@ Keep updated database with:
 - [x] Generate CV from databases (Use python-liquid)
 
 # To add to the CV
-- [ ] Add current employment
-- [ ] Add research ids
+- [x] Add current employment
+- [x] Add research ids
 - [ ] Add datasets
-- [ ] Add bibliometrics
+- [x] Add bibliometrics
 - [ ] Add invited seminars / presentations
-- [ ] Edit publication list
-- [ ] Change maketitle
+- [x] Edit publication list
+- [x] Change maketitle
 - [ ] Edit education section
 - [ ] Add midia section
