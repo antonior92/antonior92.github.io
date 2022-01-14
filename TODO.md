@@ -27,7 +27,6 @@ Network**  </span> <br />
 ```
 ----
 # Website
-- [ ] Add midia section
 - [ ] Add news section
 ----
 # Database
@@ -41,5 +40,15 @@ Keep updated database with:
 - [x] Additional Education
 ----
 # Autocv
-Generate CV from databases
-(Use python-liquid)
+- [x] Generate CV from databases (Use python-liquid)
+
+# To add to the CV
+- [ ] Add current employment
+- [ ] Add research ids
+- [ ] Add datasets
+- [ ] Add bibliometrics
+- [ ] Add invited seminars / presentations
+- [ ] Edit publication list
+- [ ] Change maketitle
+- [ ] Edit education section
+- [ ] Add midia section

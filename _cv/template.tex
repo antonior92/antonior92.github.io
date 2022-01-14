@@ -1,13 +1,20 @@
-\documentclass{resume} % Use the custom resume.cls style
+\documentclass[10pt,letterpaper]{article} % Use the custom resume.cls style
 
 
-\name{Ant\^{o}nio H. Ribeiro} % Your name
+\usepackage{hyperref} % Required for adding links	and customizing them
 
-\address{} % Your address
-\address{Box 337, 751 05 \\ Uppsala \\ Sweden} % Your address
-\address{\href{mailto:antonio.horta.ribeiro@it.uu.se}{\texttt{antonio.horta.ribeiro@it.uu.se}} \\ \href{https://antonior92.github.io}{\texttt{antonior92.github.io}}} % Your phone number and email
+\usepackage{xcolor}
+\hypersetup{colorlinks,
+  linkcolor={red!50!black},
+  citecolor={blue!50!black},
+  urlcolor={blue!5!black}}
 
 
+\usepackage[left=1cm,top=1.2cm,right=1cm,bottom=1.2cm]{geometry} % Document margins
+
+
+\usepackage[parfill]{parskip} % Remove paragraph indentation
+\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 
 \usepackage[sorting=ydnt, maxbibnames=99, style=ieee]{biblatex}
 \DeclareFieldFormat{labelnumberwidth}{}
@@ -15,122 +22,119 @@
 \setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
 \bibliography{refs}
 
+\title{Curriculum vitae}
+\author{Antônio Horta Ribeiro}
+
+
 \begin{document}
 
+\maketitle
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Education}
+\section*{Education} % Section title
 
 {% for e in education %}
     {\bf {{ e.degree }} } \hfill {\em  {{ e.start }} -   {{ e.end }}  } \\
-    {{ e.university }}
+    {{ e.university }}  \hfill {\em {{ e.place}} } \\
+    {{ e.credits }} {{ e.grades }}
+    Monography: {\em {{ e.monography}}. } {{e.note}}
 {% endfor %}
 
-\end{rSection}
 
-\begin{rSection}{Work experience}
+\section*{Work experience} % Section title
 
 {% for w in work %}
-    \begin{rSubsection}{ {{w.position }} }{ {{ w.start }} -   {{ w.end }} }{ {{ w.institution }} }{ {{ w.place }} }
-      \item  {{ w.description }}
-    \end{rSubsection}
+    {\bf {{ w.position }} } \hfill {\em  {{ w.start }} -   {{ w.end }}  } \\
+    {{ w.institution }} \hfill {\em  {{ w.place }}} \\
+    {{ w.description }}
 {% endfor %}
 
-\end{rSection}
+\section*{Professional activity}
 
+\subsection*{Peer reviewing: journal papers}
+
+{% for p in professional.journalreviews %} {\em {{ p.journal }} } ({{ p.year }}), {% endfor %}
+
+\subsection*{Peer reviewing: conference papers}
+
+{% for p in professional.conferencereviews %} {\em {{ p.conference }} } ({{ p.year }}), {% endfor %}
+
+\subsection*{Expert assignments}
+
+{% for p in professional.others %}
+        {{ p.name }} \hfill {\em {{ p.year }} }
+{% endfor %}
+
+\subsection*{Open source}
+
+{\bf Scipy  core team member} \hfill {\em 2017 - 2021} \\
+I am one of the 34 \href{https://www.scipy.org}{SciPy} core development  team members\footnote{Checked on February 20, 2020}.
+\href{https://www.scipy.org}{SciPy} is one of the core scientific libraries in Python and I was invited to the core team for having contributed to optimization and signal processing packages with the implementation of signal filters: \href{http://scipy.github.io/devdocs/generated/scipy.signal.iirnotch.html}{\texttt{iirnotch}}, \href{http://scipy.github.io/devdocs/generated/scipy.signal.iirpeak.html}{\texttt{iirpeak}}; and optimization methods: \href{http://scipy.github.io/devdocs/optimize.minimize-trustexact.html}{\texttt{trust-exact}}, \href{http://scipy.github.io/devdocs/optimize.minimize-trustconstr.html}{\texttt{trust-constr}}. My GitHub account: \href{https://github.com/antonior92}{https://github.com/antonior92} contain a complete list of my open-source contributions.
+
+\section*{Awards}
+
+{% for p in awards %}
+{\bf {{ p.award }}} \hfill {\em {{ p.year }} }\\
+{\bf {{ p.grantedby }} } \hfill  {\em {{p.place}} } \\
+    {{ p.description }}
+{% endfor %}
+
+\section*{Scholarships}
+
+{% for p in scholarships %}
+{\bf {{ p.name }}} \hfill {\em {{ p.year }} } \\
+{\bf {{ p.agency }} } \hfill  {\em {{p.contry}} } \\
+{{ p.description }}
+{% endfor %}
+
+\section*{Teaching}
+
+{% for p in teaching %}
+    {\bf {{  p.course }}  } \hfill {\em {{ p.university }}} \\
+    { {{ p.position }}  - {{ p.level }} level course } \hfill {\em {{ p.semester }} - {{ p.year }} }\\ {% endfor %}
+
+\section*{Supervision}
+
+{% for p in supervision %}
+{\bf {{ p.level }}, {{ p.role }}: } {{ p.student }}  \hfill {\em {{ p.institution }}, {{ p.country }} }\\
+\textit{ {{ p.project }} } \hfill {\em   {{ p.status }} } \\ {% endfor %}
+
+\section*{Publications}
+
+{% for p in publications.categories %}
+\subsection*{ {{ p.name }} }
+    \begin{refsection}
+        {% for tag in p.papers %}
+            \nocite{ {{ tag }}}
+        {% endfor %}
+       \printbibliography[heading=none]
+    \end{refsection}
+{% endfor %}
+
+\section*{Additional education}
+
+{% for p in additionaleducation %}
+    {\bf {{ p.name }} } \hfill {\em  {{ p.year }} }\\
+    {\bf {{ p.institution }} } \hfill {\em  {{ p.place }} } \\
+    {{ p.description }}
+{% endfor %}
+
+\section*{Languages}
+
+Portuguese (mother tongue)\\
+English (fluent)\\
+\hspace{15pt} {\em  Certificate in Advanced English (Council of Europe Level C1) - Cambridge English Language Assessment, 2014} \\
+Spanish (basic knowledge)\\
+
+\end{document}
 
 %----------------------------------------------------------------------------------------
 % Open Source Contributions
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Professional Membership}
-
-
-\begin{rSubsection}{Scipy core team member}{Since Nov. 2017}{}{}
-  \item I am one of the 34 \href{https://www.scipy.org}{SciPy} core development  team members\footnote{Checked on February 20, 2020}.
-  \href{https://www.scipy.org}{SciPy} is one of the core scientific libraries in Python and I was invited to the core team for having contributed to optimization and signal processing packages with the implementation of signal filters: \href{http://scipy.github.io/devdocs/generated/scipy.signal.iirnotch.html}{\texttt{iirnotch}}, \href{http://scipy.github.io/devdocs/generated/scipy.signal.iirpeak.html}{\texttt{iirpeak}}; and optimization methods: \href{http://scipy.github.io/devdocs/optimize.minimize-trustexact.html}{\texttt{trust-exact}}, \href{http://scipy.github.io/devdocs/optimize.minimize-trustconstr.html}{\texttt{trust-constr}}. My GitHub account: \href{https://github.com/antonior92}{https://github.com/antonior92} contain a complete list of my open-source contributions.
-\end{rSubsection}
-\end{rSection}
-
-\begin{rSection}{Professional Activities}
-
-\begin{rSubsection}{Peer reviewing: journal papers}{}{}
-\item  \hspace{3pt}
-{% for p in professional.journalreviews %} {\em {{ p.journal }} } ({{ p.year }}), {% endfor %}
-\end{rSubsection}
-
-\begin{rSubsection}{Peer reviewing: conference papers}{}{}
-\item \hspace{3pt}
-{% for p in professional.conferencereviews %} {\em {{ p.conference }} } ({{ p.year }}), {% endfor %}
-\end{rSubsection}
-
-\begin{rSubsection}{Expert assignments}{}{}
-
-{% for p in professional.others %}
-\item \hspace{3pt}
-{{ p.name }} ( {{ p.year }} )
-{% endfor %}
-
-
-\end{rSubsection}
-
-\end{rSection}
-
 
 %----------------------------------------------------------------------------------------
 %	Awards and achievements
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Awards}
-
-
-{% for p in awards %}
-\begin{rSubsection}{ {{ p.award }} }{ {{ p.year }} }{  {{ p.grantedby }} }{ {{p.place}} }
-    \item {{ p.description }}
-\end{rSubsection}
-{% endfor %}
-
-\end{rSection}
-
-
-\begin{rSection}{Scholarships}
-
-{% for p in scholarships %}
-\begin{rSubsection}{ {{ p.name }} }{ {{ p.year }} }{ {{ p.agency }} }{ {{ p.country }} }
-\item {{p.description}}
-\end{rSubsection}
-{% endfor %}
-
-%------------------------------------------------
-
-\end{rSection}
-
-
-\begin{rSection}{Teaching}
-
-{% for p in teaching %}
-    {\bf {{ p.position }} } \hfill {\em {{ p.university }}} \\
-    { {{  p.course }}  - {{ p.level }} level course } - \hfill {\em {{ p.semester }} - {{ p.year }} }
-{% endfor %}
-
-
-\end{rSection}
-
-
-\begin{rSection}{Supervision}
-
-
-{% for p in supervision %}
-{\bf {{ p.level }}, {{ p.role }}: } {{ p.student }}  \hfill {\em {{ p.institution }}, {{ p.country }} }\\
-\textit{ {{ p.project }} } \hfill {\em   {{ p.status }} }
-{% endfor %}
-
-
-
-\end{rSection}
+%-------------
 
 
 
@@ -142,20 +146,6 @@
 %	Publications
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Publications}
-
-{% for p in publications.categories %}
-    \begin{rSubsection}{ {{ p.name }} }{}{}{}
-    \begin{refsection}
-        {% for tag in p.papers %}
-            \nocite{ {{ tag }}}
-        {% endfor %}
-       \printbibliography[heading=none]
-    \end{refsection}
-    \end{rSubsection}
-{% endfor %}
-
-\end{rSection}
 
 
 
@@ -181,16 +171,6 @@
 %----------------------------------------------------------------------------------------
 % Addicional Education
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Additional Education}
-
-{% for p in additionaleducation %}
-\begin{rSubsection}{ {{ p.name }} }{ {{ p.year }} }{ {{ p.institution }} }{ {{ p.place }} }
-
-  \item {{ p.description }}
-\end{rSubsection}
-
-{% endfor %}
-
 
 \end{rSection}
 
@@ -203,7 +183,7 @@
 \begin{rSection}{Language certificates}
 
 
-{\bf Certificate in Advanced English} (Council of Europe Level C1) \hfill {\em Cambridge English Language Assessment, 2014}
+{\bf Certificate in Advanced English} (Council of Europe Level C1) \hfill {\em }
 
 
 \end{rSection}
