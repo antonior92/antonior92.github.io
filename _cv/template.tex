@@ -44,6 +44,71 @@
 \title{Curriculum Vitae}
 \author{Ant\^onio Horta Ribeiro}
 
+% --- Add bold names --- %
+
+\makeatletter
+\def\nhblx@bibfile@name{\jobname -nhblx.bib}
+\newwrite\nhblx@bibfile
+\immediate\openout\nhblx@bibfile=\nhblx@bibfile@name
+
+\immediate\write\nhblx@bibfile{
+  @comment{Auto-generated file}\blx@nl}
+
+\newcounter{nhblx@name}
+\setcounter{nhblx@name}{0}
+
+\newcommand*{\nhblx@writenametobib}[1]{
+  \stepcounter{nhblx@name}
+  \edef\nhblx@tmp@nocite{
+    \noexpand\AfterPreamble{
+      \noexpand\setbox0\noexpand\vbox{
+        \noexpand\nhblx@getmethehash{nhblx@name@\the\value{nhblx@name}}}}
+  }
+  \nhblx@tmp@nocite
+  \immediate\write\nhblx@bibfile{
+    @misc{nhblx@name@\the\value{nhblx@name}, author = {\unexpanded{#1}},
+          options = {dataonly=true},}
+  }
+}
+
+\AtEndDocument{
+  \closeout\nhblx@bibfile}
+
+\addbibresource{\nhblx@bibfile@name}
+
+\newcommand*{\nhblx@boldhashes}{}
+\DeclareNameFormat{nhblx@hashextract}{
+  \xifinlist{\thefield{hash}}{\nhblx@boldhashes}
+    {}
+    {\listxadd{\nhblx@boldhashes}{\thefield{hash}}}}
+
+\DeclareCiteCommand{\nhblx@getmethehash}
+  {}
+  {\printnames[nhblx@hashextract][1-999]{author}}
+  {}
+  {}
+
+\newcommand*{\addboldnames}{\forcsvlist\nhblx@writenametobib}
+\newcommand*{\resetboldnames}{\def\nhblx@boldhashes{}}
+
+\newcommand*{\mkboldifhashinlist}[1]{
+  \xifinlist{\thefield{hash}}{\nhblx@boldhashes}
+    {\mkbibbold{#1}}
+    {#1}}
+\makeatother
+
+\DeclareNameWrapperFormat{boldifhashinlist}{
+  \renewcommand*{\mkbibcompletename}{\mkboldifhashinlist}
+  #1}
+
+\DeclareNameWrapperAlias{sortname}{default}
+\DeclareNameWrapperAlias{default}{boldifhashinlist}
+
+% --- Add bold names --- %
+
+% DEFINE BOLD NAMES
+\addboldnames{ {Ribeiro, Ant\^onio H.}, {Ribeiro, Ant\^onio H}, {Ribeiro, Antonio H.}, {Ribeiro, Antonio H} }
+
 
 \begin{document}
 
