@@ -136,13 +136,8 @@
 
 {% for e in education %}
     {\bf {{ e.degree }} } \hfill {\em  {{ e.start }} -   {{ e.end }}  } \\
-    {{ e.university }}  \hfill {\em {{ e.place}} } \\
-    {% if e.credits %} Credits: {{ e.credits }} \\ {% endif%}
-    {% if e.grades %} Graded point average: {{ e.grades }} \\ {% endif %}
-    {% if e.monography %}  Monography: {\em {{ e.monography }} } \\ {% endif %}
-    {% if e.supervisor %}  Supervisor: {{ e.supervisor }}  \\ {% endif %}
-    {% if e.cosupervisor %} Co-supervisor: {{ e.cosupervisor }} \\ {% endif %}
-    {% if e.note %}  {{ e.note }} {% endif %}
+    {{ e.university }}  \hfill {\em {{ e.place}} }\\
+    {{ e.note }}
 {% endfor %}
 
 
@@ -153,32 +148,6 @@
     {{ w.institution }} \hfill {\em  {{ w.place }}} \\
     {{ w.description }}
 {% endfor %}
-
-\section*{Professional activity}
-
-\subsection*{Peer reviewing: journal papers}
-
-{% for p in professional.journalreviews %} {\em {{ p.journal }} } ({{ p.year }}), {% endfor %}
-
-\subsection*{Peer reviewing: conference papers}
-
-{% for p in professional.conferencereviews %} {\em {{ p.conference }} } ({{ p.year }}), {% endfor %}
-
-\subsection*{Expert assignments}
-
-{% for p in professional.others %}
-        {{ p.name }} \hfill {\em {{ p.year }} }
-{% endfor %}
-
-\subsection*{Open source contributions}
-
-{\bf Scipy  core team member} \hfill {\em 2017 - 2021} \\
-I was one of the 34 \href{https://www.scipy.org}{SciPy} core development  team members\footnote{Checked on February 20, 2020}.
-\href{https://www.scipy.org}{SciPy} is one of the core scientific libraries in Python and I was invited to the core team
-for having contributed to optimization and signal processing packages with the implementation of signal filters:
-\href{http://scipy.github.io/devdocs/generated/scipy.signal.iirnotch.html}{\texttt{iirnotch}},
-    \href{http://scipy.github.io/devdocs/generated/scipy.signal.iirpeak.html}{\texttt{iirpeak}};
-    and optimization methods: \href{http://scipy.github.io/devdocs/optimize.minimize-trustexact.html}{\texttt{trust-exact}}, \href{http://scipy.github.io/devdocs/optimize.minimize-trustconstr.html}{\texttt{trust-constr}}. My GitHub account: \href{https://github.com/antonior92}{https://github.com/antonior92} contain a complete list of my open-source contributions.
 
 \section*{Awards}
 
@@ -207,6 +176,33 @@ for having contributed to optimization and signal processing packages with the i
 {% for p in supervision %}
 {\bf {{ p.level }}, {{ p.role }}: } {{ p.student }}  \hfill {\em {{ p.institution }}, {{ p.country }} }\\
 \textit{ {{ p.project }} } \hfill {\em   {{ p.status }} } \\ {% endfor %}
+
+
+\section*{Professional activity}
+
+\subsection*{Peer reviewing: journal papers}
+
+{% for p in professional.journalreviews %} {\em {{ p.journal }} } ({{ p.year }}), {% endfor %}
+
+\subsection*{Peer reviewing: conference papers}
+
+{% for p in professional.conferencereviews %} {\em {{ p.conference }} } ({{ p.year }}), {% endfor %}
+
+\subsection*{Expert assignments}
+
+{% for p in professional.others %}
+        {{ p.name }} \hfill {\em {{ p.year }} }
+{% endfor %}
+
+\subsection*{Open source contributions}
+
+{\bf Scipy  core team member} \hfill {\em 2017 - 2021} \\
+I was one of the 34 \href{https://www.scipy.org}{SciPy} core development  team members\footnote{Checked on February 20, 2020}.
+\href{https://www.scipy.org}{SciPy} is one of the core scientific libraries in Python and I was invited to the core team
+for having contributed to optimization and signal processing packages with the implementation of signal filters:
+\href{http://scipy.github.io/devdocs/generated/scipy.signal.iirnotch.html}{\texttt{iirnotch}},
+    \href{http://scipy.github.io/devdocs/generated/scipy.signal.iirpeak.html}{\texttt{iirpeak}};
+    and optimization methods: \href{http://scipy.github.io/devdocs/optimize.minimize-trustexact.html}{\texttt{trust-exact}}, \href{http://scipy.github.io/devdocs/optimize.minimize-trustconstr.html}{\texttt{trust-constr}}. My GitHub account: \href{https://github.com/antonior92}{https://github.com/antonior92} contain a complete list of my open-source contributions.
 
 \section*{Publications}
 

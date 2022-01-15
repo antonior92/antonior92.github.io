@@ -45,10 +45,14 @@ Keep updated database with:
 # To add to the CV
 - [x] Add current employment
 - [x] Add research ids
-- [ ] Add datasets
 - [x] Add bibliometrics
-- [ ] Add invited seminars / presentations
 - [x] Edit publication list
 - [x] Change maketitle
-- [ ] Edit education section
+- [x] Edit education section
+- [ ] Add more information in the supervision section 
+      (Start and expected end date)
+- [ ] Change the description of items format. it does look a little strange now...  
+- [ ] Fix publications (Remove extra space before publication)
 - [ ] Add midia section
+- [ ] Add datasets
+- [ ] Add invited seminars / presentations
