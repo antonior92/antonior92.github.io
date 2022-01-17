@@ -144,11 +144,13 @@
     {\bf {{  p.course }}  } \hfill {\em {{ p.university }}} \\
     { {{ p.position }}  - {{ p.level }} level course } \hfill {\em {{ p.semester }} - {{ p.year }} }\\ {% endfor %}
 
+\newpage
+
 \section*{Supervision}
 
 {% for p in supervision %}
-{\bf {{ p.level }}, {{ p.role }}: } {{ p.student }}  \hfill {\em {{ p.institution }}, {{ p.country }} }\\
-\textit{ {{ p.project }} } \hfill {\em   {{ p.status }} } \\ {% endfor %}
+{\bf {{ p.level }}, {{ p.role }}: } {{ p.student }}  \hfill {\em {{ p.start }} - {{p.end}} }\\
+\textit{ {{ p.project }} } \hfill {\em {{ p.institution }}, {{ p.country }} } \\ {% endfor %}
 
 
 \section*{Professional activity}
@@ -163,9 +165,7 @@
 
 \subsection*{Expert assignments}
 
-{% for p in professional.others %}
-        {{ p.name }} \hfill {\em {{ p.year }} }
-{% endfor %}
+{% for p in professional.others %} {{ p.name }} \hfill {\em {{ p.year }} } \\ {% endfor %}
 
 \subsection*{Open source contributions}
 
