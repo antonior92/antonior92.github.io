@@ -83,6 +83,10 @@
 % DEFINE BOLD NAMES
 \addboldnames{ {Ribeiro, Ant\^onio H.}, {Ribeiro, Ant\^onio H}, {Ribeiro, Antonio H.}, {Ribeiro, Antonio H} }
 
+% New command
+
+\newcommand{\cventry}[4]{ {\bf #1} \hfill {\em #2} \\ {\small \sc #3 \hfill  #4} }
+
 \begin{document}
 
 \maketitle
@@ -108,8 +112,10 @@
 \section*{Education} % Section title
 
 {% for e in education %}
-    {\bf {{ e.degree }} } \hfill {\em  {{ e.start }} -   {{ e.end }}  } \\
-    {{ e.university }}  \hfill {\em {{ e.place}} }\\
+    \cventry{ {{ e.degree }} }
+    { {{ e.start }} - {{ e.end }} }
+    { {{ e.university }} }
+    { {{ e.place}} } \\
     {{ e.note }}
 {% endfor %}
 
@@ -117,40 +123,50 @@
 \section*{Work experience} % Section title
 
 {% for w in work %}
-    {\bf {{ w.position }} } \hfill {\em  {{ w.start }} -   {{ w.end }}  } \\
-    {{ w.institution }} \hfill {\em  {{ w.place }}} \\
+    \cventry{ {{ w.position }} }
+    { {{ w.start }} -   {{ w.end }} }
+    { {{ w.institution }} }
+    { {{ w.place }} }\\
     {{ w.description }}
 {% endfor %}
 
 \section*{Awards}
 
 {% for p in awards %}
-{\bf {{ p.award }}} \hfill {\em {{ p.year }} }\\
-{ {{ p.grantedby }} } \hfill  {\em {{p.place}} } \\
+    \cventry{ {{ p.award }} }
+    { {{ p.year }} }
+    { {{ p.grantedby }} }
+    { {{p.place}} }\\
     {{ p.description }}
 {% endfor %}
 
 \section*{Scholarships}
 
 {% for p in scholarships %}
-{\bf {{ p.name }}} \hfill {\em {{ p.year }} } \\
-{ {{ p.agency }} } \hfill  {\em {{p.contry}} } \\
+    \cventry{ {{ p.name }} }
+    { {{ p.year }} }
+    { {{ p.agency }} }
+    { {{ p.country }} } \\
     {{ p.description }}
 {% endfor %}
 
 \section*{Teaching}
 
 {% for p in teaching %}
-    {\bf {{  p.course }}  } \hfill {\em {{ p.university }}} \\
-    { {{ p.position }}  - {{ p.level }} level course } \hfill {\em {{ p.semester }} - {{ p.year }} }\\ {% endfor %}
+    \cventry{ {{  p.course }}  }
+    { {{ p.semester }} - {{ p.year }}  }
+    { {{ p.position }}  - {{ p.level }} }
+    { {{ p.university }}  } \\ {% endfor %}
 
 \newpage
 
 \section*{Supervision}
 
 {% for p in supervision %}
-{\bf {{ p.level }}, {{ p.role }}: } {{ p.student }}  \hfill {\em {{ p.start }} - {{p.end}} }\\
-\textit{ {{ p.project }} } \hfill {\em {{ p.institution }}, {{ p.country }} } \\ {% endfor %}
+\cventry{ {{ p.level }}, {{ p.role }}: {{ p.student }}  }
+{ {{ p.start }} - {{p.end}} }
+{ {{ p.project }} }
+{ {{ p.institution }}, {{ p.country }} } \\ {% endfor %}
 
 
 \section*{Professional activity}
@@ -205,8 +221,10 @@ for having contributed to optimization and signal processing packages with the i
 \section*{Additional education}
 
 {% for p in additionaleducation %}
-    {\bf {{ p.name }} } \hfill {\em  {{ p.year }} }\\
-    { {{ p.institution }} } \hfill {\em  {{ p.place }} } \\
+    \cventry{ {{ p.name }} }
+    {\em  {{ p.year }} }
+    { {{ p.institution }} }
+    { {{ p.place }} } \\
     {{ p.description }}
 {% endfor %}
 
