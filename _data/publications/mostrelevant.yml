@@ -1,35 +1,34 @@
 - tag: ribeiro_automatic_2020a
-  contribution: I contributed as first author and had a major role in its development.
-   I contributed to all aspects of the work, from its conception, to the implementation and analysis,
+  contribution:  I contributed to all aspects of the work, from its conception, to the implementation and analysis,
    to the presentation of intermediary results in conferences. Moreover, I still manage access to the
    dataset, that is available upon request.
   relevance: This paper had a nice impact in the comunity of electrocardiography.
     It was a pioneering work on the use of deep neural networks for the analysis of 12-lead ECGs.
     We made the implementation openly available and it seems it has been used by many groups.
-    Partial datasets were made openly available and downloaded by hundred of researchers and powered a lot of
-    progress in developing deep neural network for the analysis of the electrocardiogram.
+    Partial datasets were made openly available and downloaded by thousands of researchers.
     We also made the full dataset available upon request, which opened the way to many interesting research collaborations.
     In less then two years, it was cited more then 100 times acording google scholar.
 - tag: lima_deep_2021
   contribution: I contributed with the implementation of all machine learning algorithms,
     the conception of the work and with the writing. I am an equally contributing author with Emilly and Gabriella.
     They contributed respectively, with the statistical and the medical analysis.
-  relevance:  We tried to use artificial inteligence to deal with a task that is not well understood
-    by cardiologist, predicting age from the ECG. We have been able to show that the ECG predicted age is good predictor
-    of risk and is related to mortality risk.
+  relevance:  We use artificial inteligence to deal with a task predicting age from the ECG.
+     We have been able to show that the ECG predicted age is good predictor of risk and is related to mortality risk.
+     The work points to the fact that the ECG might contain additional information for risk assesment that
+     is not yet well understood by cardiologist and that machine learning might be an interesting tool for discovering
+     new features.
 - tag: ribeiro_smoothness_2020
-  contribution: I contributed as first author and had a major role in its development.
-    I contributed with the implementation, the writing, the mathematical development and analysis.
+  contribution:  I contributed with the implementation, the writing, the mathematical development and the analysis.
   relevance: We study the challenges of parameter estimations for nonlinear dynamical systems. We show how regions
     of the parameter space could easily become hard to navigate in due to unstability or chaos of the system.
     We propose as a solution to it a method called multiple shooting, which divides the problem into smaller
     and well behaved subproblems, that would be forced to be continuous by optimization constraints.
 - tag: ribeiro_exploding_2020
-  contribution: I contributed as first author and had a major role in its development.
-    I contributed with the implementation, the writing, the mathematical development and analysis.
+  contribution:  I contributed with the implementation, the writing, the mathematical development and analysis.
   relevance: In this paper, that complements and extends the previous one, we discuss how regions
     of the parameter space could easily become hard to navigate in due to unstability or chaos of the system.
     We discuss this problem in recurrent neural networks and compare stable and orthogonal neural networks.
 - tag: ribeiro_parallel_2018
-  relevance: The first was published in 2018 during the begining of my Ph.D. and study the computational challenges
+  relevance: This was the first journal publication of my Ph.D. and studies the computational challenges
    and asymptotic properties of estimators that have recurrence in its architecture.
+  contribution: I contributed with the implementation, the writing, the mathematical development and the analysis.
