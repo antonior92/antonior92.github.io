@@ -238,6 +238,36 @@ Spanish (intermediate knowledge)
 
 Certificate in Advanced English (Council of Europe Level C1) - Cambridge English Language Assessment, 2014
 
-
 \end{document}
 
+\newpage
+
+
+\begin{center}
+{\LARGE \bf Additional Information\par}
+\end{center}
+
+\section*{Most relevant publications} % If Needed
+
+Bellow the list of my five most relevant publications to the moment.
+
+{% for p in publications.mostrelevant %}
+    \begin{refsection}
+      \nocite{ {{ p.tag }} }
+      \DeclareFieldFormat{labelnumberwidth}{}
+      \setlength{\biblabelsep}{-20pt}
+      \printbibliography[heading=none]
+    \end{refsection}
+    \begin{center}
+    \begin{minipage}{17cm}
+      \begin{footnotesize}
+        \textbf{Contribution: } {{ p.contribution }}\\
+        \textbf{Relevance:}  {{ p.relevance }}
+      \end{footnotesize}
+    \end{minipage}
+    \end{center}
+{% endfor %}
+
+
+
+\end{document}
