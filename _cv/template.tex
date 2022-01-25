@@ -10,9 +10,7 @@
   citecolor={blue!50!black},
   urlcolor={blue!5!black}}
 
-\usepackage[
- left=10mm,right=10mm, bottom=10mm,
- top=10mm,footskip=.5cm]{geometry} % Document margins
+\usepackage[margin=1.5cm]{geometry} % Document margins
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
@@ -98,7 +96,7 @@
 \begin{multicols}{2}
     \small
     \textbf{Current Position:}\\
-    \, Postdoctoral Researcher\\
+    \, Postdoctoral Fellow\\
     \, Uppsala University \\
     \, Department of Information Technology,\\
     \, Division of Systems and Control\\
@@ -152,23 +150,25 @@
     {{ p.description }}
 {% endfor %}
 
+\section*{Supervision}
+
+{% for p in supervision %}
+    \cventry{  {{ p.student }}  }
+    { {{ p.start }} - {{p.end}} }
+    { {{ p.level }}, {{ p.role }} }
+    { {{ p.institution }}, {{ p.country }} } \\
+    {\it {{ p.project }} }
+{% endfor %}
+
+
 \section*{Teaching}
 
 {% for p in teaching %}
     \cventry{ {{  p.course }}  }
     { {{ p.semester }} - {{ p.year }}  }
-    { {{ p.position }}  - {{ p.level }} }
+    { {{ p.position }}  - {{ p.level }} level, {{ p.nstudents }} students,  {{ p.ncredits }} credits }
     { {{ p.university }}  } \\ {% endfor %}
 
-\newpage
-
-\section*{Supervision}
-
-{% for p in supervision %}
-\cventry{ {{ p.level }}, {{ p.role }}: {{ p.student }}  }
-{ {{ p.start }} - {{p.end}} }
-{ {{ p.project }} }
-{ {{ p.institution }}, {{ p.country }} } \\ {% endfor %}
 
 
 \section*{Professional activity}
@@ -187,14 +187,15 @@
 
 \subsection*{Open source contributions}
 
-{\bf Scipy  core team member} \hfill {\em 2017 - 2021} \\
-I was one of the 34 \href{https://www.scipy.org}{SciPy} core development  team members\footnote{Checked on February 20, 2020}.
+{\bf Scipy team member} \hfill {\em 2017 - 2021} \\
+I was one of the SciPy development team members.
 \href{https://www.scipy.org}{SciPy} is one of the core scientific libraries in Python and I was invited to the core team
-for having contributed to optimization and signal processing packages with the implementation of signal filters:
-\href{http://scipy.github.io/devdocs/generated/scipy.signal.iirnotch.html}{\texttt{iirnotch}},
-    \href{http://scipy.github.io/devdocs/generated/scipy.signal.iirpeak.html}{\texttt{iirpeak}};
-    and optimization methods: \href{http://scipy.github.io/devdocs/optimize.minimize-trustexact.html}{\texttt{trust-exact}}, \href{http://scipy.github.io/devdocs/optimize.minimize-trustconstr.html}{\texttt{trust-constr}}. My GitHub account: \href{https://github.com/antonior92}{https://github.com/antonior92} contain a complete list of my open-source contributions.
+for having contributed with the implementation of signal filters
+and optimization method.
+My GitHub account: \href{https://github.com/antonior92}{https://github.com/antonior92}
+contain a complete list of my open-source contributions.
 
+\newpage
 \section*{Publications}
 
 \begin{tcolorbox}[width=6in, standard jigsaw, opacityback=0]
@@ -202,10 +203,10 @@ for having contributed to optimization and signal processing packages with the i
     \footnotesize
 {\bf ORCID}:  \href{https://orcid.org/0000-0003-3632-8529}{0000-0003-3632-8529}\\
 {\bf DBLP}: \href{https://dblp.org/pid/202/1699.html}{202/1699}\\
-{\bf SCOPUS}: ID: \href{https://www.scopus.com/authid/detail.uri?authorId=57191699148}{57191699148} ---
-    Citations: 4654, h-index: 6 (2022-01-14) \\
+{\bf SCOPUS ID}: \href{https://www.scopus.com/authid/detail.uri?authorId=57191699148}{57191699148} ---
+    Citations: 4793, h-index: 6 (2022-01-25) \\
 {\bf Google Scholar}: \href{https://scholar.google.com.br/citations?user=5t_sZdMAAAAJ}{Antonio H. Ribeiro} ---
-    Citations: 8383, h-index: 9, i10-index: 9 (2022-01-14)
+    Citations: 8636, h-index: 9, i10-index: 9 (2022-01-25)
 %{\bf Lattes CV}: \href{http://lattes.cnpq.br/0898576944135254}{0898576944135254}
 \end{tcolorbox}
 

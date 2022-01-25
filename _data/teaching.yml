@@ -41,8 +41,8 @@
   semester: 2nd
   course: Engenharia de Controle (Control Engineering)
   level: BSc
-  nstudents: approx. 40
-  ncredits: 6 credits
+  nstudents: 50
+  ncredits: 6
   notes: 1 credit = 15 hours in the class.
 - position: Teaching assistent
   university: Universidade Federal de Minas Gerais, Brazil
@@ -50,6 +50,6 @@
   semester: 2nd
   course: Controle Digital  (Digital Control)
   level: BSc
-  nstudents: approx. 40
+  nstudents: 40
   ncredits: 4
   notes: Here, 1 credit = 15 hours in the class.

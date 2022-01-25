@@ -1,11 +1,18 @@
-- award: Best Ph.D. Thesis (Grande Premio de Teses)
+- award: Best Ph.D. Thesis in Engineering and Physical Sciences
   year: 2021
   grantedby: Universidade Federal de Minas Gerais
   place: Belo Horizonte, Brazil
-  description: "My thesis `Learning nonlinear differentiable models for signals and systems: with applications'
-    was awarded the best Ph.D. thesis in the area of engineering and physical sciences at the Universidade
-    Federal de Minas Gerais (UFMG), Belo Horizonte, Brazil. In portuguese: Minha tese foi ganhadora
-    do grande premio de teses da UFMG na área de ciências exatas e da terra e engenharias."
+  description: "My Ph.D. thesis was awarded the best Ph.D. thesis defended in 2020
+  in engineering and physical sciences at the Universidade Federal de Minas Gerais (UFMG), Brazil.
+  In portuguese: Grande Premio de Teses na área de ciências exatas e da terra e engenharias."
+- award: Best Ph.D. Thesis in Electrical Engineering
+  year: 2021
+  grantedby: Universidade Federal de Minas Gerais
+  place: Belo Horizonte, Brazil
+  description: "My thesis was awarded the best Ph.D. thesis defended in 2020 in the Department of Electrical Engineering
+  at the Universidade Federal de Minas Gerais (UFMG), Brazil. The thesis was then forwarded to compete with the thesis from
+  all other Engineering and Physical Sciences departments at the university (where it was also awarded the
+  best thesis, see the award above)."
 - award: Young Author Award (Honorable Mention)
   year: 2021
   grantedby: 19th IFAC Symposium on System Identification

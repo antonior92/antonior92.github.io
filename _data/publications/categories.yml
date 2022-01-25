@@ -13,7 +13,7 @@
       - ribeiro_smoothness_2020
       - ribeiro_automatic_2020a
       - virtanen_scipy_2020
-      - ribeiro_tele-electrocardiography_2019
+      - ribeiro_teleelectrocardiography_2019
       - paixao_evaluation_2019
       - ribeiro_parallel_2018
 
@@ -31,6 +31,8 @@
 
 - name: Workshop papers, conference abstracts and extended abstracts
   papers:
+      - gedon_resnetbased_2021
+      - gedon_first_2021
       - hendriks_deep_2021a
       - ribeiro_occam_2021a
       - ribeiro_overparametrized_2021
