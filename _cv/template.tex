@@ -10,7 +10,7 @@
   citecolor={blue!50!black},
   urlcolor={blue!5!black}}
 
-\usepackage[margin=1.5cm]{geometry} % Document margins
+\usepackage[margin=1.6cm]{geometry} % Document margins
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
@@ -118,7 +118,7 @@
     { {{ e.place}} } \\
     {{ e.note }}
 {% endfor %}
-
+\vspace{10pt}
 
 \section*{Work experience} % Section title
 
@@ -166,7 +166,7 @@
 {% for p in teaching %}
     \cventry{ {{  p.course }}  }
     { {{ p.semester }} - {{ p.year }}  }
-    { {{ p.position }}  - {{ p.level }} level, {{ p.nstudents }} students,  {{ p.ncredits }} credits }
+    { {{ p.position }}  - {{ p.level }} level, {{ p.nstudents }} students, {{ p.ncredits }} credits }
     { {{ p.university }}  } \\ {% endfor %}
 
 
@@ -235,7 +235,8 @@ contain a complete list of my open-source contributions.
 
 Portuguese (mother tongue)\\
 English (fluent)\\
-Spanish (intermediate knowledge)
+Spanish (intermediate knowledge)\\
+Swedish (elementary knowledge)
 
 \subsubsection*{Language Certificates}
 
@@ -243,14 +244,16 @@ Certificate in Advanced English (Council of Europe Level C1) - Cambridge English
 
 \end{document}
 
+
 \newpage
 
+\thispagestyle{empty}
 
 \begin{center}
-{\LARGE \bf Additional Information\par}
+{\LARGE \bf Most relevant publications \par}
 \end{center}
 
-\section*{Most relevant publications}  % If Needed
+\vspace{30 pt}
 
 Bellow the list of my five most relevant publications to the moment.
 
@@ -258,14 +261,14 @@ Bellow the list of my five most relevant publications to the moment.
     \begin{refsection}
       \nocite{ {{ p.tag }} }
       \DeclareFieldFormat{labelnumberwidth}{}
-      \setlength{\biblabelsep}{-20pt}
+      \setlength{\biblabelsep}{-15pt}
       \printbibliography[heading=none]
     \end{refsection}
     \begin{center}
     \begin{minipage}{17cm}
       \begin{footnotesize}
-        \textbf{Contribution: } {{ p.contribution }}\\
-        \textbf{Relevance:}  {{ p.relevance }}
+        \textbf{Relevance:}  {{ p.relevance }} \\
+        \textbf{Contribution: } {{ p.contribution }}
       \end{footnotesize}
     \end{minipage}
     \end{center}
