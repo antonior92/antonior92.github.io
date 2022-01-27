@@ -22,6 +22,7 @@
       given: Niklas
     - family: Schön
       given: Thomas B.
+  citation-key: andersson_deep_2019
   container-title: Proceedings of the 58th IEEE Conference on Decision and Control (CDC)
   DOI: 10.1109/CDC40024.2019.9030219
   issued:
@@ -76,6 +77,7 @@
       given: Antonio Luiz P
     - family: Behar
       given: Joachim A
+  citation-key: biton_atrial_2021
   container-title: European Heart Journal - Digital Health
   container-title-short: European Heart Journal - Digital Health
   DOI: 10.1093/ehjdh/ztab071
@@ -87,6 +89,75 @@
     biomarkers and deep representation learning
   type: article-journal
   URL: https://doi.org/10.1093/ehjdh/ztab071
+
+- id: gedon_first_2021
+  abstract: >-
+    Self-supervised learning is a paradigm that extracts general features which
+    describe the input space by artificially generating labels from the input
+    without the need for explicit annotations. The learned features can then be
+    used by transfer learning to boost the performance on a downstream task.
+    Such methods have recently produced state of the art results in natural
+    language processing and computer vision. Here, we propose a self-supervised
+    learning method for 12-lead electrocardiograms (ECGs). For pretraining the
+    model we design a task to mask out subsegements of all channels of the input
+    signals and try to predict the actual values. As the model architecture, we
+    use a U-ResNet containing an encoder-decoder structure. We test our method
+    by self-supervised pretraining on the CODE dataset and then transfer the
+    learnt features by finetuning on the PTB-XL and CPSC benchmarks to evaluate
+    the effect of our method in the classification of 12-leads ECGs. The method
+    does provide modest improvements in performance when compared to not using
+    pretraining. In future work we will make use of these ideas in smaller
+    dataset, where we believe it can lead to larger performance gains.
+  author:
+    - family: Gedon
+      given: Daniel
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Wahlström
+      given: Niklas
+    - family: Schön
+      given: Thomas B.
+  citation-key: gedon_first_2021
+  container-title: Computing in Cardiology (CinC)
+  DOI: 10.23919/CinC53138.2021.9662748
+  event: Computing in Cardiology (CinC)
+  ISSN: 2325-887X
+  issued:
+    - year: 2021
+      month: 9
+  page: 1-4
+  source: IEEE Xplore
+  title: First Steps Towards Self-Supervised Pretraining of the 12-Lead ECG
+  type: paper-conference
+  volume: '48'
+
+- id: gedon_resnetbased_2021
+  author:
+    - family: Gedon
+      given: Daniel
+    - family: Gustafsson
+      given: Stefan
+    - family: Lampa
+      given: Erik
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Holzmann
+      given: Martin J.
+    - family: Schön
+      given: Thomas B.
+    - family: Sundström
+      given: Johan
+  citation-key: gedon_resnetbased_2021
+  container-title: >-
+    Machine learning from ground truth: New medical imaging datasets for
+    unsolved medical problems Workshop at NeurIPS
+  event: NeurIPS
+  issued:
+    - year: 2021
+  title: >-
+    ResNet-based ECG Diagnosis of Myocardial Infarction in the Emergency
+    Department
+  type: paper-conference
 
 - id: gustafsson_artificial_2021
   abstract: >-
@@ -137,6 +208,7 @@
       given: Thomas B.
     - family: Sundstrom
       given: Johan
+  citation-key: gustafsson_artificial_2021
   container-title: SSRN
   DOI: 10.2139/ssrn.3857655
   issued:
@@ -172,6 +244,7 @@
       given: Adrian G.
     - family: Schön
       given: Thomas B.
+  citation-key: hendriks_deep_2021
   container-title: >-
     Proceedings of the 19th IFAC Symposium on System Identification (SYSID) -
     IFAC-PapersOnLine
@@ -208,6 +281,7 @@
       given: Adrian G.
     - family: Schön
       given: Thomas B.
+  citation-key: hendriks_deep_2021a
   container-title: Workshop on Nonlinear System Identification
   issued:
     - year: 2021
@@ -265,6 +339,7 @@
       given: Thomas B.
     - family: Ribeiro
       given: Antonio Luiz P.
+  citation-key: lima_deep_2021
   container-title: Nature Communications
   DOI: 10.1038/s41467-021-25351-7
   issued:
@@ -287,6 +362,7 @@
       given: Derick M.
     - family: Ribeiro
       given: Antonio H.
+  citation-key: meirajr_contextualized_2020
   container-title: Communications of the ACM
   DOI: 10.1145/3416965
   issued:
@@ -326,6 +402,7 @@
       given: Antonio L
     - family: Jr
       given: Wagner Meira
+  citation-key: oliveira_explaining_2020
   container-title: 2020 Computing in Cardiology (CinC)
   DOI: 10.22489/CinC.2020.452
   issued:
@@ -350,6 +427,7 @@
       given: Antonio Luiz P.
     - family: Meira Jr
       given: Wagner
+  citation-key: oliveira_explaining_2020a
   collection-title: Lecture Notes in Computer Science}
   container-title: >-
     Machine Learning and Knowledge Discovery in Databases. European Conference
@@ -437,6 +515,7 @@
       given: Leonardo
     - family: Ribeiro
       given: Antonio L.
+  citation-key: paixao_clinical_2018
   container-title: Circulation. Abstracts from American Heart Association's.
   issue: Suppl_1
   issued:
@@ -477,6 +556,7 @@
       given: Thomas
     - family: Ribeiro
       given: Antonio L.
+  citation-key: paixao_ecgage_2020
   container-title: Journal of the American College of Cardiology
   DOI: 10.1016/S0735-1097(20)34299-6
   ISSN: 0735-1097
@@ -538,6 +618,7 @@
       given: Peter W.
     - family: Ribeiro
       given: Antonio L. P.
+  citation-key: paixao_electrocardiographic_2021
   container-title: Hearts
   DOI: 10.3390/hearts2040035
   issue: '4'
@@ -582,8 +663,9 @@
       given: Leonardo B.
     - family: Ribeiro
       given: Antonio Luiz P.
+  citation-key: paixao_evaluation_2019
   container-title: Journal of Electrocardiology
-  DOI: 10/dcgk
+  DOI: 10.1016/j.jelectrocard.2019.09.004
   ISSN: 0022-0736
   issued:
     - year: 2019
@@ -651,6 +733,7 @@
       given: Milena S.
     - family: Ribeiro
       given: Antonio L.
+  citation-key: paixao_evaluation_2020
   container-title: Global Heart
   DOI: 10.5334/gh.772
   ISSN: 2211-8179
@@ -732,6 +815,7 @@
       given: ''
     - family: Ribeiro
       given: Antonio L.
+  citation-key: paixao_validation_2020
   container-title: Circulation
   container-title-short: Circulation
   DOI: 10.1161/circ.142.suppl_3.16883
@@ -788,6 +872,7 @@
       given: Thomas B.
     - family: Ribeiro
       given: Antonio Luiz
+  citation-key: ribeiro_automatic_2018
   container-title: Machine Learning for Health (ML4H) Workshop at NeurIPS
   issued:
     - year: 2018
@@ -831,6 +916,7 @@
       given: Thomas B
     - family: Jr
       given: Wagner Meira
+  citation-key: ribeiro_automatic_2020
   container-title: 2020 Computing in Cardiology (CinC)
   DOI: 10.22489/CinC.2020.130
   issued:
@@ -864,8 +950,9 @@
       given: Thomas B.
     - family: Ribeiro
       given: Antonio Luiz P.
+  citation-key: ribeiro_automatic_2020a
   container-title: Nature Communications
-  DOI: 10/drkd
+  DOI: 10.1038/s41467-020-15432-4
   issue: '1'
   issued:
     - year: 2020
@@ -887,6 +974,7 @@
       given: Niklas
     - family: Schon
       given: Thomas B
+  citation-key: ribeiro_deep_2019
   container-title: Workshop on Nonlinear System Identification
   issued:
     - year: 2019
@@ -904,6 +992,7 @@
       given: Luis A.
     - family: Schön
       given: Thomas B.
+  citation-key: ribeiro_exploding_2020
   container-title: >-
     Proceedings of the 23rd International Conference on Artificial Intelligence
     and Statistics (AISTATS), PMLR
@@ -924,6 +1013,7 @@
       given: Antonio H.
     - family: Schon
       given: Thomas B.
+  citation-key: ribeiro_how_2021
   container-title: >-
     IEEE International Conference on Acoustics, Speech and Signal Processing
     (ICASSP)
@@ -961,6 +1051,7 @@
   author:
     - family: Ribeiro
       given: Antonio H.
+  citation-key: ribeiro_implementacao_2015
   event-place: Belo Horizonte, Brazil
   genre: BSc Thesis
   issued:
@@ -978,8 +1069,9 @@
       given: Antonio H.
     - family: Aguirre
       given: Luis A.
+  citation-key: ribeiro_lasso_2018
   container-title: 2018 Annual American Control Conference (ACC)
-  DOI: 10/gf7ssz
+  DOI: 10.23919/ACC.2018.8430924
   event: 2018 Annual American Control Conference (ACC)
   ISBN: 2378-5861
   issued:
@@ -997,6 +1089,7 @@
   author:
     - family: Ribeiro
       given: Antônio H.
+  citation-key: ribeiro_learning_2020
   event-place: Belo Horizonte, Brazil
   genre: PhD Thesis
   issued:
@@ -1018,6 +1111,7 @@
       given: Adrian G.
     - family: Schön
       given: Thomas B.
+  citation-key: ribeiro_occam_2021a
   container-title: Workshop on Nonlinear System Identification
   issued:
     - year: 2021
@@ -1036,6 +1130,7 @@
       given: Adrian G.
     - family: Schön
       given: Thomas B.
+  citation-key: ribeiro_occam_2021b
   container-title: >-
     Proceedings of the 19th IFAC Symposium on System Identification (SYSID) -
     IFAC-PapersOnLine
@@ -1058,6 +1153,7 @@
       given: Antonio H
     - family: Schön
       given: Thomas B
+  citation-key: ribeiro_overparametrized_2021
   container-title: Workshop on the Theory of Overparameterized Machine Learning (TOPML)
   event: Workshop on the Theory of Overparameterized Machine Learning (TOPML))
   issued:
@@ -1073,9 +1169,10 @@
       given: Antônio H.
     - family: Aguirre
       given: Luis A.
+  citation-key: ribeiro_parallel_2018
   container-title: Neurocomputing
   container-title-short: Neurocomputing
-  DOI: 10/gfhwnk
+  DOI: 10.1016/j.neucom.2018.07.071
   ISSN: 0925-2312
   issued:
     - year: 2018
@@ -1092,6 +1189,7 @@
   author:
     - family: Ribeiro
       given: Antônio H.
+  citation-key: ribeiro_recurrent_2017
   event-place: Belo Horizonte, Brazil
   genre: MSc Dissertation
   issued:
@@ -1108,6 +1206,7 @@
       given: Antônio H.
     - family: Aguirre
       given: Luis A.
+  citation-key: ribeiro_relacoes_2014
   container-title: XX Congresso Brasileiro de Automática
   issued:
     - year: 2014
@@ -1121,10 +1220,11 @@
       given: Antônio H.
     - family: Aguirre
       given: Luis A.
+  citation-key: ribeiro_selecting_2015
   container-title: >-
     Proceedings of the 2nd IFAC Workshop on Automatic Control in Offshore Oil
     and Gas Production. IFAC-PapersOnLine
-  DOI: 10/gfjwq8
+  DOI: 10.1016/j.ifacol.2015.08.024
   issue: '6'
   issued:
     - year: 2015
@@ -1152,9 +1252,10 @@
       given: Antônio H.
     - family: Aguirre
       given: Luis A.
+  citation-key: ribeiro_shooting_2017
   container-title: Proceedings of the 20th IFAC World Congress. IFAC-PapersOnLine
   container-title-short: IFAC-PapersOnLine
-  DOI: 10/gfjwmp
+  DOI: 10.1016/j.ifacol.2017.08.2421
   ISSN: 2405-8963
   issue: '1'
   issued:
@@ -1198,6 +1299,7 @@
       given: Thomas B.
     - family: Aguirre
       given: Luis A.
+  citation-key: ribeiro_smoothness_2020
   container-title: Automatica
   DOI: 10.1016/j.automatica.2020.109158
   issued:
@@ -1264,6 +1366,7 @@
       given: Leonardo B.
     - family: MacFarlane
       given: Peter W.
+  citation-key: ribeiro_teleelectrocardiography_2019
   container-title: Journal of Electrocardiology
   container-title-short: Journal of Electrocardiology
   DOI: 10/gf7pwg
@@ -1334,6 +1437,7 @@
       given: Antonio Luiz P.
     - family: Khera
       given: Rohan
+  citation-key: sangha_automated_2021
   container-title: medRxiv
   DOI: 10.1101/2021.09.22.21263926
   issued:
@@ -1436,8 +1540,9 @@
       non-dropping-particle: van
     - family: Contributors
       given: SciPy 1.0
+  citation-key: virtanen_scipy_2020
   container-title: Nature Methods
-  DOI: 10/ggj45f
+  DOI: 10.1038/s41592-019-0686-2
   issue: '3'
   issued:
     - year: 2020
