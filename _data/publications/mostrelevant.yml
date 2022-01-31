@@ -1,18 +1,17 @@
 - tag: ribeiro_automatic_2020a
-  contribution:  I contributed to all aspects of the work, including its conception, implementation and analysis.
+  contribution: I contributed to all aspects of the work, including its conception, implementation and analysis.
     I also presented intermediary results in conferences.
   relevance: It was a pioneering work on the use of deep neural networks for the analysis of 12-lead ECGs.
     We made the implementation and the datasets available and thousands of researchers downloaded them.
-    According to Google Scholar, it was cited more than 100 times in less than two years.
+    According to Google Scholar, it was cited more than 150 times in less than two years.
 - tag: lima_deep_2021
-  contribution: I am an shared first author (equal contribution) with Emilly and Gabriella.
+  contribution: I am co-first author together with Emilly and Gabriella (equal contribution).
     I contributed to the implementation of all machine learning algorithms, the conception of the work, and the writing.
     They contributed respectively with the statistical and the medical analysis.
-  relevance:  We use artificial intelligence to deal with a task predicting age from the ECG.
+  relevance: We use artificial intelligence to deal with a task predicting age from the ECG.
     We have shown that the ECG predicted age is a good predictor of risk and is related to mortality risk.
-    The work points to the fact that the ECG might contain additional information for risk assessment that
-    is not yet well understood by cardiologists and that machine learning might be a powerful tool for
-    exploring this information.
+    The work points to the fact that even normal ECG contains additional information for
+    risk assessment and machine learning might be a useful tool for extracting this information.
 - tag: ribeiro_smoothness_2020
   contribution:  I contributed to the implementation, writing, mathematical development and analysis.
   relevance: We study the challenges of parameter estimations for nonlinear dynamical systems. We show how regions
@@ -23,9 +22,11 @@
   contribution:  I contributed with the implementation, writing, mathematical development and analysis.
   relevance: In this paper, which complements and extends the previous one, we discuss how regions
     of the parameter space could become hard to navigate due to the system's unstability or chaos.
-    We discuss this problem in recurrent neural networks and the role of dynamic attractors in storing information in these models.
+    We discuss this problem in recurrent neural networks and the role of dynamic attractors in storing
+    information in these models.
 - tag: ribeiro_parallel_2018
   contribution: I contributed with the implementation, writing, mathematical development and analysis.
-  relevance: It was the first journal publication of my Ph.D. and studied the computational challenges
+  relevance: It was the first journal publication of my Ph.D. It studied the computational challenges
     and asymptotic properties of estimators with recurrence in their architecture. It shows how recurrent
-    structures can better with diverse types of noise contamination.
+    structures can be better for certain types of noise contamination. It also presents an analysis of the
+    computational cost of the approach.

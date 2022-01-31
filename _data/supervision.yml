@@ -25,3 +25,21 @@
   project: An extension to Semi-Supervised Learning using Shapley Value Data Valuation
   institution: Uppsala University
   country: Sweden
+- student: Theogene Habineza
+  role: supervisor
+  level: MSc
+  status: In progress
+  start: Jan. 2022
+  end: July 2022 (estimated)
+  project: Predicting the Development of Atrial Fibrillation from the Electrocardiogram using Deep Neural Networks
+  institution: Uppsala University
+  country: Sweden
+- student: Oscar Larsson
+  role: supervisor
+  level: MSc
+  status: In progress
+  start: Jan. 2022
+  end: July 2022 (estimated)
+  project: Adversarial Machine Learning with Detectability Constraints
+  institution: Uppsala University
+  country: Sweden
