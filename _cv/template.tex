@@ -1,5 +1,6 @@
 \documentclass[10pt,letterpaper]{article} % Use the custom resume.cls style
 
+\usepackage{verbatim} % usefull to coment out blocs
 \usepackage{newcent}
 \usepackage{multicol} % For multicol at the start
 \usepackage{hyperref} % Required for adding links and customizing them
@@ -100,9 +101,9 @@
     \, Uppsala University \\
     \, Department of Information Technology,\\
     \, Division of Systems and Control\\
-    {\bf Work Address:} Room 2340, ITC, Lägerhyddsv. 2, hus 2 \\
-    \phantom{\bf Work address:} 752 37 Uppsala, Sweden\\
-    {\bf Postal address:} Box 337 - 751 05 Uppsala, Sweden\\
+    {\bf Work Address:} Room 103146, hus 10 \\
+    \phantom{\bf Work address:} Lägerhyddsvägen 1, Uppsala, Sweden\\
+    {\bf Postal address:} Box 337 - 751 05, Uppsala, Sweden\\
     {\bf Email:} antonio.horta.ribeiro@it.uu.se\\
     {\bf Website:} antonior92.github.io
 \end{multicols}
@@ -149,15 +150,19 @@
     { {{ p.country }} } \\
     {{ p.description }}
 {% endfor %}
+\newpage
 
 \section*{Supervision}
 
 {% for p in supervision %}
-    \cventry{  {{ p.student }}  }
-    { {{ p.start }} - {{p.end}} }
-    { {{ p.level }}, {{ p.role }} }
-    { {{ p.institution }}, {{ p.country }} } \\
-    {\it {{ p.project }} }
+\subsection*{\noindent {{ p.level }} students, {{ p.role }}  }
+    {% for s in p.students %}
+        \cventry{  {{ s.student }}  }
+        { {{ s.start }} - {{s.end}} }
+        {  }
+        { {{ s.institution }}, {{ s.country }} } \\
+        {\it {{ s.project }} }
+        {% endfor %}
 {% endfor %}
 
 
@@ -185,7 +190,6 @@
 
 {% for p in professional.others %} {{ p.name }} \hfill {\em {{ p.year }} } \\ {% endfor %}
 
-\newpage
 
 \subsection*{Open source contributions}
 
@@ -205,9 +209,9 @@ contain a complete list of my open-source contributions.
 {\bf ORCID}:  \href{https://orcid.org/0000-0003-3632-8529}{0000-0003-3632-8529}\\
 {\bf DBLP}: \href{https://dblp.org/pid/202/1699.html}{202/1699}\\
 {\bf SCOPUS ID}: \href{https://www.scopus.com/authid/detail.uri?authorId=57191699148}{57191699148} ---
-    Citations: 4793, h-index: 6 (2022-01-25) \\
+    Citations: 5348, h-index: 6 (2022-03-13) \\
 {\bf Google Scholar}: \href{https://scholar.google.com.br/citations?user=5t_sZdMAAAAJ}{Antonio H. Ribeiro} ---
-    Citations: 8636, h-index: 9, i10-index: 9 (2022-01-25)
+    Citations: 9530, h-index: 9, i10-index: 9 (2022-03-13)
 %{\bf Lattes CV}: \href{http://lattes.cnpq.br/0898576944135254}{0898576944135254}
 \end{tcolorbox}
 
