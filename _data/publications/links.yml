@@ -154,3 +154,8 @@ ribeiro_occam_2021a:
     link: pdfs/abstracts/2021-NonLinWorkshop.pdf
   - name: slides
     link: pdfs/slides/2021-NonLinWorkshop-1.pdf
+gedon_resnetbased_2021:
+  - name: extended abstract
+    link: pdfs/abstracts/2021-NstemiNeuripsWorkshop.pdf
+  - name: slides
+    link: pdfs/slides/2021-NstemiNeuripsWorkshop.pdf
