@@ -28,13 +28,6 @@
 - level: M.Sc.
   role: subject reviewer
   students:
-    - student: Meenal Pathak
-      status: In progress
-      start: Feb. 2022
-      end: Mar. 2022 (estimated)
-      project: Automated Accounting using Machine Learning
-      institution: Uppsala University
-      country: Sweden
     - student: Christie Courtnage
       role: subject reviwer (ämnesgranskare)
       level: MSc
@@ -44,10 +37,10 @@
       project: An extension to Semi-Supervised Learning using Shapley Value Data Valuation
       institution: Uppsala University
       country: Sweden
-    - student: Sai Abhishek Guraja
-      status: In progress
-      start: Feb. 2021
-      end: Mar. 2022 (estimated)
-      project: ADAS scenario classification of in-vehicle sensor data using ML
+    - student: Meenal Pathak
+      status: Complete
+      start: Feb. 2022
+      end: Apr. 2022
+      project: Automated Accounting using Machine Learning
       institution: Uppsala University
       country: Sweden

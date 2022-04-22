@@ -1,10 +1,11 @@
 - name: Preprints
   papers:
+      - ribeiro_overparameterized_2022
       - gustafsson_artificial_2021
-      - sangha_automated_2021
 
 - name: Journal Papers
   papers:
+      - sangha_automated_2022
       - paixao_electrocardiographic_2021
       - lima_deep_2021
       - biton_atrial_2021

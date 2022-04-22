@@ -131,7 +131,7 @@
   type: paper-conference
   volume: '48'
 
-- id: gedon_resnetbased_2021
+- id: gedon_resnet-based_2021
   author:
     - family: Gedon
       given: Daniel
@@ -147,9 +147,10 @@
       given: Thomas B.
     - family: Sundström
       given: Johan
-  citation-key: gedon_resnetbased_2021
+  citation-key: gedon_resnet-based_2021
   container-title: >-
-    Machine learning from ground truth - NeurIPS Workshop
+    Machine learning from ground truth: New medical imaging datasets for
+    unsolved medical problems Workshop at NeurIPS
   event: NeurIPS
   issued:
     - year: 2021
@@ -1146,6 +1147,45 @@
   type: paper-conference
   volume: '54'
 
+- id: ribeiro_overparameterized_2022
+  abstract: >-
+    As machine learning models start to be used in critical applications, their
+    vulnerabilities and brittleness become a pressing concern. Adversarial
+    attacks are a popular framework for studying these vulnerabilities. In this
+    work, we study the error of linear regression in the face of adversarial
+    attacks. We provide bounds of the error in terms of the traditional risk and
+    the parameter norm and show how these bounds can be leveraged and make it
+    possible to use analysis from non-adversarial setups to study the
+    adversarial risk. The usefulness of these results is illustrated by shedding
+    light on whether or not overparameterized linear models can be adversarially
+    robust. We show that adding features to linear models might be either a
+    source of additional robustness or brittleness. We show that these
+    differences appear due to scaling and how the $\ell_1$ and $\ell_2$ norms of
+    random projections concentrate. We also show how the reformulation we
+    propose allows for solving adversarial training as a convex optimization
+    problem. This is then used as a tool to study how adversarial training and
+    other regularization methods might affect the robustness of the estimated
+    models.
+  accessed:
+    - year: 2022
+      month: 4
+      day: 22
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Schön
+      given: Thomas B.
+  citation-key: ribeiro_overparameterized_2022
+  container-title: arXiv:2204.06274
+  issued:
+    - year: 2022
+      month: 4
+      day: 13
+  source: arXiv.org
+  title: Overparameterized Linear Regression under Adversarial Attacks
+  type: article-journal
+  URL: http://arxiv.org/abs/2204.06274
+
 - id: ribeiro_overparametrized_2021
   author:
     - family: Ribeiro
@@ -1380,41 +1420,7 @@
     Electrocardiography) study
   type: article-journal
 
-- id: sangha_automated_2021
-  abstract: >-
-    Aims The application of artificial intelligence (AI) for automated diagnosis
-    of electrocardiograms (ECGs) can improve access to high quality diagnostic
-    care in remote settings but is limited by the reliance on signal-based data
-    that are not routinely available. We sought to develop a multilabel
-    automated diagnosis model for electrocardiographic images, more suitable for
-    broader use.
-
-    Methods and Results A total of 2,228,236 12-lead ECGs from 811
-    municipalities in Minas Gerais, Brazil were sampled into 90%
-    (training):5%(validation):5%(held-out test), and were transformed to ECG
-    images with varying lead locations and formats. We trained a convolutional
-    neural network (CNN) using an EfficientNet-based architecture on ECG images
-    to identify 6 physician-defined clinical labels spanning rhythm and
-    conduction disorders, as well as a hidden label for gender. We trained
-    another CNN for signal-based classification. The image-based model performed
-    well on the held-out test set (average AUROC 0.99, AUPRC 0.68). This was
-    replicated in a distinct test set from Brazil validated by at least two
-    cardiologists (average AUROC 0.99, AUPRC 0.86) as well as an external
-    validation set of 21,785 ECGs from Germany (average AUROC 0.97, AUPRC 0.73),
-    with performance superior to signal-based models. Expert review of 120 out
-    of 120 high confidence false positive predictions on the held-out and
-    external validation sets were confirmed to be true positives with incorrect
-    labels. The model learned generalizable features, confirmed using
-    Gradient-weighted Class Activation Mapping (Grad-CAM).
-
-    Conclusion We developed an externally validated model that extends the
-    automated diagnosis of key rhythm and conduction disorders to printed ECGs
-    as well as to the identification of hidden features, allowing the
-    application of AI to ECGs captured across broad settings.
-  accessed:
-    - year: 2021
-      month: 10
-      day: 24
+- id: sangha_automated_2022
   author:
     - family: Sangha
       given: Veer
@@ -1436,17 +1442,16 @@
       given: Antonio Luiz P.
     - family: Khera
       given: Rohan
-  citation-key: sangha_automated_2021
-  container-title: medRxiv
-  DOI: 10.1101/2021.09.22.21263926
+  citation-key: sangha_automated_2022
+  container-title: Nature Communications
+  DOI: 10.1038/s41467-022-29153-3
   issued:
-    - year: 2021
-      month: 9
-      day: 23
-  source: medRxiv
-  title: Automated Multilabel Diagnosis on Electrocardiographic Images and Signals
+    - year: 2022
+  note: https://www.medrxiv.org/content/10.1101/2021.09.22.21263926v1
+  page: '1583'
+  title: Automated multilabel diagnosis on electrocardiographic images and signals
   type: article-journal
-  URL: https://www.medrxiv.org/content/10.1101/2021.09.22.21263926v1
+  volume: '13'
 
 - id: virtanen_scipy_2020
   abstract: >-

@@ -159,3 +159,11 @@ gedon_resnetbased_2021:
     link: pdfs/abstracts/2021-NstemiNeuripsWorkshop.pdf
   - name: slides
     link: pdfs/slides/2021-NstemiNeuripsWorkshop.pdf
+ribeiro_overparameterized_2022:
+  - name: arxiv
+    link: http://arxiv.org/abs/2204.06274
+sangha_automated_2022:
+  - name: medrxiv
+    link: https://www.medrxiv.org/content/10.1101/2021.09.22.21263926v1
+  - name: webapp
+    link: https://www.cards-lab.org/ecgdx

@@ -1,3 +1,14 @@
+- name: Deep Neural Networks for Automatic ECG Analysis
+  venue: Online presentation @ Systems Control Group, LCSB University of Luxembourg
+  date: March 2022
+  slide: pdfs/slides/2022-UniLux.pdf
+  github: antonior92/presentation-lux
+  publications:
+    - ribeiro_automatic_2020a
+    - lima_deep_2021
+    - gustafsson_artificial_2021
+    - biton_atrial_2021
+    - ribeiro_overparameterized_2022
 - name: On the robustness of overparametrized models
   venue: Microseminar - System and Control Division, Uppsala University, Sweden
   date: Nov. 2021
