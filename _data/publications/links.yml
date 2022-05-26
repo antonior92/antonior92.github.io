@@ -167,3 +167,6 @@ sangha_automated_2022:
     link: https://www.medrxiv.org/content/10.1101/2021.09.22.21263926v1
   - name: webapp
     link: https://www.cards-lab.org/ecgdx
+ribeiro_surprises_2022:
+  - name: arxiv
+    link: http://arxiv.org/abs/2205.12695

@@ -1,5 +1,6 @@
 - name: Preprints
   papers:
+      - ribeiro_surprises_2022
       - ribeiro_overparameterized_2022
       - gustafsson_artificial_2021
 
