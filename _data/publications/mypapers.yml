@@ -1381,15 +1381,14 @@
     - family: Schön
       given: Thomas B.
   citation-key: ribeiro_surprises_2022
+  container-title: arXiv:2205.12695
   issued:
     - year: 2022
       month: 5
       day: 25
-  number: arXiv:2205.12695
-  publisher: arXiv
   source: arXiv.org
   title: Surprises in adversarially-trained linear regression
-  type: article
+  type: article-journal
   URL: http://arxiv.org/abs/2205.12695
 
 - id: ribeiro_teleelectrocardiography_2019

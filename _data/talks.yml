@@ -1,3 +1,12 @@
+- name: Overparameterized Linear Regression under Adversarial Attacks
+  venue: Online presentation @ University of British Columbia, Christos Thrampoulidis group
+  date: June 2022
+  slide: pdfs/slides/2022-UBC.pdf
+  github: antonior92/talk-ubc
+  publications:
+    - ribeiro_overparameterized_2022
+    - ribeiro_surprises_2022
+
 - name: Deep Neural Networks for Automatic ECG Analysis
   venue: Online presentation @ Systems Control Group, LCSB University of Luxembourg
   date: March 2022
