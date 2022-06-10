@@ -1494,6 +1494,60 @@
   type: article-journal
   volume: '13'
 
+- id: sangha_detection_2022
+  abstract: >-
+    Left ventricular (LV) systolic dysfunction is associated with over 8-fold
+    increased risk of heart failure and 2-fold risk of premature death. To allow
+    early detection by clinicians, we developed a layout-independent deep
+    learning model that identifies LV systolic dysfunction directly from images
+    of electrocardiograms (ECGs). Overall, 393,910 ECGs with paired
+    echocardiograms were used for model development. The model performed well
+    across multiple image formats (AUROC 0.91, AUPRC 0.69), and two external
+    sets of real-world ECG images from an outpatient academic center (AUROC
+    0.93, AUPRC 0.69) and a rural hospital system (AUROC 0.91, AUPRC 0.89).
+    Class-discriminative patterns localized to the anterior and anteroseptal
+    leads corresponding to the left ventricle, regardless of ECG layout. A
+    positive ECG screen in individuals with preserved LV ejection fraction was
+    associated with 4-fold increased risk of developing LV systolic dysfunction
+    in future. This approach represents an automated and accessible screening
+    strategy for LV systolic dysfunction.
+  author:
+    - family: Sangha
+      given: Veer
+    - family: Nargesi
+      given: Arash A.
+    - family: Dhingra
+      given: Lovedeep S.
+    - family: Mortazavi
+      given: Bobak J.
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Brandt
+      given: Cynthia A.
+    - family: Miller
+      given: Edward J.
+    - family: Ribeiro
+      given: Antonio Luiz P.
+    - family: Velazquez
+      given: Eric J.
+    - family: Krumholz
+      given: Harlan M.
+    - family: Khera
+      given: Rohan
+  citation-key: sangha_detection_2022
+  container-title: medRxiv
+  DOI: 10.1101/2022.06.04.22276000
+  issued:
+    - year: 2022
+      month: 6
+      day: 6
+  source: medRxiv
+  title: >-
+    Detection of Left Ventricular Systolic Dysfunction from Electrocardiographic
+    Images
+  type: article-journal
+  URL: https://www.medrxiv.org/content/10.1101/2022.06.04.22276000v1
+
 - id: virtanen_scipy_2020
   abstract: >-
     SciPy is an open source scientific computing library for the Python

@@ -1,3 +1,14 @@
+- name: Learning signals and systems and its applications to electrocardiography
+  venue: Jobtalk  @ Aalto University
+  date: June 2022
+  slide: pdfs/slides/2022-JobtalkAalto.pdf
+  github: antonior92/talk-ubc
+  publications:
+    - ribeiro_automatic_2020a
+    - gustafsson_artificial_2021
+    - ribeiro_overparameterized_2022
+
+
 - name: Overparameterized Linear Regression under Adversarial Attacks
   venue: Online presentation @ University of British Columbia, Christos Thrampoulidis group
   date: June 2022
