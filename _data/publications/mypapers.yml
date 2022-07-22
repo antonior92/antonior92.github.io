@@ -1650,3 +1650,57 @@
   title: SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python
   type: article-journal
   volume: '17'
+
+- id: zvuloni_merging_2022
+  abstract: >-
+    Objective: Machine learning techniques have been used extensively for
+    12-lead electrocardiogram (ECG) analysis. For physiological time series,
+    deep learning (DL) superiority to feature engineering (FE) approaches based
+    on domain knowledge is still an open question. Moreover, it remains unclear
+    whether combining DL with FE may improve performance. Methods: We considered
+    three tasks intending to address these research gaps: cardiac arrhythmia
+    diagnosis (multiclass-multilabel classiﬁcation), atrial ﬁbrillation risk
+    prediction (binary classiﬁcation), and age estimation (regression). We used
+    an overall dataset of 2.3M 12-lead ECG recordings to train the following
+    models for each task: i) a random forest taking the FE as input was trained
+    as a classical machine learning approach; ii) an end-to-end DL model; and
+    iii) a merged model of FE+DL. Results: FE yielded comparable results to DL
+    while necessitating signiﬁcantly less data for the two classiﬁcation tasks
+    and it was outperformed by DL for the regression task. For all tasks,
+    merging FE with DL did not improve performance over DL alone. Conclusion: We
+    found that for traditional 12-lead ECG based diagnosis tasks DL did not
+    yield a meaningful improvement over FE, while it improved signiﬁcantly the
+    nontraditional regression task. We also found that combining FE with DL did
+    not improve over DL alone which suggests that the FE were redundant with the
+    features learned by DL. Signiﬁcance: Our ﬁndings provides important
+    recommendations on what machine learning strategy and data regime to chose
+    with respect to the task at hand for the development of new machine learning
+    models based on the 12-lead ECG.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 22
+  author:
+    - family: Zvuloni
+      given: Eran
+    - family: Read
+      given: Jesse
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Ribeiro
+      given: Antonio Luiz P.
+    - family: Behar
+      given: Joachim A.
+  citation-key: zvuloni_merging_2022
+  container-title: arXiv:2207.06096
+  issued:
+    - year: 2022
+      month: 7
+      day: 16
+  language: en
+  source: arXiv.org
+  title: >-
+    On Merging Feature Engineering and Deep Learning for Diagnosis,
+    Risk-Prediction and Age Estimation Based on the 12-Lead ECG
+  type: article-journal
+  URL: http://arxiv.org/abs/2207.06096
