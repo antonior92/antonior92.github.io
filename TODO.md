@@ -28,10 +28,18 @@ Network**  </span> <br />
 ----
 # Website
 - [ ] Add news section
+- [ ] Add midia session
+- [ ] Improve template: allow for expanding sessions
+- [ ] Add students session
+- [ ] Better integrate teaching material with the current teaching session
+- [ ] Update research projects
+
 ----
 # Database
 Keep updated database with:
 - [x] Education
+- [x] Academic positions
+- [ ] Examiner  
 - [x] Work
 - [x] Additional professional activities
 - [x] Awards
@@ -55,7 +63,10 @@ Keep updated database with:
 - [x] Add more information in the supervision section 
       (Start and expected end date)
 - [x] Change the description of items format. it does look a little strange now...
-- [ ] Ph.D. and M.Sc. defenses
+- [x] Ph.D. and M.Sc. defenses
+
+# CV info to check document
+- [ ] Check number of students in wasp course
 
 
 
