@@ -109,6 +109,17 @@
 \end{multicols}
 \end{tcolorbox}
 
+\section*{Academic Positions} % Section title
+
+{% for w in academicpositions %}
+    \cventry{ {{ w.position }} }
+    { {{ w.start }} -   {{ w.end }} }
+    { {{ w.institution }} }
+    { {{ w.place }} }\\
+    {{ w.description }}
+{% endfor %}
+
+
 
 \section*{Education} % Section title
 
@@ -121,7 +132,7 @@
 {% endfor %}
 \vspace{10pt}
 
-\section*{Work experience} % Section title
+\section*{Additional work experience} % Section title
 
 {% for w in work %}
     \cventry{ {{ w.position }} }
@@ -150,7 +161,6 @@
     { {{ p.country }} } \\
     {{ p.description }}
 {% endfor %}
-\newpage
 
 \section*{Supervision}
 
@@ -190,6 +200,15 @@
 
 {% for p in professional.others %} {{ p.name }} \hfill {\em {{ p.year }} } \\ {% endfor %}
 
+\subsection*{External examiner in Ph.D. and M.Sc. defenses}
+
+{% for s in examiner %}
+    \cventry{  {{ s.student }} , Level: {{s.level}} }
+    { {{ s.date }} }
+    {  }
+    { {{ s.institution }}, {{ s.country }} } \\
+    {\it {{ s.project }} }
+{% endfor %}
 
 \subsection*{Open source contributions}
 

@@ -14,17 +14,19 @@
     - student: Oscar Larsson
       status: In progress
       start: Feb. 2022
-      end: July 2022 (estimated)
-      project: Adversarial Machine Learning with Detectability Constraints
+      end: July 2022
+      project: Generation and Detection of Adversarial Attacks in the Power Grid
       institution: Uppsala University
       country: Sweden
+      thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1679176
     - student: Theogene Habineza
       status: In progress
       start: Jan. 2022
-      end: June 2022 (estimated)
-      project: Predicting the Development of Atrial Fibrillation from the Electrocardiogram using Deep Neural Networks
+      end: June 2022
+      project: Deep Learning-Based Risk Prediction of Atrial Fibrillation Using the 12-lead ECG
       institution: Uppsala University
       country: Sweden
+      thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1684444
 - level: M.Sc.
   role: subject reviewer
   students:
@@ -33,7 +35,7 @@
       level: MSc
       status: In progress
       start: Jan. 2022
-      end: June 2022 (estimated)
+      end: June 2022
       project: An extension to Semi-Supervised Learning using Shapley Value Data Valuation
       institution: Uppsala University
       country: Sweden
@@ -44,3 +46,4 @@
       project: Automated Accounting using Machine Learning
       institution: Uppsala University
       country: Sweden
+      thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1666083
