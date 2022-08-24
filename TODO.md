@@ -55,4 +55,7 @@ Keep updated database with:
 - [x] Add more information in the supervision section 
       (Start and expected end date)
 - [x] Change the description of items format. it does look a little strange now...
+- [ ] Ph.D. and M.Sc. defenses
+
+
 

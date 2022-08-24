@@ -1,3 +1,29 @@
+- position: Course Responsible,
+  university: Uppsala University, Sweden
+  year: 2022
+  semester: Fall
+  course: Advanced Probabilistic Machine Learning
+  level: MSc
+  link: https://uppsala.instructure.com/courses/53069
+  nstudents: 125
+  ncredits: 5 + 2.5
+  notes: The credits equivalent to ECTS credits. Each week of full-time
+    study is worth 1.5 credits. The course was offered in two versions
+    1RT705 (5 course credits) and 1RT003 (7.5 course credits), 69 students
+    were enrolled in 1RT003 and 56 in the 1RT705. The longer version
+- position: Teaching assistent
+  university: WASP Graduate School, Sweden
+  year: 2022
+  semester: Spring
+  course: Artificial Intelligence and Machine Learning
+  level: PhD
+  nstudents: 94
+  ncredits: 6
+  notes: The credits equivalent to ECTS credits. Each week of full-time
+    study is worth 1.5 credits. The course was offered in two versions
+    1RT705 (5 course credits) and 1RT003 (7.5 course credits), 69 students
+    were enrolled in 1RT003 and 56 in the 1RT705. The longer version
+    of the course 1RT003 the contains additional assignments and extra content.
 - position: Lecturer
   university: Uppsala University, Sweden
   year: 2021

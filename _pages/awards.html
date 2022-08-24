@@ -1,0 +1,16 @@
+---
+layout: page
+title:
+permalink: /awards
+---
+
+
+
+{% for p in site.data.awards %}
+  <h2> {{ p.award }}, {{p.grantedby}} - {{p.place}}, {{ p.year }}</h2>
+
+    <ul>
+        <li><small>{{ p.description }}</small></li>
+    </ul>
+    <hr />
+{% endfor %}
