@@ -1,28 +1,28 @@
 - name: Learning signals and systems and its applications to electrocardiography
-  venue: Jobtalk  @ Aalto University
+  venue: Aalto University, Finland @ Jobtalk (Online)
   date: June 2022
   slide: pdfs/slides/2022-JobtalkAalto.pdf
   github: antonior92/talk-ubc
+  type: jobtalk
   publications:
     - ribeiro_automatic_2020a
     - gustafsson_artificial_2021
     - ribeiro_overparameterized_2022
-
-
 - name: Overparameterized Linear Regression under Adversarial Attacks
-  venue: Online presentation @ University of British Columbia, Christos Thrampoulidis group
+  venue: University of British Columbia, Canada @ Christos Thrampoulidis group (Online)
   date: June 2022
   slide: pdfs/slides/2022-UBC.pdf
   github: antonior92/talk-ubc
+  type: invited university
   publications:
     - ribeiro_overparameterized_2022
     - ribeiro_surprises_2022
-
 - name: Deep Neural Networks for Automatic ECG Analysis
-  venue: Online presentation @ Systems Control Group, LCSB University of Luxembourg
+  venue:  University of Luxembourg @ Systems Control Group, LCSB (Online)
   date: March 2022
   slide: pdfs/slides/2022-UniLux.pdf
   github: antonior92/presentation-lux
+  type: invited university
   publications:
     - ribeiro_automatic_2020a
     - lima_deep_2021
@@ -30,10 +30,11 @@
     - biton_atrial_2021
     - ribeiro_overparameterized_2022
 - name: On the robustness of overparametrized models
-  venue: Microseminar - System and Control Division, Uppsala University, Sweden
+  venue: Uppsala University, Sweden @ System and Control Division (Microseminar)
   date: Nov. 2021
   slide: pdfs/slides/2021-Microseminar.pdf
   github: antonior92/micro-seminar
+  type: local
   publications:
     - ribeiro_overparametrized_2021
     - ribeiro_occam_2021b
@@ -43,6 +44,7 @@
   date: Oct. 2021
   slide: pdfs/slides/2021-PremioTeses.pdf
   github: antonior92/premio-teses
+  type: local
   publications:
     - ribeiro_learning_2020
 - name: "Beyond Occam's Razor in System Identification: Double-Descent when Modeling Dynamics"
@@ -50,6 +52,7 @@
   venue: "19th IFAC symposium on System Identification: learning models for decision and control"
   date: July 2021
   website: https://www.sysid2021.org/
+  type: conference
   publications:
     - ribeiro_occam_2021b
 - name: How convolutional neural networks deal with aliasing
@@ -57,6 +60,7 @@
   venue: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
   date: June 2021
   website: https://www.2021.ieeeicassp.org/
+  type: conference
   publications:
     - ribeiro_how_2021
 - name: Overparametrized Regression Under L2 Adversarial Attacks
@@ -65,22 +69,25 @@
   website: https://topml.rice.edu/
   date: April 2021
   slide: pdfs/slides/2021-TOPML.pdf
+  type: workshop
   publications:
     - ribeiro_overparametrized_2021
 - name: Artificial intelligence for ECG classifcation and prediction of the risk of death
   slide: pdfs/slides/2021-ICE.pdf
   youtube: zoIbT4VUH9c?mute=1
-  venue: International Congress on Electrocardiology
+  venue: International Congress on Electrocardiology (Online)
   website: https://ice2021.pl/
   date: April 2021
+  type: invited conference
   publications:
       - lima_deep_2021
       - ribeiro_automatic_2020
 - name: Artificial intelligence for ECG classification and prediction of the risk of death
   slide: pdfs/slides/2021-AIMLab.pdf
-  venue: AIMLab group meeting -  Techinion, Israel (Online)
+  venue: Techinion, Israel @  AIMLab group (Online)
   date: March 2021
   website: https://aim-lab.github.io/
+  type: invited university
   publications:
     - lima_deep_2021
     - ribeiro_automatic_2020
@@ -88,5 +95,6 @@
   slidelive: 38930165
   venue: International Conference On Artificial Intelligence And Statistics (AISTATS)
   date: 2020
+  type: conference
   publications:
     - ribeiro_exploding_2020

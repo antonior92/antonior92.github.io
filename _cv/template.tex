@@ -210,6 +210,31 @@
     {\it {{ s.project }} }
 {% endfor %}
 
+
+\subsection*{Invited talks}
+
+\subsubsection*{Universities}
+{% for p in talks %}
+    {% if p.type == "invited university" %}
+        \cventry{ {{  p.venue }}  }
+    { {{ p.date }} }
+    { {{ p.name }}  }
+    {  }
+    {% endif %}
+{% endfor %}
+
+\subsubsection*{Conferences}
+
+{% for p in talks %}
+    {% if p.type == "invited conference" %}
+        \cventry{ {{  p.venue }}  }
+    { {{ p.date }} }
+    { {{ p.name }}  }
+    {  }
+    {% endif %}
+{% endfor %}
+
+
 \subsection*{Open source contributions}
 
 {\bf Scipy team member} \hfill {\em 2017 - 2021} \\
