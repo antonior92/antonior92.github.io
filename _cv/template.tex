@@ -16,7 +16,7 @@
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 
-\usepackage[sorting=ydnt, maxbibnames=99, style=numeric, backend=biber]{biblatex}  % For the references
+\usepackage[sorting=ydnt, maxbibnames=99, mincitenames=99, maxcitenames=99, style=numeric, backend=biber, defernumbers=true]{biblatex}  % For the references
 %\DeclareFieldFormat{labelnumberwidth}{}
 \setlength{\biblabelsep}{10pt}
 \setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
@@ -79,10 +79,23 @@
 \DeclareNameWrapperAlias{sortname}{default}
 \DeclareNameWrapperAlias{default}{boldifhashinlist}
 
+
 % --- Add bold names --- %
 
 % DEFINE BOLD NAMES
 \addboldnames{ {Ribeiro, Ant\^onio H.}, {Ribeiro, Ant\^onio H}, {Ribeiro, Antonio H.}, {Ribeiro, Antonio H} }
+
+% ---
+
+
+{% for p in publications.categories %}
+    \DeclareBibliographyCategory{c{{p.name}}}
+    \defbibheading{c{{p.name}}}{\subsection*{ {{p.name}}} }
+    {% for tag in p.papers %}
+        \addtocategory{c{{p.name}}}{ {{ tag }}}
+    {% endfor %}
+{% endfor %}
+
 
 % New command
 
@@ -245,30 +258,7 @@ and optimization method.
 My GitHub account: \href{https://github.com/antonior92}{https://github.com/antonior92}
 contain a complete list of my open-source contributions.
 
-\section*{Publications}
 
-\begin{tcolorbox}[width=6in, standard jigsaw, opacityback=0]
-    \vspace{-4pt}
-    \footnotesize
-{\bf ORCID}:  \href{https://orcid.org/0000-0003-3632-8529}{0000-0003-3632-8529}\\
-{\bf DBLP}: \href{https://dblp.org/pid/202/1699.html}{202/1699}\\
-{\bf SCOPUS ID}: \href{https://www.scopus.com/authid/detail.uri?authorId=57191699148}{57191699148} ---
-    Citations: 5920, h-index: 6 (2022-04-29) \\
-{\bf Google Scholar}: \href{https://scholar.google.com.br/citations?user=5t_sZdMAAAAJ}{Antonio H. Ribeiro} ---
-    Citations: 10290, h-index: 9, i10-index: 9 (2022-04-29)
-%{\bf Lattes CV}: \href{http://lattes.cnpq.br/0898576944135254}{0898576944135254}
-\end{tcolorbox}
-
-{% for p in publications.categories %}
-\subsection*{\noindent {{ p.name }}}
-    \begin{refsection}
-        {% for tag in p.papers %}
-            \nocite{ {{ tag }} }
-        {% endfor %}
-       \newrefcontext[labelprefix= {% cycle "P", "J", "C", "W", "N", "T" %} ]
-       \printbibliography[heading=none]
-    \end{refsection}
-{% endfor %}
 
 \section*{Additional education}
 
@@ -291,10 +281,62 @@ Swedish (elementary knowledge)
 
 Certificate in Advanced English (Council of Europe Level C1) - Cambridge English Language Assessment, 2014
 
+\newpage
+
+ \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \bf Publication List \par}%
+  \end{center}
+  \par
+  \vskip 2em
+
+\begin{tcolorbox}[width=6in, standard jigsaw, opacityback=0]
+    \vspace{-4pt}
+    \footnotesize
+{\bf ORCID}:  \href{https://orcid.org/0000-0003-3632-8529}{0000-0003-3632-8529}\\
+{\bf DBLP}: \href{https://dblp.org/pid/202/1699.html}{202/1699}\\
+{\bf SCOPUS ID}: \href{https://www.scopus.com/authid/detail.uri?authorId=57191699148}{57191699148} ---
+    Citations: 7577, h-index: 7, Documents: 23  (2022-09-12) \\
+{\bf Google Scholar}: \href{https://scholar.google.com.br/citations?user=5t_sZdMAAAAJ}{Antonio H. Ribeiro} ---
+    Citations: 13126, h-index: 10, i10-index: 12 (2022-09-12)
+%{\bf Lattes CV}: \href{http://lattes.cnpq.br/0898576944135254}{0898576944135254}
+\end{tcolorbox}
+
+
+
+
+{% for p in publications.categories %}
+    \subsection*{ {{p.name}}}
+    \newrefcontext[labelprefix={% cycle "P", "J", "C", "W", "N", "T" %} ]
+    \printbibliography[category=c{{p.name}}, heading=none]
+{% endfor %}
+
+
+\nocite{*} % The nocite should go after it because of the
+
+
+\section*{Selected papers: contribution and relevance}
+
+Bellow the list of my five most relevant publications to the moment with contribution and relevance statement.
+
+{% for p in publications.mostrelevant %}
+    \cite{ {{ p.tag }}} ~~   \citetitle{ {{ p.tag }}} (\citeyear{ {{ p.tag }}})
+    \begin{center}
+    \begin{minipage}{17cm}
+      \begin{footnotesize}
+        \textbf{Relevance:}  {{ p.relevance }} \\
+        \textbf{Contribution: } {{ p.contribution }}
+      \end{footnotesize}
+    \end{minipage}
+    \end{center}
+{% endfor %}
 
 \end{document}
 
 \newpage
+
+
+
 
 
 \begin{center}
@@ -330,30 +372,6 @@ He also hosted me in Uppsala as visiting student during one year of my Ph.D.
 \end{center}
 
 \vspace{28pt}
-
-
-
-
-\section*{Most relevant publications}
-
-Bellow the list of my five most relevant publications to the moment.
-
-{% for p in publications.mostrelevant %}
-    \begin{refsection}
-      \nocite{ {{ p.tag }} }
-      \DeclareFieldFormat{labelnumberwidth}{}
-      \setlength{\biblabelsep}{-15pt}
-      \printbibliography[heading=none]
-    \end{refsection}
-    \begin{center}
-    \begin{minipage}{17cm}
-      \begin{footnotesize}
-        \textbf{Relevance:}  {{ p.relevance }} \\
-        \textbf{Contribution: } {{ p.contribution }}
-      \end{footnotesize}
-    \end{minipage}
-    \end{center}
-{% endfor %}
 
 
 

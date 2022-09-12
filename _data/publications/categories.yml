@@ -33,7 +33,7 @@
       - ribeiro_shooting_2017
       - ribeiro_selecting_2015
 
-- name: Workshop papers, conference abstracts and extended abstracts
+- name: "Workshop Papers and Conference Extended Abstracts"
   papers:
       - gedon_resnetbased_2021
       - gedon_first_2021
