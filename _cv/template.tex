@@ -1,105 +1,17 @@
 \documentclass[10pt,letterpaper]{article} % Use the custom resume.cls style
 
 \usepackage{verbatim} % usefull to coment out blocs
-\usepackage{newcent}
-\usepackage{multicol} % For multicol at the start
-\usepackage{hyperref} % Required for adding links and customizing them
-\usepackage{xcolor}
-\usepackage{tcolorbox}
-\hypersetup{colorlinks,
-  linkcolor={red!50!black},
-  citecolor={blue!50!black},
-  urlcolor={blue!5!black}}
+\usepackage{mycv}
 
-\usepackage[margin=1.6cm]{geometry} % Document margins
 
-\usepackage[parfill]{parskip} % Remove paragraph indentation
-\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
+\usepackage{mypublicationlist}
 
-\usepackage[sorting=ydnt, maxbibnames=99, mincitenames=99, maxcitenames=99, style=numeric, backend=biber, defernumbers=true]{biblatex}  % For the references
-%\DeclareFieldFormat{labelnumberwidth}{}
-\setlength{\biblabelsep}{10pt}
-\setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
-\bibliography{refs}
 
-% Define maketitle
-\makeatletter
-\def\@maketitle{
-  \begin{center}%
-  \let \footnote \thanks
-    {\LARGE \bf \@title \par}%
-    \vskip 0.1em%
-    {\large
-      \lineskip .05em%
-      \begin{tabular}[t]{c}%
-        \@author
-      \end{tabular}\par}%
-    \vskip 0.1em%
-    {\large \@date}
-  \end{center}
-  \par
-  \vskip 1em}
-\makeatother
 
 % Define title and author
 \title{Curriculum Vitae}
 \author{Ant\^onio Horta Ribeiro}
 
-% --- Add bold names --- %
-
-\makeatletter
-\def\nhblx@bibfile@name{\jobname -nhblx.bib}
-\newwrite\nhblx@bibfile
-\immediate\openout\nhblx@bibfile=\nhblx@bibfile@name
-
-\immediate\write\nhblx@bibfile{@comment{Auto-generated file}\blx@nl}
-
-\newcounter{nhblx@name}
-\setcounter{nhblx@name}{0}
-
-\newcommand*{\nhblx@writenametobib}[1]{\stepcounter{nhblx@name}\edef\nhblx@tmp@nocite{\noexpand\AfterPreamble{\noexpand\setbox0\noexpand\vbox{\noexpand\nhblx@getmethehash{nhblx@name@\the\value{nhblx@name}}}}}\nhblx@tmp@nocite\immediate\write\nhblx@bibfile{@misc{nhblx@name@\the\value{nhblx@name}, author = {\unexpanded{#1}},options = {dataonly=true},}}}
-
-\AtEndDocument{\closeout\nhblx@bibfile}
-
-\addbibresource{\nhblx@bibfile@name}
-
-\newcommand*{\nhblx@boldhashes}{}
-\DeclareNameFormat{nhblx@hashextract}{\xifinlist{\thefield{hash}}{\nhblx@boldhashes}{}{\listxadd{\nhblx@boldhashes}{\thefield{hash}}}}
-
-\DeclareCiteCommand{\nhblx@getmethehash}{}{\printnames[nhblx@hashextract][1-999]{author}}{}{}
-
-\newcommand*{\addboldnames}{\forcsvlist\nhblx@writenametobib}
-\newcommand*{\resetboldnames}{\def\nhblx@boldhashes{}}
-
-\newcommand*{\mkboldifhashinlist}[1]{\xifinlist{\thefield{hash}}{\nhblx@boldhashes}{\mkbibbold{#1}}{#1}}
-\makeatother
-
-\DeclareNameWrapperFormat{boldifhashinlist}{\renewcommand*{\mkbibcompletename}{\mkboldifhashinlist}#1}
-
-\DeclareNameWrapperAlias{sortname}{default}
-\DeclareNameWrapperAlias{default}{boldifhashinlist}
-
-
-% --- Add bold names --- %
-
-% DEFINE BOLD NAMES
-\addboldnames{ {Ribeiro, Ant\^onio H.}, {Ribeiro, Ant\^onio H}, {Ribeiro, Antonio H.}, {Ribeiro, Antonio H} }
-
-% ---
-
-
-{% for p in publications.categories %}
-    \DeclareBibliographyCategory{c{{p.name}}}
-    \defbibheading{c{{p.name}}}{\subsection*{ {{p.name}}} }
-    {% for tag in p.papers %}
-        \addtocategory{c{{p.name}}}{ {{ tag }}}
-    {% endfor %}
-{% endfor %}
-
-
-% New command
-
-\newcommand{\cventry}[4]{ {\bf #1} \hfill {\em #2} \\ {\small \sc #3 \hfill  #4} }
 
 \begin{document}
 
@@ -128,8 +40,8 @@
     \cventry{ {{ w.position }} }
     { {{ w.start }} -   {{ w.end }} }
     { {{ w.institution }} }
-    { {{ w.place }} }\\
-    {{ w.description }}
+    { {{ w.place }} }
+    { {{ w.description }} }
 {% endfor %}
 
 
@@ -140,8 +52,8 @@
     \cventry{ {{ e.degree }} }
     { {{ e.start }} - {{ e.end }} }
     { {{ e.university }} }
-    { {{ e.place}} } \\
-    {{ e.note }}
+    { {{ e.place}} }
+    { {{ e.note }} }
 {% endfor %}
 \vspace{10pt}
 
@@ -151,8 +63,8 @@
     \cventry{ {{ w.position }} }
     { {{ w.start }} -   {{ w.end }} }
     { {{ w.institution }} }
-    { {{ w.place }} }\\
-    {{ w.description }}
+    { {{ w.place }} }
+    { {{ w.description }} }
 {% endfor %}
 
 \section*{Awards}
@@ -161,8 +73,8 @@
     \cventry{ {{ p.award }} }
     { {{ p.year }} }
     { {{ p.grantedby }} }
-    { {{p.place}} }\\
-    {{ p.description }}
+    { {{p.place}} }
+    { {{ p.description }} }
 {% endfor %}
 
 \section*{Scholarships}
@@ -171,8 +83,8 @@
     \cventry{ {{ p.name }} }
     { {{ p.year }} }
     { {{ p.agency }} }
-    { {{ p.country }} } \\
-    {{ p.description }}
+    { {{ p.country }} }
+    { {{ p.description }} }
 {% endfor %}
 
 \section*{Supervision}
@@ -183,8 +95,8 @@
         \cventry{  {{ s.student }}  }
         { {{ s.start }} - {{s.end}} }
         {  }
-        { {{ s.institution }}, {{ s.country }} } \\
-        {\it {{ s.project }} }
+        { {{ s.institution }}, {{ s.country }} }
+        { { {{ s.project }} } }
         {% endfor %}
 {% endfor %}
 
@@ -195,7 +107,8 @@
     \cventry{ {{  p.course }}  }
     { {{ p.semester }} - {{ p.year }}  }
     { {{ p.position }}  - {{ p.level }} level, {{ p.nstudents }} students, {{ p.ncredits }} credits }
-    { {{ p.university }}  } \\ {% endfor %}
+    { {{ p.university }}  }
+    {} {% endfor %}
 
 
 
@@ -219,8 +132,8 @@
     \cventry{  {{ s.student }} , Level: {{s.level}} }
     { {{ s.date }} }
     {  }
-    { {{ s.institution }}, {{ s.country }} } \\
-    {\it {{ s.project }} }
+    { {{ s.institution }}, {{ s.country }} }
+    { {\it {{ s.project }} } }
 {% endfor %}
 
 
@@ -232,7 +145,7 @@
         \cventry{ {{  p.venue }}  }
     { {{ p.date }} }
     { {{ p.name }}  }
-    {  }
+    {  }{}
     {% endif %}
 {% endfor %}
 
@@ -243,7 +156,7 @@
         \cventry{ {{  p.venue }}  }
     { {{ p.date }} }
     { {{ p.name }}  }
-    {  }
+    {  }{}
     {% endif %}
 {% endfor %}
 
@@ -266,8 +179,8 @@ contain a complete list of my open-source contributions.
     \cventry{ {{ p.name }} }
     {\em  {{ p.year }} }
     { {{ p.institution }} }
-    { {{ p.place }} } \\
-    {{ p.description }}
+    { {{ p.place }} }
+    { {{ p.description }} }
 {% endfor %}
 
 \section*{Languages}
@@ -290,30 +203,20 @@ Certificate in Advanced English (Council of Europe Level C1) - Cambridge English
   \par
   \vskip 2em
 
+
 \begin{tcolorbox}[width=6in, standard jigsaw, opacityback=0]
     \vspace{-4pt}
     \footnotesize
 {\bf ORCID}:  \href{https://orcid.org/0000-0003-3632-8529}{0000-0003-3632-8529}\\
 {\bf DBLP}: \href{https://dblp.org/pid/202/1699.html}{202/1699}\\
 {\bf SCOPUS ID}: \href{https://www.scopus.com/authid/detail.uri?authorId=57191699148}{57191699148} ---
-    Citations: 7577, h-index: 7, Documents: 23  (2022-09-12) \\
+    Citations: 7651, h-index: 7, Documents: 23  (2022-09-12) \\
 {\bf Google Scholar}: \href{https://scholar.google.com.br/citations?user=5t_sZdMAAAAJ}{Antonio H. Ribeiro} ---
-    Citations: 13126, h-index: 10, i10-index: 12 (2022-09-12)
+    Citations: 13217, h-index: 11, i10-index: 12 (2022-09-15)
 %{\bf Lattes CV}: \href{http://lattes.cnpq.br/0898576944135254}{0898576944135254}
 \end{tcolorbox}
 
-
-
-
-{% for p in publications.categories %}
-    \subsection*{ {{p.name}}}
-    \newrefcontext[labelprefix={% cycle "P", "J", "C", "W", "N", "T" %} ]
-    \printbibliography[category=c{{p.name}}, heading=none]
-{% endfor %}
-
-
-\nocite{*} % The nocite should go after it because of the
-
+\printmypublications
 
 \section*{Selected papers: contribution and relevance}
 
@@ -330,6 +233,9 @@ Bellow the list of my five most relevant publications to the moment with contrib
     \end{minipage}
     \end{center}
 {% endfor %}
+
+
+
 
 \end{document}
 

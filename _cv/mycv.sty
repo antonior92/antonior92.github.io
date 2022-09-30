@@ -1,0 +1,40 @@
+
+\usepackage[margin=1.6cm]{geometry} % Document margins
+
+\usepackage{newcent}
+\usepackage{multicol} % For multicol at the start
+\usepackage{hyperref} % Required for adding links and customizing them
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage[parfill]{parskip} % Remove paragraph indentation
+\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
+
+% New command
+\newcommand{\shortcventry}[5]{ \footnotesize {\bf #1} {\em #2}- { \sc #3}}
+\newcommand{\cventry}[5]{ {\bf #1} \hfill {\em #2} \\ {\small \sc #3 \hfill  #4} \\ #5}
+
+
+\hypersetup{colorlinks,
+  linkcolor={red!50!black},
+  citecolor={blue!50!black},
+  urlcolor={blue!5!black}}
+
+
+% Define maketitle
+\makeatletter
+\def\@maketitle{
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \bf \@title \par}%
+    \vskip 0.1em%
+    {\large
+      \lineskip .05em%
+      \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}\par}%
+    \vskip 0.1em%
+    {\large \@date}
+  \end{center}
+  \par
+  \vskip 1em}
+\makeatother
