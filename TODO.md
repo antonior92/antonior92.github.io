@@ -67,6 +67,9 @@ Keep updated database with:
 
 # CV info to check document
 - [ ] Check number of students in wasp course
+- [ ] Reverse order of publication list
+- [ ] Make sure short cv is in good shape
+- [ ] Update publication list tex 
 
 
 
