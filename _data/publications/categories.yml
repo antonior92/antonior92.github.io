@@ -1,4 +1,5 @@
 - name: Preprints
+  letter: P
   papers:
       - lu_knowledge_2022
       - zvuloni_merging_2022
@@ -8,6 +9,7 @@
 
 
 - name: Journal Papers
+  letter: J
   papers:
       - gustafsson_development_2022
       - sangha_automated_2022
@@ -24,6 +26,7 @@
       - ribeiro_parallel_2018
 
 - name: Conference Papers
+  letter: C
   papers:
       - hendriks_deep_2021
       - ribeiro_occam_2021b
@@ -36,6 +39,7 @@
       - ribeiro_selecting_2015
 
 - name: "Workshop Papers and Conference Extended Abstracts"
+  letter: W
   papers:
       - gedon_resnetbased_2021
       - gedon_first_2021
@@ -51,10 +55,12 @@
       - paixao_clinical_2018
 
 - name: National Conference Papers (in Portuguese)
+  letter: N
   papers:
       - ribeiro_relacoes_2014
 
 - name: Thesis
+  letter: T
   papers:
       - ribeiro_learning_2020
       - ribeiro_recurrent_2017

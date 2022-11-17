@@ -1,13 +1,15 @@
 .authors {
-    font-size: 8px;
+    font-size: 10px;
+    font-style: italic;
 }
 
 .conference {
-	font-size: 8px;
+	font-size: 12px;
 }
 
 .papertitle{
-	font-size: 14px;
+	font-size: 12px;
+    font-weight: 900;
 }
 
 .titlebox{
@@ -19,13 +21,14 @@
 }
 
 .paper{
-    width: 80%;
+    width: 90%;
     height: auto;
-    margin: 10px auto;
+    margin: 3px auto;
     padding: 1px;
     position: relative;
     border: 1px solid $lightGray;
     line-height: 90%;
+    margin-bottom: 10px;
  }
 
 .news{
@@ -68,7 +71,7 @@
 }
 
 .source{
-    font-size: 12px;
+    font-size: 9px;
     padding: 0;
     margin: 0;
 }

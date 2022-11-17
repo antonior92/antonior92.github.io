@@ -34,6 +34,8 @@ Network**  </span> <br />
 - [ ] Better integrate teaching material with the current teaching session
 - [ ] Update research projects
 - [ ] Better way to navigate publications
+- [ ] Add abstract to all publication
+- [ ] Add figures to publications
 
 ----
 # Database

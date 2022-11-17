@@ -19,27 +19,32 @@ Bellow a list of my publications. Bibliometrics can  be found
 </span>
  <br />
 
+
 {% for categories in site.data.publications.categories %}
     <hr />
     <div class="titlebox">{{ categories.name }}</div>
+    {% assign pnumber = 0 %}
     {% for paper_id in categories.papers %}
         {% for paper in site.data.publications.mypapers %}
             {% if paper.id == paper_id %}
                 <div class="paper" markdown="1">
                 <div class="category"></div>
-                <span class="papertitle"> {{ paper.title }}</span> <br />
+                    {% assign pnumber = pnumber | plus: 1 %}
+
+                <span class="papertitle"> [{{ categories.letter }}{{ pnumber }}] -  {{ paper.title }} ({{ paper.issued[0].year }}).
+                    </span>
                 <span class="authors">
                     {% assign var = 1 %}
                     {% for author in paper.author %}
                         {% if author.family == "Ribeiro" and author.given contains "Ant" and author.given contains "nio" and author.given contains "H"%}
                              <strong> {{ author.given }} {{ author.family }}</strong>{% unless paper.author.size == var %}, {% endunless %}
                         {% else %}
-                             {{ author.given }} {{ author.family }}{% unless paper.author.size == var %}, {% endunless %}
+                             {{ author.given }} {{ author.family }}{% unless paper.author.size == var %}, {% else%}. {% endunless %}
                         {% endif %}
                         {% assign var = var | plus: 1 %}
                     {% endfor %}
-                </span> <br />
-                <span class="conference"> {{ paper.container-title }} ({{ paper.issued[0].year }})</span> <br />
+                </span>
+                <span class="conference"> {{ paper.container-title }}. </span>
                 <span class="source">
 
                     {% assign var = 1 %}
