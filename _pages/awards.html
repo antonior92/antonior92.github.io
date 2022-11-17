@@ -7,10 +7,14 @@ permalink: /awards
 
 
 {% for p in site.data.awards %}
-  <h2> {{ p.award }}, {{p.grantedby}} - {{p.place}}, {{ p.year }}</h2>
+<details>
+  <summary> <span class="atitle">  {{ p.award }}, {{p.grantedby}} - {{p.place}}, {{ p.year }} </span></summary>
 
-    <ul>
-        <li><small>{{ p.description }}</small></li>
-    </ul>
-    <hr />
+    <div class="paper" markdown="1">
+      <span class="abstract">
+        {{ p.description }}
+      </span>
+    </div>
+
+</details>
 {% endfor %}
