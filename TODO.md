@@ -33,6 +33,7 @@ Network**  </span> <br />
 - [ ] Add students session
 - [ ] Better integrate teaching material with the current teaching session
 - [ ] Update research projects
+- [ ] Better way to navigate publications
 
 ----
 # Database

@@ -1,13 +1,15 @@
 - name: Preprints
   papers:
+      - lu_knowledge_2022
       - zvuloni_merging_2022
       - sangha_detection_2022
       - ribeiro_surprises_2022
       - ribeiro_overparameterized_2022
-      - gustafsson_artificial_2021
+
 
 - name: Journal Papers
   papers:
+      - gustafsson_development_2022
       - sangha_automated_2022
       - paixao_electrocardiographic_2021
       - lima_deep_2021
