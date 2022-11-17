@@ -1,3 +1,22 @@
+- name:  (Upcomming) Adversarial Attacks in Linear Regression
+  venue: Seminars on Advances in Probabilistic Machine Learning @ Aalto University and ELLIS unit Helsinki
+  date: November 2022
+  type: invited university
+  website: https://aaltoml.github.io/apml/
+  abstract: \
+      """State-of-the-art machine learning models can be vulnerable to very small input perturbations that are
+    adversarially constructed. Adversarial attacks are a popular framework for studying these vulnerabilities.
+    They consider worst-case input disturbances designed to maximize model error and got a lot of attention due
+    to their impact on the performance of state-of-the-art models. Adversarial training considers extending model
+    training with these examples and is an effective approach to defend against such attacks. This talk will explore
+    adversarial attacks and training in linear regression.  There is a strong reason for this focus, for linear
+    regression, adversarial training can be formulated as a convex and quadratic problem. Moreover, many interesting
+    phenomena that can be observed in nonlinear models are still present. The setup is used to study the role of high
+    dimensionality in robustness. And to reveal the connection between adversarial training, parameter-shrinking methods
+    and minimum-norm solutions."""
+  publications:
+    - ribeiro_overparameterized_2022
+    - ribeiro_surprises_2022
 - name: Learning signals and systems and its applications to electrocardiography
   venue: Aalto University, Finland @ Jobtalk (Online)
   date: June 2022
@@ -14,6 +33,18 @@
   slide: pdfs/slides/2022-UBC.pdf
   github: antonior92/talk-ubc
   type: invited university
+  abstract: \
+      """State-of-the-art machine learning models can be vulnerable to very small input perturbations that are
+      adversarially constructed. Adversarial attacks are a popular framework for studying these vulnerabilities and got
+      a lot of attention due to their high impact on deep neural network performance. Adversarial training is one of the
+      most effective approaches to defending against such adversarial examples and considers adversarially perturbed samples
+      during training to produce more robust models. This talk will explore adversarial attacks and training in a simpler
+      setting than it is usually studied, linear regression.  There is a strong reason for this focus, for linear regression
+      models adversarial training can be simplified into a convex and quadratic form. Moreover, a lot of interesting
+      phenomena that can still be observed in nonlinear models are still present. The setup is used to study how
+      high-dimensionality can be either a source of additional robustness or brittleness.  And also to show, in
+      the linear setting, similarities (and differences) between $\ell_\infty$-adversarial training and the lasso
+      and between $\ell_2$-adversarial training and ridge regression."""
   publications:
     - ribeiro_overparameterized_2022
     - ribeiro_surprises_2022

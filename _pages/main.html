@@ -1,0 +1,53 @@
+---
+layout: page
+title:
+permalink: /
+---
+
+
+<div class="col-md-6"; style="text-align: center">
+<h2 style="margin: 0px 0px -5px 0px;">about me</h2>
+    <p style="text-align: left">
+        I'm a postdoctoral researcher at <a href="http://www.it.uu.se/">Uppsala University</a> in Sweden.
+        My work studies techniques to extract information and  learn the intrinsic behavior of
+        time series, signals and dynamical systems. I have a focus on large-scale models
+        that can perform such tasks, with a special interest in their robustness and generalization
+        capabilities.  While motivated by a range of applications, I am particularly interested in
+        the new prospects these advances can bring to medicine. In particular cardiology and
+        electrocardiography.
+    </p>
+        <br/>
+
+</div>
+
+
+<div class="row">
+<div  class="col-md-12" style="margin-bottom: 20px; text-align: center">
+    <h2 style="margin: 0px 0px -5px 0px;">news</h2>
+    <div class="newsbox" style="height:170px;overflow:auto;border-radius: 10px; margin-left: 25px; margin-right: 25px; margin-bottom: 5px;margin-top: 15px;;
+    display: inline-block; text-align: left; vertical-align: middle">
+    <table style="width: 100%">
+    {% for entry in site.data.news %}
+      <tr>
+        <td style="width: 20%" class="datev">{{ entry.date }}</td>
+          <td style="width: 80%">
+              {{entry.text}}
+              {% if entry.link %}
+              <a href="{{entry.link}}">(link)</a>
+              {% endif %}
+              {% if entry.links %}
+                    {% for l in entry.links %}
+                              <a href="{{l}}">(link)</a>
+
+                    {% endfor %}
+              {% endif %}
+              {% if entry.photo %}
+               <a href="{{entry.photo}}">(photo)</a>
+              {% endif %}
+          </td>
+      </tr>
+    {% endfor %}
+     </table>
+</div>
+</div>
+</div>
