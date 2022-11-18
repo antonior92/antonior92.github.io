@@ -5,10 +5,15 @@ permalink: /awards
 ---
 
 
+<div class="col-md-6"; style="text-align: center">
+<h2 style="margin: 0px 0px -5px 0px;">awards</h2>
+ <br />
+</div>
+
 
 {% for p in site.data.awards %}
 <details>
-  <summary> <span class="atitle">  {{ p.award }}, {{p.grantedby}} - {{p.place}}, {{ p.year }} </span></summary>
+  <summary> <span class="papertitle">  {{ p.award }}, {{p.grantedby}} - {{p.place}}, {{ p.year }} </span></summary>
 
     <div class="paper" markdown="1">
       <span class="abstract">

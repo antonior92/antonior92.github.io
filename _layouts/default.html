@@ -18,14 +18,12 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+          <div class="col-md-6"; style="text-align: center">
+            <h1 class="site-name">{{ site.name }}</h1>
 
           <nav>
+            <a href="{{ site.baseurl }}/">home</a>
             <a href="{{ site.baseurl }}/publications">publications</a>
             <a href="{{ site.baseurl }}/awards">awards</a>
             <a href="{{ site.baseurl }}/teaching">teaching</a>
@@ -33,8 +31,8 @@
             <a href="{{ site.baseurl }}/cv">cv</a>
             <a href="{{ site.baseurl }}/projects">research overview</a>
             <a href="{{ site.baseurl }}/datasets">datasets</a>
-            <a href="{{ site.baseurl }}/contact">contact</a>
           </nav>
+            </div>
         </header>
       </div>
     </div>

@@ -5,11 +5,17 @@ permalink: /talks
 ---
 
 
+<div class="col-md-6"; style="text-align: center">
+<h2 style="margin: 0px 0px -5px 0px;">talks</h2>
+ <br />
+</div>
+
+
 {% for t in site.data.talks %}
+<details>
 
-<div class="entry">
-    <h3>{{ t.name }}  ({{ t.venue }}, {{ t.date }})</h3>
-
+  <summary> <span class="papertitle">  {{ t.name }}  ({{ t.venue }}, {{ t.date }})</spam></summary>
+    <div class="entry">
         <center>
         {% unless t.youtube == blank %}
          <div style="display: inline-block">
@@ -45,12 +51,14 @@ permalink: /talks
 
     {% if t.publications.size > 0 %}
         <br>
-        <b>Related publications:</b>
+        <div class="paper" markdown="1">
+            <span class="papertitle">  Related publications:</span>
+        <span class="abstract">
         <ul>
         {% for item in t.publications %}
             {% for paper in site.data.publications.mypapers %}
                 {% if paper.id == item %}
-                    <li><span style="font-size:0.7em">
+                    <li>
                     {{ paper.title }} ({{ paper.issued[0].year }}). <i> {{ paper.container-title }}.</i>
                                {% assign var = 1 %}
                                 {% for author in paper.author %}
@@ -61,12 +69,12 @@ permalink: /talks
                                       {% endif %}
                                       {% assign var = var | plus: 1 %}
                                {% endfor %}
-                    </span></li>
+                    </li>
                 {% endif %}
             {% endfor %}
         {% endfor %}
-        </ul>
+        </ul></span>
+        </div>
 {% endif %}
-<br />
-<hr />
+</details>
 {% endfor %}

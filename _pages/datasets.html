@@ -4,17 +4,21 @@ title:
 permalink: /datasets
 ---
 
+<div class="col-md-6"; style="text-align: center">
+<h2 style="margin: 0px 0px -5px 0px;">datasets</h2>
+ <br />
+</div>
+
 
 {% for p in site.data.datasets %}
-  <h2>  {{ p.name }} </h2>
-
-    {{ p.description }}
-
-    <ul>
-        <li> <a href="{{ p.url }}"> {{ p.url }} </a> ({{ p.avaibility }})
-    </ul>
-
-
+<details>
+  <summary> <span class="atitle"> {{ p.name }} </h2> </span></summary>
+  <div class="paper" markdown="1">
+      <span class="abstract">
+      {{ p.description }} - <a href="{{ p.url }}"> {{ p.url }} </a> ({{ p.avaibility }}).
+      </span>
+    </div>
   <hr />
+</details>
 {% endfor %}
 

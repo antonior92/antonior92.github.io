@@ -5,10 +5,17 @@ permalink: /projects
 ---
 
 
+<div class="col-md-6"; style="text-align: center">
+<h2 style="margin: 0px 0px -5px 0px;">research overview</h2>
+ <br />
+</div>
 
 {% for p in site.data.projects %}
-  <article class="post">
-  <h2>  ({{ p.start }} -  {{ p.end }})  {{ p.name }} </h2>
+
+      <details>
+    <summary> <span class="papertitle">  ({{ p.start }} -  {{ p.end }})  {{ p.name }}</spam></summary>
+          <div class="paper" markdown="1">
+              <span class="abstract">
     <div class="entry">
         <p style="margin-bottom:0.1cm;">
             {% if p.image %}
@@ -40,6 +47,8 @@ permalink: /projects
         {% endfor %}
         </ul>{% endif %}
     </div>
-  </article>
-  <hr />
+    </span>
+        </div>
+
+</details>
 {% endfor %}
