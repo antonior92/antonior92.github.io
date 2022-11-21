@@ -14,7 +14,8 @@ permalink: /talks
 {% for t in site.data.talks %}
 <details>
 
-  <summary> <span class="papertitle">  {{ t.name }}  ({{ t.venue }}, {{ t.date }})</spam></summary>
+  <summary> <spam class="papertitle">  {{ t.name }}  ({{ t.date }})</spam><br />&nbsp;&nbsp;&nbsp;<spam class="authors">{{ t.venue }}.<spam> <br /></summary>
+
     <div class="entry">
         <center>
         {% unless t.youtube == blank %}

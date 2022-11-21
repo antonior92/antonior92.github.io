@@ -29,7 +29,7 @@ Network**  </span> <br />
 # Website
 - [ ] Add news section
 - [ ] Add midia session
-- [ ] Improve template: allow for expanding sessions
+- [x] Improve template: allow for expanding sessions
 - [ ] Add students session
 - [ ] Better integrate teaching material with the current teaching session
 - [ ] Update research projects

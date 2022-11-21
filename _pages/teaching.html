@@ -12,9 +12,9 @@ permalink: /teaching
 
 {% for p in site.data.teaching %}
 <div class="paper" markdown="1">
-  <span class="papertitle">  <a href="{{p.link}}"> {{ p.course }}  </a> ({{ p.university }}, {{ p.year }}, {{p.semester}}).  </spam>
+  <span class="papertitle">  <a href="{{p.link}}"> {{ p.course }}  </a> ({{ p.university }}, {{ p.year }}, {{p.semester}}).  </span>
       <br />
-      <span class="authors"> {{ p.level}}  level course. </spam> <span class="conference">  {{ p.position }}.</spam>
+      <span class="authors"> {{ p.level}}  level course. </span> <span class="conference">  {{ p.position }}.</span>
           <br />
 </div>
 {% endfor %}
