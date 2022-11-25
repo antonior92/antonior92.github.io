@@ -16,9 +16,12 @@ permalink: /talks
 
   <summary> <spam class="papertitle">  {{ t.name }}  ({{ t.date }})</spam><br />&nbsp;&nbsp;&nbsp;<spam class="authors">{{ t.venue }}.<spam> <br /></summary>
 
+
+    <div class="paper" markdown="1">
     <div class="entry">
         <center>
         {% unless t.youtube == blank %}
+            <br />
          <div style="display: inline-block">
             <iframe width="350" height="315"
             src="https://www.youtube.com/embed/{{ t.youtube }}">
@@ -27,6 +30,7 @@ permalink: /talks
         {% endunless %}
 
         {% unless t.slide == blank %}
+            <br />
                 <div style="display: inline-block">
         <object data={{ t.slide }} type="application/pdf" width="350" height="315">
         <embed src={{ t.slide }} type="application/pdf">
@@ -37,6 +41,7 @@ permalink: /talks
         {% endunless %}
 
         {% unless t.slidelive == blank %}
+            <br />
                 <div id="presentation-embed-{{ t.slidelive }}"></div>
                 <script src='https://slideslive.com/embed_presentation.js'></script>
                 <script>
@@ -50,9 +55,16 @@ permalink: /talks
 
      </center>
 
+        {% unless t.abstract == blank %}
+        <span class="papertitle">  Abstract:</span>
+        <span class="abstract">
+            {{ t.abstract }}
+            </span><br />
+       {% endunless %}
+
+
     {% if t.publications.size > 0 %}
         <br>
-        <div class="paper" markdown="1">
             <span class="papertitle">  Related publications:</span>
         <span class="abstract">
         <ul>
@@ -76,6 +88,6 @@ permalink: /talks
         {% endfor %}
         </ul></span>
         </div>
-{% endif %}
+    {% endif %}
 </details>
 {% endfor %}
