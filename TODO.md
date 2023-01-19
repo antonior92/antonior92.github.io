@@ -27,7 +27,7 @@ Network**  </span> <br />
 ```
 ----
 # Website
-- [ ] Add news section
+- [x] Add news section
 - [ ] Add midia session
 - [x] Improve template: allow for expanding sessions
 - [ ] Add students session

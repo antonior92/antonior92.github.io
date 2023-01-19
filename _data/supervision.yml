@@ -30,10 +30,19 @@
 - level: M.Sc.
   role: subject reviewer
   students:
-    - student: Christie Courtnage
+    - student: Johan Millberg
       role: subject reviwer (ämnesgranskare)
       level: MSc
       status: In progress
+      start: Jan. 2023
+      end: June 2022 (estimated)
+      project:  Evaluating clusters of financial time series
+      institution: Uppsala University
+      country: Sweden
+    - student: Christie Courtnage
+      role: subject reviwer (ämnesgranskare)
+      level: MSc
+      status: Complete
       start: Jan. 2022
       end: June 2022
       project: An extension to Semi-Supervised Learning using Shapley Value Data Valuation

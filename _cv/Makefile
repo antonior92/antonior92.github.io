@@ -1,19 +1,24 @@
 all: main.pdf
 
+ROOT=..
+TEMPLATE=template.tex
+DATA=$(ROOT)/_data/
+RENDER=$(ROOT)/scripts/render_from_template.py
+
 main.pdf: main.tex main.bbl mypublicationlist.sty mycv.sty
-	pdflatex -interaction=nonstopmode main.tex
+	pdflatex -interaction=nonstopmode $<
 
 main.bbl: main.bcf
 	biber main
 
 main.bcf: main.tex
-	pdflatex -interaction=nonstopmode main.tex
+	pdflatex -interaction=nonstopmode $<
 
-mypublicationlist.sty: mypublicationlist_template.sty
-	python ../scripts/render_from_template.py mypublicationlist_template.sty ../_data -o ./mypublicationlist.sty
+mypublicationlist.sty: mypublicationlist_template.sty refs.bib
+	python  $(RENDER) $< $(DATA) -o ./$@
 
-main.tex: template.tex ../_data/* ../scripts/render_from_template.py
-	python ../scripts/render_from_template.py template.tex ../_data -o ./main.tex
+main.tex: $(TEMPLATE) $(DATA)* $(RENDER)
+	python $(RENDER) $< $(DATA) -o ./$@
 
 .PHONY : clean
 clean :

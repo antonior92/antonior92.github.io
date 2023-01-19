@@ -1,4 +1,3 @@
-
 @article{andersson_deep_2019,
   title = {Deep {{Convolutional Networks}} in {{System Identification}}},
   author = {Andersson, Carl and Ribeiro, Ant{\^o}nio H. and Tiels, Koen and Wahlstr{\"o}m, Niklas and Sch{\"o}n, Thomas B.},
@@ -51,17 +50,22 @@
   copyright = {All rights reserved}
 }
 
-@article{gustafsson_artificial_2021,
-  title = {Artificial {{Intelligence-Based ECG Diagnosis}} of {{Myocardial Infarction}} in {{High-Risk Emergency Department Patients}}},
-  author = {Gustafsson, Stefan and Gedon, Daniel and Lampa, Erik and Ribeiro, Ant{\^o}nio H. and Holzmann, Martin J. and Sch{\"o}n, Thomas B. and Sundstrom, Johan},
-  year = {2021},
-  month = jun,
-  journal = {SSRN},
-  doi = {10.2139/ssrn.3857655},
-  abstract = {Background: Myocardial infarctions are often missed in the emergency department. Deep learning models have shown promise in ECG classification in managed settings. We postulate that deep learning models can be useful for ECG myocardial infarction discrimination also in real-world emergency department patients with a high suspicion of an acute coronary syndrome.Methods: We studied emergency department patients in the Stockholm region between 2007 and 2016 that had an ECG obtained and were admitted to a coronary care unit. We developed a deep neural network based on convolutional layers similar to a residual network. Inputs were ECG, age and sex; output label was non-ST-elevation myocardial infarction (NSTEMI), ST-elevation myocardial infarction (STEMI), and control status as registered in the SWEDEHEART registry by the discharging coronary care unit physician. We used an ensemble of five models.Findings: Of the included 12,311 coronary care unit admissions, 3,993 were recorded with an NSTEMI, 1,340 a STEMI, and 6,978 had not had a myocardial infarction. In a random test set, our model could discriminate STEMIs with fair precision, with a C-statistic of 0.85 and a Brier score of 0.10. Discrimination of NSTEMIs was poorer, with a C-statistic of 0.76 and a Brier score of 0.18. The performance was similar in a temporal test set that did not overlap in time with the training set.Interpretation: We developed and validated a deep learning model with human-level performance in classifying NSTEMI and STEMI on the presenting ECG of a real-world sample of emergency department patients with a high suspicion of an acute coronary syndrome. Deep learning models for ECG decision support could be valuable in the emergency department.Funding: The Kjell and M\"arta Beijer Foundation, Anders Wikl\"of, the Wallenberg AI, AutonomousSystems and Software Program (WASP) funded by the Knut and Alice WallenbergFoundation, and Uppsala University.Declaration of Interest: JS reports stock ownership in companies providing services to Itrim, Amgen, Janssen, Novo Nordisk, Eli Lilly, Boehringer, Bayer, Pfizer and AstraZeneca, outside the submitted work. No other authors have anything to declare. Ethical Approval: The study was approved by the Swedish Ethical Review Agency, application number 2020-01654.},
-  copyright = {All rights reserved},
-  keywords = {Antônio  H. Ribeiro,Artificial Intelligence-Based ECG Diagnosis of Myocardial Infarction in High-Risk Emergency Department Patients,Daniel Gedon,Erik Lampa,Johan Sundstrom,Martin  J. Holzmann,SSRN,Stefan Gustafsson,Thomas  B. Schön},
-  file = {/Users/antoniohortaribeiro/Zotero/storage/V6T95VIC/papers.html}
+@article{gustafsson_development_2022,
+  title = {Development and Validation of Deep Learning {{ECG-based}} Prediction of Myocardial Infarction in Emergency Department Patients},
+  author = {Gustafsson, Stefan and Gedon, Daniel and Lampa, Erik and Ribeiro, Ant{\^o}nio H. and Holzmann, Martin J. and Sch{\"o}n, Thomas B. and Sundstr{\"o}m, Johan},
+  year = {2022},
+  month = nov,
+  journal = {Scientific Reports},
+  volume = {12},
+  number = {1},
+  pages = {19615},
+  publisher = {{Nature Publishing Group}},
+  issn = {2045-2322},
+  doi = {10.1038/s41598-022-24254-x},
+  abstract = {Myocardial infarction diagnosis is a common challenge in the emergency department. In managed settings, deep learning-based models and especially convolutional deep models have shown promise in electrocardiogram (ECG) classification, but there is a lack of high-performing models for the diagnosis of myocardial infarction in real-world scenarios. We aimed to train and validate a deep learning model using ECGs to predict myocardial infarction in real-world emergency department patients. We studied emergency department patients in the Stockholm region between 2007 and 2016 that had an ECG obtained because of their presenting complaint. We developed a deep neural network based on convolutional layers similar to a residual network. Inputs to the model were ECG tracing, age, and sex; and outputs were the probabilities of three mutually exclusive classes: non-ST-elevation myocardial infarction (NSTEMI), ST-elevation myocardial infarction (STEMI), and control status, as registered in the SWEDEHEART and other registries. We used an ensemble of five models. Among 492,226 ECGs in 214,250 patients, 5,416 were recorded with an NSTEMI, 1,818 a STEMI, and 485,207 without a myocardial infarction. In a random test set, our model could discriminate STEMIs/NSTEMIs from controls with a C-statistic of 0.991/0.832 and had a Brier score of 0.001/0.008. The model obtained a similar performance in a temporally separated test set of the study sample, and achieved a C-statistic of 0.985 and a Brier score of 0.002 in discriminating STEMIs from controls in an external test set. We developed and validated a deep learning model with excellent performance in discriminating between control, STEMI, and NSTEMI on the presenting ECG of a real-world sample of the important population of all-comers to the emergency department. Hence, deep learning models for ECG decision support could be valuable in the emergency department.},
+  copyright = {2022 The Author(s)},
+  keywords = {Cardiology,Cardiovascular diseases,Diseases,Health care,Machine learning,Medical research},
+  file = {/Users/antoniohortaribeiro/Zotero/storage/3NG3RQFE/Gustafsson et al. - 2022 - Development and validation of deep learning ECG-ba.pdf;/Users/antoniohortaribeiro/Zotero/storage/B86Z5P3V/s41598-022-24254-x.html}
 }
 
 @article{hendriks_deep_2021,
@@ -102,6 +106,20 @@
   abstract = {The electrocardiogram (ECG) is the most commonly used exam for the screening and evaluation of cardiovascular diseases. Here we propose that the age predicted by artificial intelligence (AI) from the raw ECG tracing (ECG-age) can be a measure of cardiovascular health and provide prognostic information. A deep convolutional neural network was trained to predict a patient9s age from the 12-lead ECG using data from patients that underwent an ECG from 2010 to 2017 - the CODE study cohort (n=1,558,415 patients). On the 15\% hold-out CODE test split, patients with ECG-age more than 8 years greater than chronological age had a higher mortality rate (hazard ratio (HR) 1.79, p\&lt;0.001) in a mean follow-up of 3.67 years, whereas those with ECG-age more than 8 years less than chronological age had a lower mortality rate (HR 0.78, p\&lt;0.001). Similar results were obtained in the external cohorts ELSA-Brasil (n=14,236) and SaMi-Trop (n=1,631). The ability to predict mortality from the ECG predicted age remains even when we adjust the model for cardiovascular risk factors. Moreover, even for apparent normal ECGs, having a predicted ECG-age 8 or more years greater than chronological age remained a statistically significant predictor of risk (HR 1.53, p\&lt;0.001 in CODE 15\% test split). These results show that AI-enabled analysis of the ECG can add prognostic information to the interpretation of the 12-lead ECGs.},
   annotation = {medRxiv doi: 10.1101/2021.02.19.21251232},
   file = {/Users/antoniohortaribeiro/Zotero/storage/BXQAMNJG/Lima et al_2021_Deep neural network estimated electrocardiographic-age as a mortality predictor.pdf;/Users/antoniohortaribeiro/Zotero/storage/RVQZR9WL/2021.02.19.html}
+}
+
+@article{lu_knowledge_2022,
+  title = {Knowledge {{Discovery}} with {{Electrocardiography Using Interpretable Deep Neural Networks}}},
+  author = {Lu, Lei and Zhu, Tingting and Ribeiro, Ant{\^o}nio H. and Clifton, Lei and Zhao, Erying and Ribeiro, Antonio Luiz P. and Zhang, Yuan-Ting and Clifton, David A.},
+  year = {2022},
+  month = nov,
+  journal = {medRxiv},
+  pages = {2022.11.01.22281722},
+  doi = {10.1101/2022.11.01.22281722},
+  abstract = {Despite the potentials of artificial intelligence (AI) in healthcare, very little work focuses on the extraction of clinical information or knowledge discovery from clinical measurements. Here we propose a novel deep learning model to extract characteristics in electrocardiogram (ECG) and explore its usage in knowledge discovery. Utilising a 12-lead ECG dataset (nECGs = 2,322,513) collected from unique subjects (nSubjects = 1,558,772) in primary care, we performed three independent medical tasks with the proposed model: (i) cardiac abnormality diagnosis, (ii) gender identification, and (iii) hypertension screening. We achieved an area under the curve (AUC) score of 0.998 (95\% confidence interval (CI), 0.995-0.999), 0.964 (95\% CI, 0.963-0.965), and 0.839 (95\% CI, 0.837-0.841) for each task, respectively; We provide interpretation of salient morphologies and further identified key ECG leads that achieve similar performance for the three tasks: (i) AVR and V1 leads (AUC=0.990 (95\% CI, 0.982-0.995); (ii) V5 lead (AUC=0.900 (95\% CI, 0.899-0.902)); and (iii) V1 lead (AUC=0.816 (95\% CI, 0.814-0.818)). Using ECGs, our model not only has demonstrated cardiologist-level accuracy in heart diagnosis with interpretability, but also shows its potentials in facilitating clinical knowledge discovery for gender and hypertension detection which are not readily available.},
+  copyright = {\textcopyright{} 2022, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/},
+  langid = {english},
+  file = {/Users/antoniohortaribeiro/Zotero/storage/XEGE9H3S/Lu et al. - 2022 - Knowledge Discovery with Electrocardiography Using.pdf;/Users/antoniohortaribeiro/Zotero/storage/PL5X4PR2/2022.11.01.html}
 }
 
 @article{meirajr_contextualized_2020,
@@ -552,6 +570,23 @@
   file = {/Users/antoniohortaribeiro/Zotero/storage/9TI3V9ZK/1907.html}
 }
 
+@article{vonbachmann_ecgbased_2022,
+  title = {{{ECG-Based Electrolyte Prediction}}: {{Evaluating Regression}} and {{Probabilistic Methods}}},
+  shorttitle = {{{ECG-Based Electrolyte Prediction}}},
+  author = {Von Bachmann, Philipp and Gedon, Daniel and Gustafsson, Fredrik K. and Ribeiro, Ant{\^o}nio H. and Lampa, Erik and Gustafsson, Stefan and Sundstr{\"o}m, Johan and Sch{\"o}n, Thomas B.},
+  year = {2022},
+  month = dec,
+  journal = {arXiv:2212.13890},
+  eprint = {2212.13890},
+  eprinttype = {arxiv},
+  doi = {10.48550/arXiv.2212.13890},
+  abstract = {Objective: Imbalances of the electrolyte concentration levels in the body can lead to catastrophic consequences, but accurate and accessible measurements could improve patient outcomes. While blood tests provide accurate measurements, they are invasive and the laboratory analysis can be slow or inaccessible. In contrast, an electrocardiogram (ECG) is a widely adopted tool which is quick and simple to acquire. However, the problem of estimating continuous electrolyte concentrations directly from ECGs is not well-studied. We therefore investigate if regression methods can be used for accurate ECG-based prediction of electrolyte concentrations. Methods: We explore the use of deep neural networks (DNNs) for this task. We analyze the regression performance across four electrolytes, utilizing a novel dataset containing over 290000 ECGs. For improved understanding, we also study the full spectrum from continuous predictions to binary classification of extreme concentration levels. To enhance clinical usefulness, we finally extend to a probabilistic regression approach and evaluate different uncertainty estimates. Results: We find that the performance varies significantly between different electrolytes, which is clinically justified in the interplay of electrolytes and their manifestation in the ECG. We also compare the regression accuracy with that of traditional machine learning models, demonstrating superior performance of DNNs. Conclusion: Discretization can lead to good classification performance, but does not help solve the original problem of predicting continuous concentration levels. While probabilistic regression demonstrates potential practical usefulness, the uncertainty estimates are not particularly well-calibrated. Significance: Our study is a first step towards accurate and reliable ECG-based prediction of electrolyte concentration levels.},
+  archiveprefix = {arXiv},
+  copyright = {All rights reserved},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing},
+  file = {/Users/antoniohortaribeiro/Zotero/storage/45AMFVN2/Von Bachmann et al. - 2022 - ECG-Based Electrolyte Prediction Evaluating Regre.pdf;/Users/antoniohortaribeiro/Zotero/storage/FP9NRPHE/2212.html}
+}
+
 @article{zvuloni_merging_2022,
   title = {On {{Merging Feature Engineering}} and {{Deep Learning}} for {{Diagnosis}}, {{Risk-Prediction}} and {{Age Estimation Based}} on the 12-{{Lead ECG}}},
   author = {Zvuloni, Eran and Read, Jesse and Ribeiro, Ant{\^o}nio H. and Ribeiro, Antonio Luiz P. and Behar, Joachim A.},
@@ -567,5 +602,3 @@
   keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,I.2.0,J.3},
   file = {/Users/antoniohortaribeiro/Zotero/storage/VVZCGQJP/Zvuloni et al. - 2022 - On Merging Feature Engineering and Deep Learning f.pdf}
 }
-
-

@@ -142,10 +142,10 @@
 \subsubsection*{Universities}
 {% for p in talks %}
     {% if p.type == "invited university" %}
-        \cventry{ {{  p.venue }}  }
+        \shortcventry{ {{  p.venue }}  }
     { {{ p.date }} }
     { {{ p.name }}  }
-    {  }{}
+    { }{}
     {% endif %}
 {% endfor %}
 
@@ -153,10 +153,10 @@
 
 {% for p in talks %}
     {% if p.type == "invited conference" %}
-        \cventry{ {{  p.venue }}  }
+        \shortcventry{ {{  p.venue }}  }
     { {{ p.date }} }
     { {{ p.name }}  }
-    {  }{}
+    { }{}
     {% endif %}
 {% endfor %}
 
@@ -222,7 +222,11 @@ Certificate in Advanced English (Council of Europe Level C1) - Cambridge English
 
 \printmypublications
 
-\section*{Selected papers: contribution and relevance}
+\end{document}
+
+\newpage
+
+\section*{Selected publications}
 
 Bellow the list of my five most relevant publications to the moment with contribution and relevance statement.
 

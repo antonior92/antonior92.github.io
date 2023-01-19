@@ -1,12 +1,12 @@
 - name: Preprints
   letter: P
   papers:
+      - vonbachmann_ecgbased_2022
       - lu_knowledge_2022
       - zvuloni_merging_2022
       - sangha_detection_2022
       - ribeiro_surprises_2022
       - ribeiro_overparameterized_2022
-
 
 - name: Journal Papers
   letter: J

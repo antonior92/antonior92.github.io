@@ -408,6 +408,7 @@
     - family: Clifton
       given: David A.
   citation-key: lu_knowledge_2022
+  container-title: medRxiv
   DOI: 10.1101/2022.11.01.22281722
   issued:
     - year: 2022
@@ -420,13 +421,11 @@
     International), CC BY-NC-ND 4.0, as described at
     http://creativecommons.org/licenses/by-nc-nd/4.0/
   page: 2022.11.01.22281722
-  publisher: medRxiv
   source: medRxiv
-  container-title: medRxiv
   title: >-
     Knowledge Discovery with Electrocardiography Using Interpretable Deep Neural
     Networks
-  type: article
+  type: article-journal
   URL: https://www.medrxiv.org/content/10.1101/2022.11.01.22281722v1
 
 - id: meirajr_contextualized_2020
@@ -1755,6 +1754,71 @@
   title: SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python
   type: article-journal
   volume: '17'
+
+- id: vonbachmann_ecgbased_2022
+  abstract: >-
+    Objective: Imbalances of the electrolyte concentration levels in the body
+    can lead to catastrophic consequences, but accurate and accessible
+    measurements could improve patient outcomes. While blood tests provide
+    accurate measurements, they are invasive and the laboratory analysis can be
+    slow or inaccessible. In contrast, an electrocardiogram (ECG) is a widely
+    adopted tool which is quick and simple to acquire. However, the problem of
+    estimating continuous electrolyte concentrations directly from ECGs is not
+    well-studied. We therefore investigate if regression methods can be used for
+    accurate ECG-based prediction of electrolyte concentrations. Methods: We
+    explore the use of deep neural networks (DNNs) for this task. We analyze the
+    regression performance across four electrolytes, utilizing a novel dataset
+    containing over 290000 ECGs. For improved understanding, we also study the
+    full spectrum from continuous predictions to binary classification of
+    extreme concentration levels. To enhance clinical usefulness, we finally
+    extend to a probabilistic regression approach and evaluate different
+    uncertainty estimates. Results: We find that the performance varies
+    significantly between different electrolytes, which is clinically justified
+    in the interplay of electrolytes and their manifestation in the ECG. We also
+    compare the regression accuracy with that of traditional machine learning
+    models, demonstrating superior performance of DNNs. Conclusion:
+    Discretization can lead to good classification performance, but does not
+    help solve the original problem of predicting continuous concentration
+    levels. While probabilistic regression demonstrates potential practical
+    usefulness, the uncertainty estimates are not particularly well-calibrated.
+    Significance: Our study is a first step towards accurate and reliable
+    ECG-based prediction of electrolyte concentration levels.
+  accessed:
+    - year: 2023
+      month: 1
+      day: 18
+  author:
+    - family: Von Bachmann
+      given: Philipp
+    - family: Gedon
+      given: Daniel
+    - family: Gustafsson
+      given: Fredrik K.
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Lampa
+      given: Erik
+    - family: Gustafsson
+      given: Stefan
+    - family: Sundström
+      given: Johan
+    - family: Schön
+      given: Thomas B.
+  citation-key: vonbachmann_ecgbased_2022
+  container-title: arXiv:2212.13890
+  DOI: 10.48550/arXiv.2212.13890
+  issued:
+    - year: 2022
+      month: 12
+      day: 21
+  license: All rights reserved
+  source: arXiv.org
+  title: >-
+    ECG-Based Electrolyte Prediction: Evaluating Regression and Probabilistic
+    Methods
+  title-short: ECG-Based Electrolyte Prediction
+  type: article-journal
+  URL: http://arxiv.org/abs/2212.13890
 
 - id: zvuloni_merging_2022
   abstract: >-
