@@ -104,11 +104,19 @@
 \section*{Teaching}
 
 {% for p in teaching %}
-    \cventry{ {{  p.course }}  }
-    { {{ p.semester }} - {{ p.year }}  }
-    { {{ p.position }}  - {{ p.level }} level, {{ p.nstudents }} students, {{ p.ncredits }} credits }
-    { {{ p.university }}  }
-    {} {% endfor %}
+    \shortcventry{ {{  p.course }}  }
+    {   {{ p.semester }} - {{ p.year }}  }
+    { {{ p.university }} }
+    { }
+    {}
+    \begin{itemize}
+        \item {{ p.position }}
+        \item {{ p.level }} level, {{ p.nstudents }} students, {{ p.ncredits }} credits
+        \item \emph{Examination:} {{ p.examination }}
+        \item \emph{Activities:}  {{ p.activities }}
+    \end{itemize}
+    {% endfor %}
+
 
 
 

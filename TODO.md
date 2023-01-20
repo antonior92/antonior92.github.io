@@ -42,7 +42,7 @@ Network**  </span> <br />
 Keep updated database with:
 - [x] Education
 - [x] Academic positions
-- [ ] Examiner  
+- [x] Examiner  
 - [x] Work
 - [x] Additional professional activities
 - [x] Awards
@@ -50,6 +50,19 @@ Keep updated database with:
 - [x] Supervision
 - [x] Additional Education
 - [ ] Midia section
+  
+Research Database:
+- [ ] Add external funding
+
+Teaching database
+- [ ] Extend teaching database
+    - [ ] course description
+    - [ ] course material produced (with internal links)
+    - [ ] exam material produced
+    - [ ] extended description of my role / co-teachers
+- [ ] Create pedagogical development database
+  - [ ] List of material
+
 
 ----
 # Autocv
