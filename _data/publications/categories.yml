@@ -1,9 +1,12 @@
-- name: Preprints
+- name: Working manuscripts
   letter: P
   papers:
+      - danielgedon_no_2023
+      - jidling_screening_2023
+      - lindow_heart_2023
+      - pillonetto_deep_2023
       - vonbachmann_ecgbased_2022
       - lu_knowledge_2022
-      - zvuloni_merging_2022
       - sangha_detection_2022
       - ribeiro_surprises_2022
       - ribeiro_overparameterized_2022
@@ -11,6 +14,7 @@
 - name: Journal Papers
   letter: J
   papers:
+      - zvuloni_merging_2023
       - gustafsson_development_2022
       - sangha_automated_2022
       - paixao_electrocardiographic_2021

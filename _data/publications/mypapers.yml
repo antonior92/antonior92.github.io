@@ -92,6 +92,22 @@
   type: article-journal
   URL: https://doi.org/10.1093/ehjdh/ztab071
 
+- id: danielgedon_no_2023
+  author:
+    - family: Gedon
+      given: Daniel
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Schön
+      given: Thomas B.
+  citation-key: danielgedon_no_2023
+  container-title: OpenReview
+  issued:
+    - year: 2023
+  license: All rights reserved
+  title: 'No Double Descent in PCA: Training and Pre-Training in High Dimensions'
+  type: article-journal
+
 - id: gedon_first_2021
   abstract: >-
     Self-supervised learning is a paradigm that extracts general features which
@@ -301,6 +317,45 @@
   title: Deep Energy-Based NARX Models
   type: article-journal
 
+- id: jidling_screening_2023
+  accessed:
+    - year: 2023
+      month: 1
+      day: 26
+  author:
+    - family: Jidling
+      given: Carl
+    - family: Gedon
+      given: Daniel
+    - family: Schön
+      given: Thomas B.
+    - family: Oliveira
+      given: Claudia Di Lorenzo
+    - family: Cardos
+      given: Clareci Silva
+    - family: Ferreira
+      given: Ariela Mota
+    - family: Giatti
+      given: Luana
+    - family: Barreto
+      given: Sandhi Maria
+    - family: Sabino
+      given: Ester C.
+    - family: Ribeiro
+      given: Antônio L. P.
+    - family: Ribeiro
+      given: Antônio Horta
+  citation-key: jidling_screening_2023
+  container-title: Submitted to Plos Neglected Tropical Diseases
+  issued:
+    - year: 2023
+  license: All rights reserved
+  title: >-
+    Screening for Chagas disease from the electrocardiogram using a deep neural
+    network
+  type: article-journal
+  URL: https://submit.medrxiv.org/submission/queue?queueName=papers_under_review
+
 - id: lima_deep_2021
   abstract: >-
     The electrocardiogram (ECG) is the most commonly used exam for the screening
@@ -365,6 +420,30 @@
   type: article-journal
   volume: '12'
 
+- id: lindow_heart_2023
+  author:
+    - family: Lindow
+      given: Thomas
+    - family: Maanja
+      given: Maren
+    - family: Schelbert
+      given: Erik B
+    - family: Ribeiro
+      given: Antonio Luiz P
+    - family: Schlegel
+      given: Todd T
+    - family: Ugander
+      given: Martin
+  citation-key: lindow_heart_2023
+  container-title: Submitted to Nature Communications
+  issued:
+    - year: 2023
+  license: All rights reserved
+  title: >-
+    Heart age gap by explainable advanced electrocardiography is associated with
+    cardiovascular risk factors and survival
+  type: article-journal
+
 - id: lu_knowledge_2022
   abstract: >-
     Despite the potentials of artificial intelligence (AI) in healthcare, very
@@ -408,7 +487,7 @@
     - family: Clifton
       given: David A.
   citation-key: lu_knowledge_2022
-  container-title: medRxiv
+  container-title: 'Under review at Nature Comunications (preprint: medRxiv)'
   DOI: 10.1101/2022.11.01.22281722
   issued:
     - year: 2022
@@ -919,6 +998,28 @@
   URL: https://www.ahajournals.org/doi/abs/10.1161/circ.142.suppl_3.16883
   volume: '142'
 
+- id: pillonetto_deep_2023
+  author:
+    - family: Pillonetto
+      given: Gianluigi
+    - family: Aravkin
+      given: Aleksandr
+    - family: Gedon
+      given: Daniel
+    - family: Ljung
+      given: Lennart
+    - family: Ribeiro
+      given: Antonio H.
+    - family: Schön
+      given: Thomas Bo
+  citation-key: pillonetto_deep_2023
+  container-title: Submitted to Automatica
+  issued:
+    - year: 2023
+  license: All rights reserved
+  title: 'Deep networks for system identification: a Survey'
+  type: article-journal
+
 - id: ribeiro_automatic_2018
   abstract: >-
     We present a model for predicting electrocardiogram (ECG) abnormalities in
@@ -1269,7 +1370,9 @@
     - family: Schön
       given: Thomas B.
   citation-key: ribeiro_overparameterized_2022
-  container-title: arXiv:2204.06274
+  container-title: >-
+    Minor revisions before acceptance in IEEE Transactions in Signal Processing
+    (preprint: arXiv:2204.06274)
   issued:
     - year: 2022
       month: 4
@@ -1638,7 +1741,7 @@
     - family: Khera
       given: Rohan
   citation-key: sangha_detection_2022
-  container-title: medRxiv
+  container-title: 'Under review Circulation (preprint: medRxiv)'
   DOI: 10.1101/2022.06.04.22276000
   issued:
     - year: 2022
@@ -1820,31 +1923,35 @@
   type: article-journal
   URL: http://arxiv.org/abs/2212.13890
 
-- id: zvuloni_merging_2022
+- id: zvuloni_merging_2023
   abstract: >-
-    Objective: Machine learning techniques have been used extensively for
-    12-lead electrocardiogram (ECG) analysis. For physiological time series,
-    deep learning (DL) superiority to feature engineering (FE) approaches based
-    on domain knowledge is still an open question. Moreover, it remains unclear
-    whether combining DL with FE may improve performance. Methods: We considered
-    three tasks intending to address these research gaps: cardiac arrhythmia
-    diagnosis (multiclass-multilabel classiﬁcation), atrial ﬁbrillation risk
-    prediction (binary classiﬁcation), and age estimation (regression). We used
-    an overall dataset of 2.3M 12-lead ECG recordings to train the following
-    models for each task: i) a random forest taking the FE as input was trained
-    as a classical machine learning approach; ii) an end-to-end DL model; and
-    iii) a merged model of FE+DL. Results: FE yielded comparable results to DL
-    while necessitating signiﬁcantly less data for the two classiﬁcation tasks
-    and it was outperformed by DL for the regression task. For all tasks,
-    merging FE with DL did not improve performance over DL alone. Conclusion: We
-    found that for traditional 12-lead ECG based diagnosis tasks DL did not
-    yield a meaningful improvement over FE, while it improved signiﬁcantly the
-    nontraditional regression task. We also found that combining FE with DL did
-    not improve over DL alone which suggests that the FE were redundant with the
-    features learned by DL. Signiﬁcance: Our ﬁndings provides important
-    recommendations on what machine learning strategy and data regime to chose
-    with respect to the task at hand for the development of new machine learning
-    models based on the 12-lead ECG.
+    Objective: Over the past few years, deep learning (DL) has been used
+    extensively in research for 12-lead electrocardiogram (ECG) analysis.
+    However, it is unclear whether the explicit or implicit claims made on DL
+    superiority to the more classical feature engineering (FE) approaches, based
+    on domain knowledge, hold. In addition, it remains unclear whether combining
+    DL with FE may improve performance over a single modality. Methods: To
+    address these research gaps and in-line with recent major experiments, we
+    revisited three tasks: cardiac arrhythmia diagnosis (multiclass-multilabel
+    classification), atrial fibrillation risk prediction (binary
+    classification), and age estimation (regression). We used an overall dataset
+    of 2.3M 12-lead ECG recordings to train the following models for each task:
+    i) a random forest taking FE as input; ii) an end-to-end DL model; and iii)
+    a merged model of FE+DL. Results: FE yielded comparable results to DL while
+    necessitating significantly less data for the two classification tasks. DL
+    outperformed FE for the regression task. For all tasks, merging FE with DL
+    did not improve performance over DL alone. These findings were confirmed on
+    the additional PTB-XL dataset. Conclusion: We found that for traditional
+    12-lead ECG based diagnosis tasks, DL did not yield a meaningful improvement
+    over FE, while it improved significantly the nontraditional regression task.
+    We also found that combining FE with DL did not improve over DL alone, which
+    suggests that the FE were redundant with the features learned by DL.
+    Significance: Our findings provides important recommendations on 12-lead ECG
+    based machine learning strategy and data regime to choose for a given task.
+    When looking at maximizing performance as the end goal, if the task is
+    nontraditional and a large dataset is available then DL is preferable. If
+    the task is a classical one and/or a small dataset is available then a FE
+    approach may be the better choice.
   accessed:
     - year: 2022
       month: 7
@@ -1860,13 +1967,13 @@
       given: Antonio Luiz P.
     - family: Behar
       given: Joachim A.
-  citation-key: zvuloni_merging_2022
-  container-title: arXiv:2207.06096
+  citation-key: zvuloni_merging_2023
+  container-title: IEEE Transactions on Biomedical Engineering
+  DOI: 10.1109/TBME.2023.3239527
   issued:
-    - year: 2022
-      month: 7
-      day: 16
-  language: en
+    - year: 2023
+      month: 1
+      day: 25
   license: All rights reserved
   source: arXiv.org
   title: >-

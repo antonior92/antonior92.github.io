@@ -1,8 +1,11 @@
-- position: Course Responsible, Lecturer
+- course: Advanced Probabilistic Machine Learning
+  position: Course responsible and lecturer
+  role: I was the main responsible for the course. I was involved in lecturing and in preparing the final exam.
+    I also updated the course structure, lecture content and added exercises based on
+    previous year feedback.
   university: Uppsala University, Sweden
   year: 2022
   semester: Fall
-  course: Advanced Probabilistic Machine Learning
   level: MSc and PhD
   link: https://uppsala.instructure.com/courses/71173
   nstudents: 125
@@ -14,7 +17,8 @@
     study is worth 1.5 credits. The course was offered in two versions
     1RT705 (5 course credits) and 1RT003 (7.5 course credits), 69 students
     were enrolled in 1RT003 and 56 in the 1RT705. The longer version
-- position: Teaching assistent
+- position: Teaching assistant
+  role: I was responsible for the design of the course assignment.
   university: WASP Graduate School, Sweden
   year: 2022
   semester: Spring
@@ -31,11 +35,12 @@
     1RT705 (5 course credits) and 1RT003 (7.5 course credits), 69 students
     were enrolled in 1RT003 and 56 in the 1RT705. The longer version
     of the course 1RT003 the contains additional assignments and extra content.
-- position: Lecturer
+- course: Advanced Probabilistic Machine Learning
+  position: Lecturer
+  role: I was involved in lecturing and in the preparation of the exam.
   university: Uppsala University, Sweden
   year: 2021
   semester: Fall
-  course: Advanced Probabilistic Machine Learning
   level: MSc
   link: https://uppsala.instructure.com/courses/53069
   nstudents: 125
@@ -54,7 +59,10 @@
     were enrolled in 1RT003 and 56 in the 1RT705. The longer version
     of the course 1RT003 the contains additional assignments and extra content.
 - course: The unreasonable effectiveness of overparameterized machine learning models
-  position: Course Developer, Course organizer
+  role: I was the main responsible for the development of and organization of this new seminar course.
+    I was involved in the choice of papers, in leading the discussion and was responsible for preparing
+    all the assignments.
+  position: Course developer and organizer
   university: Uppsala University, Sweden
   year: 2021
   semester: Fall
@@ -69,6 +77,7 @@
     study is worth 1.5 credits.
 - course: Deep Learning
   position: Teaching assistant
+  role: I was responsible for in preparing the assignment.
   university: Uppsala University, Sweden
   year: 2021
   semester: Spring
@@ -84,6 +93,8 @@
     were awarded the additional 3 credits.
 - course: Engenharia de Controle (Control Engineering)
   position: Teaching assistant
+  role: I was responsible for exercise sections and developing the assignment. Also, I was involved in preparing
+    the exam.
   university: Universidade Federal de Minas Gerais, Brazil
   year: 2016
   semester: 2nd
@@ -96,6 +107,8 @@
   notes: 1 credit = 15 hours in the class.
 - course: Controle Digital  (Digital Control)
   position: Teaching assistant
+  role: I was responsible for exercise sections and developing the assignment. Also, I was involved in preparing
+    the exam.
   university: Universidade Federal de Minas Gerais, Brazil
   year: 2016
   semester: 2nd
