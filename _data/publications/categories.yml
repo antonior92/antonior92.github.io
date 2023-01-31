@@ -1,7 +1,7 @@
 - name: Working manuscripts
   letter: P
   papers:
-      - danielgedon_no_2023
+      - gedon_no_2023
       - jidling_screening_2023
       - lindow_heart_2023
       - pillonetto_deep_2023
@@ -35,8 +35,11 @@
       - hendriks_deep_2021
       - ribeiro_occam_2021b
       - ribeiro_how_2021
+      - gedon_first_2021
       - oliveira_explaining_2020a
+      - ribeiro_automatic_2020
       - ribeiro_exploding_2020
+      - oliveira_explaining_2020
       - andersson_deep_2019
       - ribeiro_lasso_2018
       - ribeiro_shooting_2017
@@ -46,12 +49,9 @@
   letter: W
   papers:
       - gedon_resnetbased_2021
-      - gedon_first_2021
       - hendriks_deep_2021a
       - ribeiro_occam_2021a
       - ribeiro_overparametrized_2021
-      - ribeiro_automatic_2020
-      - oliveira_explaining_2020
       - gabriela_validation_2020
       - paixao_ecg-age_2020
       - ribeiro_deep_2019

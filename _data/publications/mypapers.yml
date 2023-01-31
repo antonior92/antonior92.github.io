@@ -92,22 +92,6 @@
   type: article-journal
   URL: https://doi.org/10.1093/ehjdh/ztab071
 
-- id: danielgedon_no_2023
-  author:
-    - family: Gedon
-      given: Daniel
-    - family: Ribeiro
-      given: Antônio H.
-    - family: Schön
-      given: Thomas B.
-  citation-key: danielgedon_no_2023
-  container-title: OpenReview
-  issued:
-    - year: 2023
-  license: All rights reserved
-  title: 'No Double Descent in PCA: Training and Pre-Training in High Dimensions'
-  type: article-journal
-
 - id: gedon_first_2021
   abstract: >-
     Self-supervised learning is a paradigm that extracts general features which
@@ -149,6 +133,22 @@
   title: First Steps Towards Self-Supervised Pretraining of the 12-Lead ECG
   type: paper-conference
   volume: '48'
+
+- id: gedon_no_2023
+  author:
+    - family: Gedon
+      given: Daniel
+    - family: Ribeiro
+      given: Antonio H.
+    - family: Schön
+      given: Thomas B.
+  citation-key: gedon_no_2023
+  container-title: OpenReview
+  issued:
+    - year: 2023
+  license: All rights reserved
+  title: 'No Double Descent in PCA: Training and Pre-Training in High Dimensions'
+  type: article-journal
 
 - id: gedon_resnetbased_2021
   author:
@@ -346,7 +346,8 @@
     - family: Ribeiro
       given: Antônio Horta
   citation-key: jidling_screening_2023
-  container-title: Submitted to Plos Neglected Tropical Diseases
+  container-title: 'Submitted to Plos Neglected Tropical Diseases (preprint: medRxiv)'
+  DOI: 10.1101/2023.01.24.23284930
   issued:
     - year: 2023
   license: All rights reserved
@@ -354,7 +355,6 @@
     Screening for Chagas disease from the electrocardiogram using a deep neural
     network
   type: article-journal
-  URL: https://submit.medrxiv.org/submission/queue?queueName=papers_under_review
 
 - id: lima_deep_2021
   abstract: >-
@@ -428,6 +428,8 @@
       given: Maren
     - family: Schelbert
       given: Erik B
+    - family: Ribeiro
+      given: Antonio H
     - family: Ribeiro
       given: Antonio Luiz P
     - family: Schlegel
@@ -1013,7 +1015,8 @@
     - family: Schön
       given: Thomas Bo
   citation-key: pillonetto_deep_2023
-  container-title: Submitted to Automatica
+  container-title: 'Submitted to Automatica (preprint: arXiv:2301.12832)'
+  DOI: 10.48550/arXiv.2301.12832
   issued:
     - year: 2023
   license: All rights reserved
