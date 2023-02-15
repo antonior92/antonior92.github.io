@@ -159,9 +159,6 @@ gedon_resnetbased_2021:
     link: pdfs/abstracts/2021-NstemiNeuripsWorkshop.pdf
   - name: slides
     link: pdfs/slides/2021-NstemiNeuripsWorkshop.pdf
-ribeiro_overparameterized_2022:
-  - name: arxiv
-    link: http://arxiv.org/abs/2204.06274
 sangha_automated_2022:
   - name: medrxiv
     link: https://www.medrxiv.org/content/10.1101/2021.09.22.21263926v1
@@ -170,7 +167,7 @@ sangha_automated_2022:
 ribeiro_surprises_2022:
   - name: arxiv
     link: http://arxiv.org/abs/2205.12695
-zvuloni_merging_2022:
+zvuloni_merging_2023:
   - name: arxiv
     link: http://arxiv.org/abs/2207.06096
 ribeiro_overparametrized_2023:
