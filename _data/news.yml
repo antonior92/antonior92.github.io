@@ -1,5 +1,10 @@
-- date: "2022-11-15"
-  text: "📜 Paper accepted at IEEE transactions on Biomedical Engineering. On Merging Feature Engineering and Deep Learning"
+- date: "2023-02-15"
+  text: "📜 Paper accepted at IEEE Transactions on Signal Processing. Overparameterized Linear Regression under Adversarial Attacks"
+  link: https://arxiv.org/abs/2204.06274
+
+
+- date: "2023-01-25"
+  text: "📜 Paper accepted at IEEE Transactions on Biomedical Engineering. On Merging Feature Engineering and Deep Learning"
   link: https://ieeexplore.ieee.org/document/10025679
 
 - date: "2022-11-25"

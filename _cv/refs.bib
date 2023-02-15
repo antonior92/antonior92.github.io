@@ -106,7 +106,7 @@
 
 @article{jidling_screening_2023,
   title = {Screening for {{Chagas}} Disease from the Electrocardiogram Using a Deep Neural Network},
-  author = {Jidling, Carl and Gedon, Daniel and Sch{\"o}n, Thomas B. and Oliveira, Claudia Di Lorenzo and Cardos, Clareci Silva and Ferreira, Ariela Mota and Giatti, Luana and Barreto, Sandhi Maria and Sabino, Ester C. and Ribeiro, Ant{\^o}nio L. P. and Ribeiro, Ant{\^o}nio Horta},
+  author = {Jidling, Carl and Gedon, Daniel and Sch{\"o}n, Thomas B. and Oliveira, Claudia Di Lorenzo and Cardos, Clareci Silva and Ferreira, Ariela Mota and Giatti, Luana and Barreto, Sandhi Maria and Sabino, Ester C. and Ribeiro, Ant{\^o}nio L. P. and Ribeiro, Ant{\^o}nio H.},
   year = {2023},
   journal = {Submitted to Plos Neglected Tropical Diseases (preprint: medRxiv)},
   doi = {10.1101/2023.01.24.23284930},
@@ -130,7 +130,7 @@
   title = {Heart Age Gap by Explainable Advanced Electrocardiography Is Associated with Cardiovascular Risk Factors and Survival},
   author = {Lindow, Thomas and Maanja, Maren and Schelbert, Erik B and Ribeiro, Antonio H and Ribeiro, Antonio Luiz P and Schlegel, Todd T and Ugander, Martin},
   year = {2023},
-  journal = {Submitted to Nature Communications},
+  journal = {Submitted to JACC Clinical Electrophysiology},
   copyright = {All rights reserved}
 }
 
@@ -140,7 +140,6 @@
   year = {2022},
   month = nov,
   journal = {Under review at Nature Comunications (preprint: medRxiv)},
-  pages = {2022.11.01.22281722},
   doi = {10.1101/2022.11.01.22281722},
   abstract = {Despite the potentials of artificial intelligence (AI) in healthcare, very little work focuses on the extraction of clinical information or knowledge discovery from clinical measurements. Here we propose a novel deep learning model to extract characteristics in electrocardiogram (ECG) and explore its usage in knowledge discovery. Utilising a 12-lead ECG dataset (nECGs = 2,322,513) collected from unique subjects (nSubjects = 1,558,772) in primary care, we performed three independent medical tasks with the proposed model: (i) cardiac abnormality diagnosis, (ii) gender identification, and (iii) hypertension screening. We achieved an area under the curve (AUC) score of 0.998 (95\% confidence interval (CI), 0.995-0.999), 0.964 (95\% CI, 0.963-0.965), and 0.839 (95\% CI, 0.837-0.841) for each task, respectively; We provide interpretation of salient morphologies and further identified key ECG leads that achieve similar performance for the three tasks: (i) AVR and V1 leads (AUC=0.990 (95\% CI, 0.982-0.995); (ii) V5 lead (AUC=0.900 (95\% CI, 0.899-0.902)); and (iii) V1 lead (AUC=0.816 (95\% CI, 0.814-0.818)). Using ECGs, our model not only has demonstrated cardiologist-level accuracy in heart diagnosis with interpretability, but also shows its potentials in facilitating clinical knowledge discovery for gender and hypertension detection which are not readily available.},
   copyright = {\textcopyright{} 2022, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/},
@@ -426,12 +425,11 @@
   file = {/Users/antoniohortaribeiro/Zotero/storage/DBQLMKFP/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/FRQQWJVZ/2012.html}
 }
 
-@article{ribeiro_overparameterized_2022,
+@article{ribeiro_overparameterized_2023,
   title = {Overparameterized {{Linear Regression}} under {{Adversarial Attacks}}},
   author = {Ribeiro, Ant{\^o}nio H. and Sch{\"o}n, Thomas B.},
-  year = {2022},
-  month = apr,
-  journal = {Minor revisions before acceptance in IEEE Transactions in Signal Processing (preprint: arXiv:2204.06274)},
+  year = {2023},
+  journal = {Accepted at IEEE Transactions on Signal Processing},
   eprint = {2204.06274},
   eprinttype = {arxiv},
   abstract = {As machine learning models start to be used in critical applications, their vulnerabilities and brittleness become a pressing concern. Adversarial attacks are a popular framework for studying these vulnerabilities. In this work, we study the error of linear regression in the face of adversarial attacks. We provide bounds of the error in terms of the traditional risk and the parameter norm and show how these bounds can be leveraged and make it possible to use analysis from non-adversarial setups to study the adversarial risk. The usefulness of these results is illustrated by shedding light on whether or not overparameterized linear models can be adversarially robust. We show that adding features to linear models might be either a source of additional robustness or brittleness. We show that these differences appear due to scaling and how the \$\textbackslash ell\_1\$ and \$\textbackslash ell\_2\$ norms of random projections concentrate. We also show how the reformulation we propose allows for solving adversarial training as a convex optimization problem. This is then used as a tool to study how adversarial training and other regularization methods might affect the robustness of the estimated models.},
@@ -543,6 +541,7 @@
   journal = {arXiv:2205.12695},
   eprint = {2205.12695},
   eprinttype = {arxiv},
+  doi = {10.48550/arXiv.2205.12695},
   abstract = {State-of-the-art machine learning models can be vulnerable to very small input perturbations that are adversarially constructed. Adversarial training is one of the most effective approaches to defend against such examples. We show that for linear regression problems, adversarial training can be formulated as a convex problem. This fact is then used to show that \$\textbackslash ell\_\textbackslash infty\$-adversarial training produces sparse solutions and has many similarities to the lasso method. Similarly, \$\textbackslash ell\_2\$-adversarial training has similarities with ridge regression. We use a robust regression framework to analyze and understand these similarities and also point to some differences. Finally, we show how adversarial training behaves differently from other regularization methods when estimating overparameterized models (i.e., models with more parameters than datapoints). It minimizes a sum of three terms which regularizes the solution, but unlike lasso and ridge regression, it can sharply transition into an interpolation mode. We show that for sufficiently many features or sufficiently small regularization parameters, the learned model perfectly interpolates the training data while still exhibiting good out-of-sample performance.},
   archiveprefix = {arXiv},
   copyright = {All rights reserved},
@@ -587,6 +586,14 @@
   file = {/Users/antoniohortaribeiro/Zotero/storage/6EHYQGWE/Sangha et al. - 2022 - Detection of Left Ventricular Systolic Dysfunction.pdf;/Users/antoniohortaribeiro/Zotero/storage/VAFETY52/2022.06.04.html}
 }
 
+@article{sau_neural_2023,
+  title = {Neural Network-Derived Electrocardiographic Features Have Prognostic Significance and Important Phenotypic and Genotypic Associations},
+  author = {Sau, Arunashis and Ribeiro, Ant{\^o}nio H. and McGurk, Kathryn and Pastika, Libor and Bajaj, Nikesh and Ardissino, Maddalena and Chen, Jun Yu and Wu, Huiyi and Shi, Xili and Hnatkova, Katerina and Zheng, Sean and Britton, Annie and Shipley, Martin and Andr{\v s}ov{\'a}, Irena and Novotn{\'y}, Tom{\'a}{\v s} and Sabino, Ester and Giatti, Luana and Barreto, Sandhi and Waks, Jonathan and Kramer, Daniel and Mandic, Danilo and Peters, Nicholas and O'Regan, Declan and Malik, Marek and Ware, James and Ribeiro, Antonio L. P. and Ng, Fu Siong},
+  year = {2023},
+  journal = {Submitted to Nature Medicine},
+  copyright = {All rights reserved}
+}
+
 @article{virtanen_scipy_2020,
   title = {{{SciPy}} 1.0--{{Fundamental Algorithms}} for {{Scientific Computing}} in {{Python}}},
   author = {Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and Haberland, Matt and Reddy, Tyler and Cournapeau, David and Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and Bright, Jonathan and {van der Walt}, St{\'e}fan J. and Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and Kern, Robert and Larson, Eric and Carey, C. J. and Polat, {\.I}lhan and Feng, Yu and Moore, Eric W. and VanderPlas, Jake and Laxalde, Denis and Perktold, Josef and Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and Harris, Charles R. and Archibald, Anne M. and Ribeiro, Ant{\^o}nio H. and Pedregosa, Fabian and {van Mulbregt}, Paul and Contributors, SciPy 1.0},
@@ -620,6 +627,14 @@
   copyright = {All rights reserved},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing},
   file = {/Users/antoniohortaribeiro/Zotero/storage/45AMFVN2/Von Bachmann et al. - 2022 - ECG-Based Electrolyte Prediction Evaluating Regre.pdf;/Users/antoniohortaribeiro/Zotero/storage/FP9NRPHE/2212.html}
+}
+
+@article{zhang_association_2023,
+  title = {Association of Lifestyle with Deep-Learning Based {{ECG-age}}},
+  author = {Zhang, Cuili and Miao, Xiao and Wang, Biqi and Ribeiro, Ant{\^o}nio H and Brant, Luisa and Ribeiro, Antonio L P and Lin, Honghuang},
+  year = {2023},
+  journal = {Submitted to Frontiers in Cardiovascular Medicine},
+  copyright = {All rights reserved}
 }
 
 @article{zvuloni_merging_2023,

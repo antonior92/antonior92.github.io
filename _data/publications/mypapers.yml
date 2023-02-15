@@ -344,7 +344,7 @@
     - family: Ribeiro
       given: Antônio L. P.
     - family: Ribeiro
-      given: Antônio Horta
+      given: Antônio H.
   citation-key: jidling_screening_2023
   container-title: 'Submitted to Plos Neglected Tropical Diseases (preprint: medRxiv)'
   DOI: 10.1101/2023.01.24.23284930
@@ -437,7 +437,7 @@
     - family: Ugander
       given: Martin
   citation-key: lindow_heart_2023
-  container-title: Submitted to Nature Communications
+  container-title: Submitted to JACC Clinical Electrophysiology
   issued:
     - year: 2023
   license: All rights reserved
@@ -501,7 +501,6 @@
     under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0
     International), CC BY-NC-ND 4.0, as described at
     http://creativecommons.org/licenses/by-nc-nd/4.0/
-  page: 2022.11.01.22281722
   source: medRxiv
   title: >-
     Knowledge Discovery with Electrocardiography Using Interpretable Deep Neural
@@ -1344,7 +1343,7 @@
   type: paper-conference
   volume: '54'
 
-- id: ribeiro_overparameterized_2022
+- id: ribeiro_overparameterized_2023
   abstract: >-
     As machine learning models start to be used in critical applications, their
     vulnerabilities and brittleness become a pressing concern. Adversarial
@@ -1372,14 +1371,10 @@
       given: Antônio H.
     - family: Schön
       given: Thomas B.
-  citation-key: ribeiro_overparameterized_2022
-  container-title: >-
-    Minor revisions before acceptance in IEEE Transactions in Signal Processing
-    (preprint: arXiv:2204.06274)
+  citation-key: ribeiro_overparameterized_2023
+  container-title: Accepted at IEEE Transactions on Signal Processing
   issued:
-    - year: 2022
-      month: 4
-      day: 13
+    - year: 2023
   license: All rights reserved
   source: arXiv.org
   title: Overparameterized Linear Regression under Adversarial Attacks
@@ -1589,6 +1584,7 @@
       given: Thomas B.
   citation-key: ribeiro_surprises_2022
   container-title: arXiv:2205.12695
+  DOI: 10.48550/arXiv.2205.12695
   issued:
     - year: 2022
       month: 5
@@ -1756,6 +1752,72 @@
     Images
   type: article-journal
   URL: https://www.medrxiv.org/content/10.1101/2022.06.04.22276000v1
+
+- id: sau_neural_2023
+  author:
+    - family: Sau
+      given: Arunashis
+    - family: Ribeiro
+      given: Antônio H.
+    - family: McGurk
+      given: Kathryn
+    - family: Pastika
+      given: Libor
+    - family: Bajaj
+      given: Nikesh
+    - family: Ardissino
+      given: Maddalena
+    - family: Chen
+      given: Jun Yu
+    - family: Wu
+      given: Huiyi
+    - family: Shi
+      given: Xili
+    - family: Hnatkova
+      given: Katerina
+    - family: Zheng
+      given: Sean
+    - family: Britton
+      given: Annie
+    - family: Shipley
+      given: Martin
+    - family: Andršová
+      given: Irena
+    - family: Novotný
+      given: Tomáš
+    - family: Sabino
+      given: Ester
+    - family: Giatti
+      given: Luana
+    - family: Barreto
+      given: Sandhi
+    - family: Waks
+      given: Jonathan
+    - family: Kramer
+      given: Daniel
+    - family: Mandic
+      given: Danilo
+    - family: Peters
+      given: Nicholas
+    - family: O'Regan
+      given: Declan
+    - family: Malik
+      given: Marek
+    - family: Ware
+      given: James
+    - family: Ribeiro
+      given: Antonio L. P.
+    - family: Ng
+      given: Fu Siong
+  citation-key: sau_neural_2023
+  container-title: Submitted to Nature Medicine
+  issued:
+    - year: 2023
+  license: All rights reserved
+  title: >-
+    Neural network-derived electrocardiographic features have prognostic
+    significance and important phenotypic and genotypic associations
+  type: article-journal
 
 - id: virtanen_scipy_2020
   abstract: >-
@@ -1925,6 +1987,30 @@
   title-short: ECG-Based Electrolyte Prediction
   type: article-journal
   URL: http://arxiv.org/abs/2212.13890
+
+- id: zhang_association_2023
+  author:
+    - family: Zhang
+      given: Cuili
+    - family: Miao
+      given: Xiao
+    - family: Wang
+      given: Biqi
+    - family: Ribeiro
+      given: Antônio H
+    - family: Brant
+      given: Luisa
+    - family: Ribeiro
+      given: Antonio L P
+    - family: Lin
+      given: Honghuang
+  citation-key: zhang_association_2023
+  container-title: Submitted to Frontiers in Cardiovascular Medicine
+  issued:
+    - year: 2023
+  license: All rights reserved
+  title: Association of lifestyle with deep-learning based ECG-age
+  type: article-journal
 
 - id: zvuloni_merging_2023
   abstract: >-
