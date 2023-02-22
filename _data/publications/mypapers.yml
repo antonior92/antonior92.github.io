@@ -92,6 +92,44 @@
   type: article-journal
   URL: https://doi.org/10.1093/ehjdh/ztab071
 
+- id: brant_electrocardiographic_2023
+  author:
+    - family: Brant
+      given: Luisa C C
+    - family: Ribeiro
+      given: Antônio H
+    - family: Pinto-Filho
+      given: Marcelo M
+    - family: Kornej
+      given: Jelena
+    - family: Preis
+      given: Sarah R.
+    - family: Eromosele
+      given: Benjamin
+    - family: Magnani
+      given: Jared W.
+    - family: Murabito
+      given: Joanne M.
+    - family: Larson
+      given: Martin G
+    - family: Benjamin
+      given: Emelia J
+    - family: Ribeiro
+      given: Antonio L P
+    - family: Lin
+      given: Honghuang
+  citation-key: brant_electrocardiographic_2023
+  container-title: >-
+    Accepted upon satisfactory revision at Circulation: Cardiovascular Quality
+    and Outcomes
+  issued:
+    - year: 2023
+  license: All rights reserved
+  title: >-
+    Electrocardiographic Age Predicts Cardiovascular Events in Community: The
+    Framingham Heart Study
+  type: article-journal
+
 - id: gedon_first_2021
   abstract: >-
     Self-supervised learning is a paradigm that extracts general features which
@@ -1372,7 +1410,8 @@
     - family: Schön
       given: Thomas B.
   citation-key: ribeiro_overparameterized_2023
-  container-title: Accepted at IEEE Transactions on Signal Processing
+  container-title: IEEE Transactions on Signal Processing
+  DOI: 10.1109/TSP.2023.3246228
   issued:
     - year: 2023
   license: All rights reserved

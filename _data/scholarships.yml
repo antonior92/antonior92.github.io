@@ -1,3 +1,9 @@
+- name: SFVE-A mobility grant
+  year: 2023
+  agency: French Institute of Sweden
+  country: Sweden
+  description:  I have been granted the Svensk Fransk Vetenskap–Anslag (SFVE-A) grant.
+  value: 1500 EUR
 - name: ELISE mobility grant
   year: 2023
   agency: European Network of AI Excellence Centres
