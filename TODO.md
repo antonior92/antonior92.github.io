@@ -49,7 +49,7 @@ Keep updated database with:
 - [x] Scholarships
 - [x] Supervision
 - [x] Additional Education
-- [ ] Midia section
+- [ ] Midia section (not urgent)
   
 Research Database:
 - [ ] Add external funding
@@ -57,11 +57,6 @@ Research Database:
 Teaching database
 - [ ] Extend teaching database
     - [ ] course description
-    - [ ] course material produced (with internal links)
-    - [ ] exam material produced
-    - [x] extended description of my role / co-teachers
-- [ ] Create pedagogical development database
-  - [ ] List of material
 
 
 ----

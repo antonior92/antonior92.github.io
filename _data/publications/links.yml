@@ -173,4 +173,8 @@ ribeiro_overparameterized_2023:
 zvuloni_merging_2023:
   - name: arxiv
     link: http://arxiv.org/abs/2207.06096
-
+gedon_invertible_2023:
+  - name: arxiv
+    link: arxiv.org/abs/2303.05043
+  - name: code
+    link: https://github.com/dgedon/invertible_kernel_PCA

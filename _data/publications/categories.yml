@@ -1,6 +1,7 @@
 - name: Working Manuscripts
   letter: P
   papers:
+      - gedon_invertible_2023
       - sau_neural_2023
       - zhang_association_2023
       - gedon_no_2023

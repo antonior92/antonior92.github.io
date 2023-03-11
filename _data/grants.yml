@@ -1,0 +1,12 @@
+- projectname: "AI-ECG: applications of artificial intelligence to the electrocardiogram"
+  year: 2022
+  role: Co-applicant
+  ammount:  1 million BRL
+  ammount-sek: 2 million SEK
+  agencies: CNPq/SEMPI/MCTI/FNDCT
+  country: Brazil
+  description: \
+    The objective of the project is to develop, validate and implement, using AI, algorithms for the recognition of
+    clinically relevant electrocardiographic abnormalities and for predicting the prognosis, with accuracy, security
+    and transparency, for operation in cloud computing architectures and systems embedded in electrocardiographs,
+    computers or mobile devices.
