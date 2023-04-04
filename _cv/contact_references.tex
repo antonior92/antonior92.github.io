@@ -1,0 +1,123 @@
+\documentclass[10pt,letterpaper]{article} % Use the custom resume.cls style
+
+\usepackage{verbatim} % usefull to coment out blocs
+\usepackage{newcent}
+\usepackage{multicol} % For multicol at the start
+\usepackage{hyperref} % Required for adding links and customizing them
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\hypersetup{colorlinks,
+  linkcolor={red!50!black},
+  citecolor={blue!50!black},
+  urlcolor={blue!5!black}}
+
+\usepackage[margin=1.6cm]{geometry} % Document margins
+
+\usepackage[parfill]{parskip} % Remove paragraph indentation
+\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
+
+\usepackage[sorting=ydnt, maxbibnames=99, style=numeric, backend=biber]{biblatex}  % For the references
+%\DeclareFieldFormat{labelnumberwidth}{}
+\setlength{\biblabelsep}{10pt}
+\setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
+\bibliography{refs}
+
+% Define maketitle
+\makeatletter
+\def\@maketitle{
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \bf \@title \par}%
+    \vskip 0.1em%
+    {\large
+      \lineskip .05em%
+      \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}\par}%
+    \vskip 0.1em%
+    {\large \@date}
+  \end{center}
+  \par
+  \vskip 1em}
+\makeatother
+
+% Define title and author
+\title{Contact references}
+\author{Ant\^onio Horta Ribeiro}
+
+% --- Add bold names --- %
+
+\makeatletter
+\def\nhblx@bibfile@name{\jobname -nhblx.bib}
+\newwrite\nhblx@bibfile
+\immediate\openout\nhblx@bibfile=\nhblx@bibfile@name
+
+\immediate\write\nhblx@bibfile{@comment{Auto-generated file}\blx@nl}
+
+\newcounter{nhblx@name}
+\setcounter{nhblx@name}{0}
+
+\newcommand*{\nhblx@writenametobib}[1]{\stepcounter{nhblx@name}\edef\nhblx@tmp@nocite{\noexpand\AfterPreamble{\noexpand\setbox0\noexpand\vbox{\noexpand\nhblx@getmethehash{nhblx@name@\the\value{nhblx@name}}}}}\nhblx@tmp@nocite\immediate\write\nhblx@bibfile{@misc{nhblx@name@\the\value{nhblx@name}, author = {\unexpanded{#1}},options = {dataonly=true},}}}
+
+\AtEndDocument{\closeout\nhblx@bibfile}
+
+\addbibresource{\nhblx@bibfile@name}
+
+\newcommand*{\nhblx@boldhashes}{}
+\DeclareNameFormat{nhblx@hashextract}{\xifinlist{\thefield{hash}}{\nhblx@boldhashes}{}{\listxadd{\nhblx@boldhashes}{\thefield{hash}}}}
+
+\DeclareCiteCommand{\nhblx@getmethehash}{}{\printnames[nhblx@hashextract][1-999]{author}}{}{}
+
+\newcommand*{\addboldnames}{\forcsvlist\nhblx@writenametobib}
+\newcommand*{\resetboldnames}{\def\nhblx@boldhashes{}}
+
+\newcommand*{\mkboldifhashinlist}[1]{\xifinlist{\thefield{hash}}{\nhblx@boldhashes}{\mkbibbold{#1}}{#1}}
+\makeatother
+
+\DeclareNameWrapperFormat{boldifhashinlist}{\renewcommand*{\mkbibcompletename}{\mkboldifhashinlist}#1}
+
+\DeclareNameWrapperAlias{sortname}{default}
+\DeclareNameWrapperAlias{default}{boldifhashinlist}
+
+% --- Add bold names --- %
+
+% DEFINE BOLD NAMES
+\addboldnames{ {Ribeiro, Ant\^onio H.}, {Ribeiro, Ant\^onio H}, {Ribeiro, Antonio H.}, {Ribeiro, Antonio H} }
+
+% New command
+
+\newcommand{\cventry}[4]{ {\bf #1} \hfill {\em #2} \\ {\small \sc #3 \hfill  #4} }
+
+\begin{document}
+
+\maketitle
+
+
+I include here the contact information of two references: Luis Antonio Aguirre was my supervisor during my Ph.D.
+Thomas Schön is supervising me through my postdoc and is the leader of the group I am now in.
+He also hosted me in Uppsala as visiting student during one year of my Ph.D.
+
+
+\vspace{12pt}
+\begin{center}
+\begin{tcolorbox}[width=6in, standard jigsaw, opacityback=0]
+    \vspace{-4pt}
+    \footnotesize
+    {\bf Name}: Thomas B. Sch\"on  \\
+    {\bf Instituition}: Uppsala University (Sweden) \\
+    {\bf Position}: Professor at the Department of Information Technology.\\
+    {\bf Email}: thomas.schon@it.uu.se
+\end{tcolorbox}
+\begin{tcolorbox}[width=6in, standard jigsaw, opacityback=0]
+    \vspace{-4pt}
+    \footnotesize
+    {\bf Name}: Luis Antonio Aguirre \\
+    {\bf Instituition}: Federal University of Minas Gerais (Brazil) \\
+    {\bf Position}: Professor at the Electronic Engineering Department.\\
+    {\bf Email}: aguirre@ufmg.br; aguirre.zanon@gmail.com
+\end{tcolorbox}
+\end{center}
+
+
+
+\end{document}

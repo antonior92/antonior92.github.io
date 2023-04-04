@@ -1,0 +1,355 @@
+\documentclass[10pt,letterpaper]{article} % Use the custom resume.cls style
+
+\usepackage{verbatim} % usefull to coment out blocs
+\usepackage{newcent}
+\usepackage{multicol} % For multicol at the start
+\usepackage{hyperref} % Required for adding links and customizing them
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\hypersetup{colorlinks,
+  linkcolor={red!50!black},
+  citecolor={blue!50!black},
+  urlcolor={blue!5!black}}
+
+\usepackage[margin=1.6cm]{geometry} % Document margins
+
+\usepackage[parfill]{parskip} % Remove paragraph indentation
+\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
+
+\usepackage[sorting=ydnt, maxbibnames=99, style=numeric, backend=biber]{biblatex}  % For the references
+%\DeclareFieldFormat{labelnumberwidth}{}
+\setlength{\biblabelsep}{10pt}
+\setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
+\bibliography{refs}
+
+% Define maketitle
+\makeatletter
+\def\@maketitle{
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \bf \@title \par}%
+    \vskip 0.1em%
+    {\large
+      \lineskip .05em%
+      \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}\par}%
+    \vskip 0.1em%
+    {\large \@date}
+  \end{center}
+  \par
+  \vskip 1em}
+\makeatother
+
+% Define title and author
+\title{Publication List}
+\author{Ant\^onio Horta Ribeiro}
+
+% --- Add bold names --- %
+
+\makeatletter
+\def\nhblx@bibfile@name{\jobname -nhblx.bib}
+\newwrite\nhblx@bibfile
+\immediate\openout\nhblx@bibfile=\nhblx@bibfile@name
+
+\immediate\write\nhblx@bibfile{@comment{Auto-generated file}\blx@nl}
+
+\newcounter{nhblx@name}
+\setcounter{nhblx@name}{0}
+
+\newcommand*{\nhblx@writenametobib}[1]{\stepcounter{nhblx@name}\edef\nhblx@tmp@nocite{\noexpand\AfterPreamble{\noexpand\setbox0\noexpand\vbox{\noexpand\nhblx@getmethehash{nhblx@name@\the\value{nhblx@name}}}}}\nhblx@tmp@nocite\immediate\write\nhblx@bibfile{@misc{nhblx@name@\the\value{nhblx@name}, author = {\unexpanded{#1}},options = {dataonly=true},}}}
+
+\AtEndDocument{\closeout\nhblx@bibfile}
+
+\addbibresource{\nhblx@bibfile@name}
+
+\newcommand*{\nhblx@boldhashes}{}
+\DeclareNameFormat{nhblx@hashextract}{\xifinlist{\thefield{hash}}{\nhblx@boldhashes}{}{\listxadd{\nhblx@boldhashes}{\thefield{hash}}}}
+
+\DeclareCiteCommand{\nhblx@getmethehash}{}{\printnames[nhblx@hashextract][1-999]{author}}{}{}
+
+\newcommand*{\addboldnames}{\forcsvlist\nhblx@writenametobib}
+\newcommand*{\resetboldnames}{\def\nhblx@boldhashes{}}
+
+\newcommand*{\mkboldifhashinlist}[1]{\xifinlist{\thefield{hash}}{\nhblx@boldhashes}{\mkbibbold{#1}}{#1}}
+\makeatother
+
+\DeclareNameWrapperFormat{boldifhashinlist}{\renewcommand*{\mkbibcompletename}{\mkboldifhashinlist}#1}
+
+\DeclareNameWrapperAlias{sortname}{default}
+\DeclareNameWrapperAlias{default}{boldifhashinlist}
+
+% --- Add bold names --- %
+
+% DEFINE BOLD NAMES
+\addboldnames{ {Ribeiro, Ant\^onio H.}, {Ribeiro, Ant\^onio H}, {Ribeiro, Antonio H.}, {Ribeiro, Antonio H} }
+
+% New command
+
+\newcommand{\cventry}[4]{ {\bf #1} \hfill {\em #2} \\ {\small \sc #3 \hfill  #4} }
+
+\begin{document}
+
+\maketitle
+
+
+\section*{Most relevant publications}
+
+Bellow the list of my five most relevant publications to the moment.
+
+
+    \begin{refsection}
+      \nocite{ ribeiro_automatic_2020a }
+      \DeclareFieldFormat{labelnumberwidth}{}
+      \setlength{\biblabelsep}{-15pt}
+      \printbibliography[heading=none]
+    \end{refsection}
+    \begin{center}
+    \begin{minipage}{17cm}
+      \begin{footnotesize}
+        \textbf{Relevance:}  It was a pioneering work on the use of deep neural networks for the analysis of 12-lead ECGs. We made the implementation and the datasets available and thousands of researchers downloaded them. According to Google Scholar, it was cited more than 150 times in less than two years. \\
+        \textbf{Contribution: } I contributed to all aspects of the work, including its conception, implementation and analysis. I also presented intermediary results in conferences.
+      \end{footnotesize}
+    \end{minipage}
+    \end{center}
+
+    \begin{refsection}
+      \nocite{ lima_deep_2021 }
+      \DeclareFieldFormat{labelnumberwidth}{}
+      \setlength{\biblabelsep}{-15pt}
+      \printbibliography[heading=none]
+    \end{refsection}
+    \begin{center}
+    \begin{minipage}{17cm}
+      \begin{footnotesize}
+        \textbf{Relevance:}  We use artificial intelligence to deal with a task predicting age from the ECG. We have shown that the ECG predicted age is a good predictor of risk and is related to mortality risk. The work points to the fact that even normal ECG contains additional information for risk assessment and machine learning might be a useful tool for extracting this information. \\
+        \textbf{Contribution: } I am co-first author together with Emilly and Gabriella (equal contribution). I contributed to the implementation of all machine learning algorithms, the conception of the work, and the writing. They contributed respectively with the statistical and the medical analysis.
+      \end{footnotesize}
+    \end{minipage}
+    \end{center}
+
+    \begin{refsection}
+      \nocite{ ribeiro_smoothness_2020 }
+      \DeclareFieldFormat{labelnumberwidth}{}
+      \setlength{\biblabelsep}{-15pt}
+      \printbibliography[heading=none]
+    \end{refsection}
+    \begin{center}
+    \begin{minipage}{17cm}
+      \begin{footnotesize}
+        \textbf{Relevance:}  We study the challenges of parameter estimations for nonlinear dynamical systems. We show how regions of the parameter space could easily become hard to navigate due to the system's instability or chaos. We propose as a solution to it a method called multiple shooting, which divides the problem into smaller and well-behaved subproblems. \\
+        \textbf{Contribution: } I contributed to the implementation, writing, mathematical development and analysis.
+      \end{footnotesize}
+    \end{minipage}
+    \end{center}
+
+    \begin{refsection}
+      \nocite{ ribeiro_exploding_2020 }
+      \DeclareFieldFormat{labelnumberwidth}{}
+      \setlength{\biblabelsep}{-15pt}
+      \printbibliography[heading=none]
+    \end{refsection}
+    \begin{center}
+    \begin{minipage}{17cm}
+      \begin{footnotesize}
+        \textbf{Relevance:}  In this paper, which complements and extends the previous one, we discuss how regions of the parameter space could become hard to navigate due to the system's unstability or chaos. We discuss this problem in recurrent neural networks and the role of dynamic attractors in storing information in these models. \\
+        \textbf{Contribution: } I contributed with the implementation, writing, mathematical development and analysis.
+      \end{footnotesize}
+    \end{minipage}
+    \end{center}
+
+    \begin{refsection}
+      \nocite{ ribeiro_parallel_2018 }
+      \DeclareFieldFormat{labelnumberwidth}{}
+      \setlength{\biblabelsep}{-15pt}
+      \printbibliography[heading=none]
+    \end{refsection}
+    \begin{center}
+    \begin{minipage}{17cm}
+      \begin{footnotesize}
+        \textbf{Relevance:}  It was the first journal publication of my Ph.D. It studied the computational challenges and asymptotic properties of estimators with recurrence in their architecture. It shows how recurrent structures can be better for certain types of noise contamination. It also presents an analysis of the computational cost of the approach. \\
+        \textbf{Contribution: } I contributed with the implementation, writing, mathematical development and analysis.
+      \end{footnotesize}
+    \end{minipage}
+    \end{center}
+
+
+
+
+
+\section*{Full publication list}
+
+\begin{tcolorbox}[width=6in, standard jigsaw, opacityback=0]
+    \vspace{-4pt}
+    \footnotesize
+{\bf ORCID}:  \href{https://orcid.org/0000-0003-3632-8529}{0000-0003-3632-8529}\\
+{\bf DBLP}: \href{https://dblp.org/pid/202/1699.html}{202/1699}\\
+{\bf SCOPUS ID}: \href{https://www.scopus.com/authid/detail.uri?authorId=57191699148}{57191699148} ---
+    Citations: 4793, h-index: 6 (2022-01-25) \\
+{\bf Google Scholar}: \href{https://scholar.google.com.br/citations?user=5t_sZdMAAAAJ}{Antonio H. Ribeiro} ---
+    Citations: 8636, h-index: 9, i10-index: 9 (2022-01-25)
+%{\bf Lattes CV}: \href{http://lattes.cnpq.br/0898576944135254}{0898576944135254}
+\end{tcolorbox}
+
+
+\subsection*{\noindent Preprints}
+    \begin{refsection}
+        
+            \nocite{ gustafsson_artificial_2021 }
+        
+            \nocite{ sangha_automated_2021 }
+        
+       \newrefcontext[labelprefix= P ]
+       \printbibliography[heading=none]
+    \end{refsection}
+
+\subsection*{\noindent Journal Papers}
+    \begin{refsection}
+        
+            \nocite{ paixao_electrocardiographic_2021 }
+        
+            \nocite{ lima_deep_2021 }
+        
+            \nocite{ biton_atrial_2021 }
+        
+            \nocite{ meirajr_contextualized_2020 }
+        
+            \nocite{ paixao_evaluation_2020 }
+        
+            \nocite{ ribeiro_smoothness_2020 }
+        
+            \nocite{ ribeiro_automatic_2020a }
+        
+            \nocite{ virtanen_scipy_2020 }
+        
+            \nocite{ ribeiro_teleelectrocardiography_2019 }
+        
+            \nocite{ paixao_evaluation_2019 }
+        
+            \nocite{ ribeiro_parallel_2018 }
+        
+       \newrefcontext[labelprefix= J ]
+       \printbibliography[heading=none]
+    \end{refsection}
+
+\subsection*{\noindent Conference Papers}
+    \begin{refsection}
+        
+            \nocite{ hendriks_deep_2021 }
+        
+            \nocite{ ribeiro_occam_2021b }
+        
+            \nocite{ ribeiro_how_2021 }
+        
+            \nocite{ oliveira_explaining_2020a }
+        
+            \nocite{ ribeiro_exploding_2020 }
+        
+            \nocite{ andersson_deep_2019 }
+        
+            \nocite{ ribeiro_lasso_2018 }
+        
+            \nocite{ ribeiro_shooting_2017 }
+        
+            \nocite{ ribeiro_selecting_2015 }
+        
+       \newrefcontext[labelprefix= C ]
+       \printbibliography[heading=none]
+    \end{refsection}
+
+\subsection*{\noindent Workshop papers, conference abstracts and extended abstracts}
+    \begin{refsection}
+        
+            \nocite{ gedon_resnetbased_2021 }
+        
+            \nocite{ gedon_first_2021 }
+        
+            \nocite{ hendriks_deep_2021a }
+        
+            \nocite{ ribeiro_occam_2021a }
+        
+            \nocite{ ribeiro_overparametrized_2021 }
+        
+            \nocite{ ribeiro_automatic_2020 }
+        
+            \nocite{ oliveira_explaining_2020 }
+        
+            \nocite{ gabriela_validation_2020 }
+        
+            \nocite{ paixao_ecg-age_2020 }
+        
+            \nocite{ ribeiro_deep_2019 }
+        
+            \nocite{ ribeiro_automatic_2018 }
+        
+            \nocite{ paixao_clinical_2018 }
+        
+       \newrefcontext[labelprefix= W ]
+       \printbibliography[heading=none]
+    \end{refsection}
+
+\subsection*{\noindent National Conference Papers (in Portuguese)}
+    \begin{refsection}
+        
+            \nocite{ ribeiro_relacoes_2014 }
+        
+       \newrefcontext[labelprefix= N ]
+       \printbibliography[heading=none]
+    \end{refsection}
+
+\subsection*{\noindent Thesis}
+    \begin{refsection}
+        
+            \nocite{ ribeiro_learning_2020 }
+        
+            \nocite{ ribeiro_recurrent_2017 }
+        
+            \nocite{ ribeiro_implementacao_2015 }
+        
+       \newrefcontext[labelprefix= T ]
+       \printbibliography[heading=none]
+    \end{refsection}
+
+
+\end{document}
+
+\newpage
+
+
+\begin{center}
+{\LARGE \bf Additional information \par}
+\end{center}
+\vspace{20pt}
+
+\section*{Contact References}
+
+I include here the contact information of two references: Luis Antonio Aguirre was my supervisor during my Ph.D.
+Thomas Schön is supervising me through my postdoc and is the leader of the group I am now in.
+He also hosted me in Uppsala as visiting student during one year of my Ph.D.
+
+
+\vspace{12pt}
+\begin{center}
+\begin{tcolorbox}[width=6in, standard jigsaw, opacityback=0]
+    \vspace{-4pt}
+    \footnotesize
+    {\bf Name}: Thomas B. Sch\"on  \\
+    {\bf Instituition}: Uppsala University (Sweden) \\
+    {\bf Position}: Professor at the Department of Information Technology.\\
+    {\bf Email}: thomas.schon@it.uu.se
+\end{tcolorbox}
+\begin{tcolorbox}[width=6in, standard jigsaw, opacityback=0]
+    \vspace{-4pt}
+    \footnotesize
+    {\bf Name}: Luis Antonio Aguirre \\
+    {\bf Instituition}: Federal University of Minas Gerais (Brazil) \\
+    {\bf Position}: Professor at the Electronic Engineering Department.\\
+    {\bf Email}: aguirre@ufmg.br; aguirre.zanon@gmail.com
+\end{tcolorbox}
+\end{center}
+
+\vspace{28pt}
+
+
+
+\end{document}

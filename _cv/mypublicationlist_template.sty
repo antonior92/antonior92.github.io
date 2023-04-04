@@ -1,10 +1,9 @@
 
-\usepackage[sorting=ydnt, maxbibnames=99, mincitenames=99, maxcitenames=99, style=numeric, backend=biber,
+\usepackage[sorting=none, maxbibnames=99, mincitenames=99, maxcitenames=99, style=numeric, backend=biber,
             defernumbers=true,isbn=false,url=false,eprint=false]{biblatex}  % For the references
 %\DeclareFieldFormat{labelnumberwidth}{}
 \setlength{\biblabelsep}{10pt}
 \setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
-\bibliography{refs}
 
 \AtEveryBibitem{\clearlist{language}\clearname{editor}\clearname{note}}
 
@@ -20,7 +19,7 @@
 \newcounter{nhblx@name}
 \setcounter{nhblx@name}{0}
 
-\newcommand*{\nhblx@writenametobib}[1]{\stepcounter{nhblx@name}\edef\nhblx@tmp@nocite{\noexpand\AfterPreamble{\noexpand\setbox0\noexpand\vbox{\noexpand\nhblx@getmethehash{nhblx@name@\the\value{nhblx@name}}}}}\nhblx@tmp@nocite\immediate\write\nhblx@bibfile{@misc{nhblx@name@\the\value{nhblx@name}, author = {\unexpanded{#1}},options = {dataonly=true},}}}
+\newcommand*{\nhblx@writenametobib}[1]{\stepcounter{nhblx@name}\edef\nhblx@tmp@nocite{\noexpand\AfterPreamble{\noexpand\setbox0\noexpand\vbox{\noexpand\nhblx@getmethehash{nhblx@name@\the\value{nhblx@name}}}}}\nhblx@tmp@nocite\immediate\write\nhblx@bibfile{@misc{nhblx@name@\the\value{nhblx@name}, author = {\unexpanded{#1}},options = {dataonly=true,skipbib=true,skipbiblist=true},}}}
 
 \AtEndDocument{\closeout\nhblx@bibfile}
 
@@ -60,35 +59,17 @@
 {% endfor %}
 
 
- \DeclareBibliographyCategory{selected}
-{% for p in publications.mostrelevant %}
-      \addtocategory{selected}{ {{ p.tag }} }
-{% endfor %}
-
-
 % --- listing publications
 
 \newcommand{\printmypublications}
 {
     {% for p in publications.categories %}
     \subsection*{ {{p.name}}}
+    {% for tag in p.papers %}
+        \nocite{ {{ tag }}}
+    {% endfor %}
     \newrefcontext[labelprefix={% cycle "P", "J", "C", "W", "N", "T" %} ]
     \printbibliography[category=c{{p.name}}, heading=none]
     {% endfor %}
-
-    \nocite{*} % The nocite should go after it because of some issue
-
-}
-
-
-  \newcommand{\printselectedpublications}
-{
-    {% for p in publications.categories %}
-    \subsection*{ }
-    \printbibliography[category=selected, heading=none]
-    {% endfor %}
-
-    \nocite{*} % The nocite should go after it because of some issue
-
 }
 
