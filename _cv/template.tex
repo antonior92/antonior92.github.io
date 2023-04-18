@@ -88,6 +88,15 @@
         {% endfor %}
 {% endfor %}
 
+\section*{Longer scientific visits}
+
+    {% for p in research_visits %}
+        \cventry{ {{ p.institution }} }
+        { {{ p.start }} - {{ p.end }} }
+        { {{ p.description }} }
+        { {{ p.location }} }
+        { I was hosted by {{p.host}} at the {{ p.unit }}.}
+    {% endfor %}
 
 \section*{Teaching}
 
@@ -193,7 +202,7 @@ Swedish (elementary knowledge)
 
 Certificate in Advanced English (Council of Europe Level C1) - Cambridge English Language Assessment, 2014
 
-\newpage
+
 \pagenumbering{roman}
 
 % Reset page

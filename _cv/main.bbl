@@ -605,7 +605,7 @@
       \field{labelprefix}{P}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Accepted upon satisfactory revision at Circulation: Cardiovascular Quality and Outcomes}
+      \field{journaltitle}{Accepted Circulation: Cardiovascular Quality and Outcomes}
       \field{title}{Electrocardiographic {{Age Predicts Cardiovascular Events}} in {{Community}}: {{The Framingham Heart Study}}}
       \field{year}{2023}
       \true{nocite}
@@ -987,10 +987,14 @@
       \field{labelprefix}{P}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{journaltitle}{Frontiers in Cardiovascular Medicine}
       \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{volume}{10}
       \field{year}{2023}
       \true{nocite}
+      \verb{doi}
+      \verb 10.3389/fcvm.2023.1160091
+      \endverb
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -2969,7 +2973,7 @@
       \field{year}{2021}
       \true{nocite}
       \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
+      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9QU3I45U/16-432.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
       \endverb
       \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Statistics - Machine Learning}
     \endentry
@@ -3962,7 +3966,7 @@
       \field{labelprefix}{J}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Accepted upon satisfactory revision at Circulation: Cardiovascular Quality and Outcomes}
+      \field{journaltitle}{Accepted Circulation: Cardiovascular Quality and Outcomes}
       \field{title}{Electrocardiographic {{Age Predicts Cardiovascular Events}} in {{Community}}: {{The Framingham Heart Study}}}
       \field{year}{2023}
       \true{nocite}
@@ -4344,10 +4348,14 @@
       \field{labelprefix}{J}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{journaltitle}{Frontiers in Cardiovascular Medicine}
       \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{volume}{10}
       \field{year}{2023}
       \true{nocite}
+      \verb{doi}
+      \verb 10.3389/fcvm.2023.1160091
+      \endverb
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -6326,7 +6334,7 @@
       \field{year}{2021}
       \true{nocite}
       \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
+      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9QU3I45U/16-432.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
       \endverb
       \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Statistics - Machine Learning}
     \endentry
@@ -7319,7 +7327,7 @@
       \field{labelprefix}{C}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Accepted upon satisfactory revision at Circulation: Cardiovascular Quality and Outcomes}
+      \field{journaltitle}{Accepted Circulation: Cardiovascular Quality and Outcomes}
       \field{title}{Electrocardiographic {{Age Predicts Cardiovascular Events}} in {{Community}}: {{The Framingham Heart Study}}}
       \field{year}{2023}
       \true{nocite}
@@ -7701,10 +7709,14 @@
       \field{labelprefix}{C}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{journaltitle}{Frontiers in Cardiovascular Medicine}
       \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{volume}{10}
       \field{year}{2023}
       \true{nocite}
+      \verb{doi}
+      \verb 10.3389/fcvm.2023.1160091
+      \endverb
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -9683,7 +9695,7 @@
       \field{year}{2021}
       \true{nocite}
       \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
+      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9QU3I45U/16-432.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
       \endverb
       \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Statistics - Machine Learning}
     \endentry
@@ -10676,7 +10688,7 @@
       \field{labelprefix}{W}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Accepted upon satisfactory revision at Circulation: Cardiovascular Quality and Outcomes}
+      \field{journaltitle}{Accepted Circulation: Cardiovascular Quality and Outcomes}
       \field{title}{Electrocardiographic {{Age Predicts Cardiovascular Events}} in {{Community}}: {{The Framingham Heart Study}}}
       \field{year}{2023}
       \true{nocite}
@@ -11058,10 +11070,14 @@
       \field{labelprefix}{W}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{journaltitle}{Frontiers in Cardiovascular Medicine}
       \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{volume}{10}
       \field{year}{2023}
       \true{nocite}
+      \verb{doi}
+      \verb 10.3389/fcvm.2023.1160091
+      \endverb
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -13040,7 +13056,7 @@
       \field{year}{2021}
       \true{nocite}
       \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
+      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9QU3I45U/16-432.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
       \endverb
       \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Statistics - Machine Learning}
     \endentry
@@ -14033,7 +14049,7 @@
       \field{labelprefix}{N}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Accepted upon satisfactory revision at Circulation: Cardiovascular Quality and Outcomes}
+      \field{journaltitle}{Accepted Circulation: Cardiovascular Quality and Outcomes}
       \field{title}{Electrocardiographic {{Age Predicts Cardiovascular Events}} in {{Community}}: {{The Framingham Heart Study}}}
       \field{year}{2023}
       \true{nocite}
@@ -14415,10 +14431,14 @@
       \field{labelprefix}{N}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{journaltitle}{Frontiers in Cardiovascular Medicine}
       \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{volume}{10}
       \field{year}{2023}
       \true{nocite}
+      \verb{doi}
+      \verb 10.3389/fcvm.2023.1160091
+      \endverb
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -16397,7 +16417,7 @@
       \field{year}{2021}
       \true{nocite}
       \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
+      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9QU3I45U/16-432.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
       \endverb
       \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Statistics - Machine Learning}
     \endentry
@@ -17390,7 +17410,7 @@
       \field{labelprefix}{T}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Accepted upon satisfactory revision at Circulation: Cardiovascular Quality and Outcomes}
+      \field{journaltitle}{Accepted Circulation: Cardiovascular Quality and Outcomes}
       \field{title}{Electrocardiographic {{Age Predicts Cardiovascular Events}} in {{Community}}: {{The Framingham Heart Study}}}
       \field{year}{2023}
       \true{nocite}
@@ -17772,10 +17792,14 @@
       \field{labelprefix}{T}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{journaltitle}{Frontiers in Cardiovascular Medicine}
       \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{volume}{10}
       \field{year}{2023}
       \true{nocite}
+      \verb{doi}
+      \verb 10.3389/fcvm.2023.1160091
+      \endverb
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -19754,7 +19778,7 @@
       \field{year}{2021}
       \true{nocite}
       \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
+      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9QU3I45U/16-432.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
       \endverb
       \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Statistics - Machine Learning}
     \endentry
@@ -20736,7 +20760,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Accepted upon satisfactory revision at Circulation: Cardiovascular Quality and Outcomes}
+      \field{journaltitle}{Accepted Circulation: Cardiovascular Quality and Outcomes}
       \field{title}{Electrocardiographic {{Age Predicts Cardiovascular Events}} in {{Community}}: {{The Framingham Heart Study}}}
       \field{year}{2023}
       \true{nocite}
@@ -21112,10 +21136,14 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{journaltitle}{Frontiers in Cardiovascular Medicine}
       \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{volume}{10}
       \field{year}{2023}
       \true{nocite}
+      \verb{doi}
+      \verb 10.3389/fcvm.2023.1160091
+      \endverb
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -23065,7 +23093,7 @@
       \field{year}{2021}
       \true{nocite}
       \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
+      \verb /Users/antoniohortaribeiro/Zotero/storage/4SNUJR3C/Ribeiro et al. - 2020 - Beyond Occam's Razor in System Identification Dou.pdf;/Users/antoniohortaribeiro/Zotero/storage/9QU3I45U/16-432.pdf;/Users/antoniohortaribeiro/Zotero/storage/9YG2LA47/2012.html
       \endverb
       \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Statistics - Machine Learning}
     \endentry

@@ -119,9 +119,7 @@
     - family: Lin
       given: Honghuang
   citation-key: brant_electrocardiographic_2023
-  container-title: >-
-    Accepted upon satisfactory revision at Circulation: Cardiovascular Quality
-    and Outcomes
+  container-title: 'Accepted Circulation: Cardiovascular Quality and Outcomes'
   issued:
     - year: 2023
   license: All rights reserved
@@ -200,6 +198,7 @@
     - family: Schön
       given: Thomas B.
   citation-key: gedon_invertible_2023
+  container-title: 'Submitted to IEEE Signal Processing Letters (preprint: arxiv:2303.05043)'
   DOI: 10.48550/arXiv.2303.05043
   issued:
     - year: 2023
@@ -514,7 +513,7 @@
     - family: Ugander
       given: Martin
   citation-key: lindow_heart_2023
-  container-title: Submitted to JACC Clinical Electrophysiology
+  container-title: Submitted to The Lancet Digital Health
   issued:
     - year: 2023
   license: All rights reserved
@@ -2083,12 +2082,14 @@
     - family: Lin
       given: Honghuang
   citation-key: zhang_association_2023
-  container-title: Submitted to Frontiers in Cardiovascular Medicine
+  container-title: Frontiers in Cardiovascular Medicine
+  DOI: 10.3389/fcvm.2023.1160091
   issued:
     - year: 2023
   license: All rights reserved
   title: Association of lifestyle with deep-learning based ECG-age
   type: article-journal
+  volume: '10'
 
 - id: zvuloni_merging_2023
   abstract: >-
@@ -2147,4 +2148,4 @@
     On Merging Feature Engineering and Deep Learning for Diagnosis,
     Risk-Prediction and Age Estimation Based on the 12-Lead ECG
   type: article-journal
-  URL: http://arxiv.org/abs/2207.06096ma
+  URL: http://arxiv.org/abs/2207.06096
