@@ -3,7 +3,6 @@
   papers:
       - gedon_invertible_2023
       - sau_neural_2023
-      - zhang_association_2023
       - gedon_no_2023
       - jidling_screening_2023
       - lindow_heart_2023
@@ -18,6 +17,7 @@
   letter: J
   papers:
       - ribeiro_overparameterized_2023
+      - zhang_association_2023
       - zvuloni_merging_2023
       - gustafsson_development_2022
       - sangha_automated_2022

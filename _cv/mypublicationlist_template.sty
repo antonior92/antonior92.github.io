@@ -55,6 +55,7 @@
     \defbibheading{c{{p.name}}}{\subsection*{ {{p.name}}} }
     {% for tag in p.papers %}
         \addtocategory{c{{p.name}}}{ {{ tag }}}
+        \nocite{ {{ tag }}}
     {% endfor %}
 {% endfor %}
 
@@ -65,9 +66,6 @@
 {
     {% for p in publications.categories %}
     \subsection*{ {{p.name}}}
-    {% for tag in p.papers %}
-        \nocite{ {{ tag }}}
-    {% endfor %}
     \newrefcontext[labelprefix={% cycle "P", "J", "C", "W", "N", "T" %} ]
     \printbibliography[category=c{{p.name}}, heading=none]
     {% endfor %}

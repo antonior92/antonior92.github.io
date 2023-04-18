@@ -307,60 +307,6 @@
       \field{year}{2023}
       \true{nocite}
     \endentry
-    \entry{zhang_association_2023}{article}{}
-      \name{author}{7}{}{%
-        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Cuili},
-           giveni={C\bibinitperiod}}}%
-        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
-           family={Miao},
-           familyi={M\bibinitperiod},
-           given={Xiao},
-           giveni={X\bibinitperiod}}}%
-        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Biqi},
-           giveni={B\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
-           family={Brant},
-           familyi={B\bibinitperiod},
-           given={Luisa},
-           giveni={L\bibinitperiod}}}%
-        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antonio\bibnamedelimb L\bibnamedelima P},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Honghuang},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelprefix}{P}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
-      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
-      \field{year}{2023}
-      \true{nocite}
-    \endentry
     \entry{gedon_no_2023}{article}{}
       \name{author}{3}{}{%
         {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
@@ -385,8 +331,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelprefix}{P}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -459,8 +405,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelprefix}{P}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -523,8 +469,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelprefix}{P}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -991,6 +937,60 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/56J77WTJ/Ribeiro_Schön_2023_Overparameterized Linear Regression under Adversarial Attacks.pdf
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{zhang_association_2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cuili},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Biqi},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
+           family={Brant},
+           familyi={B\bibinitperiod},
+           given={Luisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antonio\bibnamedelimb L\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Honghuang},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelprefix}{P}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{year}{2023}
+      \true{nocite}
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -3664,60 +3664,6 @@
       \field{year}{2023}
       \true{nocite}
     \endentry
-    \entry{zhang_association_2023}{article}{}
-      \name{author}{7}{}{%
-        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Cuili},
-           giveni={C\bibinitperiod}}}%
-        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
-           family={Miao},
-           familyi={M\bibinitperiod},
-           given={Xiao},
-           giveni={X\bibinitperiod}}}%
-        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Biqi},
-           giveni={B\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
-           family={Brant},
-           familyi={B\bibinitperiod},
-           given={Luisa},
-           giveni={L\bibinitperiod}}}%
-        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antonio\bibnamedelimb L\bibnamedelima P},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Honghuang},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelprefix}{J}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
-      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
-      \field{year}{2023}
-      \true{nocite}
-    \endentry
     \entry{gedon_no_2023}{article}{}
       \name{author}{3}{}{%
         {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
@@ -3742,8 +3688,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelprefix}{J}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -3816,8 +3762,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelprefix}{J}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -3880,8 +3826,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelprefix}{J}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -4348,6 +4294,60 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/56J77WTJ/Ribeiro_Schön_2023_Overparameterized Linear Regression under Adversarial Attacks.pdf
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{zhang_association_2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cuili},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Biqi},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
+           family={Brant},
+           familyi={B\bibinitperiod},
+           given={Luisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antonio\bibnamedelimb L\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Honghuang},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelprefix}{J}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{year}{2023}
+      \true{nocite}
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -7021,60 +7021,6 @@
       \field{year}{2023}
       \true{nocite}
     \endentry
-    \entry{zhang_association_2023}{article}{}
-      \name{author}{7}{}{%
-        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Cuili},
-           giveni={C\bibinitperiod}}}%
-        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
-           family={Miao},
-           familyi={M\bibinitperiod},
-           given={Xiao},
-           giveni={X\bibinitperiod}}}%
-        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Biqi},
-           giveni={B\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
-           family={Brant},
-           familyi={B\bibinitperiod},
-           given={Luisa},
-           giveni={L\bibinitperiod}}}%
-        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antonio\bibnamedelimb L\bibnamedelima P},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Honghuang},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelprefix}{C}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
-      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
-      \field{year}{2023}
-      \true{nocite}
-    \endentry
     \entry{gedon_no_2023}{article}{}
       \name{author}{3}{}{%
         {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
@@ -7099,8 +7045,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelprefix}{C}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -7173,8 +7119,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelprefix}{C}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -7237,8 +7183,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelprefix}{C}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -7705,6 +7651,60 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/56J77WTJ/Ribeiro_Schön_2023_Overparameterized Linear Regression under Adversarial Attacks.pdf
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{zhang_association_2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cuili},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Biqi},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
+           family={Brant},
+           familyi={B\bibinitperiod},
+           given={Luisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antonio\bibnamedelimb L\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Honghuang},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelprefix}{C}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{year}{2023}
+      \true{nocite}
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -10378,60 +10378,6 @@
       \field{year}{2023}
       \true{nocite}
     \endentry
-    \entry{zhang_association_2023}{article}{}
-      \name{author}{7}{}{%
-        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Cuili},
-           giveni={C\bibinitperiod}}}%
-        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
-           family={Miao},
-           familyi={M\bibinitperiod},
-           given={Xiao},
-           giveni={X\bibinitperiod}}}%
-        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Biqi},
-           giveni={B\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
-           family={Brant},
-           familyi={B\bibinitperiod},
-           given={Luisa},
-           giveni={L\bibinitperiod}}}%
-        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antonio\bibnamedelimb L\bibnamedelima P},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Honghuang},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelprefix}{W}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
-      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
-      \field{year}{2023}
-      \true{nocite}
-    \endentry
     \entry{gedon_no_2023}{article}{}
       \name{author}{3}{}{%
         {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
@@ -10456,8 +10402,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelprefix}{W}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -10530,8 +10476,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelprefix}{W}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -10594,8 +10540,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelprefix}{W}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -11062,6 +11008,60 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/56J77WTJ/Ribeiro_Schön_2023_Overparameterized Linear Regression under Adversarial Attacks.pdf
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{zhang_association_2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cuili},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Biqi},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
+           family={Brant},
+           familyi={B\bibinitperiod},
+           given={Luisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antonio\bibnamedelimb L\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Honghuang},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelprefix}{W}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{year}{2023}
+      \true{nocite}
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -13735,60 +13735,6 @@
       \field{year}{2023}
       \true{nocite}
     \endentry
-    \entry{zhang_association_2023}{article}{}
-      \name{author}{7}{}{%
-        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Cuili},
-           giveni={C\bibinitperiod}}}%
-        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
-           family={Miao},
-           familyi={M\bibinitperiod},
-           given={Xiao},
-           giveni={X\bibinitperiod}}}%
-        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Biqi},
-           giveni={B\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
-           family={Brant},
-           familyi={B\bibinitperiod},
-           given={Luisa},
-           giveni={L\bibinitperiod}}}%
-        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antonio\bibnamedelimb L\bibnamedelima P},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Honghuang},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelprefix}{N}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
-      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
-      \field{year}{2023}
-      \true{nocite}
-    \endentry
     \entry{gedon_no_2023}{article}{}
       \name{author}{3}{}{%
         {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
@@ -13813,8 +13759,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelprefix}{N}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -13887,8 +13833,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelprefix}{N}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -13951,8 +13897,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelprefix}{N}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -14419,6 +14365,60 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/56J77WTJ/Ribeiro_Schön_2023_Overparameterized Linear Regression under Adversarial Attacks.pdf
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{zhang_association_2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cuili},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Biqi},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
+           family={Brant},
+           familyi={B\bibinitperiod},
+           given={Luisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antonio\bibnamedelimb L\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Honghuang},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelprefix}{N}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{year}{2023}
+      \true{nocite}
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -17092,60 +17092,6 @@
       \field{year}{2023}
       \true{nocite}
     \endentry
-    \entry{zhang_association_2023}{article}{}
-      \name{author}{7}{}{%
-        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Cuili},
-           giveni={C\bibinitperiod}}}%
-        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
-           family={Miao},
-           familyi={M\bibinitperiod},
-           given={Xiao},
-           giveni={X\bibinitperiod}}}%
-        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Biqi},
-           giveni={B\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
-           family={Brant},
-           familyi={B\bibinitperiod},
-           given={Luisa},
-           giveni={L\bibinitperiod}}}%
-        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antonio\bibnamedelimb L\bibnamedelima P},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Honghuang},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelprefix}{T}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
-      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
-      \field{year}{2023}
-      \true{nocite}
-    \endentry
     \entry{gedon_no_2023}{article}{}
       \name{author}{3}{}{%
         {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
@@ -17170,8 +17116,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelprefix}{T}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -17244,8 +17190,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelprefix}{T}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -17308,8 +17254,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelprefix}{T}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -17776,6 +17722,60 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/56J77WTJ/Ribeiro_Schön_2023_Overparameterized Linear Regression under Adversarial Attacks.pdf
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{zhang_association_2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cuili},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Biqi},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
+           family={Brant},
+           familyi={B\bibinitperiod},
+           given={Luisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antonio\bibnamedelimb L\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Honghuang},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelprefix}{T}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{year}{2023}
+      \true{nocite}
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
@@ -20443,59 +20443,6 @@
       \field{year}{2023}
       \true{nocite}
     \endentry
-    \entry{zhang_association_2023}{article}{}
-      \name{author}{7}{}{%
-        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Cuili},
-           giveni={C\bibinitperiod}}}%
-        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
-           family={Miao},
-           familyi={M\bibinitperiod},
-           given={Xiao},
-           giveni={X\bibinitperiod}}}%
-        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Biqi},
-           giveni={B\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
-           family={Brant},
-           familyi={B\bibinitperiod},
-           given={Luisa},
-           giveni={L\bibinitperiod}}}%
-        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antonio\bibnamedelimb L\bibnamedelima P},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Honghuang},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
-      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
-      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
-      \field{year}{2023}
-      \true{nocite}
-    \endentry
     \entry{gedon_no_2023}{article}{}
       \name{author}{3}{}{%
         {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
@@ -20520,8 +20467,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{OpenReview}
@@ -20593,8 +20540,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Submitted to Plos Neglected Tropical Diseases (preprint: medRxiv)}
@@ -20656,8 +20603,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Submitted to The Lancet Digital Health}
@@ -21116,6 +21063,59 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/56J77WTJ/Ribeiro_Schön_2023_Overparameterized Linear Regression under Adversarial Attacks.pdf
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{zhang_association_2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=8ccd5206563564ca7974f4ac8583f7bb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cuili},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0129a6163544ec7d89bfc94c648fff9d}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1a2c2e12381cc67b8be41fe9b8bd3c9b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Biqi},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3c6cc074379299ff8716fbf19e009e08}{%
+           family={Brant},
+           familyi={B\bibinitperiod},
+           given={Luisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1938a91dbcba7b6a687a268fe352cd0c}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antonio\bibnamedelimb L\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1ee15d28f3d8991aff68ad56c887993c}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Honghuang},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{fullhash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{bibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorbibnamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authornamehash}{8939ab9f73e625974e6374ce112384e4}
+      \strng{authorfullhash}{8939ab9f73e625974e6374ce112384e4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Submitted to Frontiers in Cardiovascular Medicine}
+      \field{title}{Association of Lifestyle with Deep-Learning Based {{ECG-age}}}
+      \field{year}{2023}
+      \true{nocite}
     \endentry
     \entry{zvuloni_merging_2023}{article}{}
       \name{author}{5}{}{%
