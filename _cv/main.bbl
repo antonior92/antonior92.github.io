@@ -95,64 +95,6 @@
       \field{labelprefix}{P}
       \field{labelnamesource}{author}
     \endentry
-    \entry{gedon_invertible_2023}{article}{}
-      \name{author}{4}{}{%
-        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
-           family={Gedon},
-           familyi={G\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H.},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=f21f2855787c39337ef57063882d1a29}{%
-           family={Wahlström},
-           familyi={W\bibinitperiod},
-           given={Niklas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=a7d921004899fc1272afda1ee990486b}{%
-           family={Schön},
-           familyi={S\bibinitperiod},
-           given={Thomas\bibnamedelima B.},
-           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelprefix}{P}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA -- an important task for denoising -- requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name \textbackslash emph\{invertible kernel PCA (ikPCA)\}. We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
-      \field{eprintclass}{cs, eess}
-      \field{eprinttype}{arxiv}
-      \field{journaltitle}{Submitted to IEEE Signal Processing Letters (preprint: arxiv:2303.05043)}
-      \field{month}{3}
-      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
-      \field{urlday}{11}
-      \field{urlmonth}{3}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.48550/arXiv.2303.05043
-      \endverb
-      \verb{eprint}
-      \verb 2303.05043
-      \endverb
-      \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
-      \endverb
-      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
-    \endentry
     \entry{sau_neural_2023}{article}{}
       \name{author}{27}{}{%
         {{hash=7ceadafb1a9703cb01a1e6eb52692574}{%
@@ -297,8 +239,8 @@
       \strng{authorbibnamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authornamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authorfullhash}{630cb3c853ba4e0cb5120015cd4c4bf4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelprefix}{P}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -331,8 +273,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelprefix}{P}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -405,8 +347,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelprefix}{P}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -469,8 +411,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelprefix}{P}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -518,8 +460,8 @@
       \strng{authorbibnamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authornamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authorfullhash}{248bf5a44832d8c8bdfced808cfe37ff}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelprefix}{P}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -891,6 +833,59 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/T23TMMN3/Ribeiro et al. - 2022 - Surprises in adversarially-trained linear regressi.pdf;/Users/antoniohortaribeiro/Zotero/storage/ZE8NSPKI/2205.html
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{gedon_invertible_2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
+           family={Gedon},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f21f2855787c39337ef57063882d1a29}{%
+           family={Wahlström},
+           familyi={W\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a7d921004899fc1272afda1ee990486b}{%
+           family={Schön},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelprefix}{P}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA—an important task for denoising—requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name invertible kernel PCA (ikPCA) . We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{IEEE Signal Processing Letters}
+      \field{month}{5}
+      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/LSP.2023.3275499
+      \endverb
+      \verb{eprint}
+      \verb 2303.05043
+      \endverb
+      \verb{file}
+      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
+      \endverb
+      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
     \endentry
     \entry{ribeiro_overparameterized_2023}{article}{}
       \name{author}{2}{}{%
@@ -3456,64 +3451,6 @@
       \field{labelprefix}{J}
       \field{labelnamesource}{author}
     \endentry
-    \entry{gedon_invertible_2023}{article}{}
-      \name{author}{4}{}{%
-        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
-           family={Gedon},
-           familyi={G\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H.},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=f21f2855787c39337ef57063882d1a29}{%
-           family={Wahlström},
-           familyi={W\bibinitperiod},
-           given={Niklas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=a7d921004899fc1272afda1ee990486b}{%
-           family={Schön},
-           familyi={S\bibinitperiod},
-           given={Thomas\bibnamedelima B.},
-           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelprefix}{J}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA -- an important task for denoising -- requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name \textbackslash emph\{invertible kernel PCA (ikPCA)\}. We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
-      \field{eprintclass}{cs, eess}
-      \field{eprinttype}{arxiv}
-      \field{journaltitle}{Submitted to IEEE Signal Processing Letters (preprint: arxiv:2303.05043)}
-      \field{month}{3}
-      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
-      \field{urlday}{11}
-      \field{urlmonth}{3}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.48550/arXiv.2303.05043
-      \endverb
-      \verb{eprint}
-      \verb 2303.05043
-      \endverb
-      \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
-      \endverb
-      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
-    \endentry
     \entry{sau_neural_2023}{article}{}
       \name{author}{27}{}{%
         {{hash=7ceadafb1a9703cb01a1e6eb52692574}{%
@@ -3658,8 +3595,8 @@
       \strng{authorbibnamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authornamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authorfullhash}{630cb3c853ba4e0cb5120015cd4c4bf4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelprefix}{J}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -3692,8 +3629,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelprefix}{J}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -3766,8 +3703,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelprefix}{J}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -3830,8 +3767,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelprefix}{J}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -3879,8 +3816,8 @@
       \strng{authorbibnamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authornamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authorfullhash}{248bf5a44832d8c8bdfced808cfe37ff}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelprefix}{J}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -4252,6 +4189,59 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/T23TMMN3/Ribeiro et al. - 2022 - Surprises in adversarially-trained linear regressi.pdf;/Users/antoniohortaribeiro/Zotero/storage/ZE8NSPKI/2205.html
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{gedon_invertible_2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
+           family={Gedon},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f21f2855787c39337ef57063882d1a29}{%
+           family={Wahlström},
+           familyi={W\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a7d921004899fc1272afda1ee990486b}{%
+           family={Schön},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelprefix}{J}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA—an important task for denoising—requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name invertible kernel PCA (ikPCA) . We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{IEEE Signal Processing Letters}
+      \field{month}{5}
+      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/LSP.2023.3275499
+      \endverb
+      \verb{eprint}
+      \verb 2303.05043
+      \endverb
+      \verb{file}
+      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
+      \endverb
+      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
     \endentry
     \entry{ribeiro_overparameterized_2023}{article}{}
       \name{author}{2}{}{%
@@ -6817,64 +6807,6 @@
       \field{labelprefix}{C}
       \field{labelnamesource}{author}
     \endentry
-    \entry{gedon_invertible_2023}{article}{}
-      \name{author}{4}{}{%
-        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
-           family={Gedon},
-           familyi={G\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H.},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=f21f2855787c39337ef57063882d1a29}{%
-           family={Wahlström},
-           familyi={W\bibinitperiod},
-           given={Niklas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=a7d921004899fc1272afda1ee990486b}{%
-           family={Schön},
-           familyi={S\bibinitperiod},
-           given={Thomas\bibnamedelima B.},
-           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelprefix}{C}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA -- an important task for denoising -- requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name \textbackslash emph\{invertible kernel PCA (ikPCA)\}. We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
-      \field{eprintclass}{cs, eess}
-      \field{eprinttype}{arxiv}
-      \field{journaltitle}{Submitted to IEEE Signal Processing Letters (preprint: arxiv:2303.05043)}
-      \field{month}{3}
-      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
-      \field{urlday}{11}
-      \field{urlmonth}{3}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.48550/arXiv.2303.05043
-      \endverb
-      \verb{eprint}
-      \verb 2303.05043
-      \endverb
-      \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
-      \endverb
-      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
-    \endentry
     \entry{sau_neural_2023}{article}{}
       \name{author}{27}{}{%
         {{hash=7ceadafb1a9703cb01a1e6eb52692574}{%
@@ -7019,8 +6951,8 @@
       \strng{authorbibnamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authornamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authorfullhash}{630cb3c853ba4e0cb5120015cd4c4bf4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelprefix}{C}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -7053,8 +6985,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelprefix}{C}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -7127,8 +7059,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelprefix}{C}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -7191,8 +7123,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelprefix}{C}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -7240,8 +7172,8 @@
       \strng{authorbibnamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authornamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authorfullhash}{248bf5a44832d8c8bdfced808cfe37ff}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelprefix}{C}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -7613,6 +7545,59 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/T23TMMN3/Ribeiro et al. - 2022 - Surprises in adversarially-trained linear regressi.pdf;/Users/antoniohortaribeiro/Zotero/storage/ZE8NSPKI/2205.html
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{gedon_invertible_2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
+           family={Gedon},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f21f2855787c39337ef57063882d1a29}{%
+           family={Wahlström},
+           familyi={W\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a7d921004899fc1272afda1ee990486b}{%
+           family={Schön},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelprefix}{C}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA—an important task for denoising—requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name invertible kernel PCA (ikPCA) . We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{IEEE Signal Processing Letters}
+      \field{month}{5}
+      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/LSP.2023.3275499
+      \endverb
+      \verb{eprint}
+      \verb 2303.05043
+      \endverb
+      \verb{file}
+      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
+      \endverb
+      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
     \endentry
     \entry{ribeiro_overparameterized_2023}{article}{}
       \name{author}{2}{}{%
@@ -10178,64 +10163,6 @@
       \field{labelprefix}{W}
       \field{labelnamesource}{author}
     \endentry
-    \entry{gedon_invertible_2023}{article}{}
-      \name{author}{4}{}{%
-        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
-           family={Gedon},
-           familyi={G\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H.},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=f21f2855787c39337ef57063882d1a29}{%
-           family={Wahlström},
-           familyi={W\bibinitperiod},
-           given={Niklas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=a7d921004899fc1272afda1ee990486b}{%
-           family={Schön},
-           familyi={S\bibinitperiod},
-           given={Thomas\bibnamedelima B.},
-           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelprefix}{W}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA -- an important task for denoising -- requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name \textbackslash emph\{invertible kernel PCA (ikPCA)\}. We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
-      \field{eprintclass}{cs, eess}
-      \field{eprinttype}{arxiv}
-      \field{journaltitle}{Submitted to IEEE Signal Processing Letters (preprint: arxiv:2303.05043)}
-      \field{month}{3}
-      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
-      \field{urlday}{11}
-      \field{urlmonth}{3}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.48550/arXiv.2303.05043
-      \endverb
-      \verb{eprint}
-      \verb 2303.05043
-      \endverb
-      \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
-      \endverb
-      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
-    \endentry
     \entry{sau_neural_2023}{article}{}
       \name{author}{27}{}{%
         {{hash=7ceadafb1a9703cb01a1e6eb52692574}{%
@@ -10380,8 +10307,8 @@
       \strng{authorbibnamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authornamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authorfullhash}{630cb3c853ba4e0cb5120015cd4c4bf4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelprefix}{W}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -10414,8 +10341,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelprefix}{W}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -10488,8 +10415,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelprefix}{W}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -10552,8 +10479,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelprefix}{W}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -10601,8 +10528,8 @@
       \strng{authorbibnamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authornamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authorfullhash}{248bf5a44832d8c8bdfced808cfe37ff}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelprefix}{W}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -10974,6 +10901,59 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/T23TMMN3/Ribeiro et al. - 2022 - Surprises in adversarially-trained linear regressi.pdf;/Users/antoniohortaribeiro/Zotero/storage/ZE8NSPKI/2205.html
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{gedon_invertible_2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
+           family={Gedon},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f21f2855787c39337ef57063882d1a29}{%
+           family={Wahlström},
+           familyi={W\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a7d921004899fc1272afda1ee990486b}{%
+           family={Schön},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelprefix}{W}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA—an important task for denoising—requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name invertible kernel PCA (ikPCA) . We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{IEEE Signal Processing Letters}
+      \field{month}{5}
+      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/LSP.2023.3275499
+      \endverb
+      \verb{eprint}
+      \verb 2303.05043
+      \endverb
+      \verb{file}
+      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
+      \endverb
+      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
     \endentry
     \entry{ribeiro_overparameterized_2023}{article}{}
       \name{author}{2}{}{%
@@ -13539,64 +13519,6 @@
       \field{labelprefix}{N}
       \field{labelnamesource}{author}
     \endentry
-    \entry{gedon_invertible_2023}{article}{}
-      \name{author}{4}{}{%
-        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
-           family={Gedon},
-           familyi={G\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H.},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=f21f2855787c39337ef57063882d1a29}{%
-           family={Wahlström},
-           familyi={W\bibinitperiod},
-           given={Niklas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=a7d921004899fc1272afda1ee990486b}{%
-           family={Schön},
-           familyi={S\bibinitperiod},
-           given={Thomas\bibnamedelima B.},
-           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelprefix}{N}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA -- an important task for denoising -- requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name \textbackslash emph\{invertible kernel PCA (ikPCA)\}. We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
-      \field{eprintclass}{cs, eess}
-      \field{eprinttype}{arxiv}
-      \field{journaltitle}{Submitted to IEEE Signal Processing Letters (preprint: arxiv:2303.05043)}
-      \field{month}{3}
-      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
-      \field{urlday}{11}
-      \field{urlmonth}{3}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.48550/arXiv.2303.05043
-      \endverb
-      \verb{eprint}
-      \verb 2303.05043
-      \endverb
-      \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
-      \endverb
-      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
-    \endentry
     \entry{sau_neural_2023}{article}{}
       \name{author}{27}{}{%
         {{hash=7ceadafb1a9703cb01a1e6eb52692574}{%
@@ -13741,8 +13663,8 @@
       \strng{authorbibnamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authornamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authorfullhash}{630cb3c853ba4e0cb5120015cd4c4bf4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelprefix}{N}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -13775,8 +13697,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelprefix}{N}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -13849,8 +13771,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelprefix}{N}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -13913,8 +13835,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelprefix}{N}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -13962,8 +13884,8 @@
       \strng{authorbibnamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authornamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authorfullhash}{248bf5a44832d8c8bdfced808cfe37ff}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelprefix}{N}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -14335,6 +14257,59 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/T23TMMN3/Ribeiro et al. - 2022 - Surprises in adversarially-trained linear regressi.pdf;/Users/antoniohortaribeiro/Zotero/storage/ZE8NSPKI/2205.html
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{gedon_invertible_2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
+           family={Gedon},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f21f2855787c39337ef57063882d1a29}{%
+           family={Wahlström},
+           familyi={W\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a7d921004899fc1272afda1ee990486b}{%
+           family={Schön},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelprefix}{N}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA—an important task for denoising—requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name invertible kernel PCA (ikPCA) . We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{IEEE Signal Processing Letters}
+      \field{month}{5}
+      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/LSP.2023.3275499
+      \endverb
+      \verb{eprint}
+      \verb 2303.05043
+      \endverb
+      \verb{file}
+      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
+      \endverb
+      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
     \endentry
     \entry{ribeiro_overparameterized_2023}{article}{}
       \name{author}{2}{}{%
@@ -16900,64 +16875,6 @@
       \field{labelprefix}{T}
       \field{labelnamesource}{author}
     \endentry
-    \entry{gedon_invertible_2023}{article}{}
-      \name{author}{4}{}{%
-        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
-           family={Gedon},
-           familyi={G\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H.},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=f21f2855787c39337ef57063882d1a29}{%
-           family={Wahlström},
-           familyi={W\bibinitperiod},
-           given={Niklas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=a7d921004899fc1272afda1ee990486b}{%
-           family={Schön},
-           familyi={S\bibinitperiod},
-           given={Thomas\bibnamedelima B.},
-           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelprefix}{T}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA -- an important task for denoising -- requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name \textbackslash emph\{invertible kernel PCA (ikPCA)\}. We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
-      \field{eprintclass}{cs, eess}
-      \field{eprinttype}{arxiv}
-      \field{journaltitle}{Submitted to IEEE Signal Processing Letters (preprint: arxiv:2303.05043)}
-      \field{month}{3}
-      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
-      \field{urlday}{11}
-      \field{urlmonth}{3}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.48550/arXiv.2303.05043
-      \endverb
-      \verb{eprint}
-      \verb 2303.05043
-      \endverb
-      \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
-      \endverb
-      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
-    \endentry
     \entry{sau_neural_2023}{article}{}
       \name{author}{27}{}{%
         {{hash=7ceadafb1a9703cb01a1e6eb52692574}{%
@@ -17102,8 +17019,8 @@
       \strng{authorbibnamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authornamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authorfullhash}{630cb3c853ba4e0cb5120015cd4c4bf4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelprefix}{T}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -17136,8 +17053,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelprefix}{T}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -17210,8 +17127,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelprefix}{T}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -17274,8 +17191,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelprefix}{T}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -17323,8 +17240,8 @@
       \strng{authorbibnamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authornamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authorfullhash}{248bf5a44832d8c8bdfced808cfe37ff}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelprefix}{T}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -17696,6 +17613,59 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/T23TMMN3/Ribeiro et al. - 2022 - Surprises in adversarially-trained linear regressi.pdf;/Users/antoniohortaribeiro/Zotero/storage/ZE8NSPKI/2205.html
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{gedon_invertible_2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
+           family={Gedon},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f21f2855787c39337ef57063882d1a29}{%
+           family={Wahlström},
+           familyi={W\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a7d921004899fc1272afda1ee990486b}{%
+           family={Schön},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelprefix}{T}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA—an important task for denoising—requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name invertible kernel PCA (ikPCA) . We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{IEEE Signal Processing Letters}
+      \field{month}{5}
+      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/LSP.2023.3275499
+      \endverb
+      \verb{eprint}
+      \verb 2303.05043
+      \endverb
+      \verb{file}
+      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
+      \endverb
+      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
     \endentry
     \entry{ribeiro_overparameterized_2023}{article}{}
       \name{author}{2}{}{%
@@ -20257,63 +20227,6 @@
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
     \endentry
-    \entry{gedon_invertible_2023}{article}{}
-      \name{author}{4}{}{%
-        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
-           family={Gedon},
-           familyi={G\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Antônio\bibnamedelima H.},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=f21f2855787c39337ef57063882d1a29}{%
-           family={Wahlström},
-           familyi={W\bibinitperiod},
-           given={Niklas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=a7d921004899fc1272afda1ee990486b}{%
-           family={Schön},
-           familyi={S\bibinitperiod},
-           given={Thomas\bibnamedelima B.},
-           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA -- an important task for denoising -- requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name \textbackslash emph\{invertible kernel PCA (ikPCA)\}. We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
-      \field{eprintclass}{cs, eess}
-      \field{eprinttype}{arxiv}
-      \field{journaltitle}{Submitted to IEEE Signal Processing Letters (preprint: arxiv:2303.05043)}
-      \field{month}{3}
-      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
-      \field{urlday}{11}
-      \field{urlmonth}{3}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.48550/arXiv.2303.05043
-      \endverb
-      \verb{eprint}
-      \verb 2303.05043
-      \endverb
-      \verb{file}
-      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
-      \endverb
-      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
-    \endentry
     \entry{sau_neural_2023}{article}{}
       \name{author}{27}{}{%
         {{hash=7ceadafb1a9703cb01a1e6eb52692574}{%
@@ -20458,8 +20371,8 @@
       \strng{authorbibnamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authornamehash}{630cb3c853ba4e0cb5120015cd4c4bf4}
       \strng{authorfullhash}{630cb3c853ba4e0cb5120015cd4c4bf4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Submitted to Nature Medicine}
@@ -20491,8 +20404,8 @@
       \strng{authorbibnamehash}{630a5e49478a150825579097df30ba41}
       \strng{authornamehash}{630a5e49478a150825579097df30ba41}
       \strng{authorfullhash}{630a5e49478a150825579097df30ba41}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{OpenReview}
@@ -20564,8 +20477,8 @@
       \strng{authorbibnamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authornamehash}{5eb2688e16479c71cc06d9942e6e12aa}
       \strng{authorfullhash}{5eb2688e16479c71cc06d9942e6e12aa}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Submitted to Plos Neglected Tropical Diseases (preprint: medRxiv)}
@@ -20627,8 +20540,8 @@
       \strng{authorbibnamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authornamehash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
       \strng{authorfullhash}{4dc04e67910b0ee9b9ab5cb748ad4a52}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Submitted to The Lancet Digital Health}
@@ -20675,8 +20588,8 @@
       \strng{authorbibnamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authornamehash}{248bf5a44832d8c8bdfced808cfe37ff}
       \strng{authorfullhash}{248bf5a44832d8c8bdfced808cfe37ff}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Submitted to Automatica (preprint: arXiv:2301.12832)}
@@ -21042,6 +20955,58 @@
       \verb /Users/antoniohortaribeiro/Zotero/storage/T23TMMN3/Ribeiro et al. - 2022 - Surprises in adversarially-trained linear regressi.pdf;/Users/antoniohortaribeiro/Zotero/storage/ZE8NSPKI/2205.html
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \endentry
+    \entry{gedon_invertible_2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=dd6c08ccd96998e8dac49aa52b29c70b}{%
+           family={Gedon},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f21f2855787c39337ef57063882d1a29}{%
+           family={Wahlström},
+           familyi={W\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a7d921004899fc1272afda1ee990486b}{%
+           family={Schön},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{fullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{bibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorbibnamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authornamehash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \strng{authorfullhash}{9d065e4a1cd6e62d34b9231bfb0d404d}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kernel principal component analysis (kPCA) is a widely studied method to construct a low-dimensional data representation after a nonlinear transformation. The prevailing method to reconstruct the original input signal from kPCA—an important task for denoising—requires us to solve a supervised learning problem. In this paper, we present an alternative method where the reconstruction follows naturally from the compression step. We first approximate the kernel with random Fourier features. Then, we exploit the fact that the nonlinear transformation is invertible in a certain subdomain. Hence, the name invertible kernel PCA (ikPCA) . We experiment with different data modalities and show that ikPCA performs similarly to kPCA with supervised reconstruction on denoising tasks, making it a strong alternative.}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{IEEE Signal Processing Letters}
+      \field{month}{5}
+      \field{title}{Invertible {{Kernel PCA}} with {{Random Fourier Features}}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/LSP.2023.3275499
+      \endverb
+      \verb{eprint}
+      \verb 2303.05043
+      \endverb
+      \verb{file}
+      \verb /Users/antoniohortaribeiro/Zotero/storage/Q43LG9C2/Gedon et al. - 2023 - Invertible Kernel PCA with Random Fourier Features.pdf;/Users/antoniohortaribeiro/Zotero/storage/NW5IY6KD/2303.html
+      \endverb
+      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing}
     \endentry
     \entry{ribeiro_overparameterized_2023}{article}{}
       \name{author}{2}{}{%

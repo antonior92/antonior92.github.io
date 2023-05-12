@@ -175,19 +175,15 @@
     Kernel principal component analysis (kPCA) is a widely studied method to
     construct a low-dimensional data representation after a nonlinear
     transformation. The prevailing method to reconstruct the original input
-    signal from kPCA -- an important task for denoising -- requires us to solve
-    a supervised learning problem. In this paper, we present an alternative
-    method where the reconstruction follows naturally from the compression step.
-    We first approximate the kernel with random Fourier features. Then, we
-    exploit the fact that the nonlinear transformation is invertible in a
-    certain subdomain. Hence, the name \emph{invertible kernel PCA (ikPCA)}. We
-    experiment with different data modalities and show that ikPCA performs
-    similarly to kPCA with supervised reconstruction on denoising tasks, making
-    it a strong alternative.
-  accessed:
-    - year: 2023
-      month: 3
-      day: 11
+    signal from kPCA—an important task for denoising—requires us to solve a
+    supervised learning problem. In this paper, we present an alternative method
+    where the reconstruction follows naturally from the compression step. We
+    first approximate the kernel with random Fourier features. Then, we exploit
+    the fact that the nonlinear transformation is invertible in a certain
+    subdomain. Hence, the name invertible kernel PCA (ikPCA) . We experiment
+    with different data modalities and show that ikPCA performs similarly to
+    kPCA with supervised reconstruction on denoising tasks, making it a strong
+    alternative.
   author:
     - family: Gedon
       given: Daniel
@@ -198,17 +194,15 @@
     - family: Schön
       given: Thomas B.
   citation-key: gedon_invertible_2023
-  container-title: 'Submitted to IEEE Signal Processing Letters (preprint: arxiv:2303.05043)'
-  DOI: 10.48550/arXiv.2303.05043
+  container-title: IEEE Signal Processing Letters
+  DOI: 10.1109/LSP.2023.3275499
   issued:
     - year: 2023
-      month: 3
-      day: 9
-  license: All rights reserved
+      month: 5
+      day: 11
   source: arXiv.org
   title: Invertible Kernel PCA with Random Fourier Features
   type: article-journal
-  URL: http://arxiv.org/abs/2303.05043
 
 - id: gedon_no_2023
   author:

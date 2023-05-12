@@ -1,7 +1,6 @@
 - name: Working Manuscripts
   letter: P
   papers:
-      - gedon_invertible_2023
       - sau_neural_2023
       - gedon_no_2023
       - jidling_screening_2023
@@ -16,6 +15,7 @@
 - name: Journal Papers
   letter: J
   papers:
+      - gedon_invertible_2023
       - ribeiro_overparameterized_2023
       - zhang_association_2023
       - zvuloni_merging_2023
