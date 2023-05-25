@@ -1,3 +1,9 @@
+- date: "2023-05-24"
+  text: "🎬 Two talks today. One at PUC-Rio-Brazil and one at IEEE EMBS Germany Chapter in  Göttingen!."
+  links:
+    - pdfs/slides/2023-PUCRio.pdf
+    - pdfs/slides/2023-IEEE-EMBS.pdf
+
 - date: "2023-05-12"
   text: "📜 Paper accepted at IEEE Signal Processing Letters. Invertible Kernel PCA with Random Fourier Features"
   link: https://ieeexplore.ieee.org/document/10123002

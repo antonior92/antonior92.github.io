@@ -1,23 +1,29 @@
-- name: Overparametrized Linear Regression under Adversarial Attacks
-  date: March 2023
-  venue: INRIA, Paris @ SIERRA team
-  github: antonior92/inriatalk
+- name: The Three Challenges of Using Deep Neural Networks in Electrocardiography
+  date: May, 2023
+  venue: IEEE EMBS @ Germany Chapter, Göttingen (online)
+  github: antonior92/IEEE-EMBS-talk
   type: invited university
-  slide: pdfs/slides/2023-Inria.pdf
+  slide: pdfs/slides/2023-IEEE-EMBS.pdf
+- name: Revisitando o princípio da parcimônia na identificação de sistemas e aprendizado de máquina
+  date: May, 2023
+  venue: PUC Rio, Brazil @ Department of Mechanical Engineering
+  github: antonior92/talk-PucRio
+  type: invited university
+  slide: pdfs/slides/2023-PUCRio.pdf
   abstract: >-
-    State-of-the-art machine learning models can be vulnerable to very small input perturbations that are
-    adversarially constructed. Adversarial attacks are a popular framework for studying these vulnerabilities.
-    They consider worst-case input disturbances designed to maximize model error and got a lot of attention due
-    to their impact on the performance of state-of-the-art models. Adversarial training considers extending
-    model training with these examples and is an effective approach to defend against such attacks. This talk
-    will explore adversarial attacks and training in linear regression. There is a strong reason for this focus,
-    for linear regression, adversarial training can be formulated as a convex and quadratic problem. Moreover,
-    many interesting phenomena that can be observed in nonlinear models are still present. The setup is used to study
-    the relationship between high dimensionality and robustness. And to reveal the connection between adversarial
-    training, parameter-shrinking methods, and minimum-norm solutions.
+    As áreas de identificação de sistemas e o aprendizado de máquina visam construir modelos matemáticos a partir de
+    dados. Tradicionalmente, a escolha da família de modelos a ser considerada exige do designer um equilíbrio entre
+    dois objetivos de natureza conflitante; esta deve ser ser flexível o suficiente para capturar a dinâmica do sistema,
+    mas não tão flexível que aprenda efeitos espúrios a partir conjunto de dados. No entanto, a boa performance de
+    famílias de modelos com grande flexibilidade, como redes neurais profundas, levaram a uma revisão desse paradigma.
+    Nessa apresentação discutiremos os fenômenos de "double-descent" e de "benign-overfitting" que ajudam a interpretar
+    essas idéias. Com especial foco em dois casos de interesse: sistemas dinâmicos e ataques adversáriais (para os quais
+    a entrada do sistema é contaminada com perturbações selecionadas de forma a fazer o sistema fazer predições errôneas).
   publications:
     - ribeiro_overparameterized_2023
     - ribeiro_surprises_2022
+    - ribeiro_occam_2021b
+    - pillonetto_deep_2023
 - name:  Adversarially-trained linear regression
   date: November 2022
   venue: Uppsala University, Sweden @ System and Control Division (Microseminar)
