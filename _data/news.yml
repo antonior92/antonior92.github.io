@@ -1,5 +1,17 @@
+- date: "2023-07-05"
+  text: "✈️ I visited Fu Siong group at Imperial college for one week."
+  links:
+    - images/some_pictures/2023-ImperialCollege.jpeg
+    - pdfs/slides/2023-ImperialCollege.pdf
+
+- date: "2023-07-04"
+  text: "📜 Two new publications using AI-augmented ECG: screening for Chagas disease patients and using age estimated by AI-ECG as a biomarker of cardiovascular risk "
+  links:
+    - https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0011118
+    - https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.122.009821
+
 - date: "2023-05-24"
-  text: "🎬 Two talks today. One at PUC-Rio-Brazil and one at IEEE EMBS Germany Chapter in  Göttingen!."
+  text: "🎬 Two online talks today. One at PUC-Rio-Brazil and one at IEEE EMBS Germany Chapter in  Göttingen!."
   links:
     - pdfs/slides/2023-PUCRio.pdf
     - pdfs/slides/2023-IEEE-EMBS.pdf

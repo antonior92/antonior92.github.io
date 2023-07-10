@@ -1,3 +1,8 @@
+- name: Robustness in large-scale machine learning and its relevance to AI-enabled ECG
+  date: July, 2023
+  venue: Imperial College, UK @ Imperial Centre for Translational and Experimental Medicine
+  type: invited university
+  slide: pdfs/slides/2023-ImperialCollege.pdf
 - name: The Three Challenges of Using Deep Neural Networks in Electrocardiography
   date: May, 2023
   venue: IEEE EMBS @ Germany Chapter, Göttingen (online)
@@ -24,6 +29,22 @@
     - ribeiro_surprises_2022
     - ribeiro_occam_2021b
     - pillonetto_deep_2023
+- name: Overparametrized linear regression under adversarial attacks
+  date: March, 2023
+  venue: INRIA Paris, France @ SIERRA team
+  slide: pdfs/slides/2023-Inria.pdf
+  type: invited university
+  abstract: >-
+    State-of-the-art machine learning models can be vulnerable to very small input perturbations that are adversarially
+    constructed. Adversarial attacks are a popular framework for studying these vulnerabilities. They consider worst-case
+    input disturbances designed to maximize model error and got a lot of attention due to their impact on the performance
+    of state-of-the-art models. Adversarial training considers extending model training with these examples and is an
+    effective approach to defend against such attacks. This talk will explore adversarial attacks and training in linear
+    regression. There is a strong reason for this focus, for linear regression, adversarial training can be formulated
+    as a convex and quadratic problem. Moreover, many interesting phenomena that can be observed in nonlinear models are
+    still present. The setup is used to study the relationship between high dimensionality and robustness. And to reveal
+    the connection between adversarial training, parameter-shrinking methods, and minimum-norm solutions.
+
 - name:  Adversarially-trained linear regression
   date: November 2022
   venue: Uppsala University, Sweden @ System and Control Division (Microseminar)

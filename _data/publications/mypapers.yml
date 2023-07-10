@@ -119,7 +119,8 @@
     - family: Lin
       given: Honghuang
   citation-key: brant_electrocardiographic_2023
-  container-title: 'Accepted Circulation: Cardiovascular Quality and Outcomes'
+  container-title: 'Circulation: Cardiovascular Quality and Outcomes'
+  DOI: 10.1161/CIRCOUTCOMES.122.009821
   issued:
     - year: 2023
   license: All rights reserved
@@ -388,10 +389,6 @@
   type: article-journal
 
 - id: jidling_screening_2023
-  accessed:
-    - year: 2023
-      month: 1
-      day: 26
   author:
     - family: Jidling
       given: Carl
@@ -416,15 +413,16 @@
     - family: Ribeiro
       given: Antônio H.
   citation-key: jidling_screening_2023
-  container-title: 'Submitted to Plos Neglected Tropical Diseases (preprint: medRxiv)'
-  DOI: 10.1101/2023.01.24.23284930
+  container-title: Plos Neglected Tropical Diseases
+  DOI: 10.1371/journal.pntd.0011118
+  issue: '7'
   issued:
     - year: 2023
-  license: All rights reserved
   title: >-
     Screening for Chagas disease from the electrocardiogram using a deep neural
     network
   type: article-journal
+  volume: '17'
 
 - id: lima_deep_2021
   abstract: >-
