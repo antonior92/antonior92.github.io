@@ -505,7 +505,8 @@
     - family: Ugander
       given: Martin
   citation-key: lindow_heart_2023
-  container-title: Submitted to The Lancet Digital Health
+  container-title: European Heart Journal - Digital Health
+  DOI: 10.1093/ehjdh/ztad045
   issued:
     - year: 2023
   license: All rights reserved
@@ -1768,23 +1769,62 @@
   type: article-journal
   volume: '13'
 
-- id: sangha_detection_2022
+- id: sangha_detection_2023
   abstract: >-
-    Left ventricular (LV) systolic dysfunction is associated with over 8-fold
-    increased risk of heart failure and 2-fold risk of premature death. To allow
-    early detection by clinicians, we developed a layout-independent deep
-    learning model that identifies LV systolic dysfunction directly from images
-    of electrocardiograms (ECGs). Overall, 393,910 ECGs with paired
-    echocardiograms were used for model development. The model performed well
-    across multiple image formats (AUROC 0.91, AUPRC 0.69), and two external
-    sets of real-world ECG images from an outpatient academic center (AUROC
-    0.93, AUPRC 0.69) and a rural hospital system (AUROC 0.91, AUPRC 0.89).
+    BACKGROUND:
+
+    Left ventricular (LV) systolic dysfunction is associated with a >8-fold
+    increased risk of heart failure and a 2-fold risk of premature death. The
+    use of ECG signals in screening for LV systolic dysfunction is limited by
+    their availability to clinicians. We developed a novel deep learning–based
+    approach that can use ECG images for the screening of LV systolic
+    dysfunction.
+
+
+    METHODS:
+
+    Using 12-lead ECGs plotted in multiple different formats, and corresponding
+    echocardiographic data recorded within 15 days from the Yale New Haven
+    Hospital between 2015 and 2021, we developed a convolutional neural network
+    algorithm to detect an LV ejection fraction <40%. The model was validated
+    within clinical settings at Yale New Haven Hospital and externally on ECG
+    images from Cedars Sinai Medical Center in Los Angeles, CA; Lake Regional
+    Hospital in Osage Beach, MO; Memorial Hermann Southeast Hospital in Houston,
+    TX; and Methodist Cardiology Clinic of San Antonio, TX. In addition, it was
+    validated in the prospective Brazilian Longitudinal Study of Adult Health.
+    Gradient-weighted class activation mapping was used to localize
+    class-discriminating signals in ECG images.
+
+
+    RESULTS:
+
+    Overall, 385 601 ECGs with paired echocardiograms were used for model
+    development. The model demonstrated high discrimination power across various
+    ECG image formats and calibrations in internal validation (area under
+    receiving operation characteristics \[AUROCs], 0.91; area under
+    precision-recall curve \[AUPRC], 0.55); and external sets of ECG images from
+    Cedars Sinai (AUROC, 0.90 and AUPRC, 0.53), outpatient Yale New Haven
+    Hospital clinics (AUROC, 0.94 and AUPRC, 0.77), Lake Regional Hospital
+    (AUROC, 0.90 and AUPRC, 0.88), Memorial Hermann Southeast Hospital (AUROC,
+    0.91 and AUPRC 0.88), Methodist Cardiology Clinic (AUROC, 0.90 and AUPRC,
+    0.74), and Brazilian Longitudinal Study of Adult Health cohort (AUROC, 0.95
+    and AUPRC, 0.45). An ECG suggestive of LV systolic dysfunction portended a
+    >27-fold higher odds of LV systolic dysfunction on transthoracic
+    echocardiogram (odds ratio, 27.5 \[95% CI, 22.3–33.9] in the held-out set).
     Class-discriminative patterns localized to the anterior and anteroseptal
-    leads corresponding to the left ventricle, regardless of ECG layout. A
-    positive ECG screen in individuals with preserved LV ejection fraction was
-    associated with 4-fold increased risk of developing LV systolic dysfunction
-    in future. This approach represents an automated and accessible screening
-    strategy for LV systolic dysfunction.
+    leads (V2 to V3), corresponding to the left ventricle regardless of the ECG
+    layout. A positive ECG screen in individuals with an LV ejection fraction
+    ≥40% at the time of initial assessment was associated with a 3.9-fold
+    increased risk of developing incident LV systolic dysfunction in the future
+    (hazard ratio, 3.9 \[95% CI, 3.3–4.7]; median follow-up, 3.2 years).
+
+
+    CONCLUSIONS:
+
+    We developed and externally validated a deep learning model that identifies
+    LV systolic dysfunction from ECG images. This approach represents an
+    automated and accessible screening strategy for LV systolic dysfunction,
+    particularly in low-resource settings.
   author:
     - family: Sangha
       given: Veer
@@ -1808,19 +1848,16 @@
       given: Harlan M.
     - family: Khera
       given: Rohan
-  citation-key: sangha_detection_2022
-  container-title: 'Under review Circulation (preprint: medRxiv)'
-  DOI: 10.1101/2022.06.04.22276000
+  citation-key: sangha_detection_2023
+  container-title: Circulation
+  DOI: 10.1161/CIRCULATIONAHA.122.062646
   issued:
-    - year: 2022
-      month: 6
-      day: 6
+    - year: 2023
   source: medRxiv
   title: >-
     Detection of Left Ventricular Systolic Dysfunction from Electrocardiographic
     Images
   type: article-journal
-  URL: https://www.medrxiv.org/content/10.1101/2022.06.04.22276000v1
 
 - id: sau_neural_2023
   author:

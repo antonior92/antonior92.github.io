@@ -1,3 +1,8 @@
+- date: "2023-07-27"
+  text: "📜 Two new publications: one at Circulation and one at the European Heart Journal Digital Health."
+  links:
+    - https://doi.org/10.1093/ehjdh/ztad045
+    - https://doi.org/10.1093/ehjdh/ztad045
 - date: "2023-07-05"
   text: "✈️ I visited Fu Siong group at Imperial college for one week."
   links:
@@ -11,7 +16,7 @@
     - https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.122.009821
 
 - date: "2023-05-24"
-  text: "🎬 Two online talks today. One at PUC-Rio-Brazil and one at IEEE EMBS Germany Chapter in  Göttingen!."
+  text: "🎬 Two online talks today. One at PUC-Rio-Brazil and one at IEEE EMBS Germany Chapter in Göttingen!."
   links:
     - pdfs/slides/2023-PUCRio.pdf
     - pdfs/slides/2023-IEEE-EMBS.pdf

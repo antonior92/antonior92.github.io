@@ -35,10 +35,11 @@
       level: MSc
       status: In progress
       start: Jan. 2023
-      end: June 2023 (estimated)
+      end: June 2023
       project:  Evaluating clusters of financial time series
       institution: Uppsala University
       country: Sweden
+      thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1767708
     - student: Christie Courtnage
       role: subject reviwer (ämnesgranskare)
       level: MSc
@@ -48,6 +49,7 @@
       project: An extension to Semi-Supervised Learning using Shapley Value Data Valuation
       institution: Uppsala University
       country: Sweden
+      thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1697410
     - student: Meenal Pathak
       status: Complete
       start: Feb. 2022

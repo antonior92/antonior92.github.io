@@ -1,46 +1,22 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'main.blg'
-[92] biber-darwin:340> INFO - === Fri May 12, 2023, 10:35:25
-[122] Biber.pm:415> INFO - Reading 'main.bcf'
-[242] Biber.pm:952> INFO - Found 56 citekeys in bib section 0
-[305] Biber.pm:4340> INFO - Processing section 0
-[318] Biber.pm:4531> INFO - Looking for bibtex format file 'main-nhblx.bib' for section 0
-[319] bibtex.pm:1689> INFO - LaTeX decoding ...
-[323] bibtex.pm:1494> INFO - Found BibTeX data source 'main-nhblx.bib'
-[338] Biber.pm:4531> INFO - Looking for bibtex format file 'refs.bib' for section 0
-[348] bibtex.pm:1689> INFO - LaTeX decoding ...
-[466] bibtex.pm:1494> INFO - Found BibTeX data source 'refs.bib'
-[1035] Utils.pm:395> WARN - ISBN '2378-5861' in entry 'ribeiro_lasso_2018' is invalid - run biber with '--validate_datamodel' for details.
-[1149] Utils.pm:395> WARN - I didn't find a database entry for 'gabriela_validation_2020' (section 0)
-[1149] Utils.pm:395> WARN - I didn't find a database entry for 'paixao_ecg-age_2020' (section 0)
-[1243] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1243] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1244] Biber.pm:4168> INFO - Sorting list 'none/global/44C29EDB103A2872F519AD0C9A0FDAAA/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1244] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1348] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1348] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1348] Biber.pm:4168> INFO - Sorting list 'none/global/FF44570ACA8241914870AFBC310CDB85/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1348] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1439] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1439] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1439] Biber.pm:4168> INFO - Sorting list 'none/global/0D61F8370CAD1D412F80B84D143E1257/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1439] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1538] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1538] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1538] Biber.pm:4168> INFO - Sorting list 'none/global/61E9C06EA9A85A5088A499DF6458D276/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1538] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1636] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1636] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1636] Biber.pm:4168> INFO - Sorting list 'none/global/8D9C307CB7F3C4A32822A51922D1CEAA/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1637] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1724] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1724] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1725] Biber.pm:4168> INFO - Sorting list 'none/global/B9ECE18C950AFBFA6B0FDBFA4FF731D3/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1725] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1813] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1813] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1813] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1813] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1878] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[2944] bbl.pm:757> INFO - Output to main.bbl
-[2945] Biber.pm:128> INFO - WARNINGS: 3
+[62] biber-darwin:340> INFO - === Thu Jul 27, 2023, 11:41:07
+[76] Biber.pm:415> INFO - Reading 'main.bcf'
+[152] Biber.pm:952> INFO - Found 56 citekeys in bib section 0
+[165] Biber.pm:4340> INFO - Processing section 0
+[174] Biber.pm:4531> INFO - Looking for bibtex format file 'main-nhblx.bib' for section 0
+[175] bibtex.pm:1689> INFO - LaTeX decoding ...
+[178] bibtex.pm:1494> INFO - Found BibTeX data source 'main-nhblx.bib'
+[188] Biber.pm:4531> INFO - Looking for bibtex format file 'refs.bib' for section 0
+[194] bibtex.pm:1689> INFO - LaTeX decoding ...
+[274] bibtex.pm:1494> INFO - Found BibTeX data source 'refs.bib'
+[600] Utils.pm:395> WARN - ISBN '2378-5861' in entry 'ribeiro_lasso_2018' is invalid - run biber with '--validate_datamodel' for details.
+[658] Utils.pm:395> WARN - I didn't find a database entry for 'gabriela_validation_2020' (section 0)
+[658] Utils.pm:395> WARN - I didn't find a database entry for 'paixao_ecg-age_2020' (section 0)
+[707] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[707] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[707] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[708] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[739] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[808] bbl.pm:757> INFO - Output to main.bbl
+[808] Biber.pm:128> INFO - WARNINGS: 3

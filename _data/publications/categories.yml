@@ -3,16 +3,16 @@
   papers:
       - sau_neural_2023
       - gedon_no_2023
-      - lindow_heart_2023
       - pillonetto_deep_2023
       - vonbachmann_ecgbased_2022
       - lu_knowledge_2022
-      - sangha_detection_2022
       - ribeiro_surprises_2022
 
 - name: Journal Papers
   letter: J
   papers:
+      - sangha_detection_2023
+      - lindow_heart_2023
       - brant_electrocardiographic_2023
       - jidling_screening_2023
       - gedon_invertible_2023

@@ -52,7 +52,7 @@ Keep updated database with:
 - [ ] Midia section (not urgent)
   
 Research Database:
-- [ ] Add external funding
+- [x] Add external funding
 
 Teaching database
 - [ ] Extend teaching database
@@ -77,6 +77,7 @@ Teaching database
 - [x] Ph.D. and M.Sc. defenses
 
 # CV info to check document
+- [ ] Clean up CV generation a bit. Create separate folders for cv, short-cv and publication list.
 - [ ] Check number of students in wasp course
 - [ ] Reverse order of publication list
 - [ ] Make sure short cv is in good shape
