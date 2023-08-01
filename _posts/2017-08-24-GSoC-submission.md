@@ -1,7 +1,7 @@
 ---
 title: 'GSoC 2017 - Submission'
 date: 2017-08-24
-permalink: /posts/2017/24/GSoC-submission/
+permalink: /posts/2017/08/GSoC-submission/
 tags:
   - SciPy and Optimization
 ---
