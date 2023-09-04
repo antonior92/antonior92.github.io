@@ -50,13 +50,13 @@ Keep updated database with:
 - [x] Supervision
 - [x] Additional Education
 - [ ] Midia section (not urgent)
+- [ ] Add comments to publications (such as prizes, impact factors, citations...)
   
 Research Database:
 - [x] Add external funding
 
-Teaching database
-- [ ] Extend teaching database
-    - [ ] course description
+
+
 
 
 ----
