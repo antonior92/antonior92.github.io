@@ -1,6 +1,5 @@
-
 \usepackage[sorting=none, maxbibnames=99, mincitenames=99, maxcitenames=99, style=numeric, backend=biber,
-            defernumbers=true,isbn=false,url=false,eprint=false]{biblatex}  % For the references
+            defernumbers=true,isbn=false,url=false,eprint=false, giveninits=true]{biblatex}  % For the references
 %\DeclareFieldFormat{labelnumberwidth}{}
 \setlength{\biblabelsep}{10pt}
 \setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
@@ -46,6 +45,20 @@
 
 % DEFINE BOLD NAMES
 \addboldnames{ {Ribeiro, Ant\^onio H.}, {Ribeiro, Ant\^onio H}, {Ribeiro, Antonio H.}, {Ribeiro, Antonio H} }
+
+% ---break line before publication name
+
+\renewcommand*{\nametitledelim}{\newunitpunct\par} % An alternative is to use: \nametitledelim
+\renewbibmacro{in:}{\newline In:}
+
+
+\DeclareFieldFormat*{title}{``\textit{#1}''}
+\DeclareFieldFormat*{venue}{\textsc{#1}}
+
+\DeclareFieldFormat*{booktitle}{\textsc{#1}}
+\DeclareFieldFormat*{journaltitle}{\textsc{#1}}
+\DeclareFieldFormat*{doi}{\newline \scriptsize DOI:~\href{https://doi.org/#1}{#1}}
+
 
 % --- Add all publications (in the header)
 
