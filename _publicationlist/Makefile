@@ -16,8 +16,6 @@ $(NAME).bbl: $(NAME).bcf
 $(NAME).bcf: $(NAME).tex
 	pdflatex -interaction=nonstopmode $<
 
-$(NAME).sty: $(TEMPLATE) ../_publicationlist/refs.bib
-	python  $(RENDER) $< $(DATA) -o ./$@
+$(NAME).sty: $(TEMPLATE)  $(DATA)* $(RENDER)
+	python  $(RENDER) $(TEMPLATE) $(DATA) -o ./$@
 
-$(NAME).tex:  $(DATA)* $(RENDER)
-	python $(RENDER) $< $(DATA) -o ./$@

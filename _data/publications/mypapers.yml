@@ -23,7 +23,7 @@
     - family: Schön
       given: Thomas B.
   citation-key: andersson_deep_2019
-  container-title: Proceedings of the 58th IEEE Conference on Decision and Control (CDC)
+  container-title: IEEE Conference on Decision and Control (CDC)
   DOI: 10.1109/CDC40024.2019.9030219
   issued:
     - year: 2019
@@ -320,6 +320,30 @@
   URL: https://www.nature.com/articles/s41598-022-24254-x
   volume: '12'
 
+- id: habineza_endtoend_2023
+  author:
+    - family: Habineza
+      given: Theogene
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Gedon
+      given: Daniel
+    - family: Behar
+      given: Joachim A.
+    - family: Ribeiro
+      given: Antonio Luiz P.
+    - family: Schön
+      given: Thomas B.
+  citation-key: habineza_endtoend_2023
+  container-title: Minor revisions Journal of Electrocardiology
+  issued:
+    - year: 2023
+  license: All rights reserved
+  title: >-
+    End-to-end Risk Prediction of Atrial Fibrillation from the 12-Lead ECG by
+    Deep Neural Networks
+  type: article-journal
+
 - id: hendriks_deep_2021
   abstract: >-
     This paper is directed towards the problem of learning nonlinear ARX models
@@ -344,9 +368,7 @@
     - family: Schön
       given: Thomas B.
   citation-key: hendriks_deep_2021
-  container-title: >-
-    Proceedings of the 19th IFAC Symposium on System Identification (SYSID) -
-    IFAC-PapersOnLine
+  container-title: IFAC Symposium on System Identification (SYSID)
   DOI: 10.1016/j.ifacol.2021.08.410
   issue: '7'
   issued:
@@ -387,6 +409,68 @@
     - year: 2021
   title: Deep Energy-Based NARX Models
   type: article-journal
+
+- id: huang_generalization_2023
+  abstract: >-
+    This research investigates the influence of dataset characteristics on the
+    performance and generalization capabilities of deep learning models, on ECG
+    data. The study evaluates multiple subsets of the TNMG dataset with varying
+    levels of curated characteristics to assess their impact on model
+    performance. Additionally, an attention mechanism is introduced to enhance
+    model accuracy and generalization. The experimental results reveal that
+    models trained on balanced subsets and incorporating the attention mechanism
+    consistently outperform those trained on unbalanced data or without
+    attention, emphasizing the critical importance of dataset balance and
+    attention mechanism for achieving improved model performance. Surprisingly,
+    the largest ECG dataset, TNMG, proved less effective in generalization than
+    smaller, curated subsets. The study demonstrates that a well-balanced and
+    thoughtfully curated dataset, combined with the attention mechanism, can
+    lead to competitive model performance, even with a significantly smaller
+    size. This research on ECG data underscores the critical importance of
+    dataset curation, balance, and attention mechanisms in biomedical machine
+    learning. It highlights that well-balanced, thoughtfully curated datasets
+    with attention mechanisms can outperform larger, unbalanced datasets,
+    challenging conventional notions and offering potential advancements in
+    medical data analysis and patient care.
+  accessed:
+    - year: 2023
+      month: 9
+      day: 11
+  author:
+    - family: Huang
+      given: Zhaojing
+    - family: MacLachlan
+      given: Sarisha
+    - family: Yu
+      given: Leping
+    - family: Contreras
+      given: Luis Fernando Herbozo
+    - family: Truong
+      given: Nhan Duy
+    - family: Ribeiro
+      given: Antonio Horta
+    - family: Kavehei
+      given: Omid
+  citation-key: huang_generalization_2023
+  container-title: 'Submitted to Journal of Electrocardiology (preprint: medRxiv))'
+  DOI: 10.1101/2023.07.05.23292238
+  issued:
+    - year: 2023
+      month: 9
+      day: 7
+  language: en
+  license: >-
+    © 2023, Posted by Cold Spring Harbor Laboratory. The copyright holder for
+    this pre-print is the author. All rights reserved. The material may not be
+    redistributed, re-used or adapted without the author's permission.
+  page: 2023.07.05.23292238
+  source: medRxiv
+  title: >-
+    Generalization Challenges in ECG Deep Learning: Insights from Dataset
+    Characteristics and Attention Mechanism
+  title-short: Generalization Challenges in ECG Deep Learning
+  type: article-journal
+  URL: https://www.medrxiv.org/content/10.1101/2023.07.05.23292238v2
 
 - id: jidling_screening_2023
   author:
@@ -655,11 +739,9 @@
     - family: Meira Jr
       given: Wagner
   citation-key: oliveira_explaining_2020a
-  collection-title: Lecture Notes in Computer Science}
   container-title: >-
-    Machine Learning and Knowledge Discovery in Databases. European Conference
-    on Machine Learning and Principles and Practice of Knowledge Discovery in
-    Databases (ECML-PKDD)
+    European Conference on Machine Learning and Principles and Practice of
+    Knowledge Discovery in Databases (ECML-PKDD)
   DOI: 10.1007/978-3-030-67670-4_13
   event-place: Ghent, Belgium
   issued:
@@ -1253,9 +1335,7 @@
     - family: Schön
       given: Thomas B.
   citation-key: ribeiro_exploding_2020
-  container-title: >-
-    Proceedings of the 23rd International Conference on Artificial Intelligence
-    and Statistics (AISTATS), PMLR
+  container-title: International Conference on Artificial Intelligence and Statistics (AISTATS)
   event-title: '108'
   issued:
     - year: 2020
@@ -1396,14 +1476,11 @@
     - family: Schön
       given: Thomas B.
   citation-key: ribeiro_occam_2021b
-  container-title: >-
-    Proceedings of the 19th IFAC Symposium on System Identification (SYSID) -
-    IFAC-PapersOnLine
+  container-title: IFAC Symposium on System Identification (SYSID)
   DOI: 10.1016/j.ifacol.2021.08.341
   issued:
     - year: 2021
   page: 97-102
-  publisher: Elsevier
   source: arXiv.org
   title: >-
     Beyond Occam's Razor in System Identification: Double-Descent when Modeling
@@ -1507,6 +1584,24 @@
   title: Recurrent Structures in System Identification
   type: thesis
 
+- id: ribeiro_regularization_2023
+  author:
+    - family: Ribeiro
+      given: Antônio H
+    - family: Zachariah
+      given: Dave
+    - family: Bach
+      given: Francis
+    - family: Schön
+      given: Thomas B.
+  citation-key: ribeiro_regularization_2023
+  container-title: 'Submitted to Neurips (Reviewer scores: 8/6/6/6)'
+  issued:
+    - year: 2023
+  license: All rights reserved
+  title: Regularization properties of adversarially-trained linear regression
+  type: article-journal
+
 - id: ribeiro_relacoes_2014
   author:
     - family: Ribeiro
@@ -1529,9 +1624,7 @@
     - family: Aguirre
       given: Luis A.
   citation-key: ribeiro_selecting_2015
-  container-title: >-
-    Proceedings of the 2nd IFAC Workshop on Automatic Control in Offshore Oil
-    and Gas Production. IFAC-PapersOnLine
+  container-title: IFAC Workshop on Automatic Control in Offshore Oil and Gas Production
   DOI: 10.1016/j.ifacol.2015.08.024
   issue: '6'
   issued:
@@ -1562,7 +1655,7 @@
     - family: Aguirre
       given: Luis A.
   citation-key: ribeiro_shooting_2017
-  container-title: Proceedings of the 20th IFAC World Congress. IFAC-PapersOnLine
+  container-title: IFAC World Congress
   container-title-short: IFAC-PapersOnLine
   DOI: 10.1016/j.ifacol.2017.08.2421
   ISSN: 2405-8963

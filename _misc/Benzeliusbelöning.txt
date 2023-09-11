@@ -1,0 +1,17 @@
+My research studies techniques to extract information and learn the intrinsic behavior of time series, signals and dynamical systems. It focuses on the development of methods to estimate, from observed data, mathematical models of signals and dynamical systems.
+
+
+Models of dynamical systems describe using equations how a given system evolves with time. In my work, I studied methods that estimate models of dynamical systems by finding, among several options, the one that best describes the data that was observed. One of my contributions is a method to estimate systems with chaotic and unstable dynamics by breaking the problem into smaller ones that are easier to solve. My research also uncovered some of the tradeoffs involved in model design: with a special focus on what was the role of recurrence in modeling dynamics. Also, some of the numerical and optimization routines that I developed as a substep for estimating these models were relevant for scientific applications beyond my domain and were incorporated in one of the world’s largest scientific computing libraries, SciPy.
+
+
+While motivated by a range of applications, I am particularly interested in the challenges that emerge in medicine. Through collaborations with doctors, my research on constructing mathematical models from series data found real-world applications. Cardiovascular diseases account for one-third of the deaths throughout the world, and the electrocardiogram (the ECG) is a major diagnostic tool for these diseases. The ECG is a low-cost, safe and non-invasive exam that records the electrical activity of the heart and can be used to diagnose many common heart problems. I have used machine learning models to extend and improve the use of this exam in clinical practice.
+
+
+Using datasets with millions of entries collected by a telehealth center in Brazil, I worked on a system capable of detecting some ECG abnormalities with greater accuracy than cardiology residents. I also developed models that can extend the use of such exams. For instance, by predicting the age from the ECG for risk assessment and by developing tools to detect myocardial infarction and to predict atrial fibrillation in scenarios where these might not be explicitly detected using traditional analysis.
+
+
+My research contributes to the development of a next generation of tools for the automatic analysis of the electrocardiogram. I leveraged large medical datasets and the latest developments in machine learning to build models that have the potential to provide more accurate diagnoses and early detection of cardiac diseases. Putting these models into use, however, requires them to be interpretable and robust. My research on basic theory and methodology contributes to filling this gap, by providing ways to better understand and design models with these characteristics and bringing these methods closer to their use in patient care.
+
+
+
+Antônio Horta Ribeiro

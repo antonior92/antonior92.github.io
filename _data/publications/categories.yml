@@ -1,12 +1,14 @@
 - name: Working Manuscripts
   letter: P
   papers:
+      - ribeiro_regularization_2023
+      - habineza_endtoend_2023
+      - huang_generalization_2023
       - sau_neural_2023
       - gedon_no_2023
       - pillonetto_deep_2023
       - vonbachmann_ecgbased_2022
       - lu_knowledge_2022
-      - ribeiro_surprises_2022
 
 - name: Journal Papers
   letter: J

@@ -1,0 +1,285 @@
+\usepackage[sorting=none, maxbibnames=99, mincitenames=99, maxcitenames=99, style=numeric, backend=biber,
+            defernumbers=true,isbn=false,url=false,eprint=false, giveninits=true]{biblatex}  % For the references
+%\DeclareFieldFormat{labelnumberwidth}{}
+\setlength{\biblabelsep}{10pt}
+\setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
+
+\AtEveryBibitem{\clearlist{language}\clearname{editor}\clearname{note}}
+
+% --- Add bold names --- %
+
+\makeatletter
+\def\nhblx@bibfile@name{\jobname -nhblx.bib}
+\newwrite\nhblx@bibfile
+\immediate\openout\nhblx@bibfile=\nhblx@bibfile@name
+
+\immediate\write\nhblx@bibfile{@comment{Auto-generated file}\blx@nl}
+
+\newcounter{nhblx@name}
+\setcounter{nhblx@name}{0}
+
+\newcommand*{\nhblx@writenametobib}[1]{\stepcounter{nhblx@name}\edef\nhblx@tmp@nocite{\noexpand\AfterPreamble{\noexpand\setbox0\noexpand\vbox{\noexpand\nhblx@getmethehash{nhblx@name@\the\value{nhblx@name}}}}}\nhblx@tmp@nocite\immediate\write\nhblx@bibfile{@misc{nhblx@name@\the\value{nhblx@name}, author = {\unexpanded{#1}},options = {dataonly=true,skipbib=true,skipbiblist=true},}}}
+
+\AtEndDocument{\closeout\nhblx@bibfile}
+
+\addbibresource{\nhblx@bibfile@name}
+
+\newcommand*{\nhblx@boldhashes}{}
+\DeclareNameFormat{nhblx@hashextract}{\xifinlist{\thefield{hash}}{\nhblx@boldhashes}{}{\listxadd{\nhblx@boldhashes}{\thefield{hash}}}}
+
+\DeclareCiteCommand{\nhblx@getmethehash}{}{\printnames[nhblx@hashextract][1-999]{author}}{}{}
+
+\newcommand*{\addboldnames}{\forcsvlist\nhblx@writenametobib}
+\newcommand*{\resetboldnames}{\def\nhblx@boldhashes{}}
+
+\newcommand*{\mkboldifhashinlist}[1]{\xifinlist{\thefield{hash}}{\nhblx@boldhashes}{\mkbibbold{#1}}{#1}}
+\makeatother
+
+\DeclareNameWrapperFormat{boldifhashinlist}{\renewcommand*{\mkbibcompletename}{\mkboldifhashinlist}#1}
+
+\DeclareNameWrapperAlias{sortname}{default}
+\DeclareNameWrapperAlias{default}{boldifhashinlist}
+
+
+% --- Add bold names --- %
+
+% DEFINE BOLD NAMES
+\addboldnames{ {Ribeiro, Ant\^onio H.}, {Ribeiro, Ant\^onio H}, {Ribeiro, Antonio H.}, {Ribeiro, Antonio H}, {Ribeiro, Antonio Horta} }
+
+% ---break line before publication name
+
+\renewcommand*{\nametitledelim}{\newunitpunct\par} % An alternative is to use: \nametitledelim
+\renewbibmacro{in:}{\newline In:}
+
+
+\DeclareFieldFormat*{title}{``\textit{#1}''}
+\DeclareFieldFormat*{venue}{\textsc{#1}}
+
+\DeclareFieldFormat*{booktitle}{\textsc{#1}}
+\DeclareFieldFormat*{journaltitle}{\textsc{#1}}
+\DeclareFieldFormat*{doi}{\newline \scriptsize DOI:~\href{https://doi.org/#1}{#1}}
+
+
+% --- Add all publications (in the header)
+
+
+
+    \DeclareBibliographyCategory{cWorking Manuscripts}
+    \defbibheading{cWorking Manuscripts}{\subsection*{ Working Manuscripts} }
+    
+        \addtocategory{cWorking Manuscripts}{ ribeiro_regularization_2023}
+        \nocite{ ribeiro_regularization_2023}
+    
+        \addtocategory{cWorking Manuscripts}{ habineza_endtoend_2023}
+        \nocite{ habineza_endtoend_2023}
+    
+        \addtocategory{cWorking Manuscripts}{ huang_generalization_2023}
+        \nocite{ huang_generalization_2023}
+    
+        \addtocategory{cWorking Manuscripts}{ sau_neural_2023}
+        \nocite{ sau_neural_2023}
+    
+        \addtocategory{cWorking Manuscripts}{ gedon_no_2023}
+        \nocite{ gedon_no_2023}
+    
+        \addtocategory{cWorking Manuscripts}{ pillonetto_deep_2023}
+        \nocite{ pillonetto_deep_2023}
+    
+        \addtocategory{cWorking Manuscripts}{ vonbachmann_ecgbased_2022}
+        \nocite{ vonbachmann_ecgbased_2022}
+    
+        \addtocategory{cWorking Manuscripts}{ lu_knowledge_2022}
+        \nocite{ lu_knowledge_2022}
+    
+
+    \DeclareBibliographyCategory{cJournal Papers}
+    \defbibheading{cJournal Papers}{\subsection*{ Journal Papers} }
+    
+        \addtocategory{cJournal Papers}{ sangha_detection_2023}
+        \nocite{ sangha_detection_2023}
+    
+        \addtocategory{cJournal Papers}{ lindow_heart_2023}
+        \nocite{ lindow_heart_2023}
+    
+        \addtocategory{cJournal Papers}{ brant_electrocardiographic_2023}
+        \nocite{ brant_electrocardiographic_2023}
+    
+        \addtocategory{cJournal Papers}{ jidling_screening_2023}
+        \nocite{ jidling_screening_2023}
+    
+        \addtocategory{cJournal Papers}{ gedon_invertible_2023}
+        \nocite{ gedon_invertible_2023}
+    
+        \addtocategory{cJournal Papers}{ ribeiro_overparameterized_2023}
+        \nocite{ ribeiro_overparameterized_2023}
+    
+        \addtocategory{cJournal Papers}{ zhang_association_2023}
+        \nocite{ zhang_association_2023}
+    
+        \addtocategory{cJournal Papers}{ zvuloni_merging_2023}
+        \nocite{ zvuloni_merging_2023}
+    
+        \addtocategory{cJournal Papers}{ gustafsson_development_2022}
+        \nocite{ gustafsson_development_2022}
+    
+        \addtocategory{cJournal Papers}{ sangha_automated_2022}
+        \nocite{ sangha_automated_2022}
+    
+        \addtocategory{cJournal Papers}{ paixao_electrocardiographic_2021}
+        \nocite{ paixao_electrocardiographic_2021}
+    
+        \addtocategory{cJournal Papers}{ lima_deep_2021}
+        \nocite{ lima_deep_2021}
+    
+        \addtocategory{cJournal Papers}{ biton_atrial_2021}
+        \nocite{ biton_atrial_2021}
+    
+        \addtocategory{cJournal Papers}{ meirajr_contextualized_2020}
+        \nocite{ meirajr_contextualized_2020}
+    
+        \addtocategory{cJournal Papers}{ paixao_evaluation_2020}
+        \nocite{ paixao_evaluation_2020}
+    
+        \addtocategory{cJournal Papers}{ ribeiro_smoothness_2020}
+        \nocite{ ribeiro_smoothness_2020}
+    
+        \addtocategory{cJournal Papers}{ ribeiro_automatic_2020a}
+        \nocite{ ribeiro_automatic_2020a}
+    
+        \addtocategory{cJournal Papers}{ virtanen_scipy_2020}
+        \nocite{ virtanen_scipy_2020}
+    
+        \addtocategory{cJournal Papers}{ ribeiro_teleelectrocardiography_2019}
+        \nocite{ ribeiro_teleelectrocardiography_2019}
+    
+        \addtocategory{cJournal Papers}{ paixao_evaluation_2019}
+        \nocite{ paixao_evaluation_2019}
+    
+        \addtocategory{cJournal Papers}{ ribeiro_parallel_2018}
+        \nocite{ ribeiro_parallel_2018}
+    
+
+    \DeclareBibliographyCategory{cConference Papers}
+    \defbibheading{cConference Papers}{\subsection*{ Conference Papers} }
+    
+        \addtocategory{cConference Papers}{ hendriks_deep_2021}
+        \nocite{ hendriks_deep_2021}
+    
+        \addtocategory{cConference Papers}{ ribeiro_occam_2021b}
+        \nocite{ ribeiro_occam_2021b}
+    
+        \addtocategory{cConference Papers}{ ribeiro_how_2021}
+        \nocite{ ribeiro_how_2021}
+    
+        \addtocategory{cConference Papers}{ gedon_first_2021}
+        \nocite{ gedon_first_2021}
+    
+        \addtocategory{cConference Papers}{ oliveira_explaining_2020a}
+        \nocite{ oliveira_explaining_2020a}
+    
+        \addtocategory{cConference Papers}{ ribeiro_automatic_2020}
+        \nocite{ ribeiro_automatic_2020}
+    
+        \addtocategory{cConference Papers}{ ribeiro_exploding_2020}
+        \nocite{ ribeiro_exploding_2020}
+    
+        \addtocategory{cConference Papers}{ oliveira_explaining_2020}
+        \nocite{ oliveira_explaining_2020}
+    
+        \addtocategory{cConference Papers}{ andersson_deep_2019}
+        \nocite{ andersson_deep_2019}
+    
+        \addtocategory{cConference Papers}{ ribeiro_lasso_2018}
+        \nocite{ ribeiro_lasso_2018}
+    
+        \addtocategory{cConference Papers}{ ribeiro_shooting_2017}
+        \nocite{ ribeiro_shooting_2017}
+    
+        \addtocategory{cConference Papers}{ ribeiro_selecting_2015}
+        \nocite{ ribeiro_selecting_2015}
+    
+
+    \DeclareBibliographyCategory{cWorkshop Papers and Conference Extended Abstracts}
+    \defbibheading{cWorkshop Papers and Conference Extended Abstracts}{\subsection*{ Workshop Papers and Conference Extended Abstracts} }
+    
+        \addtocategory{cWorkshop Papers and Conference Extended Abstracts}{ gedon_resnetbased_2021}
+        \nocite{ gedon_resnetbased_2021}
+    
+        \addtocategory{cWorkshop Papers and Conference Extended Abstracts}{ hendriks_deep_2021a}
+        \nocite{ hendriks_deep_2021a}
+    
+        \addtocategory{cWorkshop Papers and Conference Extended Abstracts}{ ribeiro_occam_2021a}
+        \nocite{ ribeiro_occam_2021a}
+    
+        \addtocategory{cWorkshop Papers and Conference Extended Abstracts}{ ribeiro_overparametrized_2021}
+        \nocite{ ribeiro_overparametrized_2021}
+    
+        \addtocategory{cWorkshop Papers and Conference Extended Abstracts}{ gabriela_validation_2020}
+        \nocite{ gabriela_validation_2020}
+    
+        \addtocategory{cWorkshop Papers and Conference Extended Abstracts}{ paixao_ecg-age_2020}
+        \nocite{ paixao_ecg-age_2020}
+    
+        \addtocategory{cWorkshop Papers and Conference Extended Abstracts}{ ribeiro_deep_2019}
+        \nocite{ ribeiro_deep_2019}
+    
+        \addtocategory{cWorkshop Papers and Conference Extended Abstracts}{ ribeiro_automatic_2018}
+        \nocite{ ribeiro_automatic_2018}
+    
+        \addtocategory{cWorkshop Papers and Conference Extended Abstracts}{ paixao_clinical_2018}
+        \nocite{ paixao_clinical_2018}
+    
+
+    \DeclareBibliographyCategory{cNational Conference Papers (in Portuguese)}
+    \defbibheading{cNational Conference Papers (in Portuguese)}{\subsection*{ National Conference Papers (in Portuguese)} }
+    
+        \addtocategory{cNational Conference Papers (in Portuguese)}{ ribeiro_relacoes_2014}
+        \nocite{ ribeiro_relacoes_2014}
+    
+
+    \DeclareBibliographyCategory{cThesis}
+    \defbibheading{cThesis}{\subsection*{ Thesis} }
+    
+        \addtocategory{cThesis}{ ribeiro_learning_2020}
+        \nocite{ ribeiro_learning_2020}
+    
+        \addtocategory{cThesis}{ ribeiro_recurrent_2017}
+        \nocite{ ribeiro_recurrent_2017}
+    
+        \addtocategory{cThesis}{ ribeiro_implementacao_2015}
+        \nocite{ ribeiro_implementacao_2015}
+    
+
+
+
+% --- listing publications
+
+\newcommand{\printmypublications}
+{
+    
+    \subsection*{ Working Manuscripts}
+    \newrefcontext[labelprefix=P ]
+    \printbibliography[category=cWorking Manuscripts, heading=none]
+    
+    \subsection*{ Journal Papers}
+    \newrefcontext[labelprefix=J ]
+    \printbibliography[category=cJournal Papers, heading=none]
+    
+    \subsection*{ Conference Papers}
+    \newrefcontext[labelprefix=C ]
+    \printbibliography[category=cConference Papers, heading=none]
+    
+    \subsection*{ Workshop Papers and Conference Extended Abstracts}
+    \newrefcontext[labelprefix=W ]
+    \printbibliography[category=cWorkshop Papers and Conference Extended Abstracts, heading=none]
+    
+    \subsection*{ National Conference Papers (in Portuguese)}
+    \newrefcontext[labelprefix=N ]
+    \printbibliography[category=cNational Conference Papers (in Portuguese), heading=none]
+    
+    \subsection*{ Thesis}
+    \newrefcontext[labelprefix=T ]
+    \printbibliography[category=cThesis, heading=none]
+    
+}
+
