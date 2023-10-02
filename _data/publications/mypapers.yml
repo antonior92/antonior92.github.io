@@ -335,7 +335,8 @@
     - family: Schön
       given: Thomas B.
   citation-key: habineza_endtoend_2023
-  container-title: Minor revisions Journal of Electrocardiology
+  container-title: Journal of Electrocardiology
+  DOI: 10.1016/j.jelectrocard.2023.09.011
   issued:
     - year: 2023
   license: All rights reserved
@@ -452,7 +453,7 @@
     - family: Kavehei
       given: Omid
   citation-key: huang_generalization_2023
-  container-title: 'Submitted to Journal of Electrocardiology (preprint: medRxiv))'
+  container-title: 'Submitted to Journal of Electrocardiology (preprint: medRxiv)'
   DOI: 10.1101/2023.07.05.23292238
   issued:
     - year: 2023
@@ -1165,7 +1166,7 @@
     - family: Schön
       given: Thomas Bo
   citation-key: pillonetto_deep_2023
-  container-title: 'Submitted to Automatica (preprint: arXiv:2301.12832)'
+  container-title: Automatica (Provisionally accepted)
   DOI: 10.48550/arXiv.2301.12832
   issued:
     - year: 2023
@@ -1595,10 +1596,9 @@
     - family: Schön
       given: Thomas B.
   citation-key: ribeiro_regularization_2023
-  container-title: 'Submitted to Neurips (Reviewer scores: 8/6/6/6)'
+  container-title: Neurips (Spotlight)
   issued:
     - year: 2023
-  license: All rights reserved
   title: Regularization properties of adversarially-trained linear regression
   type: article-journal
 

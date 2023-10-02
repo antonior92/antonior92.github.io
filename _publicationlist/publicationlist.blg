@@ -1,46 +1,46 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'publicationlist.blg'
-[71] biber-darwin:340> INFO - === Mon Sep 11, 2023, 15:16:57
-[87] Biber.pm:415> INFO - Reading 'publicationlist.bcf'
-[189] Biber.pm:952> INFO - Found 59 citekeys in bib section 0
-[237] Biber.pm:4340> INFO - Processing section 0
-[249] Biber.pm:4531> INFO - Looking for bibtex format file 'publicationlist-nhblx.bib' for section 0
-[253] bibtex.pm:1689> INFO - LaTeX decoding ...
-[259] bibtex.pm:1494> INFO - Found BibTeX data source 'publicationlist-nhblx.bib'
-[277] Biber.pm:4531> INFO - Looking for bibtex format file 'refs.bib' for section 0
-[294] bibtex.pm:1689> INFO - LaTeX decoding ...
-[403] bibtex.pm:1494> INFO - Found BibTeX data source 'refs.bib'
-[837] Utils.pm:395> WARN - ISBN '2378-5861' in entry 'ribeiro_lasso_2018' is invalid - run biber with '--validate_datamodel' for details.
-[914] Utils.pm:395> WARN - I didn't find a database entry for 'gabriela_validation_2020' (section 0)
-[914] Utils.pm:395> WARN - I didn't find a database entry for 'paixao_ecg-age_2020' (section 0)
-[978] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[978] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[978] Biber.pm:4168> INFO - Sorting list 'none/global/44C29EDB103A2872F519AD0C9A0FDAAA/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[978] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1034] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1034] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1035] Biber.pm:4168> INFO - Sorting list 'none/global/FF44570ACA8241914870AFBC310CDB85/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1035] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1092] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1092] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1092] Biber.pm:4168> INFO - Sorting list 'none/global/0D61F8370CAD1D412F80B84D143E1257/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1092] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1149] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1149] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1149] Biber.pm:4168> INFO - Sorting list 'none/global/61E9C06EA9A85A5088A499DF6458D276/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1149] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1208] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1208] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1208] Biber.pm:4168> INFO - Sorting list 'none/global/8D9C307CB7F3C4A32822A51922D1CEAA/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1208] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1270] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1270] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1270] Biber.pm:4168> INFO - Sorting list 'none/global/B9ECE18C950AFBFA6B0FDBFA4FF731D3/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1271] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1334] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1335] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1335] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1335] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1386] bbl.pm:654> INFO - Writing 'publicationlist.bbl' with encoding 'UTF-8'
-[2045] bbl.pm:757> INFO - Output to publicationlist.bbl
-[2046] Biber.pm:128> INFO - WARNINGS: 3
+[55] biber-darwin:340> INFO - === Fri Sep 29, 2023, 13:02:31
+[67] Biber.pm:415> INFO - Reading 'publicationlist.bcf'
+[141] Biber.pm:952> INFO - Found 58 citekeys in bib section 0
+[182] Biber.pm:4340> INFO - Processing section 0
+[190] Biber.pm:4531> INFO - Looking for bibtex format file 'publicationlist-nhblx.bib' for section 0
+[194] bibtex.pm:1689> INFO - LaTeX decoding ...
+[199] bibtex.pm:1494> INFO - Found BibTeX data source 'publicationlist-nhblx.bib'
+[215] Biber.pm:4531> INFO - Looking for bibtex format file 'refs.bib' for section 0
+[232] bibtex.pm:1689> INFO - LaTeX decoding ...
+[320] bibtex.pm:1494> INFO - Found BibTeX data source 'refs.bib'
+[626] Utils.pm:395> WARN - ISBN '2378-5861' in entry 'ribeiro_lasso_2018' is invalid - run biber with '--validate_datamodel' for details.
+[684] Utils.pm:395> WARN - I didn't find a database entry for 'gabriela_validation_2020' (section 0)
+[684] Utils.pm:395> WARN - I didn't find a database entry for 'paixao_ecg-age_2020' (section 0)
+[732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[732] Biber.pm:4168> INFO - Sorting list 'none/global/44C29EDB103A2872F519AD0C9A0FDAAA/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[732] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[774] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[774] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[774] Biber.pm:4168> INFO - Sorting list 'none/global/FF44570ACA8241914870AFBC310CDB85/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[774] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[816] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[816] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[816] Biber.pm:4168> INFO - Sorting list 'none/global/0D61F8370CAD1D412F80B84D143E1257/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[816] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[858] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[858] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[858] Biber.pm:4168> INFO - Sorting list 'none/global/61E9C06EA9A85A5088A499DF6458D276/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[858] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[901] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[901] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[901] Biber.pm:4168> INFO - Sorting list 'none/global/8D9C307CB7F3C4A32822A51922D1CEAA/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[901] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[943] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[943] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[943] Biber.pm:4168> INFO - Sorting list 'none/global/B9ECE18C950AFBFA6B0FDBFA4FF731D3/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[943] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[985] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[985] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[985] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[985] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1015] bbl.pm:654> INFO - Writing 'publicationlist.bbl' with encoding 'UTF-8'
+[1481] bbl.pm:757> INFO - Output to publicationlist.bbl
+[1481] Biber.pm:128> INFO - WARNINGS: 3

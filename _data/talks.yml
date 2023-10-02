@@ -1,3 +1,21 @@
+- name: Ataques adversáriais em modelos lineares
+  date: July, 2023
+  venue: Laboratório Nacional de Computação Científica @ Petrópolis, RJ, Brazil (online)
+  type: invited university
+  abstract: >-
+    Modelos de aprendizado de máquina podem ser vulneráveis a perturbações de entrada muito pequenas construídas de
+    forma adversárial. Examplos adversariais receberam muita atenção devido ao seu alto impacto no desempenho de
+    modelos que, normalmente, produziriam resultados estado-da-arte. O treinamento adversárial é uma das abordagens
+    mais eficazes para a defesa contra tais exemplos adversários e considera amostras perturbadas pelo adversário
+    durante o treinamento para produzir modelos mais robustos. Nessa apresentação faremos uma análise comparativa
+    entre a solução de treinamento adversárial em regressão linear e outros métodos de regularização. Há uma forte
+    razão para esse foco: modelos de regressão linear permitem uma análise detalhada do problema. Além disso,
+    muitos fenômenos interessantes observados em modelos não lineares ainda estão presentes e podem ser melhor
+    entendidos. Por exemplo, a configuração pode usada para estudar como a alta dimensionalidade pode ser uma
+    fonte adicional de robustez ou fragilidade para modelos. O método também possui propriedades favoráveis que
+    permitem seu uso como um método básico para a estimar de modelos lineares.
+
+
 - name: Robustness in large-scale machine learning and its relevance to AI-enabled ECG
   date: July, 2023
   venue: Imperial College, UK @ Imperial Centre for Translational and Experimental Medicine

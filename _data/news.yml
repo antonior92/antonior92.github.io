@@ -1,3 +1,11 @@
+- date: "2023-10-01"
+  text: "📜 New publications at Journal of Electrocardiology: Risk Prediction of Atrial Fibrillation from the 12-Lead ECG by a Deep neural network."
+  links:
+    - habineza_endtoend_2023
+- date: "2023-09-25"
+  text: "🎬 I presented my work on the European Research Network System Identification (ENRSI) workshop in Stockholm "
+  links:
+    - https://www.kth.se/ernsi2023
 - date: "2023-07-27"
   text: "📜 Two new publications: one at Circulation and one at the European Heart Journal Digital Health."
   links:
