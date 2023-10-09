@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.28)  4 SEP 2023 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.28)  9 OCT 2023 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -577,7 +577,7 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count292
 \l__pdf_internal_box=\box110
 )
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -598,6 +598,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -648,10 +649,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
 LaTeX Info: Redefining \nameref on input line 11.
+ (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
- (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count294
 \scratchdimen=\dimen259
@@ -684,31 +687,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
 [4] [5]
-Overfull \hbox (12.4914pt too wide) in paragraph at lines 433--434
+Overfull \hbox (12.4914pt too wide) in paragraph at lines 446--447
 \OT1/pnc/m/n/10 Certificate in Ad-vanced En-glish (Coun-cil of Eu-rope Level C1
 ) - Cam-bridge En-glish Lan-guage As-sess-ment, 2014 
  []
 
 [6] (./main.aux)
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18372 strings out of 478994
- 337263 string characters out of 5858184
- 627818 words of memory out of 5000000
- 35529 multiletter control sequences out of 15000+600000
+ 18379 strings out of 478994
+ 337325 string characters out of 5858184
+ 627910 words of memory out of 5000000
+ 35530 multiletter control sequences out of 15000+600000
  421809 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  127i,7n,130p,711b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -716,7 +713,7 @@ Here is how much of TeX's memory you used:
 exlive/2021/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/
 2021/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on main.pdf (6 pages, 72141 bytes).
+Output written on main.pdf (6 pages, 73052 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
