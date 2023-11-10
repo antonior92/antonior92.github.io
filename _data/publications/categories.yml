@@ -1,4 +1,4 @@
-- name: Working Manuscripts
+- name: Working manuscripts
   letter: P
   papers:
       - huang_generalization_2023
@@ -6,11 +6,12 @@
       - gedon_no_2023
       - vonbachmann_ecgbased_2022
       - lu_knowledge_2022
+      - pillonetto_deep_2023
 
-- name: Journal Papers
+- name: Journal articles
   letter: J
   papers:
-      - pillonetto_deep_2023
+
       - habineza_endtoend_2023
       - sangha_detection_2023
       - lindow_heart_2023
@@ -34,7 +35,7 @@
       - paixao_evaluation_2019
       - ribeiro_parallel_2018
 
-- name: Conference Papers
+- name: Conference papers
   letter: C
   papers:
       - ribeiro_regularization_2023
@@ -51,20 +52,17 @@
       - ribeiro_shooting_2017
       - ribeiro_selecting_2015
 
-- name: "Workshop Papers and Conference Extended Abstracts"
+- name: "Peer-reviewed but non-archival workshop papers"
   letter: W
   papers:
       - gedon_resnetbased_2021
       - hendriks_deep_2021a
       - ribeiro_occam_2021a
       - ribeiro_overparametrized_2021
-      - gabriela_validation_2020
-      - paixao_ecg-age_2020
       - ribeiro_deep_2019
       - ribeiro_automatic_2018
-      - paixao_clinical_2018
 
-- name: National Conference Papers (in Portuguese)
+- name: National conference papers (in portuguese)
   letter: N
   papers:
       - ribeiro_relacoes_2014

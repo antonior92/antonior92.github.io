@@ -1,3 +1,12 @@
+
+- date: "2023-10-30"
+  text: "🎬 I presented my work in the seminar series from the National Laboratory of Scientific  Computing (Brazil)"
+  links:
+    - https://www.youtube.com/watch?v=BpkB5IE5bms
+- date: "2023-10-05"
+  text: "📜 New paper accepted at NeurIPS as a spotlight."
+  links:
+    - https://nips.cc/virtual/2023/poster/72028
 - date: "2023-10-01"
   text: "📜 New publications at Journal of Electrocardiology: Risk Prediction of Atrial Fibrillation from the 12-Lead ECG by a Deep neural network."
   links:

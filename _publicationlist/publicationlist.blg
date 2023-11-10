@@ -1,46 +1,68 @@
-[0] Config.pm:311> INFO - This is Biber 2.16
-[0] Config.pm:314> INFO - Logfile is 'publicationlist.blg'
-[55] biber-darwin:340> INFO - === Fri Sep 29, 2023, 13:02:31
-[67] Biber.pm:415> INFO - Reading 'publicationlist.bcf'
-[141] Biber.pm:952> INFO - Found 58 citekeys in bib section 0
-[182] Biber.pm:4340> INFO - Processing section 0
-[190] Biber.pm:4531> INFO - Looking for bibtex format file 'publicationlist-nhblx.bib' for section 0
-[194] bibtex.pm:1689> INFO - LaTeX decoding ...
-[199] bibtex.pm:1494> INFO - Found BibTeX data source 'publicationlist-nhblx.bib'
-[215] Biber.pm:4531> INFO - Looking for bibtex format file 'refs.bib' for section 0
-[232] bibtex.pm:1689> INFO - LaTeX decoding ...
-[320] bibtex.pm:1494> INFO - Found BibTeX data source 'refs.bib'
-[626] Utils.pm:395> WARN - ISBN '2378-5861' in entry 'ribeiro_lasso_2018' is invalid - run biber with '--validate_datamodel' for details.
-[684] Utils.pm:395> WARN - I didn't find a database entry for 'gabriela_validation_2020' (section 0)
-[684] Utils.pm:395> WARN - I didn't find a database entry for 'paixao_ecg-age_2020' (section 0)
-[732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[732] Biber.pm:4168> INFO - Sorting list 'none/global/44C29EDB103A2872F519AD0C9A0FDAAA/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[732] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[774] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[774] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[774] Biber.pm:4168> INFO - Sorting list 'none/global/FF44570ACA8241914870AFBC310CDB85/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[774] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[816] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[816] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[816] Biber.pm:4168> INFO - Sorting list 'none/global/0D61F8370CAD1D412F80B84D143E1257/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[816] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[858] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[858] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[858] Biber.pm:4168> INFO - Sorting list 'none/global/61E9C06EA9A85A5088A499DF6458D276/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[858] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[901] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[901] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[901] Biber.pm:4168> INFO - Sorting list 'none/global/8D9C307CB7F3C4A32822A51922D1CEAA/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[901] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[943] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[943] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[943] Biber.pm:4168> INFO - Sorting list 'none/global/B9ECE18C950AFBFA6B0FDBFA4FF731D3/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[943] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[985] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[985] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[985] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[985] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1015] bbl.pm:654> INFO - Writing 'publicationlist.bbl' with encoding 'UTF-8'
-[1481] bbl.pm:757> INFO - Output to publicationlist.bbl
-[1481] Biber.pm:128> INFO - WARNINGS: 3
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: publicationlist.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 12840 items from 5000.
+Database file #1: publicationlist-blx.bib
+Database file #2: publicationlist-nhblx.bib
+Database file #3: refs.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Biblatex version: 3.16
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 56 entries,
+            6393 wiz_defined-function locations,
+            1598 strings with 68796 characters,
+and the built_in function-call counts, 858538 in all, are:
+= -- 71981
+> -- 16029
+< -- 2567
++ -- 24287
+- -- 8939
+* -- 74289
+:= -- 106089
+add.period$ -- 0
+call.type$ -- 56
+change.case$ -- 653
+chr.to.int$ -- 378
+cite$ -- 110
+duplicate$ -- 67671
+empty$ -- 72059
+format.name$ -- 8397
+if$ -- 170712
+int.to.chr$ -- 0
+int.to.str$ -- 151
+missing$ -- 0
+newline$ -- 3429
+num.names$ -- 2478
+pop$ -- 22993
+preamble$ -- 1
+purify$ -- 1745
+quote$ -- 0
+skip$ -- 14338
+stack$ -- 0
+substring$ -- 156607
+swap$ -- 12680
+text.length$ -- 3190
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1865
+warning$ -- 0
+while$ -- 11469
+width$ -- 0
+write$ -- 3374

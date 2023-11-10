@@ -1,7 +1,9 @@
 - name: Ataques adversáriais em modelos lineares
-  date: July, 2023
+  date: October, 2023
   venue: Laboratório Nacional de Computação Científica @ Petrópolis, RJ, Brazil (online)
   type: invited university
+  slides: pdf/slides/2023-LNCC.pdf
+  youtube: BpkB5IE5bms
   abstract: >-
     Modelos de aprendizado de máquina podem ser vulneráveis a perturbações de entrada muito pequenas construídas de
     forma adversárial. Examplos adversariais receberam muita atenção devido ao seu alto impacto no desempenho de

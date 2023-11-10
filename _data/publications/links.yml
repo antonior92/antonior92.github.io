@@ -181,3 +181,10 @@ gedon_invertible_2023:
 jidling_screening_2023:
   - name: code
     link: https://github.com/carji475/ecg-chagas
+ribeiro_regularization_2023:
+  - name: arxiv
+    link: https://arxiv.org/abs/2310.10807
+  - name: neurips website
+    link: https://nips.cc/virtual/2023/poster/72028
+  - name: code
+    link: https://github.com/antonior92/advtrain-linreg
