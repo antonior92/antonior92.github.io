@@ -1,26 +1,16 @@
-- name: Working manuscripts
-  letter: P
-  papers:
-      - huang_generalization_2023
-      - sau_neural_2023
-      - gedon_no_2023
-      - vonbachmann_ecgbased_2022
-      - lu_knowledge_2022
-      - pillonetto_deep_2023
-
 - name: Journal articles
   letter: J
   papers:
-
+      - lu_decoding_2024
+      - ribeiro_overparameterized_2023
+      - zvuloni_merging_2023
       - habineza_endtoend_2023
       - sangha_detection_2023
       - lindow_heart_2023
       - brant_electrocardiographic_2023
       - jidling_screening_2023
       - gedon_invertible_2023
-      - ribeiro_overparameterized_2023
       - zhang_association_2023
-      - zvuloni_merging_2023
       - gustafsson_development_2022
       - sangha_automated_2022
       - paixao_electrocardiographic_2021
@@ -66,6 +56,19 @@
   letter: N
   papers:
       - ribeiro_relacoes_2014
+
+
+- name: Working manuscripts
+  letter: P
+  papers:
+      - pillonetto_deep_2023
+      - huang_generalization_2023
+      - sau_neural_2023
+      - gedon_no_2023
+      - vonbachmann_ecgbased_2022
+      - pillonetto_deep_2023
+      - sau_artificial_2024
+
 
 - name: Thesis
   letter: T

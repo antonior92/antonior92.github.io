@@ -73,416 +73,8 @@
     \field{labelnamesource}{author}
   \endentry
 
-  \entry{huang_generalization_2023}{article}{}
-    \name{author}{7}{}{%
-      {{hash=HZ}{%
-         family={Huang},
-         familyi={H\bibinitperiod},
-         given={Zhaojing},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={MacLachlan},
-         familyi={M\bibinitperiod},
-         given={Sarisha},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=YL}{%
-         family={Yu},
-         familyi={Y\bibinitperiod},
-         given={Leping},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=CLFH}{%
-         family={Contreras},
-         familyi={C\bibinitperiod},
-         given={Luis Fernando\bibnamedelima Herbozo},
-         giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
-  H\bibinitperiod},
-      }}%
-      {{hash=TND}{%
-         family={Truong},
-         familyi={T\bibinitperiod},
-         given={Nhan\bibnamedelima Duy},
-         giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=RAH}{%
-         family={Ribeiro},
-         familyi={R\bibinitperiod},
-         given={Antonio\bibnamedelima Horta},
-         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=KO}{%
-         family={Kavehei},
-         familyi={K\bibinitperiod},
-         given={Omid},
-         giveni={O\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HZMSYLCLFHTNDRAHKO1}
-    \strng{fullhash}{HZMSYLCLFHTNDRAHKO1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    This research investigates the influence of dataset characteristics on the
-  performance and generalization capabilities of deep learning models, on ECG
-  data. The study evaluates multiple subsets of the TNMG dataset with varying
-  levels of curated characteristics to assess their impact on model
-  performance. Additionally, an attention mechanism is introduced to enhance
-  model accuracy and generalization. The experimental results reveal that
-  models trained on balanced subsets and incorporating the attention mechanism
-  consistently outperform those trained on unbalanced data or without
-  attention, emphasizing the critical importance of dataset balance and
-  attention mechanism for achieving improved model performance. Surprisingly,
-  the largest ECG dataset, TNMG, proved less effective in generalization than
-  smaller, curated subsets. The study demonstrates that a well-balanced and
-  thoughtfully curated dataset, combined with the attention mechanism, can lead
-  to competitive model performance, even with a significantly smaller size.
-  This research on ECG data underscores the critical importance of dataset
-  curation, balance, and attention mechanisms in biomedical machine learning.
-  It highlights that well-balanced, thoughtfully curated datasets with
-  attention mechanisms can outperform larger, unbalanced datasets, challenging
-  conventional notions and offering potential advancements in medical data
-  analysis and patient care.%
-    }
-    \verb{doi}
-    \verb 10.1101/2023.07.05.23292238
-    \endverb
-    \field{shorttitle}{Generalization {{Challenges}} in {{ECG Deep Learning}}}
-    \field{title}{Generalization {{Challenges}} in {{ECG Deep Learning}}:
-  {{Insights}} from {{Dataset Characteristics}} and {{Attention Mechanism}}}
-    \field{langid}{english}
-    \verb{file}
-    \verb /Users/antoniohortaribeiro/Zotero/storage/GVSZKKAE/Huang et al_2023_G
-    \verb eneralization Challenges in ECG Deep Learning.pdf
-    \endverb
-    \field{journaltitle}{Submitted to Journal of Electrocardiology (preprint:
-  medRxiv)}
-    \field{month}{09}
-    \field{year}{2023}
-    \field{urlday}{11}
-    \field{urlmonth}{09}
-    \field{urlyear}{2023}
-  \endentry
-
-  \entry{sau_neural_2023}{article}{}
-    \name{author}{27}{}{%
-      {{hash=SA}{%
-         family={Sau},
-         familyi={S\bibinitperiod},
-         given={Arunashis},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=RAH}{%
-         family={Ribeiro},
-         familyi={R\bibinitperiod},
-         given={Ant{\^o}nio\bibnamedelima H.},
-         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=MK}{%
-         family={McGurk},
-         familyi={M\bibinitperiod},
-         given={Kathryn},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=PL}{%
-         family={Pastika},
-         familyi={P\bibinitperiod},
-         given={Libor},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=BN}{%
-         family={Bajaj},
-         familyi={B\bibinitperiod},
-         given={Nikesh},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=AM}{%
-         family={Ardissino},
-         familyi={A\bibinitperiod},
-         given={Maddalena},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=CJY}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Jun\bibnamedelima Yu},
-         giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=WH}{%
-         family={Wu},
-         familyi={W\bibinitperiod},
-         given={Huiyi},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=SX}{%
-         family={Shi},
-         familyi={S\bibinitperiod},
-         given={Xili},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=HK}{%
-         family={Hnatkova},
-         familyi={H\bibinitperiod},
-         given={Katerina},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=ZS}{%
-         family={Zheng},
-         familyi={Z\bibinitperiod},
-         given={Sean},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=BA}{%
-         family={Britton},
-         familyi={B\bibinitperiod},
-         given={Annie},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SM}{%
-         family={Shipley},
-         familyi={S\bibinitperiod},
-         given={Martin},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=AI}{%
-         family={Andr{\v s}ov{\'a}},
-         familyi={A\bibinitperiod},
-         given={Irena},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=NT}{%
-         family={Novotn{\'y}},
-         familyi={N\bibinitperiod},
-         given={Tom{\'a}{\v s}},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=SE}{%
-         family={Sabino},
-         familyi={S\bibinitperiod},
-         given={Ester},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=GL}{%
-         family={Giatti},
-         familyi={G\bibinitperiod},
-         given={Luana},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=BS}{%
-         family={Barreto},
-         familyi={B\bibinitperiod},
-         given={Sandhi},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=WJ}{%
-         family={Waks},
-         familyi={W\bibinitperiod},
-         given={Jonathan},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=KD}{%
-         family={Kramer},
-         familyi={K\bibinitperiod},
-         given={Daniel},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=MD}{%
-         family={Mandic},
-         familyi={M\bibinitperiod},
-         given={Danilo},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=PN}{%
-         family={Peters},
-         familyi={P\bibinitperiod},
-         given={Nicholas},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=OD}{%
-         family={O'Regan},
-         familyi={O\bibinitperiod},
-         given={Declan},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=MM}{%
-         family={Malik},
-         familyi={M\bibinitperiod},
-         given={Marek},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=WJ}{%
-         family={Ware},
-         familyi={W\bibinitperiod},
-         given={James},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=RALP}{%
-         family={Ribeiro},
-         familyi={R\bibinitperiod},
-         given={Antonio L.\bibnamedelima P.},
-         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
-  P\bibinitperiod},
-      }}%
-      {{hash=NFS}{%
-         family={Ng},
-         familyi={N\bibinitperiod},
-         given={Fu\bibnamedelima Siong},
-         giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-  \strng{namehash}{SARAHMKPLBNAMCJYWHSXHKZSBASMAINTSEGLBSWJKDMDPNODMMWJRALPNFS1}
-  \strng{fullhash}{SARAHMKPLBNAMCJYWHSXHKZSBASMAINTSEGLBSWJKDMDPNODMMWJRALPNFS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Neural Network-Derived Electrocardiographic Features Have
-  Prognostic Significance and Important Phenotypic and Genotypic Associations}
-    \field{journaltitle}{Submitted to Nature Medicine}
-    \field{year}{2023}
-  \endentry
-
-  \entry{gedon_no_2023}{article}{}
-    \name{author}{3}{}{%
-      {{hash=GD}{%
-         family={Gedon},
-         familyi={G\bibinitperiod},
-         given={Daniel},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=RAH}{%
-         family={Ribeiro},
-         familyi={R\bibinitperiod},
-         given={Antonio\bibnamedelima H.},
-         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=STB}{%
-         family={Sch{\"o}n},
-         familyi={S\bibinitperiod},
-         given={Thomas\bibnamedelima B.},
-         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GDRAHSTB1}
-    \strng{fullhash}{GDRAHSTB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{No {{Double Descent}} in {{PCA}}: {{Training}} and
-  {{Pre-Training}} in {{High Dimensions}}}
-    \field{journaltitle}{OpenReview}
-    \field{year}{2023}
-  \endentry
-
-  \entry{vonbachmann_ecgbased_2022}{article}{}
-    \name{author}{8}{}{%
-      {{hash=VBP}{%
-         family={Von\bibnamedelima Bachmann},
-         familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
-         given={Philipp},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=GD}{%
-         family={Gedon},
-         familyi={G\bibinitperiod},
-         given={Daniel},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=GFK}{%
-         family={Gustafsson},
-         familyi={G\bibinitperiod},
-         given={Fredrik\bibnamedelima K.},
-         giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=RAH}{%
-         family={Ribeiro},
-         familyi={R\bibinitperiod},
-         given={Ant{\^o}nio\bibnamedelima H.},
-         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=LE}{%
-         family={Lampa},
-         familyi={L\bibinitperiod},
-         given={Erik},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=GS}{%
-         family={Gustafsson},
-         familyi={G\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SJ}{%
-         family={Sundstr{\"o}m},
-         familyi={S\bibinitperiod},
-         given={Johan},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=STB}{%
-         family={Sch{\"o}n},
-         familyi={S\bibinitperiod},
-         given={Thomas\bibnamedelima B.},
-         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-    }
-    \keyw{Computer Science - Computer Vision and Pattern Recognition,Computer
-  Science - Machine Learning,Electrical Engineering and Systems Science -
-  Signal Processing}
-    \strng{namehash}{VBPGDGFKRAHLEGSSJSTB1}
-    \strng{fullhash}{VBPGDGFKRAHLEGSSJSTB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    Objective: Imbalances of the electrolyte concentration levels in the body
-  can lead to catastrophic consequences, but accurate and accessible
-  measurements could improve patient outcomes. While blood tests provide
-  accurate measurements, they are invasive and the laboratory analysis can be
-  slow or inaccessible. In contrast, an electrocardiogram (ECG) is a widely
-  adopted tool which is quick and simple to acquire. However, the problem of
-  estimating continuous electrolyte concentrations directly from ECGs is not
-  well-studied. We therefore investigate if regression methods can be used for
-  accurate ECG-based prediction of electrolyte concentrations. Methods: We
-  explore the use of deep neural networks (DNNs) for this task. We analyze the
-  regression performance across four electrolytes, utilizing a novel dataset
-  containing over 290000 ECGs. For improved understanding, we also study the
-  full spectrum from continuous predictions to binary classification of extreme
-  concentration levels. To enhance clinical usefulness, we finally extend to a
-  probabilistic regression approach and evaluate different uncertainty
-  estimates. Results: We find that the performance varies significantly between
-  different electrolytes, which is clinically justified in the interplay of
-  electrolytes and their manifestation in the ECG. We also compare the
-  regression accuracy with that of traditional machine learning models,
-  demonstrating superior performance of DNNs. Conclusion: Discretization can
-  lead to good classification performance, but does not help solve the original
-  problem of predicting continuous concentration levels. While probabilistic
-  regression demonstrates potential practical usefulness, the uncertainty
-  estimates are not particularly well-calibrated. Significance: Our study is a
-  first step towards accurate and reliable ECG-based prediction of electrolyte
-  concentration levels.%
-    }
-    \verb{doi}
-    \verb 10.48550/arXiv.2212.13890
-    \endverb
-    \verb{eprint}
-    \verb 2212.13890
-    \endverb
-    \field{shorttitle}{{{ECG-Based Electrolyte Prediction}}}
-    \field{title}{{{ECG-Based Electrolyte Prediction}}: {{Evaluating
-  Regression}} and {{Probabilistic Methods}}}
-    \verb{file}
-    \verb /Users/antoniohortaribeiro/Zotero/storage/45AMFVN2/Von Bachmann et al
-    \verb . - 2022 - ECG-Based Electrolyte Prediction Evaluating Regre.pdf;/Use
-    \verb rs/antoniohortaribeiro/Zotero/storage/FP9NRPHE/2212.html
-    \endverb
-    \field{journaltitle}{arXiv:2212.13890}
-    \field{eprinttype}{arxiv}
-    \field{month}{12}
-    \field{year}{2022}
-    \field{urlday}{18}
-    \field{urlmonth}{01}
-    \field{urlyear}{2023}
-  \endentry
-
-  \entry{lu_knowledge_2022}{article}{}
-    \name{author}{8}{}{%
+  \entry{lu_decoding_2024}{article}{}
+    \name{author}{9}{}{%
       {{hash=LL}{%
          family={Lu},
          familyi={L\bibinitperiod},
@@ -498,7 +90,7 @@
       {{hash=RAH}{%
          family={Ribeiro},
          familyi={R\bibinitperiod},
-         given={Ant{\^o}nio\bibnamedelima H.},
+         given={Antonio\bibnamedelima H},
          giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
       {{hash=CL}{%
@@ -513,10 +105,16 @@
          given={Erying},
          giveni={E\bibinitperiod},
       }}%
+      {{hash=ZJ}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Jiandong},
+         giveni={J\bibinitperiod},
+      }}%
       {{hash=RALP}{%
          family={Ribeiro},
          familyi={R\bibinitperiod},
-         given={Antonio Luiz\bibnamedelima P.},
+         given={Antonio Luiz\bibnamedelima P},
          giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
   P\bibinitperiod},
       }}%
@@ -529,104 +127,212 @@
       {{hash=CDA}{%
          family={Clifton},
          familyi={C\bibinitperiod},
-         given={David\bibnamedelima A.},
+         given={David\bibnamedelima A},
          giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{LLZTRAHCLZERALPZYTCDA1}
-    \strng{fullhash}{LLZTRAHCLZERALPZYTCDA1}
+    \strng{namehash}{LLZTRAHCLZEZJRALPZYTCDA1}
+    \strng{fullhash}{LLZTRAHCLZEZJRALPZYTCDA1}
     \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
+    \field{labeltitlesource}{shorttitle}
     \field{abstract}{%
-    Despite the potentials of artificial intelligence (AI) in healthcare, very
-  little work focuses on the extraction of clinical information or knowledge
-  discovery from clinical measurements. Here we propose a novel deep learning
-  model to extract characteristics in electrocardiogram (ECG) and explore its
-  usage in knowledge discovery. Utilising a 12-lead ECG dataset (nECGs =
-  2,322,513) collected from unique subjects (nSubjects = 1,558,772) in primary
-  care, we performed three independent medical tasks with the proposed model:
-  (i) cardiac abnormality diagnosis, (ii) gender identification, and (iii)
-  hypertension screening. We achieved an area under the curve (AUC) score of
-  0.998 (95\% confidence interval (CI), 0.995-0.999), 0.964 (95\% CI,
-  0.963-0.965), and 0.839 (95\% CI, 0.837-0.841) for each task, respectively;
-  We provide interpretation of salient morphologies and further identified key
-  ECG leads that achieve similar performance for the three tasks: (i) AVR and
-  V1 leads (AUC=0.990 (95\% CI, 0.982-0.995); (ii) V5 lead (AUC=0.900 (95\% CI,
-  0.899-0.902)); and (iii) V1 lead (AUC=0.816 (95\% CI, 0.814-0.818)). Using
-  ECGs, our model not only has demonstrated cardiologist-level accuracy in
-  heart diagnosis with interpretability, but also shows its potentials in
-  facilitating clinical knowledge discovery for gender and hypertension
-  detection which are not readily available.%
+    Electrocardiogram (ECG) is widely considered the primary test for
+  evaluating cardiovascular diseases. However, the use of artificial
+  intelligence to advance these medical practices and learn new clinical
+  insights from ECGs remains largely unexplored. Utilising a dataset of
+  2,322,513 ECGs collected from 1,558,772 patients with 7 years of follow-up,
+  we developed a deep learning model with state-of-the-art granularity for the
+  interpretable diagnosis of cardiac abnormalities, gender identification, and
+  hyper- tension screening solely from ECGs, which are then used to stratify
+  the risk of mortality. The model achieved the area under the receiver
+  operating characteristic curve (AUC) scores of 0.998 (95\% confidence
+  interval (CI), 0.995-0.999), 0.964 (0.963-0.965), and 0.839 (0.837-0.841) for
+  the three diagnostic tasks separately. Using ECG-predicted results, we find
+  high risks of mortality for subjects with sinus tachycardia (adjusted hazard
+  ratio (HR) of 2.24, 1.96-2.57), and atrial fibrillation (adjusted HR of 2.22,
+  1.99-2.48). We further use salient morphologies produced by the deep learning
+  model to identify key ECG leads that achieved similar performance for the
+  three diagnoses, and we find that the V1 ECG lead is important for
+  hypertension screening and mortality risk stratification of hypertensive
+  cohorts, with an AUC of 0.816 (0.814-0.818) and a univariate HR of 1.70
+  (1.61-1.79) for the two tasks separately. Using ECGs alone, our developed
+  model showed cardiologist-level accuracy in interpretable cardiac diagnosis,
+  and the advancement in mortality risk stratification; In addition, the
+  potential to facilitate clinical knowledge discovery for gender and
+  hypertension detection which are not readily available.%
     }
     \verb{doi}
-    \verb 10.1101/2022.11.01.22281722
+    \verb 10.1093/ehjdh/ztae014
     \endverb
-    \field{title}{Knowledge {{Discovery}} with {{Electrocardiography Using
-  Interpretable Deep Neural Networks}}}
-    \field{langid}{english}
+    \field{issn}{2634-3916}
+    \field{pages}{ztae014}
+    \field{shorttitle}{Decoding 2.3 {{Million ECGs}}}
+    \field{title}{Decoding 2.3 {{Million ECGs}}: {{Interpretable Deep
+  Learning}} for {{Advancing Cardiovascular Diagnosis}} and {{Mortality Risk
+  Stratification}}}
     \verb{file}
-    \verb /Users/antoniohortaribeiro/Zotero/storage/XEGE9H3S/Lu et al. - 2022 -
-    \verb  Knowledge Discovery with Electrocardiography Using.pdf;/Users/antoni
-    \verb ohortaribeiro/Zotero/storage/PL5X4PR2/2022.11.01.html
+    \verb /Users/antoniohortaribeiro/Zotero/storage/GKZNL3A5/Lu et al. - 2024 -
+    \verb  Decoding 2.3 Million ECGs Interpretable Deep Lear.pdf
     \endverb
-    \field{journaltitle}{Under review at Nature Comunications (preprint:
-  medRxiv)}
-    \field{month}{11}
-    \field{year}{2022}
-    \field{urlday}{17}
-    \field{urlmonth}{11}
-    \field{urlyear}{2022}
+    \field{journaltitle}{European Heart Journal - Digital Health}
+    \field{month}{02}
+    \field{year}{2024}
+    \field{urlday}{26}
+    \field{urlmonth}{02}
+    \field{urlyear}{2024}
   \endentry
 
-  \entry{pillonetto_deep_2023}{article}{}
-    \name{author}{6}{}{%
-      {{hash=PG}{%
-         family={Pillonetto},
-         familyi={P\bibinitperiod},
-         given={Gianluigi},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=AA}{%
-         family={Aravkin},
-         familyi={A\bibinitperiod},
-         given={Aleksandr},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=GD}{%
-         family={Gedon},
-         familyi={G\bibinitperiod},
-         given={Daniel},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=LL}{%
-         family={Ljung},
-         familyi={L\bibinitperiod},
-         given={Lennart},
-         giveni={L\bibinitperiod},
-      }}%
+  \entry{ribeiro_overparameterized_2023}{article}{}
+    \name{author}{2}{}{%
       {{hash=RAH}{%
          family={Ribeiro},
          familyi={R\bibinitperiod},
-         given={Antonio\bibnamedelima H.},
+         given={Ant{\^o}nio\bibnamedelima H.},
          giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
       {{hash=STB}{%
          family={Sch{\"o}n},
          familyi={S\bibinitperiod},
-         given={Thomas\bibnamedelima Bo},
+         given={Thomas\bibnamedelima B.},
          giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
       }}%
     }
-    \strng{namehash}{PGAAGDLLRAHSTB1}
-    \strng{fullhash}{PGAAGDLLRAHSTB1}
+    \keyw{Computer Science - Cryptography and Security,Computer Science -
+  Machine Learning,Electrical Engineering and Systems Science - Signal
+  Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
+    \strng{namehash}{RAHSTB1}
+    \strng{fullhash}{RAHSTB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{abstract}{%
+    As machine learning models start to be used in critical applications, their
+  vulnerabilities and brittleness become a pressing concern. Adversarial
+  attacks are a popular framework for studying these vulnerabilities. In this
+  work, we study the error of linear regression in the face of adversarial
+  attacks. We provide bounds of the error in terms of the traditional risk and
+  the parameter norm and show how these bounds can be leveraged and make it
+  possible to use analysis from non-adversarial setups to study the adversarial
+  risk. The usefulness of these results is illustrated by shedding light on
+  whether or not overparameterized linear models can be adversarially robust.
+  We show that adding features to linear models might be either a source of
+  additional robustness or brittleness. We show that these differences appear
+  due to scaling and how the \${\textbackslash}ell\_1\$ and
+  \${\textbackslash}ell\_2\$ norms of random projections concentrate. We also
+  show how the reformulation we propose allows for solving adversarial training
+  as a convex optimization problem. This is then used as a tool to study how
+  adversarial training and other regularization methods might affect the
+  robustness of the estimated models.%
+    }
     \verb{doi}
-    \verb 10.48550/arXiv.2301.12832
+    \verb 10.1109/TSP.2023.3246228
     \endverb
-    \field{title}{Deep Networks for System Identification: A {{Survey}}}
-    \field{journaltitle}{Automatica (Provisionally accepted)}
+    \verb{eprint}
+    \verb 2204.06274
+    \endverb
+    \field{title}{Overparameterized {{Linear Regression}} under {{Adversarial
+  Attacks}}}
+    \verb{file}
+    \verb /Users/antoniohortaribeiro/Zotero/storage/56J77WTJ/Ribeiro_Schön_202
+    \verb 3_Overparameterized Linear Regression under Adversarial Attacks.pdf
+    \endverb
+    \field{journaltitle}{IEEE Transactions on Signal Processing}
+    \field{eprinttype}{arxiv}
     \field{year}{2023}
+    \field{urlday}{22}
+    \field{urlmonth}{04}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{zvuloni_merging_2023}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ZE}{%
+         family={Zvuloni},
+         familyi={Z\bibinitperiod},
+         given={Eran},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Read},
+         familyi={R\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RAH}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Ant{\^o}nio\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=RALP}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Antonio Luiz\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=BJA}{%
+         family={Behar},
+         familyi={B\bibinitperiod},
+         given={Joachim\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Machine Learning,Electrical Engineering and
+  Systems Science - Signal Processing,I.2.0,J.3}
+    \strng{namehash}{ZERJRAHRALPBJA1}
+    \strng{fullhash}{ZERJRAHRALPBJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Objective: Over the past few years, deep learning (DL) has been used
+  extensively in research for 12-lead electrocardiogram (ECG) analysis.
+  However, it is unclear whether the explicit or implicit claims made on DL
+  superiority to the more classical feature engineering (FE) approaches, based
+  on domain knowledge, hold. In addition, it remains unclear whether combining
+  DL with FE may improve performance over a single modality. Methods: To
+  address these research gaps and in-line with recent major experiments, we
+  revisited three tasks: cardiac arrhythmia diagnosis (multiclass-multilabel
+  classification), atrial fibrillation risk prediction (binary classification),
+  and age estimation (regression). We used an overall dataset of 2.3M 12-lead
+  ECG recordings to train the following models for each task: i) a random
+  forest taking FE as input; ii) an end-to-end DL model; and iii) a merged
+  model of FE+DL. Results: FE yielded comparable results to DL while
+  necessitating significantly less data for the two classification tasks. DL
+  outperformed FE for the regression task. For all tasks, merging FE with DL
+  did not improve performance over DL alone. These findings were confirmed on
+  the additional PTB-XL dataset. Conclusion: We found that for traditional
+  12-lead ECG based diagnosis tasks, DL did not yield a meaningful improvement
+  over FE, while it improved significantly the nontraditional regression task.
+  We also found that combining FE with DL did not improve over DL alone, which
+  suggests that the FE were redundant with the features learned by DL.
+  Significance: Our findings provides important recommendations on 12-lead ECG
+  based machine learning strategy and data regime to choose for a given task.
+  When looking at maximizing performance as the end goal, if the task is
+  nontraditional and a large dataset is available then DL is preferable. If the
+  task is a classical one and/or a small dataset is available then a FE
+  approach may be the better choice.%
+    }
+    \verb{doi}
+    \verb 10.1109/TBME.2023.3239527
+    \endverb
+    \verb{eprint}
+    \verb 2207.06096
+    \endverb
+    \field{title}{On {{Merging Feature Engineering}} and {{Deep Learning}} for
+  {{Diagnosis}}, {{Risk-Prediction}} and {{Age Estimation Based}} on the
+  12-{{Lead ECG}}}
+    \verb{file}
+    \verb /Users/antoniohortaribeiro/Zotero/storage/VVZCGQJP/Zvuloni et al. - 2
+    \verb 022 - On Merging Feature Engineering and Deep Learning f.pdf
+    \endverb
+    \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
+    \field{eprinttype}{arxiv}
+    \field{eprintclass}{cs, eess}
+    \field{month}{01}
+    \field{year}{2023}
+    \field{urlday}{22}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
   \endentry
 
   \entry{habineza_endtoend_2023}{article}{}
@@ -761,8 +467,8 @@
   {$>$}8-fold increased risk of heart failure and a 2-fold risk of premature
   death. The use of ECG signals in screening for LV systolic dysfunction is
   limited by their availability to clinicians. We developed a novel deep
-  learning\textendash based approach that can use ECG images for the screening
-  of LV systolic dysfunction. METHODS: Using 12-lead ECGs plotted in multiple
+  learning--based approach that can use ECG images for the screening of LV
+  systolic dysfunction. METHODS: Using 12-lead ECGs plotted in multiple
   different formats, and corresponding echocardiographic data recorded within
   15 days from the Yale New Haven Hospital between 2015 and 2021, we developed
   a convolutional neural network algorithm to detect an LV ejection fraction
@@ -785,17 +491,17 @@
   0.74), and Brazilian Longitudinal Study of Adult Health cohort (AUROC, 0.95
   and AUPRC, 0.45). An ECG suggestive of LV systolic dysfunction portended a
   {$>$}27-fold higher odds of LV systolic dysfunction on transthoracic
-  echocardiogram (odds ratio, 27.5 [95\% CI, 22.3\textendash 33.9] in the
-  held-out set). Class-discriminative patterns localized to the anterior and
-  anteroseptal leads (V2 to V3), corresponding to the left ventricle regardless
-  of the ECG layout. A positive ECG screen in individuals with an LV ejection
-  fraction {$\geq$}40\% at the time of initial assessment was associated with a
-  3.9-fold increased risk of developing incident LV systolic dysfunction in the
-  future (hazard ratio, 3.9 [95\% CI, 3.3\textendash 4.7]; median follow-up,
-  3.2 years). CONCLUSIONS: We developed and externally validated a deep
-  learning model that identifies LV systolic dysfunction from ECG images. This
-  approach represents an automated and accessible screening strategy for LV
-  systolic dysfunction, particularly in low-resource settings.%
+  echocardiogram (odds ratio, 27.5 [95\% CI, 22.3--33.9] in the held-out set).
+  Class-discriminative patterns localized to the anterior and anteroseptal
+  leads (V2 to V3), corresponding to the left ventricle regardless of the ECG
+  layout. A positive ECG screen in individuals with an LV ejection fraction
+  {$\geq$}40\% at the time of initial assessment was associated with a 3.9-fold
+  increased risk of developing incident LV systolic dysfunction in the future
+  (hazard ratio, 3.9 [95\% CI, 3.3--4.7]; median follow-up, 3.2 years).
+  CONCLUSIONS: We developed and externally validated a deep learning model that
+  identifies LV systolic dysfunction from ECG images. This approach represents
+  an automated and accessible screening strategy for LV systolic dysfunction,
+  particularly in low-resource settings.%
     }
     \verb{doi}
     \verb 10.1161/CIRCULATIONAHA.122.062646
@@ -1086,15 +792,15 @@
     Kernel principal component analysis (kPCA) is a widely studied method to
   construct a low-dimensional data representation after a nonlinear
   transformation. The prevailing method to reconstruct the original input
-  signal from kPCA\textemdash an important task for denoising\textemdash
-  requires us to solve a supervised learning problem. In this paper, we present
-  an alternative method where the reconstruction follows naturally from the
-  compression step. We first approximate the kernel with random Fourier
-  features. Then, we exploit the fact that the nonlinear transformation is
-  invertible in a certain subdomain. Hence, the name invertible kernel PCA
-  (ikPCA) . We experiment with different data modalities and show that ikPCA
-  performs similarly to kPCA with supervised reconstruction on denoising tasks,
-  making it a strong alternative.%
+  signal from kPCA---an important task for denoising---requires us to solve a
+  supervised learning problem. In this paper, we present an alternative method
+  where the reconstruction follows naturally from the compression step. We
+  first approximate the kernel with random Fourier features. Then, we exploit
+  the fact that the nonlinear transformation is invertible in a certain
+  subdomain. Hence, the name invertible kernel PCA (ikPCA) . We experiment with
+  different data modalities and show that ikPCA performs similarly to kPCA with
+  supervised reconstruction on denoising tasks, making it a strong
+  alternative.%
     }
     \verb{doi}
     \verb 10.1109/LSP.2023.3275499
@@ -1112,67 +818,6 @@
     \field{eprinttype}{arxiv}
     \field{month}{05}
     \field{year}{2023}
-  \endentry
-
-  \entry{ribeiro_overparameterized_2023}{article}{}
-    \name{author}{2}{}{%
-      {{hash=RAH}{%
-         family={Ribeiro},
-         familyi={R\bibinitperiod},
-         given={Ant{\^o}nio\bibnamedelima H.},
-         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=STB}{%
-         family={Sch{\"o}n},
-         familyi={S\bibinitperiod},
-         given={Thomas\bibnamedelima B.},
-         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-    }
-    \keyw{Computer Science - Cryptography and Security,Computer Science -
-  Machine Learning,Electrical Engineering and Systems Science - Signal
-  Processing,Mathematics - Statistics Theory,Statistics - Machine Learning}
-    \strng{namehash}{RAHSTB1}
-    \strng{fullhash}{RAHSTB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    As machine learning models start to be used in critical applications, their
-  vulnerabilities and brittleness become a pressing concern. Adversarial
-  attacks are a popular framework for studying these vulnerabilities. In this
-  work, we study the error of linear regression in the face of adversarial
-  attacks. We provide bounds of the error in terms of the traditional risk and
-  the parameter norm and show how these bounds can be leveraged and make it
-  possible to use analysis from non-adversarial setups to study the adversarial
-  risk. The usefulness of these results is illustrated by shedding light on
-  whether or not overparameterized linear models can be adversarially robust.
-  We show that adding features to linear models might be either a source of
-  additional robustness or brittleness. We show that these differences appear
-  due to scaling and how the \$\textbackslash ell\_1\$ and \$\textbackslash
-  ell\_2\$ norms of random projections concentrate. We also show how the
-  reformulation we propose allows for solving adversarial training as a convex
-  optimization problem. This is then used as a tool to study how adversarial
-  training and other regularization methods might affect the robustness of the
-  estimated models.%
-    }
-    \verb{doi}
-    \verb 10.1109/TSP.2023.3246228
-    \endverb
-    \verb{eprint}
-    \verb 2204.06274
-    \endverb
-    \field{title}{Overparameterized {{Linear Regression}} under {{Adversarial
-  Attacks}}}
-    \verb{file}
-    \verb /Users/antoniohortaribeiro/Zotero/storage/56J77WTJ/Ribeiro_Schön_202
-    \verb 3_Overparameterized Linear Regression under Adversarial Attacks.pdf
-    \endverb
-    \field{journaltitle}{IEEE Transactions on Signal Processing}
-    \field{eprinttype}{arxiv}
-    \field{year}{2023}
-    \field{urlday}{22}
-    \field{urlmonth}{04}
-    \field{urlyear}{2022}
   \endentry
 
   \entry{zhang_association_2023}{article}{}
@@ -1233,98 +878,6 @@
     \field{volume}{10}
     \field{journaltitle}{Frontiers in Cardiovascular Medicine}
     \field{year}{2023}
-  \endentry
-
-  \entry{zvuloni_merging_2023}{article}{}
-    \name{author}{5}{}{%
-      {{hash=ZE}{%
-         family={Zvuloni},
-         familyi={Z\bibinitperiod},
-         given={Eran},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=RJ}{%
-         family={Read},
-         familyi={R\bibinitperiod},
-         given={Jesse},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=RAH}{%
-         family={Ribeiro},
-         familyi={R\bibinitperiod},
-         given={Ant{\^o}nio\bibnamedelima H.},
-         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=RALP}{%
-         family={Ribeiro},
-         familyi={R\bibinitperiod},
-         given={Antonio Luiz\bibnamedelima P.},
-         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
-  P\bibinitperiod},
-      }}%
-      {{hash=BJA}{%
-         family={Behar},
-         familyi={B\bibinitperiod},
-         given={Joachim\bibnamedelima A.},
-         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \keyw{Computer Science - Machine Learning,Electrical Engineering and
-  Systems Science - Signal Processing,I.2.0,J.3}
-    \strng{namehash}{ZERJRAHRALPBJA1}
-    \strng{fullhash}{ZERJRAHRALPBJA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Objective: Over the past few years, deep learning (DL) has been used
-  extensively in research for 12-lead electrocardiogram (ECG) analysis.
-  However, it is unclear whether the explicit or implicit claims made on DL
-  superiority to the more classical feature engineering (FE) approaches, based
-  on domain knowledge, hold. In addition, it remains unclear whether combining
-  DL with FE may improve performance over a single modality. Methods: To
-  address these research gaps and in-line with recent major experiments, we
-  revisited three tasks: cardiac arrhythmia diagnosis (multiclass-multilabel
-  classification), atrial fibrillation risk prediction (binary classification),
-  and age estimation (regression). We used an overall dataset of 2.3M 12-lead
-  ECG recordings to train the following models for each task: i) a random
-  forest taking FE as input; ii) an end-to-end DL model; and iii) a merged
-  model of FE+DL. Results: FE yielded comparable results to DL while
-  necessitating significantly less data for the two classification tasks. DL
-  outperformed FE for the regression task. For all tasks, merging FE with DL
-  did not improve performance over DL alone. These findings were confirmed on
-  the additional PTB-XL dataset. Conclusion: We found that for traditional
-  12-lead ECG based diagnosis tasks, DL did not yield a meaningful improvement
-  over FE, while it improved significantly the nontraditional regression task.
-  We also found that combining FE with DL did not improve over DL alone, which
-  suggests that the FE were redundant with the features learned by DL.
-  Significance: Our findings provides important recommendations on 12-lead ECG
-  based machine learning strategy and data regime to choose for a given task.
-  When looking at maximizing performance as the end goal, if the task is
-  nontraditional and a large dataset is available then DL is preferable. If the
-  task is a classical one and/or a small dataset is available then a FE
-  approach may be the better choice.%
-    }
-    \verb{doi}
-    \verb 10.1109/TBME.2023.3239527
-    \endverb
-    \verb{eprint}
-    \verb 2207.06096
-    \endverb
-    \field{title}{On {{Merging Feature Engineering}} and {{Deep Learning}} for
-  {{Diagnosis}}, {{Risk-Prediction}} and {{Age Estimation Based}} on the
-  12-{{Lead ECG}}}
-    \verb{file}
-    \verb /Users/antoniohortaribeiro/Zotero/storage/VVZCGQJP/Zvuloni et al. - 2
-    \verb 022 - On Merging Feature Engineering and Deep Learning f.pdf
-    \endverb
-    \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
-    \field{eprinttype}{arxiv}
-    \field{eprintclass}{cs, eess}
-    \field{month}{01}
-    \field{year}{2023}
-    \field{urlday}{22}
-    \field{urlmonth}{07}
-    \field{urlyear}{2022}
   \endentry
 
   \entry{gustafsson_development_2022}{article}{}
@@ -1591,8 +1144,8 @@
   linkage to electronic medical records. The present study describes the
   development and clinical applications of an electronic cohort derived from a
   digital ECG database obtained by the Telehealth Network of Minas Gerais,
-  Brazil, for the period 2010\textendash 2017, linked to the mortality data
-  from the national information system, the Clinical Outcomes in Digital
+  Brazil, for the period 2010--2017, linked to the mortality data from the
+  national information system, the Clinical Outcomes in Digital
   Electrocardiography (CODE) dataset. From 2,470,424 ECGs, 1,773,689 patients
   were identified. A total of 1,666,778 (94\%) underwent a valid ECG recording
   for the period 2010 to 2017, with 1,558,421 patients over 16 years old;
@@ -1601,16 +1154,15 @@
   assessed were: atrial fibrillation (AF), right bundle branch block (RBBB),
   left bundle branch block (LBBB), atrioventricular block (AVB), and
   ventricular pre-excitation. Most ECG abnormalities (AF: Hazard ratio [HR]
-  2.10; 95\% CI 2.03\textendash 2.17; RBBB: HR 1.32; 95\%CI 1.27\textendash
-  1.36; LBBB: HR 1.69; 95\% CI 1.62\textendash 1.76; first degree AVB: Relative
-  survival [RS]: 0.76; 95\% CI0.71\textendash 0.81; 2:1 AVB: RS 0.21 95\%
-  CI0.09\textendash 0.52; and RS 0.36; third degree AVB: 95\% CI
-  0.26\textendash 0.49) were predictors of overall mortality, except for
-  ventricular pre-excitation (HR 1.41; 95\% CI 0.56\textendash 3.57) and Mobitz
-  I AVB (RS 0.65; 95\% CI 0.34\textendash 1.24). In conclusion, a large ECG
-  database established by a telehealth network can be a useful tool for
-  facilitating new advances in the fields of digital electrocardiography,
-  clinical cardiology and cardiovascular epidemiology.%
+  2.10; 95\% CI 2.03--2.17; RBBB: HR 1.32; 95\%CI 1.27--1.36; LBBB: HR 1.69;
+  95\% CI 1.62--1.76; first degree AVB: Relative survival [RS]: 0.76; 95\%
+  CI0.71--0.81; 2:1 AVB: RS 0.21 95\% CI0.09--0.52; and RS 0.36; third degree
+  AVB: 95\% CI 0.26--0.49) were predictors of overall mortality, except for
+  ventricular pre-excitation (HR 1.41; 95\% CI 0.56--3.57) and Mobitz I AVB (RS
+  0.65; 95\% CI 0.34--1.24). In conclusion, a large ECG database established by
+  a telehealth network can be a useful tool for facilitating new advances in
+  the fields of digital electrocardiography, clinical cardiology and
+  cardiovascular epidemiology.%
     }
     \verb{doi}
     \verb 10.3390/hearts2040035
@@ -1649,11 +1201,12 @@
          given={Ant{\^o}nio\bibnamedelima H.},
          giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
-      {{hash=PGM}{%
+      {{hash=PGMM}{%
          family={Paix{\~a}o},
          familyi={P\bibinitperiod},
-         given={Gabriela\bibnamedelima MM},
-         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Gabriela M\bibnamedelima M},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
       }}%
       {{hash=RMH}{%
          family={Ribeiro},
@@ -1724,8 +1277,8 @@
   P\bibinitperiod},
       }}%
     }
-    \strng{namehash}{LEMRAHPGMRMHFMMPGPRODMSECDBBGLBSMMWSTBRALP1}
-    \strng{fullhash}{LEMRAHPGMRMHFMMPGPRODMSECDBBGLBSMMWSTBRALP1}
+    \strng{namehash}{LEMRAHPGMMRMHFMMPGPRODMSECDBBGLBSMMWSTBRALP1}
+    \strng{fullhash}{LEMRAHPGMMRMHFMMPGPRODMSECDBBGLBSMMWSTBRALP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
@@ -2016,11 +1569,11 @@
   included, mean age 51.6 years; 40.2\% male. There were 3.34\% deaths from all
   causes in 3.68 years of median follow up. The prevalence of AF was 1.33\%. AF
   was an independent risk factor for all-cause mortality (HR 2.10, 95\%CI
-  2.03\textendash 2.17) and cardiovascular mortality (HR 2.06, 95\%CI
-  1.86\textendash 2.29). Females with AF had a higher risk of overall and
-  cardiovascular mortality compared with males (p {$<$} 0.001). Conclusions: AF
-  was a strong predictor of cardiovascular and all-cause mortality in a primary
-  care population, with increased risk in women.%
+  2.03--2.17) and cardiovascular mortality (HR 2.06, 95\%CI 1.86--2.29).
+  Females with AF had a higher risk of overall and cardiovascular mortality
+  compared with males (p {$<$} 0.001). Conclusions: AF was a strong predictor
+  of cardiovascular and all-cause mortality in a primary care population, with
+  increased risk in women.%
     }
     \verb{doi}
     \verb 10.5334/gh.772
@@ -2808,7 +2361,7 @@
     \field{labeltitlesource}{title}
     \field{title}{Regularization Properties of Adversarially-Trained Linear
   Regression}
-    \field{journaltitle}{Neurips (Spotlight)}
+    \field{journaltitle}{NeurIPS (Spotlight)}
     \field{year}{2023}
   \endentry
 
@@ -3623,15 +3176,15 @@
     \field{labeltitlesource}{title}
     \field{abstract}{%
     This paper is directed towards the problem of learning nonlinear ARX models
-  based on system input\textendash output data. In particular, our interest is
-  in learning a conditional distribution of the current output based on a
-  finite window of past inputs and outputs. To achieve this, we consider the
-  use of so-called energy-based models, which have been developed in allied
-  fields for learning unknown distributions based on data. This energy-based
-  model relies on a general function to describe the distribution, and here we
-  consider a deep neural network for this purpose. The primary benefit of this
-  approach is that it is capable of learning both simple and highly complex
-  noise models, which we demonstrate on simulated and experimental data.%
+  based on system input--output data. In particular, our interest is in
+  learning a conditional distribution of the current output based on a finite
+  window of past inputs and outputs. To achieve this, we consider the use of
+  so-called energy-based models, which have been developed in allied fields for
+  learning unknown distributions based on data. This energy-based model relies
+  on a general function to describe the distribution, and here we consider a
+  deep neural network for this purpose. The primary benefit of this approach is
+  that it is capable of learning both simple and highly complex noise models,
+  which we demonstrate on simulated and experimental data.%
     }
     \field{title}{Deep {{Energy-Based NARX Models}}}
     \verb{file}
@@ -3880,14 +3433,669 @@
     \strng{fullhash}{RAHALA3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{booktitle}{{{XX Congresso Brasileiro}} de {{Autom\'atica}}}
-    \field{title}{Rela\c{c}oes {{Est\'aticas}} de {{Modelos NARX MISO}} e Sua
-  {{Representa\c{c}ao}} de {{Hammerstein}}}
+    \field{booktitle}{{{XX Congresso Brasileiro}} de {{Autom{\'a}tica}}}
+    \field{title}{Rela{\c c}oes {{Est{\'a}ticas}} de {{Modelos NARX MISO}} e
+  Sua {{Representa{\c c}ao}} de {{Hammerstein}}}
     \verb{file}
     \verb /Users/antoniohortaribeiro/Zotero/storage/T2KW8WFU/ribeiro_relaçoes_
     \verb 2014.pdf
     \endverb
     \field{year}{2014}
+  \endentry
+
+  \entry{pillonetto_deep_2023}{article}{}
+    \name{author}{6}{}{%
+      {{hash=PG}{%
+         family={Pillonetto},
+         familyi={P\bibinitperiod},
+         given={Gianluigi},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Aravkin},
+         familyi={A\bibinitperiod},
+         given={Aleksandr},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gedon},
+         familyi={G\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Ljung},
+         familyi={L\bibinitperiod},
+         given={Lennart},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=RAH}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Antonio\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=STB}{%
+         family={Sch{\"o}n},
+         familyi={S\bibinitperiod},
+         given={Thomas\bibnamedelima Bo},
+         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PGAAGDLLRAHSTB1}
+    \strng{fullhash}{PGAAGDLLRAHSTB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.48550/arXiv.2301.12832
+    \endverb
+    \field{title}{Deep Networks for System Identification: A {{Survey}}}
+    \field{journaltitle}{Automatica (Provisionally accepted)}
+    \field{year}{2023}
+  \endentry
+
+  \entry{huang_generalization_2023}{article}{}
+    \name{author}{7}{}{%
+      {{hash=HZ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Zhaojing},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={MacLachlan},
+         familyi={M\bibinitperiod},
+         given={Sarisha},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=YL}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Leping},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CLFH}{%
+         family={Contreras},
+         familyi={C\bibinitperiod},
+         given={Luis Fernando\bibnamedelima Herbozo},
+         giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+      }}%
+      {{hash=TND}{%
+         family={Truong},
+         familyi={T\bibinitperiod},
+         given={Nhan\bibnamedelima Duy},
+         giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RAH}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Antonio\bibnamedelima Horta},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KO}{%
+         family={Kavehei},
+         familyi={K\bibinitperiod},
+         given={Omid},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HZMSYLCLFHTNDRAHKO1}
+    \strng{fullhash}{HZMSYLCLFHTNDRAHKO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    This research investigates the influence of dataset characteristics on the
+  performance and generalization capabilities of deep learning models, on ECG
+  data. The study evaluates multiple subsets of the TNMG dataset with varying
+  levels of curated characteristics to assess their impact on model
+  performance. Additionally, an attention mechanism is introduced to enhance
+  model accuracy and generalization. The experimental results reveal that
+  models trained on balanced subsets and incorporating the attention mechanism
+  consistently outperform those trained on unbalanced data or without
+  attention, emphasizing the critical importance of dataset balance and
+  attention mechanism for achieving improved model performance. Surprisingly,
+  the largest ECG dataset, TNMG, proved less effective in generalization than
+  smaller, curated subsets. The study demonstrates that a well-balanced and
+  thoughtfully curated dataset, combined with the attention mechanism, can lead
+  to competitive model performance, even with a significantly smaller size.
+  This research on ECG data underscores the critical importance of dataset
+  curation, balance, and attention mechanisms in biomedical machine learning.
+  It highlights that well-balanced, thoughtfully curated datasets with
+  attention mechanisms can outperform larger, unbalanced datasets, challenging
+  conventional notions and offering potential advancements in medical data
+  analysis and patient care.%
+    }
+    \verb{doi}
+    \verb 10.1101/2023.07.05.23292238
+    \endverb
+    \field{pages}{2023.07.05.23292238}
+    \field{shorttitle}{Generalization {{Challenges}} in {{ECG Deep Learning}}}
+    \field{title}{Generalization {{Challenges}} in {{ECG Deep Learning}}:
+  {{Insights}} from {{Dataset Characteristics}} and {{Attention Mechanism}}}
+    \field{langid}{english}
+    \verb{file}
+    \verb /Users/antoniohortaribeiro/Zotero/storage/GVSZKKAE/Huang et al_2023_G
+    \verb eneralization Challenges in ECG Deep Learning.pdf
+    \endverb
+    \field{journaltitle}{Submitted to Journal of Electrocardiology (preprint:
+  medRxiv)}
+    \field{month}{09}
+    \field{year}{2023}
+    \field{urlday}{11}
+    \field{urlmonth}{09}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{sau_neural_2023}{article}{}
+    \name{author}{27}{}{%
+      {{hash=SA}{%
+         family={Sau},
+         familyi={S\bibinitperiod},
+         given={Arunashis},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RAH}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Ant{\^o}nio\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={McGurk},
+         familyi={M\bibinitperiod},
+         given={Kathryn},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pastika},
+         familyi={P\bibinitperiod},
+         given={Libor},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={Bajaj},
+         familyi={B\bibinitperiod},
+         given={Nikesh},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Ardissino},
+         familyi={A\bibinitperiod},
+         given={Maddalena},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CJY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jun\bibnamedelima Yu},
+         giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Huiyi},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SX}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Xili},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Hnatkova},
+         familyi={H\bibinitperiod},
+         given={Katerina},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZS}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Sean},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Britton},
+         familyi={B\bibinitperiod},
+         given={Annie},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Shipley},
+         familyi={S\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Andr{\v s}ov{\'a}},
+         familyi={A\bibinitperiod},
+         given={Irena},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Novotn{\'y}},
+         familyi={N\bibinitperiod},
+         given={Tom{\'a}{\v s}},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Sabino},
+         familyi={S\bibinitperiod},
+         given={Ester},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Giatti},
+         familyi={G\bibinitperiod},
+         given={Luana},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Barreto},
+         familyi={B\bibinitperiod},
+         given={Sandhi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Waks},
+         familyi={W\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kramer},
+         familyi={K\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Mandic},
+         familyi={M\bibinitperiod},
+         given={Danilo},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Peters},
+         familyi={P\bibinitperiod},
+         given={Nicholas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=OD}{%
+         family={O'Regan},
+         familyi={O\bibinitperiod},
+         given={Declan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Malik},
+         familyi={M\bibinitperiod},
+         given={Marek},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Ware},
+         familyi={W\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RALP}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Antonio L.\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=NFS}{%
+         family={Ng},
+         familyi={N\bibinitperiod},
+         given={Fu\bibnamedelima Siong},
+         giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+  \strng{namehash}{SARAHMKPLBNAMCJYWHSXHKZSBASMAINTSEGLBSWJKDMDPNODMMWJRALPNFS1}
+  \strng{fullhash}{SARAHMKPLBNAMCJYWHSXHKZSBASMAINTSEGLBSWJKDMDPNODMMWJRALPNFS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Neural Network-Derived Electrocardiographic Features Have
+  Prognostic Significance and Important Phenotypic and Genotypic Associations}
+    \field{journaltitle}{Submitted to Nature Medicine}
+    \field{year}{2023}
+  \endentry
+
+  \entry{gedon_no_2023}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GD}{%
+         family={Gedon},
+         familyi={G\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RAH}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Antonio\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=STB}{%
+         family={Sch{\"o}n},
+         familyi={S\bibinitperiod},
+         given={Thomas\bibnamedelima B.},
+         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GDRAHSTB1}
+    \strng{fullhash}{GDRAHSTB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{No {{Double Descent}} in {{PCA}}: {{Training}} and
+  {{Pre-Training}} in {{High Dimensions}}}
+    \field{journaltitle}{OpenReview}
+    \field{year}{2023}
+  \endentry
+
+  \entry{vonbachmann_ecgbased_2022}{article}{}
+    \name{author}{8}{}{%
+      {{hash=VBP}{%
+         family={Von\bibnamedelima Bachmann},
+         familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Philipp},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gedon},
+         familyi={G\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GFK}{%
+         family={Gustafsson},
+         familyi={G\bibinitperiod},
+         given={Fredrik\bibnamedelima K.},
+         giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=RAH}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Ant{\^o}nio\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lampa},
+         familyi={L\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gustafsson},
+         familyi={G\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sundstr{\"o}m},
+         familyi={S\bibinitperiod},
+         given={Johan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=STB}{%
+         family={Sch{\"o}n},
+         familyi={S\bibinitperiod},
+         given={Thomas\bibnamedelima B.},
+         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Computer Vision and Pattern Recognition,Computer
+  Science - Machine Learning,Electrical Engineering and Systems Science -
+  Signal Processing}
+    \strng{namehash}{VBPGDGFKRAHLEGSSJSTB1}
+    \strng{fullhash}{VBPGDGFKRAHLEGSSJSTB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Objective: Imbalances of the electrolyte concentration levels in the body
+  can lead to catastrophic consequences, but accurate and accessible
+  measurements could improve patient outcomes. While blood tests provide
+  accurate measurements, they are invasive and the laboratory analysis can be
+  slow or inaccessible. In contrast, an electrocardiogram (ECG) is a widely
+  adopted tool which is quick and simple to acquire. However, the problem of
+  estimating continuous electrolyte concentrations directly from ECGs is not
+  well-studied. We therefore investigate if regression methods can be used for
+  accurate ECG-based prediction of electrolyte concentrations. Methods: We
+  explore the use of deep neural networks (DNNs) for this task. We analyze the
+  regression performance across four electrolytes, utilizing a novel dataset
+  containing over 290000 ECGs. For improved understanding, we also study the
+  full spectrum from continuous predictions to binary classification of extreme
+  concentration levels. To enhance clinical usefulness, we finally extend to a
+  probabilistic regression approach and evaluate different uncertainty
+  estimates. Results: We find that the performance varies significantly between
+  different electrolytes, which is clinically justified in the interplay of
+  electrolytes and their manifestation in the ECG. We also compare the
+  regression accuracy with that of traditional machine learning models,
+  demonstrating superior performance of DNNs. Conclusion: Discretization can
+  lead to good classification performance, but does not help solve the original
+  problem of predicting continuous concentration levels. While probabilistic
+  regression demonstrates potential practical usefulness, the uncertainty
+  estimates are not particularly well-calibrated. Significance: Our study is a
+  first step towards accurate and reliable ECG-based prediction of electrolyte
+  concentration levels.%
+    }
+    \verb{doi}
+    \verb 10.48550/arXiv.2212.13890
+    \endverb
+    \verb{eprint}
+    \verb 2212.13890
+    \endverb
+    \field{shorttitle}{{{ECG-Based Electrolyte Prediction}}}
+    \field{title}{{{ECG-Based Electrolyte Prediction}}: {{Evaluating
+  Regression}} and {{Probabilistic Methods}}}
+    \verb{file}
+    \verb /Users/antoniohortaribeiro/Zotero/storage/45AMFVN2/Von Bachmann et al
+    \verb . - 2022 - ECG-Based Electrolyte Prediction Evaluating Regre.pdf;/Use
+    \verb rs/antoniohortaribeiro/Zotero/storage/FP9NRPHE/2212.html
+    \endverb
+    \field{journaltitle}{arXiv:2212.13890}
+    \field{eprinttype}{arxiv}
+    \field{month}{12}
+    \field{year}{2022}
+    \field{urlday}{18}
+    \field{urlmonth}{01}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{sau_artificial_2024}{misc}{}
+    \name{author}{22}{}{%
+      {{hash=SA}{%
+         family={Sau},
+         familyi={S\bibinitperiod},
+         given={Arunashis},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pastika},
+         familyi={P\bibinitperiod},
+         given={Libor},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Sieliwonczyk},
+         familyi={S\bibinitperiod},
+         given={Ewa},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Patlatzoglou},
+         familyi={P\bibinitperiod},
+         given={Konstantinos},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=RAH}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Antonio\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=MKA}{%
+         family={McGurk},
+         familyi={M\bibinitperiod},
+         given={Kathryn\bibnamedelima A.},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ZB}{%
+         family={Zeidaabadi},
+         familyi={Z\bibinitperiod},
+         given={Boroumand},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Henry},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Macierzanka},
+         familyi={M\bibinitperiod},
+         given={Krzysztof},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Mandic},
+         familyi={M\bibinitperiod},
+         given={Danilo},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Sabino},
+         familyi={S\bibinitperiod},
+         given={Ester},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Giatti},
+         familyi={G\bibinitperiod},
+         given={Luana},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BSM}{%
+         family={Barreto},
+         familyi={B\bibinitperiod},
+         given={Sandhi\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CLdV}{%
+         family={Camelo},
+         familyi={C\bibinitperiod},
+         given={Lidyane do\bibnamedelima Valle},
+         giveni={L\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim
+  V\bibinitperiod},
+      }}%
+      {{hash=TI}{%
+         family={Tzoulaki},
+         familyi={T\bibinitperiod},
+         given={Ioanna},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ODP}{%
+         family={O'Regan},
+         familyi={O\bibinitperiod},
+         given={Declan\bibnamedelima P.},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=PNS}{%
+         family={Peters},
+         familyi={P\bibinitperiod},
+         given={Nicholas\bibnamedelima S.},
+         giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WJS}{%
+         family={Ware},
+         familyi={W\bibinitperiod},
+         given={James\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RALP}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Antonio Luiz\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=KDB}{%
+         family={Kramer},
+         familyi={K\bibinitperiod},
+         given={Daniel\bibnamedelima B.},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=WJW}{%
+         family={Waks},
+         familyi={W\bibinitperiod},
+         given={Jonathan\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=NFS}{%
+         family={Ng},
+         familyi={N\bibinitperiod},
+         given={Fu\bibnamedelima Siong},
+         giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{medRxiv}}%
+    }
+  \strng{namehash}{SAPLSEPKRAHMKAZBZHMKMDSEGLBSMCLdVTIODPPNSWJSRALPKDBWJWNFS1}
+  \strng{fullhash}{SAPLSEPKRAHMKAZBZHMKMDSEGLBSMCLdVTIODPPNSWJSRALPKDBWJWNFS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Background and Aims Artificial intelligence-enhanced electrocardiograms
+  (AI-ECG) can be used to predict risk of future disease and mortality but has
+  not yet been adopted into clinical practice. Existing model predictions lack
+  actionability at an individual patient level, explainability and biological
+  plausibility. We sought to address these limitations of previous AI-ECG
+  approaches by developing the AI-ECG risk estimator (AIRE) platform. Methods
+  and Results The AIRE platform was developed in a secondary care dataset of
+  1,163,401 ECGs from 189,539 patients, using deep learning with a
+  discrete-time survival model to create a subject-specific survival curve
+  using a single ECG. Therefore, AIRE predicts not only risk of mortality, but
+  time-to-mortality. AIRE was validated in five diverse, transnational cohorts
+  from the USA, Brazil and the UK, including volunteers, primary care and
+  secondary care subjects. AIRE accurately predicts risk of all-cause mortality
+  (C-index 0.775 (0.773-0.776)), cardiovascular (CV) death 0.832 (0.831-0.834),
+  non-CV death (0.749 (0.747-0.751)), future ventricular arrhythmia (0.760
+  (0.756-0.763)), future atherosclerotic cardiovascular disease (0.696
+  (0.694-0.698)) and future heart failure (0.787 (0.785-0.889))). Through
+  phenome- and genome-wide association studies, we identified candidate
+  biological pathways for the prediction of increased risk, including changes
+  in cardiac structure and function, and genes associated with cardiac
+  structure, biological aging and metabolic syndrome. Conclusion AIRE is an
+  actionable, explainable and biologically plausible AI-ECG risk estimation
+  platform that has the potential for use worldwide across a wide range of
+  clinical contexts for short- and long-term risk estimation. {$<$}img
+  class="highwire-fragment fragment-image" alt="Figure"
+  src="https://www.medrxiv.org/content/medrxiv/early/2024/01/15/2024.01.13.24301267/F1.medium.gif"
+  width="440" height="373"/{$>$}Download figureOpen in new tab%
+    }
+    \verb{doi}
+    \verb 10.1101/2024.01.13.24301267
+    \endverb
+    \field{pages}{2024.01.13.24301267}
+    \field{shorttitle}{Artificial Intelligence--Enabled Electrocardiogram for
+  Mortality and Cardiovascular Risk Estimation}
+    \field{title}{Artificial Intelligence--Enabled Electrocardiogram for
+  Mortality and Cardiovascular Risk Estimation: {{An}} Actionable, Explainable
+  and Biologically Plausible Platform}
+    \field{langid}{english}
+    \verb{file}
+    \verb /Users/antoniohortaribeiro/Zotero/storage/KZZ2KSNF/Sau et al. - 2024
+    \verb - Artificial intelligence–enabled electrocardiogram .pdf
+    \endverb
+    \field{eprinttype}{medRxiv}
+    \field{month}{01}
+    \field{year}{2024}
+    \field{urlday}{26}
+    \field{urlmonth}{02}
+    \field{urlyear}{2024}
   \endentry
 
   \entry{ribeiro_learning_2020}{thesis}{}
@@ -3977,7 +4185,7 @@
   this work was to take a first step towards a stereo camera based on v200 to
   be a competitive commercial product, apt to be sold by iVision.%
     }
-    \field{title}{Implementa\c{c}\~ao de Uma {{C\^amera Est\'ereo}}}
+    \field{title}{Implementa{\c c}{\~a}o de Uma {{C{\^a}mera Est{\'e}reo}}}
     \list{location}{1}{%
       {{Belo Horizonte, Brazil}}%
     }

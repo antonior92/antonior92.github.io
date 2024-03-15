@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.28)  9 OCT 2023 14:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.28)  15 MAR 2024 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -687,12 +687,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
+
+Overfull \hbox (8.68811pt too wide) in paragraph at lines 323--324
+[]\OT1/pnc/b/n/10 Laborat[]orio Na-cional de Computa[][]ao Cient[]^^Pfica @ Pet
+r[]opolis, RJ, Brazil (on-line)   \OT1/pnc/m/it/10 Oc-to-ber, 2023 \OT1/pnc/m/n
+/10 -  \OT1/pnc/m/sc/10 Ataques
+ []
+
 [4] [5]
-Overfull \hbox (12.4914pt too wide) in paragraph at lines 446--447
+Overfull \hbox (12.4914pt too wide) in paragraph at lines 459--460
 \OT1/pnc/m/n/10 Certificate in Ad-vanced En-glish (Coun-cil of Eu-rope Level C1
 ) - Cam-bridge En-glish Lan-guage As-sess-ment, 2014 
  []
@@ -713,7 +720,7 @@ Here is how much of TeX's memory you used:
 exlive/2021/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/
 2021/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on main.pdf (6 pages, 73052 bytes).
+Output written on main.pdf (6 pages, 73560 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream

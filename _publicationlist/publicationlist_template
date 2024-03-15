@@ -6,6 +6,7 @@
 
 \AtEveryBibitem{\clearlist{language}\clearname{editor}\clearname{note}}
 
+
 % --- Add bold names --- %
 
 \makeatletter
@@ -59,10 +60,29 @@
 \DeclareFieldFormat*{journaltitle}{\textsc{#1}}
 \DeclareFieldFormat*{doi}{\newline \scriptsize DOI:~\href{https://doi.org/#1}{#1}}
 
+% ---remove month and notes
+\AtEveryBibitem{\clearfield{month}\clearfield{note}}
+\AtEveryCitekey{\clearfield{month}\clearfield{note}}
+
+% --- Add notes
+\usepackage{trimspaces} % Just so it works with liquid
+% Declare entry note
+\DeclareFieldFormat{entrynote}{\\\small\textbf{\emph{\hspace{5pt} #1}}}
+
+\makeatletter
+\newrobustcmd{\addentrynote}[2]{\csdef{tohikoblx@entrynote@\the\c@refsection @\trim@spaces@noexp{#1}}{#2}}
+
+\renewbibmacro*{finentry}{\ifcsundef{tohikoblx@entrynote@\the\c@refsection @\thefield{entrykey}}
+    {}
+    {\setunit{\finentrypunct}%
+     \printtext[entrynote]{\csuse{tohikoblx@entrynote@\the\c@refsection @\thefield{entrykey}}}%
+     \renewcommand*{\finentrypunct}{}}%
+  \finentry%
+}
+
+\makeatother
 
 % --- Add all publications (in the header)
-
-
 {% for p in publications.categories %}
     \DeclareBibliographyCategory{c{{p.name}}}
     \defbibheading{c{{p.name}}}{\subsection*{ {{p.name}}} }
@@ -72,6 +92,10 @@
     {% endfor %}
 {% endfor %}
 
+% --- Add all notes
+{% for p in publications.notes %}
+    \addentrynote{ {{p.id}}}{ {{p.note}}}
+{% endfor %}
 
 % --- listing publications
 

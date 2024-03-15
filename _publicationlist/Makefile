@@ -13,7 +13,7 @@ $(NAME).pdf: $(NAME).tex $(NAME).sty $(NAME).bbl $(NAME).sty ../_cv/mycv.sty
 $(NAME).bbl: $(NAME).bcf refs.bib
 	bibtex $(NAME)
 
-$(NAME).bcf: $(NAME).sty $(NAME).tex
+$(NAME).bcf: $(NAME).tex $(NAME).sty
 	pdflatex -interaction=nonstopmode $<
 
 $(NAME).sty: $(TEMPLATE) $(DATA)/publications/* $(RENDER)
