@@ -1,5 +1,11 @@
+- journal: Nature Communications
+  year: 2024
+  nmanuscripts: 1
 - journal: Communications Medicine
   year: 2023
+  nmanuscripts: 1
+- journal: Heart
+  year: 2021
   nmanuscripts: 1
 - journal: IEEE Transactions on Automatic Control
   year: 2021
@@ -23,8 +29,8 @@
   year: 2020
   nmanuscripts: 1
 - journal: IEEE Control Systems Letters (L-CSS)
-  year: 2020
-  nmanuscripts: 1
+  year: 2020, 2024
+  nmanuscripts: 2
   note: Submited jointly for IEEE L-CSS and IEEE Conference on Decision and Control (CDC).
 - journal: Systems and Control Letters
   year: 2020

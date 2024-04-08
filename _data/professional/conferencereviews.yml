@@ -1,31 +1,25 @@
-- conference: Learning for Dynamics and Control (L4DC)
-  year: 2022
-  nmanuscripts: 1
 - conference: International Conference on Artificial Intelligence and Statistics (AISTATS)
-  year: 2022
-  nmanuscripts: 3
+  year: 2020-2024
+  nmanuscripts: 4 papers/year
 - conference: IFAC Symposium on System Identification (SysId)
-  year: 2021
-  nmanuscripts: 3
+  year: 2021, 2024
+  nmanuscripts: 2 paper/year
 - conference: Learning for Dynamics and Control (L4DC)
-  year: 2021
-  nmanuscripts: 1
+  year: 2021, 2022
+  nmanuscripts: 4 paper/year
 - conference: European Control Conference (ECC)
-  year: 2021
+  year: 2020, 2021
   nmanuscripts: 1
 - conference: IEEE Conference on Decision and Control (CDC)
-  year: 2020
-  nmanuscripts: 1
+  year: 2020, 2024
+  nmanuscripts: 1 paper / year
   note: Submited jointly for IEEE L-CSS and IEEE Conference on Decision and Control (CDC).
 - conference: IFAC World Conference
-  year: 2020
-  nmanuscripts: 1
+  year: 2017, 2020, 2023
+  nmanuscripts: 1 paper / year
 - conference: American Control Conference
-  year: 2018
-  nmanuscripts: 1
+  year: 2018, 2024
+  nmanuscripts: 1 paper / year
 - conference: International Conference on Modelling, Identification and Control
   year: 2017
-  nmanuscripts: 1
-- conference: IFAC World Conference
-  year: 2017
-  nmanuscripts: 1
+  nmanuscripts: 1 paper / year
