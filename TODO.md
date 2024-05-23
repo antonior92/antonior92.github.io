@@ -1,41 +1,10 @@
-- [x] Finishing writing _data/publications/links.yml
-- [x] Highlight my name in _pages/publi.html
-- [x] Check special characters in _pages/publi.html
-- [x] Make sure - is included properly in _pages/publi.html between additional items. 
-    Right now, when there is no doi but some additional link it does not work well.
-------   
-- [x] Update bio
-- [x] Update personal description
-------
-- [x] Create projects
-------
-- [x] Make pdf files to use pdf.html, rather then just open the pdf somewhere else?
-----
-- [ ] Add Presented both at SciLifeLab Science Summit, Uppsala (2019)  **(Best poster award)** and at the Swedish Symposium on Deep Learning - SSDL (2019)
-```
-<div class="paper" markdown="1">
-<div class="category">deep supervised learning, electrocardiography, machine learning in heath care</div>
-<span class="papertitle">**Automatic Diagnosis of Short-Duration 12-Lead ECG using a Deep Convolutional
-Network**  </span> <br />
-<span class="authors"> **Antônio H. Ribeiro**, Manoel Horta Ribeiro, Gabriela M.M. Paixão, Derick M. Oliveira, Paulo R. Gomes, Jéssica A. Canazart, Milton P. S. Ferreira, Carl R. Andersson, Peter W. Macfarlane, Wagner Meira Jr., Thomas B. Schön, Antonio Luiz P. Ribeiro </span> <br />
-<span class="conference"></span><br />
-<span class="source">
-[abstract](pdfs/abstracts/2019-SciLifeLab-abstract.pdf) -
-[poster](pdfs/posters/2019-SciLifeLab.pdf)
-</span>
-</div>
-```
-----
 # Website
 - [x] Add news section
 - [ ] Add midia session
-- [x] Improve template: allow for expanding sessions
-- [ ] Add students session
-- [ ] Better integrate teaching material with the current teaching session
-- [ ] Update research projects
-- [ ] Better way to navigate publications
-- [ ] Add abstract to all publication
-- [ ] Add figures to publications
+- [ ] Teachin sections
+- [ ] Add selected publications and publications sumarry
+- [ ] Add comments to publications (such as prizes, impact factors, citations...)
+- [ ] Update my description
 
 ----
 # Database
@@ -50,13 +19,10 @@ Keep updated database with:
 - [x] Supervision
 - [x] Additional Education
 - [ ] Midia section (not urgent)
-- [ ] Add comments to publications (such as prizes, impact factors, citations...)
+- [ ] Teachin should be reorganized so we might have different years for the same course.
   
 Research Database:
 - [x] Add external funding
-
-
-
 
 
 ----
@@ -77,11 +43,8 @@ Research Database:
 - [x] Ph.D. and M.Sc. defenses
 
 # CV info to check document
-- [ ] Clean up CV generation a bit. Create separate folders for cv, short-cv and publication list.
-- [ ] Check number of students in wasp course
-- [ ] Reverse order of publication list
-- [ ] Make sure short cv is in good shape
-- [ ] Update publication list tex 
+- [ ] Update CV according to the latest updates during recent applications
+- [ ] Add preamble to publication list.
 
 
 
