@@ -28,6 +28,10 @@ body {
   padding: 0 10px;
   width: 100%;
   padding-left: 320px;
+
+  @include mobile {
+    padding-left: 150px;
+  }
 }
 
 /* The side navigation menu */
@@ -49,6 +53,9 @@ body {
   a {
   color: $darkerGray;
   text-decoration-color: $darkerGray;
+  }
+  @include mobile {
+    width: 130px;
   }
 }
 
