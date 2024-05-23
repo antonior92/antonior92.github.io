@@ -2,6 +2,10 @@
   text: "🎬 Talk at Karolinska as part of DDLS fellows program."
   links:
     - https://news.ki.se/calendar/karolinska-institutet-ddls-fellows-public-research-seminars-with-candidates
+- date: "2023-02-19"
+  text: "📜 New paper about knowledge discovery in AI-ECG accepted in EHJ Digital Health"
+  links:
+    - https://doi.org/10.1093/ehjdh/ztae014
 - date: "2023-02-01"
   text: "✈️ I started as postdoctoral researcher at KTH Royal Institute of Technology, Sweden, "
   links:
