@@ -6,7 +6,7 @@
 name: Antônio H. Ribeiro
 
 # Short bio or description (displayed in the header)
-description: Postdoctoral fellow at Uppsala University. Interested in machine learning, signal processing and system theory.
+description:
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/16557411?s=460&v=5
@@ -17,24 +17,11 @@ avatar: https://avatars1.githubusercontent.com/u/16557411?s=460&v=5
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
-  email: antonior92@gmail.com
-  facebook:
-  flickr:
   github: antonior92
-  instagram:
   linkedin: antonior92
-  pinterest:
-  rss: # just type anything here for a working RSS icon
   twitter: ahortaribeiro
   stackoverflow: users/6941148/antonio-horta-ribeiro
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
 
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus: https-antonior92-github-io
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-123907938-1
@@ -64,9 +51,6 @@ kramdown:
   input: GFM
   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
 
 # Set the Sass partials directory, as we're using @imports
 sass:
@@ -87,7 +71,6 @@ plugins:
   - jekyll-sass-converter
   - jemoji
   - github-pages
-  - kramdown
 
 
 include:

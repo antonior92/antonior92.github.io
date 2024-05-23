@@ -1,20 +1,17 @@
 ---
-layout: page
-title:
+layout: default
+title: Teaching
 permalink: /teaching
 ---
 
 
-<div class="col-md-6"; style="text-align: center">
-<h2 style="margin: 0px 0px -5px 0px;">teaching</h2>
- <br />
-</div>
+<h1>Teaching </h1>
 
+
+<ul>
 {% for p in site.data.teaching %}
-<div class="paper" markdown="1">
-  <span class="papertitle">  <a href="{{p.link}}"> {{ p.course }}  </a> ({{ p.university }}, {{ p.year }}, {{p.semester}}).  </span>
-      <br />
-      <span class="authors"> {{ p.level}}  level course. </span> <span class="conference">  {{ p.position }}.</span>
-          <br />
-</div>
+  <li><a href="{{p.link}}"> {{ p.course }}  </a> ({{ p.university }}, {{ p.year }}, {{p.semester}}).
+       {{ p.level}}  level course.  {{ p.position }}.
+</li>
 {% endfor %}
+</ul>

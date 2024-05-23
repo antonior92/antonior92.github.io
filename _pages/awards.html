@@ -1,25 +1,14 @@
 ---
-layout: page
+layout: default
 title:
 permalink: /awards
 ---
 
 
-<div class="col-md-6"; style="text-align: center">
-<h2 style="margin: 0px 0px -5px 0px;">awards</h2>
- <br />
-</div>
+<h1>Awards</h1>
 
-
+<ul>
 {% for p in site.data.awards %}
-<details>
-  <summary> <span class="papertitle">  {{ p.award }}, {{p.grantedby}} - {{p.place}}, {{ p.year }} </span></summary>
-
-    <div class="paper" markdown="1">
-      <span class="abstract">
-        {{ p.description }}
-      </span>
-    </div>
-
-</details>
+  <li> {{ p.award }}, {{p.grantedby}} - {{p.place}}, {{ p.year }} </li>
 {% endfor %}
+</ul>

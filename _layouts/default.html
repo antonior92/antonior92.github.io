@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{{ page.title }}</title>
 
     {% include meta.html %}
 
@@ -10,43 +10,28 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
 
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
+    <div class="sidebar">
+      <h2>{{ site.name }}</h2>
+        <a href="{{ site.baseurl }}/"> Home</a> <br />
+        <a href="{{ site.baseurl }}/publications">Publications</a>  <br />
+        <a href="{{ site.baseurl }}/awards">Awards</a>  <br />
+        <a href="{{ site.baseurl }}/teaching">Teaching</a>  <br />
+        <a href="{{ site.baseurl }}/talks">Talks</a> <br />
+        <a href="{{ site.baseurl }}/datasets">Datasets</a>  <br />
+         <a href="{{ site.baseurl }}/cv">CV</a>  <br />
 
-          <div class="col-md-6"; style="text-align: center">
-            <h1 class="site-name">{{ site.name }}</h1>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">home</a>
-            <a href="{{ site.baseurl }}/publications">publications</a>
-            <a href="{{ site.baseurl }}/awards">awards</a>
-            <a href="{{ site.baseurl }}/teaching">teaching</a>
-            <a href="{{ site.baseurl }}/talks">talks</a>
-            <a href="{{ site.baseurl }}/projects">research overview</a>
-            <a href="{{ site.baseurl }}/datasets">datasets</a>
-            <a href="{{ site.baseurl }}/cv">cv</a>
-          </nav>
-            </div>
-        </header>
       </div>
-    </div>
 
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
     </div>
 
     {% include analytics.html %}

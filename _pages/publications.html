@@ -1,43 +1,41 @@
 ---
-layout: page
-title:
+layout: default
+title: Publications
 permalink: /publications
 ---
 
 
-<div class="col-md-6"; style="text-align: center">
-<h2 style="margin: 0px 0px -5px 0px;">publications</h2>
-<br />
-<span style="font-size:10pt">
+<h1>Publications</h1>
+
+
     Bibliometrics can  be found in:
 <a href="https://scholar.google.com.br/citations?user=5t_sZdMAAAAJ"> Google Scholar </a> and
 <a href="https://www.scopus.com/authid/detail.uri?authorId=57191699148">  SCOPUS </a>.
     I am also available in the following scientific databases:
     <a href="https://orcid.org/0000-0003-3632-8529"> ORCID </a>,
-    <a href="https://dblp.org/pid/202/1699.html"> DBLP </a>,
-    <a href="http://lattes.cnpq.br/0898576944135254"> Lattes </a>(in portuguese).
- <br />
-</span>
- <br />
-</div>
+    <a href="https://dblp.org/pid/202/1699.html"> DBLP </a>.
+
+
+
+
 
 {% for categories in site.data.publications.categories %}
-     <br />
-    <div class="col-md-6"; style="text-align: center">
-    <h3 style="margin: 0px 0px -5px 0px;">{{ categories.name }}</h3>
-    </div>
-    <br />
+    <h2>{{ categories.name }}</h2>
+    <table>
     {% assign pnumber = 0 %}
     {% for paper_id in categories.papers %}
         {% for paper in site.data.publications.mypapers %}
             {% if paper.id == paper_id %}
-                <div class="paper" markdown="1">
-                <div class="category"></div>
+
                     {% assign pnumber = pnumber | plus: 1 %}
 
-                <span class="papertitle"> [{{ categories.letter }}{{ pnumber }}] -  {{ paper.title }} ({{ paper.issued[0].year }}).
-                    </span>
-                <span class="authors">
+                <!-- Paper title -->
+                <tr>
+                <td style="min-width: 40px;text-align:left ;">[{{ categories.letter }}{{ pnumber }}]</td>
+                <td>{{ paper.title }} ({{ paper.issued[0].year }}).
+
+                <!-- Paper Authors -->
+                    <i>
                     {% assign var = 1 %}
                     {% for author in paper.author %}
                         {% if author.family == "Ribeiro" and author.given contains "Ant" and author.given contains "nio" and author.given contains "H"%}
@@ -47,22 +45,26 @@ permalink: /publications
                         {% endif %}
                         {% assign var = var | plus: 1 %}
                     {% endfor %}
-                </span>
-                <span class="conference"> {{ paper.container-title }}. </span>
-                <span class="source">
+                    </i>
 
-                    {% assign var = 1 %}
-                    {% unless paper.DOI == blank %}
-                        <a href="https://www.doi.org/{{ paper.DOI }}"> [doi] </a>
-                        {% assign var = var | plus: 1 %}
-                    {% endunless %}
-                    {% for addicional_info in site.data.publications.links[paper_id] %}
-                         {% unless var == 1 %} - {% endunless %} <a href="{{ addicional_info.link }}"> [{{ addicional_info.name }}] </a>
-                        {% assign var = var | plus: 1 %}
-                    {% endfor %}
-                </span>
-                </div>
+                 <!-- Paper Venue -->
+                 {{ paper.container-title }}.
+
+                <!-- Paper Conference -->
+                {% assign var = 1 %}
+                {% unless paper.DOI == blank %}
+                    <a href="https://www.doi.org/{{ paper.DOI }}"> [doi] </a>
+                    {% assign var = var | plus: 1 %}
+                {% endunless %}
+                {% for addicional_info in site.data.publications.links[paper_id] %}
+                     {% unless var == 1 %} - {% endunless %} <a href="{{ addicional_info.link }}"> [{{ addicional_info.name }}] </a>
+                    {% assign var = var | plus: 1 %}
+                {% endfor %}
+                </td>
+                </tr>
             {% endif %}
         {% endfor %}
     {% endfor %}
+
+    </table>
 {% endfor %}

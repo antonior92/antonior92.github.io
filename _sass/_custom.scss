@@ -1,49 +1,19 @@
-.authors {
-    font-size: 10px;
-    font-style: italic;
-}
-
-.conference {
-	font-size: 12px;
-}
-
-.atitle{
-	font-size: 15px;
-    font-weight: 900;
-}
-
-.papertitle{
-	font-size: 12px;
-    font-weight: 900;
-}
-
-.abstract{
-    font-size: 10px;
-    font-style: italic;
-}
-
-.titlebox{
-    float:left;
-    padding: 0px;
-    margin:-19px 0 0 10px;
-    background:#fff;
-    font-size: 12px;
-}
-
-.paper{
-    width: 90%;
-    height: auto;
-    margin: 3px auto;
-    padding: 1px;
-    position: relative;
-    border: 1px solid $lightGray;
-    line-height: 90%;
-    margin-bottom: 10px;
- }
-
 .news{
     display: table;
+    height:170px;
+    overflow:auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 9px;
+    margin-top: 0px;;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid $lightGray;
+    margin-bottom: 10px;
+    font-size: smaller;
 }
+
 
 .table_cell{
     display: table-cell;
@@ -64,29 +34,3 @@
 }
 
 
-
-.paper p {
-    padding: 0px;
-    margin: 0px;
-
-}
-
-.category{
-    float:right;
-    padding: 0px;
-    margin:-10px 0 0 0px;
-    background:#fff;
-    font-size: 10px;
-    color: $blue;
-}
-
-.source{
-    font-size: 9px;
-    padding: 0;
-    margin: 0;
-}
-
-sub {
-    font-size: 10px;
-    text-align: center;
-}

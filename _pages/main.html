@@ -1,74 +1,61 @@
 ---
-layout: page
+layout: default
 title:
 permalink: /
 ---
 
 
-<div class="col-md-6"; style="text-align: center">
-<h2 style="margin: 0px 0px -5px 0px;">about me</h2>
-    <img src="{{ site.avatar }}"; style="float:left;width:100px;border-radius: 10px; margin-top: 25px; margin-left: 25px; margin-right: 25px" />
-    <p style="text-align: left">
-        I'm a postdoctoral researcher at <a href="https://www.kth.se/">KTH royal institute of technology</a> in Sweden.
-        My work studies techniques to extract information and  learn the intrinsic behavior of
-        time series, signals and dynamical systems. I have a focus on large-scale models
-        that can perform such tasks, with a special interest in their robustness and generalization
-        capabilities.  While motivated by a range of applications, I am particularly interested in
-        the new prospects these advances can bring to medicine. In particular cardiology and
-        electrocardiography.
-    </p>
-    <br/>
+<img src="{{ site.avatar }}" style="object-position:right top;float: right;"/>
+
+<h1 style="text-align: left">About me</h1>
+
+I'm a postdoctoral researcher at <a href="https://www.kth.se/">KTH royal institute of technology</a> in Sweden.
+My work studies techniques to extract information and  learn the intrinsic behavior of
+time series, signals and dynamical systems. I have a focus on large-scale models
+that can perform such tasks, with a special interest in their robustness and generalization
+capabilities.  While motivated by a range of applications, I am particularly interested in
+the new prospects these advances can bring to medicine. In particular cardiology and
+electrocardiography.
+
+<h1>Contact</h1>
+    <strong>School of Electrical Engineering and Computer Science <br />
+    Royal Institute of Technology (KTH)</strong> <br /><br />
+    <strong>Email:</strong> <a href = "mailto: antonio.horta.ribeiro@it.uu.se">antonior92@gmail.com</a></span><br />
+    <strong>Address:</strong> Room 308, Teknikringen 14, KTH SE-100 44 Stockholm, Sweden.<br />
+
+
+
+
+
+<h1>News</h1>
+<div class="news">
+<table>
+{% for entry in site.data.news %}
+  <tr>
+    <td style="min-width: 30px;" class="datev">{{ entry.date }}</td>
+      <td style="width: 90%">
+          {{entry.text}}
+          {% if entry.link %}
+          <a href="{{entry.link}}">(link)</a>
+          {% endif %}
+          {% if entry.links %}
+                {% for l in entry.links %}
+                          <a href="{{l}}">(link)</a>
+
+                {% endfor %}
+          {% endif %}
+          {% if entry.photo %}
+           <a href="{{entry.photo}}">(photo)</a>
+          {% endif %}
+      </td>
+  </tr>
+{% endfor %}
+ </table>
 </div>
 
 
-<div class="row">
-<div  class="col-md-12" style="margin-bottom: 20px; text-align: center">
-    <h2 style="margin: 0px 0px -5px 0px;">news</h2>
-    <div class="newsbox" style="height:170px;overflow:auto;border-radius: 10px; margin-left: 25px; margin-right: 25px; margin-bottom: 5px;margin-top: 15px;;
-    display: inline-block; text-align: left; vertical-align: middle">
-    <table style="width: 100%">
-    {% for entry in site.data.news %}
-      <tr>
-        <td style="width: 20%; min-width: 75px;" class="datev">{{ entry.date }}</td>
-          <td style="width: 80%">
-              {{entry.text}}
-              {% if entry.link %}
-              <a href="{{entry.link}}">(link)</a>
-              {% endif %}
-              {% if entry.links %}
-                    {% for l in entry.links %}
-                              <a href="{{l}}">(link)</a>
-
-                    {% endfor %}
-              {% endif %}
-              {% if entry.photo %}
-               <a href="{{entry.photo}}">(photo)</a>
-              {% endif %}
-          </td>
-      </tr>
-    {% endfor %}
-     </table>
-</div>
-</div>
-</div>
-
-
-
-<div class="col-md-6"; style="text-align: center">
-<h2 style="margin: 0px 0px -5px 0px;">contact</h2>
-<span style="font-size:10pt">
-    </div>
-    <div class="paper" markdown="1">
-              <span class="abstract">
-Department of Information Technology, Division of Systems and Control, Uppsala university.<br />
-<strong>Visiting address:</strong>Room  103146 hus 10, Lägerhyddsvägen 1, Uppsala.<br />
- <strong>Postal address:</strong> Box 337 -  751 05 Uppsala <br />
- <a href="https://katalog.uu.se/profile/?id=N18-2038">Katalog</a> <br />
-</span>
-        </div>
-
-</span>
-
-<div class="col-md-6"; style="text-align: center">
-     <span class="papertitle"> <strong>Email:</strong> <a href = "mailto: antonio.horta.ribeiro@it.uu.se">antonio.horta.ribeiro@it.uu.se</a></span>
-</div>
+<h1 style="text-align: center">
+<a href="https://github.com/{{ site.footer-links.github }}"><i class="svg-icon github"> </i></a>
+<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"><i class="svg-icon linkedin"></i></a>
+<a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="svg-icon twitter"></i></i></a>
+</h1>
