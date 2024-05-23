@@ -1,3 +1,8 @@
+- name: Data-driven ECG analysis
+  date: February 2024
+  venue: Karolinska Institutet @ DDLS fellow public research seminars
+  type: invited university
+
 - name: Regularization properties of adversarially-trained linear regression
   date: December 2023
   venue: Conference on Neural Information Processing Systems (NeurIPS)

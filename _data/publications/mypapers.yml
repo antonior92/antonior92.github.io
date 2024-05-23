@@ -453,7 +453,7 @@
     - family: Kavehei
       given: Omid
   citation-key: huang_generalization_2023
-  container-title: 'Submitted to Journal of Electrocardiology (preprint: medRxiv)'
+  container-title: medRxi (Submitted to Journal of Electrocardiology)
   DOI: 10.1101/2023.07.05.23292238
   issued:
     - year: 2023
@@ -464,7 +464,6 @@
     © 2023, Posted by Cold Spring Harbor Laboratory. The copyright holder for
     this pre-print is the author. All rights reserved. The material may not be
     redistributed, re-used or adapted without the author's permission.
-  page: 2023.07.05.23292238
   source: medRxiv
   title: >-
     Generalization Challenges in ECG Deep Learning: Insights from Dataset
@@ -537,7 +536,7 @@
     - family: Ribeiro
       given: Antônio H.
     - family: Paixão
-      given: Gabriela MM
+      given: Gabriela M M
     - family: Ribeiro
       given: Manoel Horta
     - family: Filho
@@ -599,6 +598,74 @@
     Heart age gap by explainable advanced electrocardiography is associated with
     cardiovascular risk factors and survival
   type: article-journal
+
+- id: lu_decoding_2024
+  abstract: >-
+    Electrocardiogram (ECG) is widely considered the primary test for evaluating
+    cardiovascular diseases. However, the use of artificial intelligence to
+    advance these medical practices and learn new clinical insights from ECGs
+    remains largely unexplored. Utilising a dataset of 2,322,513 ECGs collected
+    from 1,558,772 patients with 7 years of follow-up, we developed a deep
+    learning model with state-of-the-art granularity for the interpretable
+    diagnosis of cardiac abnormalities, gender identification, and hyper-
+    tension screening solely from ECGs, which are then used to stratify the risk
+    of mortality. The model achieved the area under the receiver operating
+    characteristic curve (AUC) scores of 0.998 (95% confidence interval (CI),
+    0.995-0.999), 0.964 (0.963-0.965), and 0.839 (0.837-0.841) for the three
+    diagnostic tasks separately. Using ECG-predicted results, we find high risks
+    of mortality for subjects with sinus tachycardia (adjusted hazard ratio (HR)
+    of 2.24, 1.96-2.57), and atrial fibrillation (adjusted HR of 2.22,
+    1.99-2.48). We further use salient morphologies produced by the deep
+    learning model to identify key ECG leads that achieved similar performance
+    for the three diagnoses, and we find that the V1 ECG lead is important for
+    hypertension screening and mortality risk stratification of hypertensive
+    cohorts, with an AUC of 0.816 (0.814-0.818) and a univariate HR of 1.70
+    (1.61-1.79) for the two tasks separately. Using ECGs alone, our developed
+    model showed cardiologist-level accuracy in interpretable cardiac diagnosis,
+    and the advancement in mortality risk stratification; In addition, the
+    potential to facilitate clinical knowledge discovery for gender and
+    hypertension detection which are not readily available.
+  accessed:
+    - year: 2024
+      month: 2
+      day: 26
+  author:
+    - family: Lu
+      given: Lei
+    - family: Zhu
+      given: Tingting
+    - family: Ribeiro
+      given: Antonio H
+    - family: Clifton
+      given: Lei
+    - family: Zhao
+      given: Erying
+    - family: Zhou
+      given: Jiandong
+    - family: Ribeiro
+      given: Antonio Luiz P
+    - family: Zhang
+      given: Yuan-Ting
+    - family: Clifton
+      given: David A
+  citation-key: lu_decoding_2024
+  container-title: European Heart Journal - Digital Health
+  container-title-short: European Heart Journal - Digital Health
+  DOI: 10.1093/ehjdh/ztae014
+  ISSN: 2634-3916
+  issued:
+    - year: 2024
+      month: 2
+      day: 19
+  license: All rights reserved
+  page: ztae014
+  source: Silverchair
+  title: >-
+    Decoding 2.3 Million ECGs: Interpretable Deep Learning for Advancing
+    Cardiovascular Diagnosis and Mortality Risk Stratification
+  title-short: Decoding 2.3 Million ECGs
+  type: article-journal
+  URL: https://doi.org/10.1093/ehjdh/ztae014
 
 - id: lu_knowledge_2022
   abstract: >-
@@ -1596,7 +1663,7 @@
     - family: Schön
       given: Thomas B.
   citation-key: ribeiro_regularization_2023
-  container-title: Neurips (Spotlight)
+  container-title: Advances in Neural Information Processing Systems (NeurIPS)
   issued:
     - year: 2023
   title: Regularization properties of adversarially-trained linear regression
@@ -1951,6 +2018,112 @@
     Detection of Left Ventricular Systolic Dysfunction from Electrocardiographic
     Images
   type: article-journal
+
+- id: sau_artificial_2024
+  abstract: >-
+    Background and Aims Artificial intelligence-enhanced electrocardiograms
+    (AI-ECG) can be used to predict risk of future disease and mortality but has
+    not yet been adopted into clinical practice. Existing model predictions lack
+    actionability at an individual patient level, explainability and biological
+    plausibility. We sought to address these limitations of previous AI-ECG
+    approaches by developing the AI-ECG risk estimator (AIRE) platform.
+
+    Methods and Results The AIRE platform was developed in a secondary care
+    dataset of 1,163,401 ECGs from 189,539 patients, using deep learning with a
+    discrete-time survival model to create a subject-specific survival curve
+    using a single ECG. Therefore, AIRE predicts not only risk of mortality, but
+    time-to-mortality. AIRE was validated in five diverse, transnational cohorts
+    from the USA, Brazil and the UK, including volunteers, primary care and
+    secondary care subjects. AIRE accurately predicts risk of all-cause
+    mortality (C-index 0.775 (0.773-0.776)), cardiovascular (CV) death 0.832
+    (0.831-0.834), non-CV death (0.749 (0.747-0.751)), future ventricular
+    arrhythmia (0.760 (0.756-0.763)), future atherosclerotic cardiovascular
+    disease (0.696 (0.694-0.698)) and future heart failure (0.787
+    (0.785-0.889))). Through phenome- and genome-wide association studies, we
+    identified candidate biological pathways for the prediction of increased
+    risk, including changes in cardiac structure and function, and genes
+    associated with cardiac structure, biological aging and metabolic syndrome.
+
+    Conclusion AIRE is an actionable, explainable and biologically plausible
+    AI-ECG risk estimation platform that has the potential for use worldwide
+    across a wide range of clinical contexts for short- and long-term risk
+    estimation.
+
+    <img class="highwire-fragment fragment-image" alt="Figure"
+    src="https://www.medrxiv.org/content/medrxiv/early/2024/01/15/2024.01.13.24301267/F1.medium.gif"
+    width="440" height="373"/>Download figureOpen in new tab
+  accessed:
+    - year: 2024
+      month: 2
+      day: 26
+  author:
+    - family: Sau
+      given: Arunashis
+    - family: Pastika
+      given: Libor
+    - family: Sieliwonczyk
+      given: Ewa
+    - family: Patlatzoglou
+      given: Konstantinos
+    - family: Ribeiro
+      given: Antonio H.
+    - family: McGurk
+      given: Kathryn A.
+    - family: Zeidaabadi
+      given: Boroumand
+    - family: Zhang
+      given: Henry
+    - family: Macierzanka
+      given: Krzysztof
+    - family: Mandic
+      given: Danilo
+    - family: Sabino
+      given: Ester
+    - family: Giatti
+      given: Luana
+    - family: Barreto
+      given: Sandhi M.
+    - family: Camelo
+      given: Lidyane do Valle
+    - family: Tzoulaki
+      given: Ioanna
+    - family: O’Regan
+      given: Declan P.
+    - family: Peters
+      given: Nicholas S.
+    - family: Ware
+      given: James S.
+    - family: Ribeiro
+      given: Antonio Luiz P.
+    - family: Kramer
+      given: Daniel B.
+    - family: Waks
+      given: Jonathan W.
+    - family: Ng
+      given: Fu Siong
+  citation-key: sau_artificial_2024
+  DOI: 10.1101/2024.01.13.24301267
+  issued:
+    - year: 2024
+      month: 1
+      day: 15
+  language: en
+  license: >-
+    © 2024, Posted by Cold Spring Harbor Laboratory. This pre-print is available
+    under a Creative Commons License (Attribution 4.0 International), CC BY 4.0,
+    as described at http://creativecommons.org/licenses/by/4.0/
+  page: 2024.01.13.24301267
+  publisher: medRxiv
+  source: medRxiv
+  title: >-
+    Artificial intelligence–enabled electrocardiogram for mortality and
+    cardiovascular risk estimation: An actionable, explainable and biologically
+    plausible platform
+  title-short: >-
+    Artificial intelligence–enabled electrocardiogram for mortality and
+    cardiovascular risk estimation
+  type: article
+  URL: https://www.medrxiv.org/content/10.1101/2024.01.13.24301267v1
 
 - id: sau_neural_2023
   author:
