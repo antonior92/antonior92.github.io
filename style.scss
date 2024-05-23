@@ -27,7 +27,7 @@ body {
   max-width: 1400px;
   padding: 0 10px;
   width: 100%;
-  padding-left: 320px;
+  padding-left: 220px;
 
   @include mobile {
     padding-left: 150px;
@@ -36,7 +36,7 @@ body {
 
 /* The side navigation menu */
 .sidebar {
-  width: 300px;
+  width: 200px;
   background-color: #f1f1f1;
   text-align: left;
   font-size: 24 px;
