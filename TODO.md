@@ -5,6 +5,7 @@
 - [ ] Add selected publications and publications sumarry
 - [ ] Add comments to publications (such as prizes, impact factors, citations...)
 - [ ] Update my description
+- [ ] Fix google analytics
 
 ----
 # Database
