@@ -1,4 +1,4 @@
-\documentclass[10pt,letterpaper]{article} % Use the custom resume.cls style
+\documentclass[10pt,A4]{article} % Use the custom resume.cls style
 
 \usepackage{verbatim} % usefull to coment out blocs
 \usepackage{mycv}
@@ -11,191 +11,175 @@
 \begin{document}
 
 \maketitle
+\small 
+\section {Personal Information} 
 
-\begin{tcolorbox}[standard jigsaw, opacityback=0]
-    \vspace{-4pt}
-\begin{multicols}{2}
-    \small
-    \textbf{Current Position:}\\
-    \, Postdoctoral Fellow\\
-    \, Uppsala University \\
-    \, Department of Information Technology,\\
-    \, Division of Systems and Control\\
-    {\bf Work Address:} Room 103146, hus 10 \\
-    \phantom{\bf Work address:} Lägerhyddsvägen 1, Uppsala, Sweden\\
-    {\bf Postal address:} Box 337 - 751 05, Uppsala, Sweden\\
-    {\bf Email:} antonio.horta.ribeiro@it.uu.se\\
-    {\bf Website:} antonior92.github.io
-\end{multicols}
-\end{tcolorbox}
+\begin{itemize}
+\item {\bf Birthdate and place:} 1992-10-21, Brazil.
+    \item {\bf Work Address:} Room  308, Teknikringen 14, KTH SE-100 44 Stockholm, Sweden
+    \item {\bf Emails and phone number:} antonior92@gmail.com; anhr@kth.se,  + 46 70 254 42 85 \item
+      {\bf Website:} antonior92.github.io.
+\end{itemize}
 
-\section*{Academic Positions} % Section title
+\section{Academic Positions} % Section title
 
+\begin{itemize}
 {% for w in academicpositions %}
-    \cventry{ {{ w.position }} }
+    \item \shortcventry{ {{ w.position }} }
     { {{ w.start }} -   {{ w.end }}  }
-    { {{ w.institution }}  }
-    { {{ w.place }}  }
-    { {{ w.description }}}
+    { {{ w.institution }}, {{ w.place }}  }{}
 {% endfor %}
+\end{itemize}
+  
+\section{Education} % Section title
 
-\section*{Education} % Section title
-
+\begin{itemize}
 {% for e in education %}
-    \cventry{ {{ e.degree }} }
+    \item \shortcventry{ {{ e.degree }} }
     { {{ e.start }} - {{ e.end }} }
-    { {{ e.university }} }
-    { {{ e.place }} }
-    { {{ e.description }} }
+    { {{ e.university }},{{ e.place }} }{}
 {% endfor %}
+\end{itemize}
+  
 
+\section{Awards}
 
-\section*{Awards}
-
+\begin{itemize}
 {% for p in awards %}
-    \cventry{ {{ p.award }} }
+    \item \shortcventry{ {{ p.award }} }
     { {{ p.year }} }
     { {{ p.grantedby }} }
     { {{p.place}} }
     { {{ p.description }} }
 {% endfor %}
+\end{itemize}
+  
+\section{Scholarships}
 
-\section*{Scholarships}
-
+\begin{itemize}
 {% for p in scholarships %}
-    \cventry{ {{ p.name }} }
+    \item \shortcventry{ {{ p.name }} }
     { {{ p.year }} }
-    { {{ p.agency }} }
-    { {{ p.country }} }
-    { {{ p.description }} }
+    { {{ p.agency }},{{ p.country }} }
+    {  }
 {% endfor %}
+\end{itemize}
 
-\section*{Supervision}
+\section{Supervision}
 
 {% for p in supervision %}
-\subsection*{\noindent {{ p.level }} students, {{ p.role }}  }
+  \subsection{\noindent {{ p.level }}  students, {{ p.role }}  }
+  \begin{itemize}
     {% for s in p.students %}
-        \cventry{  {{ s.student }}  }
+        \item \shortcventry{  {{ s.student }}  }
         { {{ s.start }} - {{s.end}} }
-        {  }
         { {{ s.institution }}, {{ s.country }} }
-        { { {{ s.project }} } }
-        {% endfor %}
+        {  }
+     {% endfor %}
+  \end{itemize}
 {% endfor %}
 
-\section*{Longer scientific visits}
+\section{Longer scientific visits}
 
+    \begin{itemize}
     {% for p in research_visits %}
-        \cventry{ {{ p.institution }} }
+        \item \shortcventry{ {{ p.institution }} }
         { {{ p.start }} - {{ p.end }} }
-        { {{ p.description }} }
-        { {{ p.location }} }
+        { {{ p.description }}, {{ p.location }} }
         { I was hosted by {{p.host}} at the {{ p.unit }}.}
-    {% endfor %}
+        {% endfor %}
+    \end{itemize}
 
-\section*{Teaching}
+\section{Teaching}
 
+ \begin{itemize}
 {% for p in teaching %}
-    \cventry{ {{  p.course }}  }
+    \item \shortcventry{ {{  p.course }}  }
     {   {{ p.semester }} - {{ p.year }}  }
     { {{ p.university }} }
-    { {{ p.level }} level, {{ p.position }} }
-    { Course details: {{ p.nstudents }} students, {{ p.ncredits }} credits.  \emph{ {{p.role}} } }
+    {  {{ p.level }} level, {{ p.position }}. Course details: {{ p.nstudents }} students, {{ p.ncredits }} credits.  \emph{ {{p.role}} } }
     {% endfor %}
+\end{itemize}
 
 
 
+\section{Professional activity}
 
-\section*{Professional activity}
+\subsection{Peer reviewing: journal papers}
 
-\subsection*{Peer reviewing: journal papers}
+\begin{itemize}
+{% for p in professional.journalreviews %} \item {\em {{ p.journal }} } ({{ p.year }}), {% endfor %}
+\end{itemize}
 
-{% for p in professional.journalreviews %} {\em {{ p.journal }} } ({{ p.year }}), {% endfor %}
+\subsection{Peer reviewing: conference papers}
 
-\subsection*{Peer reviewing: conference papers}
+\begin{itemize}
+  {% for p in professional.conferencereviews %}
+  \item {\em {{ p.conference }} } ({{ p.year }}),
+    {% endfor %}
+\end{itemize}
+  
+\subsection{Expert assignments}
 
-{% for p in professional.conferencereviews %} {\em {{ p.conference }} } ({{ p.year }}), {% endfor %}
+\begin{itemize}  
+  {% for p in professional.others %}
+  \item {{ p.name }} \hfill {\em {{ p.year }} }
+  {% endfor %}
+\end{itemize}
 
-\subsection*{Expert assignments}
+\subsection{External examiner in PhD. and M.Sc. defenses}
 
-{% for p in professional.others %} {{ p.name }} \hfill {\em {{ p.year }} } \\ {% endfor %}
-
-\subsection*{External examiner in Ph.D. and M.Sc. defenses}
-
+\begin{itemize}
 {% for s in examiner %}
-    \cventry{  {{ s.student }} , Level: {{s.level}} }
+    \item \cventry{  {{ s.student }} , Level: {{s.level}} }
     { {{ s.date }} }
     {  }
     { {{ s.institution }}, {{ s.country }} }
     { {\it {{ s.project }} } }
 {% endfor %}
+\end{itemize}
+
+\subsection{Invited talks}
 
 
-\subsection*{Invited talks}
-
-\subsubsection*{Universities}
+\begin{itemize}
 {% for p in talks %}
-    {% if p.type == "invited university" %}
-        \shortcventry{ {{  p.venue }}  }
+    {% if p.type == "invited university" or  p.type ==  "invited conference"  %}
+        \item \shortcventry{ {{  p.venue }}  }
     { {{ p.date }} }
     { {{ p.name }}  }
     { }{}
     {% endif %}
-{% endfor %}
-
-\subsubsection*{Conferences}
-
-{% for p in talks %}
-    {% if p.type == "invited conference" %}
-        \shortcventry{ {{  p.venue }}  }
-    { {{ p.date }} }
-    { {{ p.name }}  }
-    { }{}
-    {% endif %}
-{% endfor %}
+      {% endfor %}
+\end{itemize}        
 
 
-\subsection*{Open source contributions}
 
-{\bf Scipy team member} \hfill {\em 2017 - 2021} \\
-I was one of the SciPy development team members.
-\href{https://www.scipy.org}{SciPy} is one of the core scientific libraries in Python and I was invited to the core team
-for having contributed with the implementation of signal filters
-and optimization method.
-My GitHub account: \href{https://github.com/antonior92}{https://github.com/antonior92}
-contain a complete list of my open-source contributions.
 
-\section*{Additional work experience} % Section title
 
+\section{Additional work experience} % Section title
+
+\subsection{Open source development}
+
+\begin{itemize}
+\item \shortcventry{ \href{https://www.scipy.org}{SciPy} team member }
+  {}
+  {\em 2017 - 2021}{}
+  {}
+\end{itemize}
+
+\subsection{Others}
+\begin{itemize}
+  
 {% for w in work %}
-    \cventry{ {{ w.position }} }
+    \item \shortcventry{ {{ w.position }} }
     { {{ w.start }} -   {{ w.end }} }
     { {{ w.institution }} }
     { {{ w.place }} }
     { {{ w.description }} }
 {% endfor %}
+\end{itemize} 
 
-
-\section*{Additional education}
-
-{% for p in additionaleducation %}
-    \cventry{ {{ p.name }} }
-    {\em  {{ p.year }} }
-    { {{ p.institution }} }
-    { {{ p.place }} }
-    { {{ p.description }} }
-{% endfor %}
-
-\section*{Languages}
-
-Portuguese (mother tongue)\\
-English (fluent)\\
-Spanish (intermediate knowledge)\\
-Swedish (elementary knowledge)
-
-\subsubsection*{Language certificates}
-
-Certificate in Advanced English (Council of Europe Level C1) - Cambridge English Language Assessment, 2014
 
 
 
