@@ -1,22 +1,27 @@
 - position: Postdoctoral Associate
   start: Fev. 2022
-  end: Now
+  end: May 2024
   institution: KTH Royal Institute of Technology
   place: Stockholm, Sweden
-  description: I am working under the supervision of Danica Kragic on the project D2SMELL.
+  note: Hosted by Danica Kragic.
 - position: Postdoctoral Fellow
   start: Fev. 2021
   end: Jan. 2023
-  institution: Department of Information Technology, Uppsala University
-  place: Uppsala, Sweden
-  description: I am working under the supervision of Thomas Schön on the intersection of
-    machine learning, signal processing, and control theory.
+  institution: Uppsala University
+  country: Sweden
+  city: Uppsala
+  note: Hosted by Thomas Schön
+- position: Visiting Researcher
+  start: Mar 2023
+  end: June 2023
+  institution: INRIA
+  country: Sweden
+  city: Paris
+  note: Hosted by Francis Bach.
 - position: Postdoctoral Associate
   start: Mar. 2020
   end: Fev. 2021
-  institution: Department of Computer Science, UFMG
-  place: Belo Horizonte, Brasil
-  description: I worked on developing new machine learning algorithms and studying
-    its application to engineering and health care. My position was funded by the
-    Brasilian Agency CAPES, through the institutional internalization program (PRINT).
-    I funded my own with money obtained from an open call from the Brazilian Agency CAPES.
+  institution: UFMG
+  country: Brazil
+  city: Belo Horizonte
+  note: Funded by CAPES PRiNT

@@ -1,5 +1,9 @@
 
-\usepackage[margin=1.4cm]{geometry} % Document margins
+\usepackage[a4paper,
+ total={180mm,257mm},
+ left=15mm,
+ top=15mm,
+ footskip=15mm]{geometry} % Document margins
 
 \usepackage{newcent}
 \usepackage{multicol} % For multicol at the start
@@ -24,16 +28,16 @@
 \usepackage{titlesec}
 % Title format
 \titleformat{\section}
-  {\normalfont\Large\bfseries}{\thesection.}{1em}{}
+  {\normalfont\large\bfseries}{}{1em}{}[\vspace{-5pt}\hspace{0.02\textwidth}\rule{0.98\textwidth}{0.6mm}]
 \titleformat{\subsection}
-{\normalfont\large\bfseries}{\thesubsection)}{1em}{}
+{\normalfont\normalsize\bfseries}{}{1em}{}
 \titleformat{\subsubsection}[runin]
-{\normalfont\normalsize\bfseries}{\thesubsubsection)}{1em}{}[.]
+{\normalfont\normalsize\bfseries}{}{1em}{}[.]
 % Only show last number in subsection
 \renewcommand\thesection{\arabic{section}}
 \renewcommand\thesubsection{\Alph{subsection}}
 % Title spacing
-\titlespacing{\section}{0pt}{*1.5}{*1}
+\titlespacing{\section}{0pt}{*2}{*1}
 \titlespacing{\subsection}{5pt}{*1.5}{*1}
 \titlespacing{\subsubsection}{5pt}{*1}{*1}
 
