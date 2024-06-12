@@ -1,6 +1,7 @@
 - name: Journal articles
   letter: J
   papers:
+      - huang_generalization_2024
       - lu_decoding_2024
       - ribeiro_overparameterized_2023
       - zvuloni_merging_2023
@@ -62,7 +63,6 @@
   letter: P
   papers:
       - pillonetto_deep_2023
-      - huang_generalization_2023
       - sau_neural_2023
       - gedon_no_2023
       - vonbachmann_ecgbased_2022
