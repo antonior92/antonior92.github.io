@@ -1,0 +1,71 @@
+---
+layout: default
+title:
+permalink: /group
+---
+
+
+<h1>Students</h1>
+
+<h2>Join my group:</h2>
+
+I recently joined Uppsala University as Assistant Professor and I am expanding my group.
+We work on machine learning, signal processing and automatic control. Developing basic theory
+and creating new applications in medicine.
+
+
+</br></br>
+
+<strong>Upcoming position:</strong>
+<ul>
+    <li> Post-doctoral researcher -  To be announced in August 2024. </li>
+    <li> PhD student - To be announced in August 2024.</li>
+</ul>
+
+<strong>MSc project:</strong>
+MSc projects will be listed in summer 2024.
+
+
+
+
+
+
+
+{% for p in site.data.supervision %}
+<h2> Previous {{ p.level }} students </h2>
+    <ul>
+    {% for s in p.students %}
+        <li> {{ s.student }} .  <i>{{ s.start }} - {{s.end}}.</i> <strong>{{ s.institution }} ({{ s.role}}), {{ s.country }}</strong></li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+
+
+
+<h1> Updates from students</h1>
+<div class="news">
+<table>
+{% for entry in site.data.news %}
+    {% if entry.tag == "student" %}
+  <tr>
+    <td style="min-width: 30px;" class="datev">{{ entry.date }}</td>
+      <td style="width: 90%">
+          {{entry.text}}
+          {% if entry.link %}
+          <a href="{{entry.link}}">(link)</a>
+          {% endif %}
+          {% if entry.links %}
+                {% for l in entry.links %}
+                          <a href="{{l}}">(link)</a>
+
+                {% endfor %}
+          {% endif %}
+          {% if entry.photo %}
+           <a href="{{entry.photo}}">(photo)</a>
+          {% endif %}
+      </td>
+  </tr>
+     {% endif %}
+{% endfor %}
+ </table>
+</div>

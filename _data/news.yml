@@ -1,97 +1,152 @@
+
+- date: "2023-07-19"
+  text: "📜 New paper at ICML. We provide a  high-dimensional analysis of PCA + Linear regression (PCR)."
+  links:
+    - https://openreview.net/forum?id=M4ejBhNNrn
+  tag: publication
 - date: "2023-06-25"
   text: "📜 Two new papers: npj Digital Medicine and Scietific Reports. AI-ECG for predicting electrolytes and cardiometabolic disease."
   links:
     - https://www.nature.com/articles/s41746-024-01170-0
     - https://www.nature.com/articles/s41598-024-65223-w
-
+  tag: publication
+- date: "2023-06-14"
+  text: "🎓 Daniel Gedon successfully defended his PhD thesis. His thesis include publications on ICML, UAI, Scientific Reports and IEEE Signal Processing Letters.
+    Next he is going to Tübingen University, Germany, as a PostDoc."
+  links:
+    - https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1849417&dswid=9268
+  tag: student
 - date: "2023-06-05"
   text: "📜 New paper about generalization of deep learning in AI-ECG."
   links:
     - https://www.tandfonline.com/doi/full/10.1080/14796678.2024.2354082
+  tag: publication
 
 - date: "2023-06-01"
   text: "👨🏻‍🏫 I started as Assistant Professor at Uppsala University"
   links:
     - https://www.uu.se/
+  tag: cv
+
+- date: "2023-05-31"
+  text: "🎓 Arvid Eriksson successfully defended his MSc thesis. His master thesis generated a paper that will be presented in Computer in Cardiology 2024. He also got a position at KTH as a PhD Student."
+  links:
+    - https://cinc.org/2024/Program/accepted/96.html
+  tag: student
 
 - date: "2023-02-20"
   text: "🎬 Talk at Karolinska as part of DDLS fellows program."
   links:
     - https://news.ki.se/calendar/karolinska-institutet-ddls-fellows-public-research-seminars-with-candidates
+  tag: talk
+
 - date: "2023-02-19"
   text: "📜 New paper about knowledge discovery in AI-ECG accepted in EHJ Digital Health"
   links:
     - https://doi.org/10.1093/ehjdh/ztae014
+  tag: publication
+
+
 - date: "2023-02-01"
   text: "✈️ I started as postdoctoral researcher at KTH Royal Institute of Technology, Sweden, "
   links:
     - https://www.kth.se/is/rpl
+  tag: cv
+
 - date: "2023-10-30"
   text: "🎬 I present my work in the seminar series from the National Laboratory of Scientific  Computing (Brazil)"
   links:
     - https://www.youtube.com/watch?v=BpkB5IE5bms
+  tag: talk
+
 - date: "2023-10-05"
   text: "📜 New paper accepted at NeurIPS as a spotlight."
   links:
     - https://nips.cc/virtual/2023/poster/72028
+  tag: publication
+
 - date: "2023-10-01"
   text: "📜 New publications at Journal of Electrocardiology: Risk Prediction of Atrial Fibrillation from the 12-Lead ECG by a Deep neural network."
   links:
     - habineza_endtoend_2023
+  tag: publication
+
 - date: "2023-09-25"
   text: "🎬 I presented my work on the European Research Network System Identification (ENRSI) workshop in Stockholm "
   links:
     - https://www.kth.se/ernsi2023
+  tag: talk
+
 - date: "2023-07-27"
   text: "📜 Two new publications: one at Circulation and one at the European Heart Journal Digital Health."
   links:
     - https://doi.org/10.1093/ehjdh/ztad045
     - https://doi.org/10.1093/ehjdh/ztad045
+  tag: publication
+
 - date: "2023-07-05"
   text: "✈️ I visited Fu Siong group at Imperial college for one week."
   links:
     - images/some_pictures/2023-ImperialCollege.jpeg
     - pdfs/slides/2023-ImperialCollege.pdf
+  tag: cv
 
 - date: "2023-07-04"
   text: "📜 Two new publications using AI-augmented ECG: screening for Chagas disease patients and using age estimated by AI-ECG as a biomarker of cardiovascular risk "
   links:
     - https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0011118
     - https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.122.009821
+  tag: publication
 
 - date: "2023-05-24"
   text: "🎬 Two online talks today. One at PUC-Rio-Brazil and one at IEEE EMBS Germany Chapter in Göttingen!."
   links:
     - pdfs/slides/2023-PUCRio.pdf
     - pdfs/slides/2023-IEEE-EMBS.pdf
+  tag: talk
 
 - date: "2023-05-12"
   text: "📜 Paper accepted at IEEE Signal Processing Letters. Invertible Kernel PCA with Random Fourier Features"
   link: https://ieeexplore.ieee.org/document/10123002
+  tag: publication
 
 - date: "2023-04-04"
   text: "📜 Paper accepted at Frontiers in Cardiovascular Medicine. Association of lifestyle with deep-learning based ECG-age"
   link: https://www.frontiersin.org/articles/10.3389/fcvm.2023.1160091/abstract
+  tag: publication
 
 - date: "2023-02-15"
   text: "📜 Paper accepted at IEEE Transactions on Signal Processing. Overparameterized Linear Regression under Adversarial Attacks"
   link: https://arxiv.org/abs/2204.06274
+  tag: publication
 
 - date: "2023-01-25"
   text: "📜 Paper accepted at IEEE Transactions on Biomedical Engineering. On Merging Feature Engineering and Deep Learning"
   link: https://ieeexplore.ieee.org/document/10025679
+  tag: publication
 
 - date: "2022-11-25"
   text: "✈️ I was awarded the ELISE Mobility Grant for a research visit to Francis Bach group at ENS/INRIA during Spring 2023."
+  tag: cv
 
 - date: "2022-11-24"
   text: "🎬 Talk at Aalto University and ELLIS unit Helsinki! \"Adversarial Attacks in Linear Regression\"."
   link: https://aaltoml.github.io/apml/
+  tag: talk
 
 - date: "2022-11-15"
   text: "📜 Paper accepted at Scientific Reports. Deep learning ECG-based prediction of myocardial infarction"
   link: https://www.nature.com/articles/s41598-022-24254-x
+  tag: talk
 
 - date: "2022-08-15"
   text: "🏆 I received the Benzelius Award! From the Royal Academy of Sciences in Uppsala "
   photo: images/some_pictures/2022-benzeliusaward.jpeg
+  tag: cv
+
+- date: "2022-06-29"
+  text: "🎓 Theogene Habineza successfully defended his MSc thesis. His master thesis generated a paper accepted for publication in Journal of Electrocadiography."
+  links:
+    - https://www.sciencedirect.com/science/article/pii/S0022073623002200?via%3Dihub
+    - https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1684444&dswid=-4924
+  tag: student

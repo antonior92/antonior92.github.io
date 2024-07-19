@@ -1,5 +1,4 @@
 - level: Ph.D.
-  role: co-supervisor
   students:
     - student: Daniel Gedon
       project: Disentangled Representation Learning in Self-Supervised Models
@@ -7,9 +6,9 @@
       start: Aug. 2019
       end: June 2024
       institution: Uppsala University
+      role: co-supervisor
       country: Sweden
 - level: M.Sc.
-  role: supervisor
   students:
     - student: Arvid Eriksson
       status: In progress
@@ -17,6 +16,7 @@
       end: June 2024
       project: Adversarial training for the diagnosis of the  ECG
       institution: KTH
+      role: supervisor
       country: Sweden
     - student: Oscar Larsson
       status: In progress
@@ -24,6 +24,7 @@
       end: July 2022
       project: Generation and Detection of Adversarial Attacks in the Power Grid
       institution: Uppsala University
+      role: supervisor
       country: Sweden
       thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1679176
     - student: Theogene Habineza
@@ -32,17 +33,16 @@
       end: June 2022
       project: Deep Learning-Based Risk Prediction of Atrial Fibrillation Using the 12-lead ECG
       institution: Uppsala University
+      role: supervisor
       country: Sweden
       thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1684444
-- level: M.Sc.
-  role: subject reviewer
-  students:
     - student: Johan Millberg
       role: subject reviwer (ämnesgranskare)
       level: MSc
       status: In progress
       start: Jan. 2023
       end: June 2023
+      role: subject reviewer
       project:  Evaluating clusters of financial time series
       institution: Uppsala University
       country: Sweden
@@ -53,6 +53,7 @@
       status: Complete
       start: Jan. 2022
       end: June 2022
+      role: subject reviewer
       project: An extension to Semi-Supervised Learning using Shapley Value Data Valuation
       institution: Uppsala University
       country: Sweden
@@ -63,5 +64,6 @@
       end: Apr. 2022
       project: Automated Accounting using Machine Learning
       institution: Uppsala University
+      role: subject reviewer
       country: Sweden
       thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1666083
