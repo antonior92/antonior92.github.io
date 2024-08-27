@@ -1,6 +1,9 @@
 - name: Journal articles
   letter: J
   papers:
+      - pillonetto_deep_2023
+      - pastika_artificial_2024
+      - vonbachmann_evaluating_2022
       - huang_generalization_2024
       - lu_decoding_2024
       - ribeiro_overparameterized_2023
@@ -29,6 +32,8 @@
 - name: Conference papers
   letter: C
   papers:
+      - eriksson_transferability_2024
+      - gedon_no_2024
       - ribeiro_regularization_2023
       - hendriks_deep_2021
       - ribeiro_occam_2021b
@@ -62,17 +67,7 @@
 - name: Working manuscripts
   letter: P
   papers:
-      - pillonetto_deep_2023
-      - sau_neural_2023
-      - gedon_no_2023
-      - vonbachmann_ecgbased_2022
-      - pillonetto_deep_2023
       - sau_artificial_2024
+      - sau_neural_2023
 
 
-- name: Thesis
-  letter: T
-  papers:
-      - ribeiro_learning_2020
-      - ribeiro_recurrent_2017
-      - ribeiro_implementacao_2015
