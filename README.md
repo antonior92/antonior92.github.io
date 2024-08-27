@@ -7,7 +7,18 @@ from [Starefossen/docker-github-pages](https://github.com/Starefossen/docker-git
 
 That is just run:
 ```
-docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
+git clone https://github.com/github/pages-gem.git .
+cd pages-gem
+make image
+cd ..
+rm -rf pages-gem
+
+
+docker run --rm -it \
+    -p 4000:4000 \
+    -v ${PWD}:/src/site \
+    gh-pages \
+    sh -c "bundle install && bundle exec jekyll serve -H 0.0.0.0 -P 4000"
 ```
 Your Jekyll page will be available on `http://localhost:4000`.
 
