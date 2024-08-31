@@ -1,4 +1,7 @@
-
+- date: "2023-07-19"
+  text: "📝 I am hiring! New fully funded PhD position on statistical learning and system identification."
+  links:
+    - ./group
 - date: "2023-07-19"
   text: "📜 New paper at ICML. We provide a  high-dimensional analysis of PCA + Linear regression (PCR)."
   links:

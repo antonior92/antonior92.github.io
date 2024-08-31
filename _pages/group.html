@@ -5,34 +5,49 @@ permalink: /group
 ---
 
 
-<h1>Students</h1>
-
-<h2>Join my group:</h2>
+<h1>Join my group:</h1>
 
 I recently joined Uppsala University as Assistant Professor and I am expanding my group.
 We work on machine learning, signal processing and automatic control. Developing basic theory
 and creating new applications in medicine.
 
-
 </br></br>
 
-<strong>Upcoming position:</strong>
-<ul>
-    <li> Post-doctoral researcher -  To be announced in August 2024. </li>
-    <li> PhD student - To be announced in August 2024.</li>
-</ul>
+<p class="ta-colorbox">
+        <strong>PhD student in Automatic Control focusing on robust statistical learning and system identification.</strong></br>
 
-<strong>MSc project:</strong>
-MSc projects will be listed in summer 2024.
+        <i>Are you interested in conducting research in system identification and statistical learning? </i>
+        We are looking for candidates with a background in engineering/computer science/applied mathematics or similar and a keen interest in developing
+        new robust methods for learning from data and applying them to medicine.</br>
+
+        <strong>Apply by:</strong> 	09.Oct.2024.</br>
+    <strong><a href="https://uu.varbi.com/en/what:job/jobID:749528/">Apply here</a></strong> </br>
+</p>
+</br>
+
+
+<p class="ta-colorbox">
+        <strong> (Upcoming) Postdoctoral researcher in Automatic Control focusing on system identification and statistical learning.</strong></br>
+
+        <i>Are you interested in conducting research in system identification and statistical learning? </i>
+        We are looking for candidates with a PhD in engineering/computer science/applied mathematics or similar and a keen interest in developing
+        methods for learning from data and applying them to automatic diagnosis from phisiological data.</br>
+
+
+    <strong>Announcement will be released in the first half of september</strong> </br>
+</p>
 
 
 
+</br>
 
 
 
+<hr>
+<h1>Previous students:</h1>
 
 {% for p in site.data.supervision %}
-<h2> Previous {{ p.level }} students </h2>
+<h2> {{ p.level }} students </h2>
     <ul>
     {% for s in p.students %}
         <li> {{ s.student }} .  <i>{{ s.start }} - {{s.end}}.</i> <strong>{{ s.institution }} ({{ s.role}}), {{ s.country }}</strong></li>

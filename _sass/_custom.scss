@@ -36,3 +36,17 @@
 }
 
 
+
+
+/* notification colorbox */
+.ta-colorbox {
+overflow: hidden;
+position: relative;
+margin: .1rem 0 0.4rem;
+transition: box-shadow.25 s;
+border-radius: 0.1px;
+background: $lightGray;
+border: 1px solid $black;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+padding: 20px
+}
