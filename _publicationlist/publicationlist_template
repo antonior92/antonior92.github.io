@@ -103,7 +103,7 @@
 {
     {% for p in publications.categories %}
     \subsection*{ {{p.name}}}
-    \newrefcontext[labelprefix={% cycle "P", "PJ", "J", "C", "W", "N", "T" %} ]
+    \newrefcontext[labelprefix={{p.letter}} ]
     \printbibliography[category=c{{p.name}}, heading=none]
     {% endfor %}
 }

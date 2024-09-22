@@ -7,7 +7,7 @@ from [Starefossen/docker-github-pages](https://github.com/Starefossen/docker-git
 
 That is just run:
 ```
-git clone https://github.com/github/pages-gem.git .
+git clone https://github.com/github/pages-gem.git
 cd pages-gem
 make image
 cd ..
