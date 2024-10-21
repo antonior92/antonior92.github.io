@@ -1,7 +1,7 @@
 - name: Journal articles
   letter: J
   papers:
-      - pillonetto_deep_2023
+      - pillonetto_deep_2025
       - pastika_artificial_2024
       - vonbachmann_evaluating_2022
       - huang_generalization_2024
@@ -32,6 +32,7 @@
 - name: Conference papers
   letter: C
   papers:
+      - taleb_can_2024
       - eriksson_transferability_2024
       - gedon_no_2024
       - ribeiro_regularization_2023

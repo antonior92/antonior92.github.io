@@ -1,3 +1,27 @@
+- projectname: "Digital Biomarkers from the Electrocardiogram using Artificial Intelligence"
+  year: 2024
+  role: Main applicant
+  ammount:  2 million SEK
+  ammount-sek: 2 million SEK
+  agencies: eSSENCE/ SCilifelab
+  country: Sweden
+  description:
+    Electrocardiogram (ECG) has been widely used to diagnose various cardiovascular diseases for
+    over a century. Recent work from us and others have leveraged large medical cohorts and the latest
+    developments in artificial intelligence (AI) to construct models that can predict diverse cardiovascular
+    outcomes from the ECG. It has been shown that the prediction of these AI-ECG models contains more
+    information than trained cardiologists can see and that they can be predictive of diverse outcomes. For
+    instance, a model that can predict the development of atrial fibrillation within 5 years from normal ECGs.
+    High standards of validation are needed to establish risk markers that can guide clinical action. This
+    project intends to present methodological and practical developments that can allow AI-ECG to be used
+    effectively as risk markers in clinical practice. The project is organized in subprojects that intend to
+    I) test the added value to traditional risk score; II) develop time-to-event models; III) provide clinical
+    validation in randomized and in-clinics scenarios.
+    The subprojects have a dual goal, on the one hand, we intend to develop new methods and theories for
+    AI through clinical questions. On the other hand, we intend to help building and validate AI-ECG tools.
+    By addressing both in the same project we want to generate synergy between basic machine learning
+    and medical development. We also want to educate a PhD student in interdisciplinary
+
 - projectname: "AI-ECG: applications of artificial intelligence to the electrocardiogram"
   year: 2022
   role: Co-applicant

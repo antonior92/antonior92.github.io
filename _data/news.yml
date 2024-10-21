@@ -1,5 +1,13 @@
+- date: "2023-09-30"
+  text: "📜 New survey on the Deep learning for System identification at Automatica."
+  links:
+    - https://www.sciencedirect.com/science/article/pii/S0005109824004011?via%3Dihub
+- date: "2023-09-26"
+  text: "📜 New paper at NeurIPS (spotlight). Pre-trained transformers are aligned with Human olfactory perception."
+  links:
+    - https://nips.cc/virtual/2024/poster/96729
 - date: "2023-07-19"
-  text: "📝 I am hiring! New fully funded PhD position on statistical learning and system identification."
+  text: "📝 I am hiring! Two new fully funded PhD position and one postdoc position."
   links:
     - ./group
 - date: "2023-07-19"
