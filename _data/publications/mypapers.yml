@@ -135,7 +135,7 @@
       given: Arvid
     - family: Schön
       given: Thomas B
-    - family: RIbeiro
+    - family: Ribeiro
       given: Antonio H
   citation-key: eriksson_transferability_2024
   container-title: Computers in Cardiology (CinC)
@@ -2496,3 +2496,113 @@
     Risk-Prediction and Age Estimation Based on the 12-Lead ECG
   type: article-journal
   URL: http://arxiv.org/abs/2207.06096
+
+- id: sau_artificial_2024a
+  abstract: >-
+    Summary
+
+    Background
+
+    Artificial intelligence (AI)-enabled electrocardiography (ECG) can be used
+    to predict risk of future disease and mortality but has not yet been adopted
+    into clinical practice. Existing model predictions do not have actionability
+    at an individual patient level, explainability, or biological plausibi. We
+    sought to address these limitations of previous AI-ECG approaches by
+    developing the AI-ECG risk estimator (AIRE) platform.
+
+    Methods
+
+    The AIRE platform was developed in a secondary care dataset (Beth Israel
+    Deaconess Medical Center [BIDMC]) of 1 163 401 ECGs from 189 539 patients
+    with deep learning and a discrete-time survival model to create a
+    patient-specific survival curve with a single ECG. Therefore, AIRE predicts
+    not only risk of mortality, but also time-to-mortality. AIRE was validated
+    in five diverse, transnational cohorts from the USA, Brazil, and the UK (UK
+    Biobank [UKB]), including volunteers, primary care patients, and secondary
+    care patients.
+
+    Findings
+
+    AIRE accurately predicts risk of all-cause mortality (BIDMC C-index 0·775,
+    95% CI 0·773–0·776; C-indices on external validation datasets 0·638–0·773),
+    future ventricular arrhythmia (BIDMC C-index 0·760, 95% CI 0·756–0·763; UKB
+    C-index 0·719, 95% CI 0·635–0·803), future atherosclerotic cardiovascular
+    disease (0·696, 0·694–0·698; 0·643, 0·624–0·662), and future heart failure
+    (0·787, 0·785–0·789; 0·768, 0·733–0·802). Through phenome-wide and
+    genome-wide association studies, we identified candidate biological pathways
+    for the prediction of increased risk, including changes in cardiac structure
+    and function, and genes associated with cardiac structure, biological
+    ageing, and metabolic syndrome.
+
+    Interpretation
+
+    AIRE is an actionable, explainable, and biologically plausible AI-ECG risk
+    estimation platform that has the potential for use worldwide across a wide
+    range of clinical contexts for short-term and long-term risk estimation.
+
+    Funding
+
+    British Heart Foundation, National Institute for Health and Care Research,
+    and Medical Research Council.
+  author:
+    - family: Sau
+      given: Arunashis
+    - family: Pastika
+      given: Libor
+    - family: Sieliwonczyk
+      given: Ewa
+    - family: Patlatzoglou
+      given: Konstantinos
+    - family: Ribeiro
+      given: Antônio H
+    - family: McGurk
+      given: Kathryn A
+    - family: Zeidaabadi
+      given: Boroumand
+    - family: Zhang
+      given: Henry
+    - family: Macierzanka
+      given: Krzysztof
+    - family: Mandic
+      given: Danilo
+    - family: Sabino
+      given: Ester
+    - family: Giatti
+      given: Luana
+    - family: Barreto
+      given: Sandhi M
+    - family: Camelo
+      given: Lidyane do V.
+    - family: Tzoulaki
+      given: Ioanna
+    - family: O'Regan
+      given: Declan P
+    - family: Peters
+      given: N. S
+    - family: Ware
+      given: J. S
+    - family: Ribeiro
+      given: A. L. P
+    - family: Kramer
+      given: D. B
+    - family: Waks
+      given: J. W
+    - family: Ng
+      given: Fu S.
+  citation-key: sau_artificial_2024a
+  container-title: The Lancet Digital Health
+  container-title-short: The Lancet Digital Health
+  DOI: 10.1016/S2589-7500(24)00172-9
+  ISSN: 2589-7500
+  issue: '11'
+  issued:
+    - year: 2024
+      month: 11
+      day: 1
+  page: e791-e802
+  title: >-
+    Artificial intelligence-enabled electrocardiogram for mortality and
+    cardiovascular risk estimation: a model development and validation study
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S2589750024001729
+  volume: '6'

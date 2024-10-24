@@ -1,3 +1,7 @@
+- date: "2023-10-24"
+  text: "📜 New survey Paper on Lancet Digital Health. We develop and validate a new AI-ECG cardiovascular risk estimator,"
+  links:
+    - https://doi.org/10.1016/S2589-7500(24)00172-9
 - date: "2023-09-30"
   text: "📜 New survey on the Deep learning for System identification at Automatica."
   links:

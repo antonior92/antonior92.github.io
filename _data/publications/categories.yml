@@ -1,6 +1,7 @@
 - name: Journal articles
   letter: J
   papers:
+      - sau_artificial_2024a
       - pillonetto_deep_2025
       - pastika_artificial_2024
       - vonbachmann_evaluating_2022
@@ -68,7 +69,6 @@
 - name: Working manuscripts
   letter: P
   papers:
-      - sau_artificial_2024
       - sau_neural_2023
 
 
