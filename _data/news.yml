@@ -13,22 +13,22 @@
   text: "📜 New paper at NeurIPS (spotlight). Pre-trained transformers are aligned with Human olfactory perception."
   links:
     - https://nips.cc/virtual/2024/poster/96729
-- date: "2023-07-19"
+- date: "2024-07-19"
   text: "📝 I am hiring! Two new fully funded PhD position and one postdoc position."
   links:
     - ./group
-- date: "2023-07-19"
+- date: "2024-07-19"
   text: "📜 New paper at ICML. We provide a  high-dimensional analysis of PCA + Linear regression (PCR)."
   links:
     - https://openreview.net/forum?id=M4ejBhNNrn
   tag: publication
-- date: "2023-06-25"
+- date: "2024-06-25"
   text: "📜 Two new papers: npj Digital Medicine and Scietific Reports. AI-ECG for predicting electrolytes and cardiometabolic disease."
   links:
     - https://www.nature.com/articles/s41746-024-01170-0
     - https://www.nature.com/articles/s41598-024-65223-w
   tag: publication
-- date: "2023-06-14"
+- date: "2024-06-14"
   text: "🎓 Daniel Gedon successfully defended his PhD thesis. His thesis include publications on ICML, UAI, Scientific Reports and IEEE Signal Processing Letters.
     Next he is going to Tübingen University, Germany, as a PostDoc."
   links:
@@ -52,7 +52,7 @@
     - https://cinc.org/2024/Program/accepted/96.html
   tag: student
 
-- date: "2023-02-20"
+- date: "2024-02-20"
   text: "🎬 Talk at Karolinska as part of DDLS fellows program."
   links:
     - https://news.ki.se/calendar/karolinska-institutet-ddls-fellows-public-research-seminars-with-candidates
