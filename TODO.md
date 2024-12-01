@@ -1,9 +1,9 @@
 # Website
--  Add midia session
-- Add selected publications and publications sumarry
-- Add comments to publications (such as prizes, impact factors, citations...)
+-  maybe use Jenkyll Scholar
+- Add midia session
+- Add selected publications and publications summary
 - Fix google analytics
-- maybe use Jenkyll Scholar
+- 
 - []
 
 
