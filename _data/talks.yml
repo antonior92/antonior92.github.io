@@ -1,3 +1,18 @@
+- name: Linear Adversarial Training From Toyproblem to Clinical Use
+  date: Novemeber 2024
+  venue: INRIA Paris, France @ SIERRA team
+  type: invited university
+  slides: https://docs.google.com/presentation/d/1af8cVyxCSc7njCJhx-mA_QJKYhRbVdfr-GG0Aqp9yDY/edit?usp=sharing
+  abstract: >-
+    Adversarial training can be used to develop models that are robust against perturbations. 
+    In my talk, I present analytical tools for examining these models in linear settings. First,
+    I demonstrate how these models provide valuable insights into robust double-descent phenomena. 
+    Next, I discuss recent advancements that reveal these models' potential to extend beyond 
+    theoretical applications and compete with traditional methods for high-dimensional
+    linear-in-the-parameter estimation. Finally, I explore potential applications in precision 
+    medicine, detailing plans to integrate this approach with my ongoing work on machine 
+    learning-derived patient risk markers from medical exams, which are now advancing to clinical 
+    trials.
 - name: Neural Networks for System Identification
   date: October 2024
   venue: Uppsala University @ Guest Lecture System identification

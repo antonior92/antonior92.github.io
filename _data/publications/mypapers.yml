@@ -135,7 +135,7 @@
       given: Arvid
     - family: Schön
       given: Thomas B
-    - family: Ribeiro
+    - family: RIbeiro
       given: Antonio H
   citation-key: eriksson_transferability_2024
   container-title: Computers in Cardiology (CinC)
@@ -727,6 +727,62 @@
     Networks
   type: article-journal
   URL: https://www.medrxiv.org/content/10.1101/2022.11.01.22281722v1
+
+- id: mcgurk_genetic_2024
+  abstract: >-
+    Cardiac trabeculae form a network of muscular strands that line the inner
+    surfaces of the heart. Their development depends on multiscale morphogenetic
+    processes and, while highly conserved across vertebrate evolution, their
+    role in the pathophysiology of the mature heart is not fully understood.
+    Here we report variant associations across the allele frequency spectrum for
+    trabecular morphology in 47,803 participants of the UK Biobank using fractal
+    dimension analysis of cardiac imaging. We identified an association between
+    trabeculation and rare variants in 56 genes that regulate myocardial
+    contractility and ventricular development. Genome-wide association studies
+    identified 68 loci in pathways that regulate sarcomeric function,
+    differentiation of the conduction system and cell fate determination. We
+    found that trabeculation-associated variants were modifiers of
+    cardiomyopathy phenotypes with opposing effects in hypertrophic and dilated
+    cardiomyopathy. Together, these data provide insights into mechanisms that
+    regulate trabecular development and plasticity, and identify a potential
+    role in modifying monogenic disease expression.
+  author:
+    - family: McGurk
+      given: Kathryn A.
+    - family: Qiao
+      given: Mengyun
+    - family: Zheng
+      given: Sean L.
+    - family: Sau
+      given: Arunashis
+    - family: Henry
+      given: Albert
+    - family: Ribeiro
+      given: Antonio Luiz P.
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Ng
+      given: Fu Siong
+    - family: Lumbers
+      given: R. Thomas
+    - family: Bai
+      given: Wenjia
+    - family: Ware
+      given: James S.
+    - family: O’Regan
+      given: Declan P.
+  citation-key: mcgurk_genetic_2024
+  container-title: Nature Cardiovascular Research
+  container-title-short: Nature Cardiovascular Research
+  DOI: 10.1038/s44161-024-00564-3
+  ISSN: 2731-0590
+  issued:
+    - year: 2024
+      month: 11
+      day: 20
+  title: Genetic and phenotypic architecture of human myocardial trabeculation
+  type: article-journal
+  URL: https://doi.org/10.1038/s44161-024-00564-3
 
 - id: meirajr_contextualized_2020
   author:
@@ -2162,6 +2218,184 @@
   type: article-journal
   URL: https://www.medrxiv.org/content/10.1101/2024.01.13.24301267v1
 
+- id: sau_artificial_2024a
+  abstract: >-
+    Summary
+
+    Background
+
+    Artificial intelligence (AI)-enabled electrocardiography (ECG) can be used
+    to predict risk of future disease and mortality but has not yet been adopted
+    into clinical practice. Existing model predictions do not have actionability
+    at an individual patient level, explainability, or biological plausibi. We
+    sought to address these limitations of previous AI-ECG approaches by
+    developing the AI-ECG risk estimator (AIRE) platform.
+
+    Methods
+
+    The AIRE platform was developed in a secondary care dataset (Beth Israel
+    Deaconess Medical Center [BIDMC]) of 1 163 401 ECGs from 189 539 patients
+    with deep learning and a discrete-time survival model to create a
+    patient-specific survival curve with a single ECG. Therefore, AIRE predicts
+    not only risk of mortality, but also time-to-mortality. AIRE was validated
+    in five diverse, transnational cohorts from the USA, Brazil, and the UK (UK
+    Biobank [UKB]), including volunteers, primary care patients, and secondary
+    care patients.
+
+    Findings
+
+    AIRE accurately predicts risk of all-cause mortality (BIDMC C-index 0·775,
+    95% CI 0·773–0·776; C-indices on external validation datasets 0·638–0·773),
+    future ventricular arrhythmia (BIDMC C-index 0·760, 95% CI 0·756–0·763; UKB
+    C-index 0·719, 95% CI 0·635–0·803), future atherosclerotic cardiovascular
+    disease (0·696, 0·694–0·698; 0·643, 0·624–0·662), and future heart failure
+    (0·787, 0·785–0·789; 0·768, 0·733–0·802). Through phenome-wide and
+    genome-wide association studies, we identified candidate biological pathways
+    for the prediction of increased risk, including changes in cardiac structure
+    and function, and genes associated with cardiac structure, biological
+    ageing, and metabolic syndrome.
+
+    Interpretation
+
+    AIRE is an actionable, explainable, and biologically plausible AI-ECG risk
+    estimation platform that has the potential for use worldwide across a wide
+    range of clinical contexts for short-term and long-term risk estimation.
+
+    Funding
+
+    British Heart Foundation, National Institute for Health and Care Research,
+    and Medical Research Council.
+  author:
+    - family: Sau
+      given: Arunashis
+    - family: Pastika
+      given: Libor
+    - family: Sieliwonczyk
+      given: Ewa
+    - family: Patlatzoglou
+      given: Konstantinos
+    - family: Ribeiro
+      given: Antoônio H
+    - family: McGurk
+      given: Kathryn A
+    - family: Zeidaabadi
+      given: Boroumand
+    - family: Zhang
+      given: Henry
+    - family: Macierzanka
+      given: Krzysztof
+    - family: Mandic
+      given: Danilo
+    - family: Sabino
+      given: Ester
+    - family: Giatti
+      given: Luana
+    - family: Barreto
+      given: Sandhi M
+    - family: Camelo
+      given: Lidyane do Valle
+    - family: Tzoulaki
+      given: Ioanna
+    - family: O'Regan
+      given: Declan P
+    - family: Peters
+      given: Nicholas S
+    - family: Ware
+      given: James S
+    - family: Ribeiro
+      given: Antonio Luiz P
+    - family: Kramer
+      given: Daniel B
+    - family: Waks
+      given: Jonathan W
+    - family: Ng
+      given: Fu Siong
+  citation-key: sau_artificial_2024a
+  container-title: The Lancet Digital Health
+  container-title-short: The Lancet Digital Health
+  DOI: 10.1016/S2589-7500(24)00172-9
+  ISSN: 2589-7500
+  issue: '11'
+  issued:
+    - year: 2024
+      month: 11
+      day: 1
+  page: e791-e802
+  title: >-
+    Artificial intelligence-enabled electrocardiogram for mortality and
+    cardiovascular risk estimation: a model development and validation study
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S2589750024001729
+  volume: '6'
+
+- id: sau_comparison_2024
+  abstract: >-
+    Most artificial intelligence-enhanced ECG (AI-ECG) models used to predict
+    adverse events including death require that the ECGs be stored digitally.
+    However, the majority of clinical facilities worldwide store ECGs as
+    images.1,163,401 ECGs (189,539 patients) from a secondary care dataset were
+    available as both natively digital traces and PDF images. A digitisation
+    pipeline extracted signals from PDFs. Separate 1D convolutional neural
+    network (CNN) models were trained on natively digital or digitised ECGs,
+    with a discrete-time survival loss function to predict time-to-mortality. A
+    2D CNN model was trained on 310x868 pixel ECG images. External validation
+    was performed in 958,954 ECGs (645,373 patients) from a Brazilian primary
+    care cohort and 1022 ECGs (1022 patients) from a Chagas disease cohort.The
+    image 2D CNN model and digitised 1D CNN model performed comparably to
+    natively digital 1D CNN model in internal (C-index 0.780 (0.779-0.781),
+    0.772 (0.771-0.774) and 0.775 (0.774-0.776 respectively) and external
+    validation. Models trained on natively digital 1D ECGs had comparable
+    performance when applied to digitised 1D ECGs (C-index 0.773
+    (0.771-0.774).Both the image 2D CNN and digitised 1D CNN enable mortality
+    prediction from ECG images, with comparable performance to natively digital
+    1D CNN. Models trained on natively digital 1D ECGs can also be applied to
+    digitised 1D ECGs, without any significant loss in performance. This works
+    allows AI-ECG mortality prediction to be applied in diverse global settings
+    lacking digital ECG infrastructure.
+  accessed:
+    - year: 2024
+      month: 12
+      day: 1
+  author:
+    - family: Sau
+      given: Arunashis
+    - family: Zeidaabadi
+      given: Boroumand
+    - family: Patlatzoglou
+      given: Konstantinos
+    - family: Pastika
+      given: Libor
+    - family: Ribeiro
+      given: Antônio H
+    - family: Sabino
+      given: Ester
+    - family: Peters
+      given: Nicholas S
+    - family: Ribeiro
+      given: Antonio Luiz P
+    - family: Kramer
+      given: Daniel B
+    - family: Waks
+      given: Jonathan W
+    - family: Ng
+      given: Fu Siong
+  citation-key: sau_comparison_2024
+  container-title: European Heart Journal - Digital Health
+  container-title-short: European Heart Journal - Digital Health
+  DOI: 10.1093/ehjdh/ztae090
+  ISSN: 2634-3916
+  issued:
+    - year: 2024
+      month: 11
+      day: 18
+  page: ztae090
+  title: >-
+    A comparison of artificial intelligence-enhanced electrocardiography
+    approaches for prediction of time-to-mortality using electrocardiogram
+    images
+  type: article-journal
+  URL: https://doi.org/10.1093/ehjdh/ztae090
+
 - id: sau_neural_2023
   author:
     - family: Sau
@@ -2228,6 +2462,90 @@
     significance and important phenotypic and genotypic associations
   type: article-journal
 
+- id: sau_prognostic_2024
+  accessed:
+    - year: 2024
+      month: 12
+      day: 1
+  author:
+    - family: Sau
+      given: Arunashis
+    - family: Ribeiro
+      given: Antônio H.
+    - family: McGurk
+      given: Kathryn A.
+    - family: Pastika
+      given: Libor
+    - family: Bajaj
+      given: Nikesh
+    - family: Gurnani
+      given: Mehak
+    - family: Sieliwonczyk
+      given: Ewa
+    - family: Patlatzoglou
+      given: Konstantinos
+    - family: Ardissino
+      given: Maddalena
+    - family: Chen
+      given: Jun Yu
+    - family: Wu
+      given: Huiyi
+    - family: Shi
+      given: Xili
+    - family: Hnatkova
+      given: Katerina
+    - family: Zheng
+      given: Sean L.
+    - family: Britton
+      given: Annie
+    - family: Shipley
+      given: Martin
+    - family: Andršová
+      given: Irena
+    - family: Novotný
+      given: Tomáš
+    - family: Sabino
+      given: Ester C.
+    - family: Giatti
+      given: Luana
+    - family: Barreto
+      given: Sandhi M.
+    - family: Waks
+      given: Jonathan W.
+    - family: Kramer
+      given: Daniel B.
+    - family: Mandic
+      given: Danilo
+    - family: Peters
+      given: Nicholas S.
+    - family: O’Regan
+      given: Declan P.
+    - family: Malik
+      given: Marek
+    - family: Ware
+      given: James S.
+    - family: Ribeiro
+      given: Antonio Luiz P.
+    - family: Ng
+      given: Fu Siong
+  citation-key: sau_prognostic_2024
+  container-title: 'Circulation: Cardiovascular Quality and Outcomes'
+  container-title-short: 'Circulation: Cardiovascular Quality and Outcomes'
+  DOI: 10.1161/CIRCOUTCOMES.123.010602
+  issue: '0'
+  issued:
+    - year: 2024
+      month: 11
+      day: 14
+  page: e010602
+  publisher: American Heart Association
+  title: >-
+    Prognostic Significance and Associations of Neural Network–Derived
+    Electrocardiographic Features
+  type: article-journal
+  URL: https://doi.org/10.1161/CIRCOUTCOMES.123.010602
+  volume: '0'
+
 - id: taleb_can_2024
   accessed:
     - year: 2024
@@ -2245,7 +2563,7 @@
     - family: Kragic
       given: Danica
   citation-key: taleb_can_2024
-  container-title: Advances in Neural Information Processing Systems (NeurIPS)
+  container-title: Advances in Neural Information Processing Systems
   issued:
     - year: 2024
   title: Can Transformers Smell Like Humans?
@@ -2497,112 +2815,44 @@
   type: article-journal
   URL: http://arxiv.org/abs/2207.06096
 
-- id: sau_artificial_2024a
+
+- id: rajabi_amplified_2024
   abstract: >-
-    Summary
-
-    Background
-
-    Artificial intelligence (AI)-enabled electrocardiography (ECG) can be used
-    to predict risk of future disease and mortality but has not yet been adopted
-    into clinical practice. Existing model predictions do not have actionability
-    at an individual patient level, explainability, or biological plausibi. We
-    sought to address these limitations of previous AI-ECG approaches by
-    developing the AI-ECG risk estimator (AIRE) platform.
-
-    Methods
-
-    The AIRE platform was developed in a secondary care dataset (Beth Israel
-    Deaconess Medical Center [BIDMC]) of 1 163 401 ECGs from 189 539 patients
-    with deep learning and a discrete-time survival model to create a
-    patient-specific survival curve with a single ECG. Therefore, AIRE predicts
-    not only risk of mortality, but also time-to-mortality. AIRE was validated
-    in five diverse, transnational cohorts from the USA, Brazil, and the UK (UK
-    Biobank [UKB]), including volunteers, primary care patients, and secondary
-    care patients.
-
-    Findings
-
-    AIRE accurately predicts risk of all-cause mortality (BIDMC C-index 0·775,
-    95% CI 0·773–0·776; C-indices on external validation datasets 0·638–0·773),
-    future ventricular arrhythmia (BIDMC C-index 0·760, 95% CI 0·756–0·763; UKB
-    C-index 0·719, 95% CI 0·635–0·803), future atherosclerotic cardiovascular
-    disease (0·696, 0·694–0·698; 0·643, 0·624–0·662), and future heart failure
-    (0·787, 0·785–0·789; 0·768, 0·733–0·802). Through phenome-wide and
-    genome-wide association studies, we identified candidate biological pathways
-    for the prediction of increased risk, including changes in cardiac structure
-    and function, and genes associated with cardiac structure, biological
-    ageing, and metabolic syndrome.
-
-    Interpretation
-
-    AIRE is an actionable, explainable, and biologically plausible AI-ECG risk
-    estimation platform that has the potential for use worldwide across a wide
-    range of clinical contexts for short-term and long-term risk estimation.
-
-    Funding
-
-    British Heart Foundation, National Institute for Health and Care Research,
-    and Medical Research Council.
+    Cross-validation is commonly used to estimate machine learning model
+    performance on new samples. However, using it for both hyperparameter
+    selection and error estimation can lead to overestimating model performance,
+    especially with extensive hyperparameter searches that overly tailor models
+    to validation data. We demonstrate that deep learning further amplifies this
+    bias, with even minor model adjustments causing significant overestimation.
+    Our extensive experiments on simulated and real data focus on the bias from
+    early stopping during cross-validation. We find that overestimation
+    intensifies with network depth and is especially severe in small datasets,
+    which are common in physiological signal processing applications. Selecting
+    the early stopping point during cross-validation can result in ROC-AUC
+    estimates exceeding 90\% on random data, and this effect persists across
+    various sample sizes, architectures, and network sizes.
+  accessed:
+    - year: 2024
+      month: 12
+      day: 1
   author:
-    - family: Sau
-      given: Arunashis
-    - family: Pastika
-      given: Libor
-    - family: Sieliwonczyk
-      given: Ewa
-    - family: Patlatzoglou
-      given: Konstantinos
+    - family: Rajabi
+      given: Nona
     - family: Ribeiro
-      given: Antônio H
-    - family: McGurk
-      given: Kathryn A
-    - family: Zeidaabadi
-      given: Boroumand
-    - family: Zhang
-      given: Henry
-    - family: Macierzanka
-      given: Krzysztof
-    - family: Mandic
-      given: Danilo
-    - family: Sabino
-      given: Ester
-    - family: Giatti
-      given: Luana
-    - family: Barreto
-      given: Sandhi M
-    - family: Camelo
-      given: Lidyane do V.
-    - family: Tzoulaki
-      given: Ioanna
-    - family: O'Regan
-      given: Declan P
-    - family: Peters
-      given: N. S
-    - family: Ware
-      given: J. S
-    - family: Ribeiro
-      given: A. L. P
-    - family: Kramer
-      given: D. B
-    - family: Waks
-      given: J. W
-    - family: Ng
-      given: Fu S.
-  citation-key: sau_artificial_2024a
-  container-title: The Lancet Digital Health
-  container-title-short: The Lancet Digital Health
-  DOI: 10.1016/S2589-7500(24)00172-9
-  ISSN: 2589-7500
-  issue: '11'
+      given: Antonio H.
+    - family: Vasco
+      given: Miguel
+    - family: Kragic
+      given: Danica
+  citation-key: rajabi_amplified_2024
+  container-title: NeurIPS 2024 Workshop on Scientific Methods for Understanding Deep Learning
   issued:
     - year: 2024
       month: 11
-      day: 1
-  page: e791-e802
-  title: >-
-    Artificial intelligence-enabled electrocardiogram for mortality and
-    cardiovascular risk estimation: a model development and validation study
-  type: article-journal
-  URL: https://www.sciencedirect.com/science/article/pii/S2589750024001729
-  volume: '6'
+      day: 9
+  language: en
+  source: openreview.net
+  title: 'Amplified Early Stopping Bias: Overestimated Performance with Deep Learning'
+  title-short: Amplified Early Stopping Bias
+  type: paper-conference
+  URL: https://openreview.net/forum?id=wbUh4GL3c2#discussion

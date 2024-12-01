@@ -1,8 +1,11 @@
 - name: Journal articles
   letter: J
   papers:
-      - sau_artificial_2024a
       - pillonetto_deep_2025
+      - sau_comparison_2024
+      - mcgurk_genetic_2024
+      - sau_prognostic_2024
+      - sau_artificial_2024a
       - pastika_artificial_2024
       - vonbachmann_evaluating_2022
       - huang_generalization_2024
@@ -53,6 +56,7 @@
 - name: "Peer-reviewed but non-archival workshop papers"
   letter: W
   papers:
+      - rajabi_amplified_2024
       - gedon_resnetbased_2021
       - hendriks_deep_2021a
       - ribeiro_occam_2021a
@@ -60,15 +64,7 @@
       - ribeiro_deep_2019
       - ribeiro_automatic_2018
 
-- name: National conference papers (in portuguese)
-  letter: N
-  papers:
-      - ribeiro_relacoes_2014
 
 
-- name: Working manuscripts
-  letter: P
-  papers:
-      - sau_neural_2023
 
 
