@@ -1,3 +1,10 @@
+- course: Statistical Machine Learning
+  position: Lecturer
+  university: Uppsala University, Sweden
+  year: 2025
+  semester: Period 3
+  level: MSc
+  language: English
 - course: Advanced Probabilistic Machine Learning
   position: Course responsible and lecturer
   role: I was the main responsible for the course. I was involved in lecturing and in preparing the final exam.
@@ -5,8 +12,8 @@
     previous year feedback.
   university: Uppsala University, Sweden
   year: 2022
-  semester: Fall
-  level: MSc and PhD
+  semester: Period 1
+  level: MSc
   link: https://uppsala.instructure.com/courses/71173
   nstudents: 90 MSc (+11 PhD)
   ncredits: 5 + 2.5
@@ -21,7 +28,7 @@
   role: I was responsible for the design of the course assignment.
   university: WASP Graduate School, Sweden
   year: 2022
-  semester: Spring
+  semester: Period 1
   course: Artificial Intelligence and Machine Learning
   level: PhD
   link: https://canvas.kth.se/courses/34244
@@ -40,7 +47,7 @@
   role: I was involved in lecturing and in the preparation of the exam.
   university: Uppsala University, Sweden
   year: 2021
-  semester: Fall
+  semester: Period 1
   level: MSc
   link: https://uppsala.instructure.com/courses/53069
   nstudents: 125 MSc (+4 PhD)
@@ -58,15 +65,15 @@
     1RT705 (5 course credits) and 1RT003 (7.5 course credits), 69 students
     were enrolled in 1RT003 and 56 in the 1RT705. The longer version
     of the course 1RT003 the contains additional assignments and extra content.
-- course: The unreasonable effectiveness of overparameterized machine learning models
+- course: Overparameterized machine learning
   role: I was the main responsible for the development of and organization of this new seminar course.
     I was involved in the choice of papers, in leading the discussion and was responsible for preparing
     all the assignments.
   position: Course developer and organizer
   university: Uppsala University, Sweden
   year: 2021
-  semester: Fall
-  level: MSc and PhD
+  semester: Period 1
+  level: PhD
   link: http://www.it.uu.se/research/systems_and_control/education/2021/overparameterized-ml
   nstudents: 13
   ncredits: 3
@@ -80,7 +87,7 @@
   role: I was responsible for in preparing the assignment.
   university: Uppsala University, Sweden
   year: 2021
-  semester: Spring
+  semester: Period 4
   level: PhD
   link: https://uppsala.instructure.com/courses/38705
   nstudents: 54
@@ -95,9 +102,9 @@
   position: Teaching assistant
   role: I was responsible for exercise sections and developing the assignment. Also, I was involved in preparing
     the exam.
-  university: Universidade Federal de Minas Gerais, Brazil
+  university: UFMG, Brazil
   year: 2016
-  semester: 2nd
+  semester: 2nd Semester
   level: BSc
   nstudents: 50
   ncredits: 6
@@ -109,9 +116,9 @@
   position: Teaching assistant
   role: I was responsible for exercise sections and developing the assignment. Also, I was involved in preparing
     the exam.
-  university: Universidade Federal de Minas Gerais, Brazil
+  university: UFMG, Brazil
   year: 2016
-  semester: 2nd
+  semester: 2nd Semester
   level: BSc
   nstudents: 40
   ncredits: 4

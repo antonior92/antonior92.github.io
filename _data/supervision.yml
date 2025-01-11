@@ -1,8 +1,16 @@
 - level: Ph.D.
   students:
+    - student: David Väviggreen
+      project:
+      status: In Progress
+      start: Jan. 2025
+      end: Jan. 2030
+      institution: Uppsala University
+      role: main supervisor
+      country: Sweden
     - student: Daniel Gedon
       project: Disentangled Representation Learning in Self-Supervised Models
-      status: In progress
+      status: Complete
       start: Aug. 2019
       end: June 2024
       institution: Uppsala University
@@ -10,16 +18,24 @@
       country: Sweden
 - level: M.Sc.
   students:
+    - student: Wenhan Zhou
+      project: Disentangled Representation Learning in Self-Supervised Models
+      status: In Progress
+      start: Jan. 2025
+      end: June 2025
+      institution: Uppsala University
+      role: supervisor
+      country: Sweden
     - student: Arvid Eriksson
-      status: In progress
+      status: Complete
       start: Jan 2024
       end: June 2024
-      project: Adversarial training for the diagnosis of the  ECG
+      project: Adversarial training for the diagnosis of the ECG
       institution: KTH
       role: supervisor
       country: Sweden
     - student: Oscar Larsson
-      status: In progress
+      status: Complete
       start: Feb. 2022
       end: July 2022
       project: Generation and Detection of Adversarial Attacks in the Power Grid
@@ -28,7 +44,7 @@
       country: Sweden
       thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1679176
     - student: Theogene Habineza
-      status: In progress
+      status: Complete
       start: Jan. 2022
       end: June 2022
       project: Deep Learning-Based Risk Prediction of Atrial Fibrillation Using the 12-lead ECG
@@ -39,7 +55,7 @@
     - student: Johan Millberg
       role: subject reviwer (ämnesgranskare)
       level: MSc
-      status: In progress
+      status: Complete
       start: Jan. 2023
       end: June 2023
       role: subject reviewer
