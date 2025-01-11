@@ -2856,3 +2856,51 @@
   title-short: Amplified Early Stopping Bias
   type: paper-conference
   URL: https://openreview.net/forum?id=wbUh4GL3c2#discussion
+- id: ribeiro_aiecg_2024
+  abstract: >-
+    This editorial refers to ‘Artificial intelligence–derived
+    electrocardiographic aging and risk of atrial fibrillation: a multi-national
+    study’, by S. Cho et al., https://doi.org/10.1093/eurheartj/ehae790.Ageing
+    is a complex, multifaceted process encompassing biological, physiological,
+    and psychosocial changes occurring over time. At the cellular and molecular
+    levels, ageing is characterized by accumulating damage in cells and tissues,
+    leading to a progressive decline in the body’s ability to maintain
+    homeostasis and repair itself. This biological deterioration is not uniform
+    across individuals or even within different organs of the same individual.
+    While some organs may exhibit accelerated ageing, others might remain
+    relatively preserved, highlighting the heterogeneity of the ageing process
+    across the human body.1 The concept of ‘biological age’ vs. ‘chronological
+    age’ is pivotal in understanding ageing. Chronological age is a simple
+    measure of the years a person has lived, whereas biological age reflects the
+    functional status and health of an individual’s organs and systems.
+    Individuals of the same chronological age may have vastly different
+    biological ages due to genetic predisposition, lifestyle factors, and
+    environmental exposures. This variation can significantly impact disease
+    risk and mortality. Understanding and measuring organ-specific ageing can
+    open up avenues for targeted interventions that could decelerate ageing in
+    specific organs, thereby improving overall health and extending a healthy
+    life span.2
+  accessed:
+    - year: 2025
+      month: 1
+      day: 11
+  author:
+    - family: Ribeiro
+      given: Antonio H
+    - family: Ribeiro
+      given: Antonio Luiz P
+  citation-key: ribeiro_aiecg_2024
+  container-title: European Heart Journal
+  container-title-short: European Heart Journal
+  DOI: 10.1093/eurheartj/ehae809
+  ISSN: 0195-668X
+  issued:
+    - year: 2024
+      month: 12
+      day: 9
+  page: ehae809
+  title: >-
+    AI-ECG and prediction of new atrial fibrillation: when the heart tells the
+    age
+  type: article-journal
+  URL: https://doi.org/10.1093/eurheartj/ehae809
