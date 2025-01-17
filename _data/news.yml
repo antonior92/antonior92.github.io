@@ -1,3 +1,9 @@
+- date: "2025-01-13"
+  text: "📜 New paper at npj Digital Medicine. Evaluating AI-ECG in a longitudinal study."
+  tag: cv
+  links:
+    - https://doi.org/10.1038/s41746-024-01428-7
+
 - date: "2024-12-09"
   text: "📜 New editorial at European Heart Journal. We discuss the challenges and promisses of AI-ECG."
   tag: cv

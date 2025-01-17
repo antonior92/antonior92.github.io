@@ -1,6 +1,7 @@
 - name: Journal articles
   letter: J
   papers:
+      - hempel_explainable_2025
       - pillonetto_deep_2025
       - ribeiro_aiecg_2024
       - sau_comparison_2024

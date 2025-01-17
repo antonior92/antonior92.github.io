@@ -2904,3 +2904,51 @@
     age
   type: article-journal
   URL: https://doi.org/10.1093/eurheartj/ehae809
+- id: hempel_explainable_2025
+  abstract: >-
+    Aging affects the 12-lead electrocardiogram (ECG) and correlates with
+    cardiovascular disease (CVD). AI-ECG models estimate aging effects as a
+    novel biomarker but have only been evaluated on single ECGs—without
+    utilizing longitudinal data. We validated an AI-ECG model, originally
+    trained on Brazilian data, using a German cohort with over 20 years of
+    follow-up, demonstrating similar performance (r2 = 0.70) to the original
+    study (0.71). Incorporating longitudinal ECGs revealed a stronger
+    association with cardiovascular risk, increasing the hazard ratio for
+    mortality from 1.43 to 1.65. Moreover, aging effects were associated with
+    higher odds ratios for atrial fibrillation, heart failure, and mortality.
+    Using explainable AI methods revealed that the model aligns with clinical
+    knowledge by focusing on ECG features known to reflect aging. Our study
+    suggests that aging effects in longitudinal ECGs can be applied on
+    population level as a novel biomarker to identify patients at risk early.
+  author:
+    - family: Hempel
+      given: Philip
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Vollmer
+      given: Marcus
+    - family: Bender
+      given: Theresa
+    - family: Dörr
+      given: Marcus
+    - family: Krefting
+      given: Dagmar
+    - family: Spicher
+      given: Nicolai
+  container-title: npj Digital Medicine
+  container-title-short: npj Digital Medicine
+  DOI: 10.1038/s41746-024-01428-7
+  ISSN: 2398-6352
+  issue: '1'
+  issued:
+    - year: 2025
+      month: 1
+      day: 13
+  page: '25'
+  title: >-
+    Explainable AI associates ECG aging effects with increased cardiovascular
+    risk in a longitudinal population study
+  type: article-journal
+  URL: https://doi.org/10.1038/s41746-024-01428-7
+  volume: '8'
+
