@@ -38,6 +38,8 @@
 - name: Conference papers
   letter: C
   papers:
+      - ribeiro_efficient_2025
+      - rajabi_deep_2025
       - taleb_can_2024
       - eriksson_transferability_2024
       - gedon_no_2024

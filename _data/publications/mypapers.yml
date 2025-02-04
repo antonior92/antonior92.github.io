@@ -135,7 +135,7 @@
       given: Arvid
     - family: Schön
       given: Thomas B
-    - family: RIbeiro
+    - family: Ribeiro
       given: Antonio H
   citation-key: eriksson_transferability_2024
   container-title: Computers in Cardiology (CinC)
@@ -2951,4 +2951,74 @@
   type: article-journal
   URL: https://doi.org/10.1038/s41746-024-01428-7
   volume: '8'
+- id: ribeiro_efficient_2025
+  abstract: >-
+    Adversarial training can be used to learn models that are robust against
+    perturbations. For linear models, it can be formulated as a convex
+    optimization problem. Compared to methods proposed in the context of deep
+    learning, leveraging the optimization structure allows significantly faster
+    convergence rates. Still, the use of generic convex solvers can be
+    inefficient for large-scale problems. Here, we propose tailored optimization
+    algorithms for the adversarial training of linear models, which render
+    large-scale regression and classification problems more tractable. For
+    regression problems, we propose a family of solvers based on iterative ridge
+    regression and, for classification, a family of solvers based on projected
+    gradient descent. The methods are based on extended variable reformulations
+    of the original problem. We illustrate their efficiency in numerical
+    examples.
+  accessed:
+    - year: 2025
+      month: 2
+      day: 4
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Schön
+      given: Thomas B.
+    - family: Zahariah
+      given: Dave
+    - family: Bach
+      given: Francis
+  container-title: International Conference on Artificial Intelligence and Statistics (AISTATS)
+  issued:
+    - year: 2025
+  title: Efficient Optimization Algorithms for Linear Adversarial Training
+  type: article-journal
 
+- id: rajabi_deep_2025
+  abstract: >-
+    Cross-validation is commonly used to estimate machine learning model
+    performance on new samples. However, using it for both hyperparameter
+    selection and error estimation can lead to overestimating model performance,
+    especially with extensive hyperparameter searches that overly tailor models
+    to validation data. We demonstrate that deep learning further amplifies this
+    bias, with even minor model adjustments causing significant overestimation.
+    Our extensive experiments on simulated and real data focus on the bias from
+    early stopping during cross-validation. We find that overestimation
+    intensifies with network depth and is especially severe in small datasets,
+    which are common in physiological signal processing applications. Selecting
+    the early stopping point during cross-validation can result in ROC-AUC
+    estimates exceeding 90\% on random data, and this effect persists across
+    various sample sizes, architectures, and network sizes.
+  accessed:
+    - year: 2024
+      month: 12
+      day: 1
+  author:
+    - family: Rajabi
+      given: Nona
+    - family: Ribeiro
+      given: Antonio H.
+    - family: Vasco
+      given: Miguel
+    - family: Kragic
+      given: Danica
+  container-title: International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
+  issued:
+    - year: 2025
+  language: en
+  source: openreview.net
+  title: 'Deep Learning Amplified Early Stopping Bias: Overestimating Performance on Small Datasets'
+  title-short: Amplified Early Stopping Bias
+  type: paper-conference
+  URL: https://openreview.net/forum?id=wbUh4GL3c2#discussion
