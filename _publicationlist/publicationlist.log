@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.28)  11 SEP 2024 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.28)  14 FEB 2025 09:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -988,13 +988,32 @@ LaTeX Info: Redefining \nameref on input line 15.
 \@outlinefile=\write8
 \openout8 = `publicationlist.out'.
 
+
+
+LaTeX Warning: Citation 'ribeiro_aiecg_2024' undefined on input line 15.
+
+
+LaTeX Warning: Citation 'sau_artificial_2024a' undefined on input line 15.
+
+
+LaTeX Warning: Citation 'vonbachmann_evaluating_2022' undefined on input line 1
+5.
+
+
+LaTeX Warning: Citation 'habineza_endtoend_2023' undefined on input line 15.
+
+
+LaTeX Warning: Citation 'rajabi_deep_2025' undefined on input line 15.
+
+
+LaTeX Warning: Citation 'gedon_resnetbased_2021' undefined on input line 15.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 19.
-
 
 Package biblatex Warning: The option 'labelprefix' is limited
 (biblatex)                when used with BibTeX.
@@ -1004,12 +1023,34 @@ Package biblatex Warning: The option 'labelprefix' is limited
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \printmypublications
+                         
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Overfull \hbox (1.30856pt too wide) in paragraph at lines 20--20
+\OT1/pnc/m/n/10 In: \OT1/pnc/m/sc/10 In-ter-na-tional Con-fer-ence on Ar-ti-fi-
+cial In-tel-li-gence and Statis-tics (AIS-TATS) \OT1/pnc/m/n/10 (2025). 
+ []
+
+[3]
 Overfull \hbox (7.59018pt too wide) in paragraph at lines 20--20
 \OT1/pnc/m/n/10 In: \OT1/pnc/m/sc/10 IEEE In-ter-na-tional Con-fer-ence on Acou
 s-tics, Speech and Sig-nal Pro-cess-ing (ICASSP)\OT1/pnc/m/n/10 .
  []
 
-[3]
+
 Overfull \hbox (1.3533pt too wide) in paragraph at lines 20--20
 \OT1/pnc/m/sc/10 edge Dis-cov-ery in Databases (ECML-PKDD)\OT1/pnc/m/n/10 . Vol
 . 12461. Ghent, Bel-gium: Springer, 2020, pp. 204{
@@ -1022,29 +1063,37 @@ cial In-tel-li-gence and Statis-tics (AIS-TATS)\OT1/pnc/m/n/10 . Vol. 108.
  []
 
 [4] [5] (./publicationlist.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `publicationlist.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                publicationlist
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'publicationlist.run.xml'.
 \openout1 = `publicationlist.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26267 strings out of 478994
- 503308 string characters out of 5858184
- 1091364 words of memory out of 5000000
- 43320 multiletter control sequences out of 15000+600000
+ 26266 strings out of 478994
+ 503226 string characters out of 5858184
+ 1090082 words of memory out of 5000000
+ 43318 multiletter control sequences out of 15000+600000
  419020 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 127i,7n,130p,1853b,1332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 127i,7n,130p,1853b,1339s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2021/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/
 2021/texmf-dist/fonts/type1/urw/ncntrsbk/uncbi8a.pfb></usr/local/texlive/2021/t
 exmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/texmf-di
 st/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on publicationlist.pdf (5 pages, 84946 bytes).
+Output written on publicationlist.pdf (5 pages, 83027 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 57 named destinations out of 1000 (max. 500000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
+ 58 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

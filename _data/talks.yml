@@ -1,3 +1,46 @@
+- name: Robustez em Aprendizado de Máquina Do Treinamento Adversarial ao Uso Clínico
+  date: Upcoming - July 2025
+  venue:  SBAI , Brazil (Plenary talk)
+  type: invited university
+  abstract: >-
+    Na minha apresentação, irei apresentar ferramentas analíticas para o treinamento robusto de modelos. Mostrarei como essa análise oferece insights sobre o fenômeno de "double-descent". Em seguida, discutirei avanços recentes que revelam o potencial dessas ferramentas no treinamento e estimativa de modelos com um grande número de parâmetros. Explorarei também as aplicações potenciais na medicina, detalhando planos para integrar essa abordagem ao meu trabalho em andamento sobre marcadores de risco de pacientes derivados de aprendizado de máquina a partir de Eletrocardiogramas, que agora estão avançando para ensaios clínicos.
+- name: AI-ECG for Diagnosis, Prognosis, and Screening Lessons from the CODE Study and Beyond
+  date: Upcoming - April 2025
+  venue:  Empowering Patients with Digital Health, Taiwan
+  type: invited university
+- name: Data-driven ECG analysis
+  date: February 2025
+  venue: University of Ghent @ IDLab
+  type: invited university
+  abstract: >-
+    Cardiovascular diseases account for one-third of deaths worldwide and the electrocardiogram (ECG)
+    is the major diagnostic tool for these diseases. This talk will discuss data-driven methods that leverage
+    large medical cohorts to learn how to do diagnosis and prognosis from this exam. The talk is divided into
+    two parts. In the first part, I discuss how incorporating new ideas from machine learning into system
+    identification and signal processing allowed new applications in the automatic analysis of the ECG.
+    Allowing it to be used to screen for diseases that would go undetected, to improve medical pipelines 
+    and to find new risk markers. In the second part, I discuss my recent studies of when and how large
+    models can be robust, the new challenges that arise when applying these large models in clinical practice,
+    and how my future research intends to address these.
+- name: Validation Pathways for Digital Biomarkers from the Electrocardiogram
+  date: February 2025
+  venue: Imperial-UFMG AI-ECG workshop, UK
+  type: invited university
+  slides: https://docs.google.com/presentation/d/1jDeZ83S4JvQD7sA9x1m7luvwuKnRVCrS7mnc_BNO9fM/edit?usp=sharing
+- name: Linear Adversarial Training From Toyproblem to Medical Use
+  date: February 2025
+  venue: Imperial College, UK @ Department of Computing
+  type: invited university
+  slides:
+  abstract: >-
+    Adversarial training can be used to develop models that are robust against perturbations. 
+    In my talk, I present analytical tools for examining these models in linear settings. First,
+    I demonstrate how these models provide valuable insights into robust double-descent phenomena. 
+    Next, I discuss recent advancements that reveal these models' potential to extend beyond theoretical 
+    applications and compete with traditional methods for high-dimensional linear-in-the-parameter estimation.
+    Finally, I explore potential applications in precision medicine, detailing plans to integrate this approach 
+    with my ongoing work on machine learning-derived patient risk markers from medical exams, which are now 
+    advancing to clinical trials.
 - name: Linear Adversarial Training From Toyproblem to Clinical Use
   date: November 2024
   venue: INRIA Paris, France @ SIERRA team

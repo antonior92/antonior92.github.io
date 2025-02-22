@@ -1,7 +1,7 @@
 - level: Ph.D.
   students:
     - student: David Väviggreen
-      project:
+      project: Robust methods for unsupervised machine learning
       status: In Progress
       start: Jan. 2025
       end: Jan. 2030
@@ -19,7 +19,7 @@
 - level: M.Sc.
   students:
     - student: Wenhan Zhou
-      project: Disentangled Representation Learning in Self-Supervised Models
+      project: Conformal Prediction for Automatic Electrocardiogram Analysis
       status: In Progress
       start: Jan. 2025
       end: June 2025

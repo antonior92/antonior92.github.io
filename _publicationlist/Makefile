@@ -10,7 +10,7 @@ all: $(NAME).pdf
 $(NAME).pdf: $(NAME).tex $(NAME).sty $(NAME).bbl $(NAME).sty ../_cv/mycv.sty
 	pdflatex -interaction=nonstopmode $<
 
-$(NAME).bbl: $(NAME).bcf refs.bib
+$(NAME).bbl: $(NAME).bcf _refs.bib
 	bibtex $(NAME)
 
 $(NAME).bcf: $(NAME).tex $(NAME).sty

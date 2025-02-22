@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.28)  21 OCT 2024 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.28)  22 FEB 2025 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -723,18 +723,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 192.
+(hyperref)                removing `\noindent' on input line 197.
 
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/pnc/m/scit' undefined
-(Font)              using `OT1/pnc/m/it' instead on input line 371.
+(Font)              using `OT1/pnc/m/it' instead on input line 400.
 
 [2]
 ! Extra }, or forgotten \endgroup.
-l.435 ...hD Program: Recruitment evaluator, 2020 }
+l.466 ...hD Program: Recruitment evaluator, 2020 }
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -743,7 +743,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten \endgroup.
-l.437 ...ymposium on System Identification, 2021 }
+l.468 ...ymposium on System Identification, 2021 }
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -751,24 +751,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<citation-graph.png, id=40, 295.1025pt x 200.75pt>
-File: citation-graph.png Graphic file (type png)
-<use citation-graph.png>
-Package pdftex.def Info: citation-graph.png  used on input line 473.
-(pdftex.def)             Requested size: 102.42834pt x 69.67847pt.
-
-Overfull \hbox (30.908pt too wide) in paragraph at lines 461--476
-[]  [] 
- []
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 4
-80.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <8> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 480.
- [3 <./citation-graph.png>] (./main.aux)
+[3] (./main.aux)
 
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -776,26 +759,25 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  957BA5D44D6C965EA0BE56A156B3FBA9;3294.
+(rerunfilecheck)             After:  D8CE9FFF2F949B75D8066586D30D1A0E;3184.
  ) 
 Here is how much of TeX's memory you used:
- 19048 strings out of 478994
- 346694 string characters out of 5858184
+ 18998 strings out of 478994
+ 345948 string characters out of 5858184
  653252 words of memory out of 5000000
- 36186 multiletter control sequences out of 15000+600000
- 422476 words of font info for 64 fonts, out of 8000000 for 9000
+ 36144 multiletter control sequences out of 15000+600000
+ 419866 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,12n,102p,927b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,7n,102p,1121b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2021/texm
-f-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/texmf-dist/
-fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on main.pdf (3 pages, 83638 bytes).
+live/2021/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on main.pdf (3 pages, 70114 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
