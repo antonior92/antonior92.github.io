@@ -61,9 +61,9 @@
 
 \begin{itemize}
 {% for w in academicpositions %}
-    \item \shortcventry{ {{ w.position }} }
+    \item \shortcventry{ {{ w.institution }} }
     { {{ w.start }} -   {{ w.end }}  }
-    { {{ w.institution }}, {{ w.country }}  }{}{} {{ w.note}}
+    { {{ w.country }}  }{}{} {{ w.position }} {{ w.note}}
 {% endfor %}
 \end{itemize}
   
@@ -85,6 +85,8 @@
 \subsection{Aquired external funding}
 
 \begin{itemize}
+    \item \shortcventry{eSSENCE}{2025-2027}{eSSENCE (Sweden)}{}{} {\small Main applicant - 2 Million SEK ($\approx$ 200\,000 EUR)}
+
 \item \shortcventry{AI-ECG }{2022-2024}{CNPq (Brazil)  }{}{} {\small Co-applicant - 1 Million BRL ($\approx$ 200\,000 EUR)}
 
     \item \shortcventry{ CAPES-PRINT }

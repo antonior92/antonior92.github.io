@@ -1,5 +1,23 @@
+- level: Postdoc
+  students:
+    - student: Petrus Abreu
+      project: automatic ECG analysis and telehealth
+      status: In Progress
+      start: Mar 2024
+      end: Oct 2025
+      institution: UFMG
+      role: co-supervisor
+      country: Brazil
 - level: Ph.D.
   students:
+    - student: Jiawei Li
+      project: Foundation models for electrocardiography
+      status: In Progress
+      start: April. 2025
+      end: April 2030
+      institution: Uppsala University
+      role: main supervisor
+      country: Sweden
     - student: David Väviggreen
       project: Robust methods for unsupervised machine learning
       status: In Progress

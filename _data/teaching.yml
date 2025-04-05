@@ -1,3 +1,11 @@
+- course: Reinforcement Learning
+  position: Lecturer
+  university: Uppsala University, Sweden
+  year: 2025
+  semester: Period 4
+  level: MSc
+  language: English
+  link: https://uppsala.instructure.com/courses/101652
 - course: Statistical Machine Learning
   position: Lecturer
   university: Uppsala University, Sweden
@@ -5,6 +13,9 @@
   semester: Period 3
   level: MSc
   language: English
+  nstudents: 313
+  ncredits: 5
+  link: https://uppsala.instructure.com/courses/101652
 - course: Advanced Probabilistic Machine Learning
   position: Course responsible and lecturer
   role: I was the main responsible for the course. I was involved in lecturing and in preparing the final exam.
