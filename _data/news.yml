@@ -1,4 +1,8 @@
-
+- date: "2025-04-04"
+  text: "📜 New paper at ICML. Human-Aligned Image Models Improve Visual Decoding from the Brain"
+  tag: cv
+  links:
+    - https://arxiv.org/abs/2502.03081
 - date: "2025-01-13"
   text: "📜 New paper at npj Digital Medicine. Evaluating AI-ECG in a longitudinal study."
   tag: cv

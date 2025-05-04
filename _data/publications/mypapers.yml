@@ -135,7 +135,7 @@
       given: Arvid
     - family: Schön
       given: Thomas B
-    - family: Ribeiro
+    - family: RIbeiro
       given: Antonio H
   citation-key: eriksson_transferability_2024
   container-title: Computers in Cardiology (CinC)
@@ -365,6 +365,54 @@
     Deep Neural Networks
   type: article-journal
 
+- id: hempel_explainable_2025
+  abstract: >-
+    Aging affects the 12-lead electrocardiogram (ECG) and correlates with
+    cardiovascular disease (CVD). AI-ECG models estimate aging effects as a
+    novel biomarker but have only been evaluated on single ECGs—without
+    utilizing longitudinal data. We validated an AI-ECG model, originally
+    trained on Brazilian data, using a German cohort with over 20 years of
+    follow-up, demonstrating similar performance (r2 = 0.70) to the original
+    study (0.71). Incorporating longitudinal ECGs revealed a stronger
+    association with cardiovascular risk, increasing the hazard ratio for
+    mortality from 1.43 to 1.65. Moreover, aging effects were associated with
+    higher odds ratios for atrial fibrillation, heart failure, and mortality.
+    Using explainable AI methods revealed that the model aligns with clinical
+    knowledge by focusing on ECG features known to reflect aging. Our study
+    suggests that aging effects in longitudinal ECGs can be applied on
+    population level as a novel biomarker to identify patients at risk early.
+  author:
+    - family: Hempel
+      given: Philip
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Vollmer
+      given: Marcus
+    - family: Bender
+      given: Theresa
+    - family: Dörr
+      given: Marcus
+    - family: Krefting
+      given: Dagmar
+    - family: Spicher
+      given: Nicolai
+  citation-key: hempel_explainable_2025
+  container-title: npj Digital Medicine
+  container-title-short: npj Digital Medicine
+  DOI: 10.1038/s41746-024-01428-7
+  ISSN: 2398-6352
+  issue: '1'
+  issued:
+    - year: 2025
+      month: 1
+      day: 13
+  title: >-
+    Explainable AI associates ECG aging effects with increased cardiovascular
+    risk in a longitudinal population study
+  type: article-journal
+  URL: https://doi.org/10.1038/s41746-024-01428-7
+  volume: '8'
+
 - id: hendriks_deep_2021
   abstract: >-
     This paper is directed towards the problem of learning nonlinear ARX models
@@ -461,7 +509,6 @@
     - year: 2024
   license: All rights reserved
   note: https://www.medrxiv.org/content/10.1101/2023.07.05.23292238v2
-  page: 1–12
   source: Taylor and Francis+NEJM
   title: >-
     Generalization challenges in electrocardiogram deep learning: insights from
@@ -866,16 +913,11 @@
     European Conference on Machine Learning and Principles and Practice of
     Knowledge Discovery in Databases (ECML-PKDD)
   DOI: 10.1007/978-3-030-67670-4_13
-  event-place: Ghent, Belgium
   issued:
     - year: 2020
       month: 9
-  page: 204--219
-  publisher: Springer
-  publisher-place: Ghent, Belgium
   title: Explaining end-to-end ECG automated diagnosis using contextual features
   type: paper-conference
-  volume: '12461'
 
 - id: paixao_clinical_2018
   abstract: >-
@@ -1179,7 +1221,6 @@
       month: 7
       day: 28
   license: All rights reserved
-  page: '48'
   source: DOI.org (Crossref)
   title: >-
     Evaluation of Mortality in Atrial Fibrillation: Clinical Outcomes in Digital
@@ -1301,7 +1342,7 @@
       given: Fu Siong
   citation-key: pastika_artificial_2024
   container-title: npj Digital Medicine
-  DOI: 10.1038/s41746-024-01170-0
+  DOI: https://doi.org/10.1038/s41746-024-01170-0
   issue: '167'
   issued:
     - year: 2024
@@ -1333,6 +1374,173 @@
     - year: 2025
   title: 'Deep networks for system identification: a Survey'
   type: article-journal
+
+- id: rajabi_amplified_2024
+  abstract: >-
+    Cross-validation is commonly used to estimate machine learning model
+    performance on new samples. However, using it for both hyperparameter
+    selection and error estimation can lead to overestimating model performance,
+    especially with extensive hyperparameter searches that overly tailor models
+    to validation data. We demonstrate that deep learning further amplifies this
+    bias, with even minor model adjustments causing significant overestimation.
+    Our extensive experiments on simulated and real data focus on the bias from
+    early stopping during cross-validation. We find that overestimation
+    intensifies with network depth and is especially severe in small datasets,
+    which are common in physiological signal processing applications. Selecting
+    the early stopping point during cross-validation can result in ROC-AUC
+    estimates exceeding 90\% on random data, and this effect persists across
+    various sample sizes, architectures, and network sizes.
+  accessed:
+    - year: 2024
+      month: 12
+      day: 1
+  author:
+    - family: Rajabi
+      given: Nona
+    - family: Ribeiro
+      given: Antonio H.
+    - family: Vasco
+      given: Miguel
+    - family: Kragic
+      given: Danica
+  citation-key: rajabi_amplified_2024
+  container-title: NeurIPS 2024 Workshop on Scientific Methods for Understanding Deep Learning
+  issued:
+    - year: 2024
+      month: 11
+      day: 9
+  language: en
+  source: openreview.net
+  title: 'Amplified Early Stopping Bias: Overestimated Performance with Deep Learning'
+  title-short: Amplified Early Stopping Bias
+  type: article-journal
+  URL: https://openreview.net/forum?id=wbUh4GL3c2#discussion
+
+- id: rajabi_deep_2025
+  abstract: >-
+    Cross-validation is commonly used to estimate machine learning model
+    performance on new samples. However, using it for both hyperparameter
+    selection and error estimation can lead to overestimating model performance,
+    especially with extensive hyperparameter searches that overly tailor models
+    to validation data. We demonstrate that deep learning further amplifies this
+    bias, with even minor model adjustments causing significant overestimation.
+    Our extensive experiments on simulated and real data focus on the bias from
+    early stopping during cross-validation. We find that overestimation
+    intensifies with network depth and is especially severe in small datasets,
+    which are common in physiological signal processing applications. Selecting
+    the early stopping point during cross-validation can result in ROC-AUC
+    estimates exceeding 90% on random data, and this effect persists across
+    various sample sizes, architectures, and network sizes.
+  author:
+    - family: Rajabi
+      given: Nona
+    - family: Ribeiro
+      given: Antonio H.
+    - family: Vasco
+      given: Miguel
+    - family: Kragic
+      given: Danica
+  citation-key: rajabi_deep_2025
+  container-title: >-
+    International conference on acoustics, speech, and signal processing
+    (ICASSP)
+  issued:
+    - year: 2025
+  language: en
+  title: >-
+    Deep learning amplified early stopping bias: Overestimating performance on
+    small datasets
+  title-short: Amplified early stopping bias
+  type: article-journal
+  URL: https://openreview.net
+
+- id: rajabi_humanaligned_2025
+  abstract: >-
+    Decoding visual images from brain activity has significant potential for
+    advancing brain-computer interaction and enhancing the understanding of
+    human perception. Recent approaches align the representation spaces of
+    images and brain activity to enable visual decoding. In this paper, we
+    introduce the use of human-aligned image encoders to map brain signals to
+    images. We hypothesize that these models more effectively capture perceptual
+    attributes associated with the rapid visual stimuli presentations commonly
+    used in visual brain data recording experiments. Our empirical results
+    support this hypothesis, demonstrating that this simple modification
+    improves image retrieval accuracy by up to 21% compared to state-of-the-art
+    methods. Comprehensive experiments confirm consistent performance
+    improvements across diverse EEG architectures, image encoders, alignment
+    methods, participants, and brain imaging modalities.
+  author:
+    - family: Rajabi
+      given: Nona
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Vasco
+      given: Miguel
+    - family: Taleb
+      given: Farzaneh
+    - family: Björkman
+      given: Mårten
+    - family: Kragic
+      given: Danica
+  citation-key: rajabi_humanaligned_2025
+  container-title: International Conference on Machine Learning (ICML)
+  DOI: 10.48550/arXiv.2502.03081
+  issued:
+    - year: 2025
+  license: All rights reserved
+  source: arXiv.org
+  title: Human-Aligned Image Models Improve Visual Decoding from the Brain
+  type: article-journal
+  URL: http://arxiv.org/abs/2502.03081
+
+- id: ribeiro_aiecg_2024
+  abstract: >-
+    This editorial refers to ‘Artificial intelligence–derived
+    electrocardiographic aging and risk of atrial fibrillation: a multi-national
+    study’, by S. Cho et al., https://doi.org/10.1093/eurheartj/ehae790.Ageing
+    is a complex, multifaceted process encompassing biological, physiological,
+    and psychosocial changes occurring over time. At the cellular and molecular
+    levels, ageing is characterized by accumulating damage in cells and tissues,
+    leading to a progressive decline in the body’s ability to maintain
+    homeostasis and repair itself. This biological deterioration is not uniform
+    across individuals or even within different organs of the same individual.
+    While some organs may exhibit accelerated ageing, others might remain
+    relatively preserved, highlighting the heterogeneity of the ageing process
+    across the human body.1 The concept of ‘biological age’ vs. ‘chronological
+    age’ is pivotal in understanding ageing. Chronological age is a simple
+    measure of the years a person has lived, whereas biological age reflects the
+    functional status and health of an individual’s organs and systems.
+    Individuals of the same chronological age may have vastly different
+    biological ages due to genetic predisposition, lifestyle factors, and
+    environmental exposures. This variation can significantly impact disease
+    risk and mortality. Understanding and measuring organ-specific ageing can
+    open up avenues for targeted interventions that could decelerate ageing in
+    specific organs, thereby improving overall health and extending a healthy
+    life span.2
+  accessed:
+    - year: 2025
+      month: 1
+      day: 11
+  author:
+    - family: Ribeiro
+      given: Antonio H
+    - family: Ribeiro
+      given: Antonio Luiz P
+  citation-key: ribeiro_aiecg_2024
+  container-title: European Heart Journal
+  container-title-short: European Heart Journal
+  DOI: 10.1093/eurheartj/ehae809
+  ISSN: 0195-668X
+  issued:
+    - year: 2024
+      month: 12
+      day: 9
+  page: ehae809
+  title: >-
+    AI-ECG and prediction of new atrial fibrillation: when the heart tells the
+    age
+  type: article-journal
+  URL: https://doi.org/10.1093/eurheartj/ehae809
 
 - id: ribeiro_automatic_2018
   abstract: >-
@@ -1483,6 +1691,42 @@
   license: All rights reserved
   source: Zotero
   title: Deep Convolutional Networks are Useful in System Identiﬁcation
+  type: article-journal
+
+- id: ribeiro_efficient_2025
+  abstract: >-
+    Adversarial training can be used to learn models that are robust against
+    perturbations. For linear models, it can be formulated as a convex
+    optimization problem. Compared to methods proposed in the context of deep
+    learning, leveraging the optimization structure allows significantly faster
+    convergence rates. Still, the use of generic convex solvers can be
+    inefficient for large-scale problems. Here, we propose tailored optimization
+    algorithms for the adversarial training of linear models, which render
+    large-scale regression and classification problems more tractable. For
+    regression problems, we propose a family of solvers based on iterative ridge
+    regression and, for classification, a family of solvers based on projected
+    gradient descent. The methods are based on extended variable reformulations
+    of the original problem. We illustrate their efficiency in numerical
+    examples.
+  accessed:
+    - year: 2025
+      month: 2
+      day: 4
+  author:
+    - family: Ribeiro
+      given: Antônio H.
+    - family: Schön
+      given: Thomas B.
+    - family: Zahariah
+      given: Dave
+    - family: Bach
+      given: Francis
+  citation-key: ribeiro_efficient_2025
+  container-title: International Conference on Artificial Intelligence and Statistics (AISTATS)
+  issued:
+    - year: 2025
+  source: arXiv.org
+  title: Efficient Optimization Algorithms for Linear Adversarial Training
   type: article-journal
 
 - id: ribeiro_exploding_2020
@@ -2328,6 +2572,111 @@
   URL: https://www.sciencedirect.com/science/article/pii/S2589750024001729
   volume: '6'
 
+- id: sau_artificial_2025
+  abstract: >-
+    Background
+
+    Females are typically underserved in cardiovascular medicine. The use of sex
+    as a dichotomous variable for risk stratification fails to capture the
+    heterogeneity of risk within each sex. We aimed to develop an artificial
+    intelligence-enhanced electrocardiography (AI-ECG) model to investigate
+    sex-specific cardiovascular risk.
+
+    Methods
+
+    In this retrospective cohort study, we trained a convolutional neural
+    network to classify sex using the 12-lead electrocardiogram (ECG). The Beth
+    Israel Deaconess Medical Center (BIDMC) secondary care dataset, comprising
+    data from individuals who had clinically indicated ECGs performed in a
+    hospital setting in Boston, MA, USA collected between May, 2000, and March,
+    2023, was the derivation cohort (1 163 401 ECGs). 50% of this dataset was
+    used for model training, 10% for validation, and 40% for testing. External
+    validation was performed using the UK Biobank cohort, comprising data from
+    volunteers aged 40–69 years at the time of enrolment in 2006–10 (42 386
+    ECGs). We examined the difference between AI-ECG-predicted sex (continuous)
+    and biological sex (dichotomous), termed sex discordance score.
+
+    Findings
+
+    AI-ECG accurately identified sex (area under the receiver operating
+    characteristic 0·943 [95% CI 0·942–0·943] for BIDMC and 0·971 [0·969–0·972]
+    for the UK Biobank). In BIDMC outpatients with normal ECGs, an increased sex
+    discordance score was associated with covariate-adjusted increased risk of
+    cardiovascular death in females (hazard ratio [HR] 1·78 [95% CI 1·18–2·70],
+    p=0·006) but not males (1·00 [0·63–1·58], p=0·996). In the UK Biobank
+    cohort, the same pattern was seen (HR 1·33 [95% CI 1·06–1·68] for females,
+    p=0·015; 0·98 [0·80–1·20] for males, p=0·854). Females with a higher sex
+    discordance score were more likely to have future heart failure or
+    myocardial infarction in the BIDMC cohort and had more male cardiac
+    (increased left ventricular mass and chamber volumes) and non-cardiac
+    phenotypes (increased muscle mass and reduced body fat percentage) in both
+    cohorts.
+
+    Interpretation
+
+    Sex discordance score is a novel AI-ECG biomarker capable of identifying
+    females with disproportionately elevated cardiovascular risk. AI-ECG has the
+    potential to identify female patients who could benefit from enhanced risk
+    factor modification or surveillance.
+
+    Funding
+
+    British Heart Foundation.
+  accessed:
+    - year: 2025
+      month: 2
+      day: 27
+  author:
+    - family: Sau
+      given: Arunashis
+    - family: Sieliwonczyk
+      given: Ewa
+    - family: Patlatzoglou
+      given: Konstantinos
+    - family: Pastika
+      given: Libor
+    - family: McGurk
+      given: Kathryn A
+    - family: Ribeiro
+      given: Antônio H
+    - family: Ribeiro
+      given: Antonio Luiz P
+    - family: Ho
+      given: Jennifer E
+    - family: Peters
+      given: Nicholas S
+    - family: Ware
+      given: James S
+    - family: Tayal
+      given: Upasana
+    - family: Kramer
+      given: Daniel B
+    - family: Waks
+      given: Jonathan W
+    - family: Ng
+      given: Fu Siong
+  citation-key: sau_artificial_2025
+  container-title: The Lancet Digital Health
+  container-title-short: The Lancet Digital Health
+  DOI: 10.1016/j.landig.2024.12.003
+  ISSN: 2589-7500
+  issue: '3'
+  issued:
+    - year: 2025
+      month: 3
+      day: 1
+  page: e184-e194
+  source: ScienceDirect
+  title: >-
+    Artificial intelligence-enhanced electrocardiography for the identification
+    of a sex-related cardiovascular risk continuum: a retrospective cohort study
+  title-short: >-
+    Artificial intelligence-enhanced electrocardiography for the identification
+    of a sex-related cardiovascular risk continuum
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S258975002400270X
+  volume: '7'
+
 - id: sau_comparison_2024
   abstract: >-
     Most artificial intelligence-enhanced ECG (AI-ECG) models used to predict
@@ -2388,7 +2737,6 @@
     - year: 2024
       month: 11
       day: 18
-  page: ztae090
   title: >-
     A comparison of artificial intelligence-enhanced electrocardiography
     approaches for prediction of time-to-mortality using electrocardiogram
@@ -2537,7 +2885,6 @@
     - year: 2024
       month: 11
       day: 14
-  page: e010602
   publisher: American Heart Association
   title: >-
     Prognostic Significance and Associations of Neural Network–Derived
@@ -2674,7 +3021,7 @@
   type: article-journal
   volume: '17'
 
-- id: vonbachmann_evaluating_2022
+- id: vonbachmann_evaluating_2024a
   abstract: >-
     Imbalances in electrolyte concentrations can have severe consequences, but
     accurate and accessible measurements could improve patient outcomes. The
@@ -2715,14 +3062,12 @@
       given: Johan
     - family: Schön
       given: Thomas B.
-  citation-key: vonbachmann_evaluating_2022
+  citation-key: vonbachmann_evaluating_2024a
   container-title: Scientific Reports
   DOI: 10.1038/s41598-024-65223-w
   issue: '15273'
   issued:
-    - year: 2022
-      month: 12
-      day: 21
+    - year: 2024
   license: All rights reserved
   title: >-
     Evaluating regression and probabilistic methods for ECG-based electrolyte
@@ -2754,7 +3099,6 @@
   license: All rights reserved
   title: Association of lifestyle with deep-learning based ECG-age
   type: article-journal
-  volume: '10'
 
 - id: zvuloni_merging_2023
   abstract: >-
@@ -2814,210 +3158,3 @@
     Risk-Prediction and Age Estimation Based on the 12-Lead ECG
   type: article-journal
   URL: http://arxiv.org/abs/2207.06096
-
-
-- id: rajabi_amplified_2024
-  abstract: >-
-    Cross-validation is commonly used to estimate machine learning model
-    performance on new samples. However, using it for both hyperparameter
-    selection and error estimation can lead to overestimating model performance,
-    especially with extensive hyperparameter searches that overly tailor models
-    to validation data. We demonstrate that deep learning further amplifies this
-    bias, with even minor model adjustments causing significant overestimation.
-    Our extensive experiments on simulated and real data focus on the bias from
-    early stopping during cross-validation. We find that overestimation
-    intensifies with network depth and is especially severe in small datasets,
-    which are common in physiological signal processing applications. Selecting
-    the early stopping point during cross-validation can result in ROC-AUC
-    estimates exceeding 90\% on random data, and this effect persists across
-    various sample sizes, architectures, and network sizes.
-  accessed:
-    - year: 2024
-      month: 12
-      day: 1
-  author:
-    - family: Rajabi
-      given: Nona
-    - family: Ribeiro
-      given: Antonio H.
-    - family: Vasco
-      given: Miguel
-    - family: Kragic
-      given: Danica
-  citation-key: rajabi_amplified_2024
-  container-title: NeurIPS 2024 Workshop on Scientific Methods for Understanding Deep Learning
-  issued:
-    - year: 2024
-      month: 11
-      day: 9
-  language: en
-  source: openreview.net
-  title: 'Amplified Early Stopping Bias: Overestimated Performance with Deep Learning'
-  title-short: Amplified Early Stopping Bias
-  type: paper-conference
-  URL: https://openreview.net/forum?id=wbUh4GL3c2#discussion
-- id: ribeiro_aiecg_2024
-  abstract: >-
-    This editorial refers to ‘Artificial intelligence–derived
-    electrocardiographic aging and risk of atrial fibrillation: a multi-national
-    study’, by S. Cho et al., https://doi.org/10.1093/eurheartj/ehae790.Ageing
-    is a complex, multifaceted process encompassing biological, physiological,
-    and psychosocial changes occurring over time. At the cellular and molecular
-    levels, ageing is characterized by accumulating damage in cells and tissues,
-    leading to a progressive decline in the body’s ability to maintain
-    homeostasis and repair itself. This biological deterioration is not uniform
-    across individuals or even within different organs of the same individual.
-    While some organs may exhibit accelerated ageing, others might remain
-    relatively preserved, highlighting the heterogeneity of the ageing process
-    across the human body.1 The concept of ‘biological age’ vs. ‘chronological
-    age’ is pivotal in understanding ageing. Chronological age is a simple
-    measure of the years a person has lived, whereas biological age reflects the
-    functional status and health of an individual’s organs and systems.
-    Individuals of the same chronological age may have vastly different
-    biological ages due to genetic predisposition, lifestyle factors, and
-    environmental exposures. This variation can significantly impact disease
-    risk and mortality. Understanding and measuring organ-specific ageing can
-    open up avenues for targeted interventions that could decelerate ageing in
-    specific organs, thereby improving overall health and extending a healthy
-    life span.2
-  accessed:
-    - year: 2025
-      month: 1
-      day: 11
-  author:
-    - family: Ribeiro
-      given: Antonio H
-    - family: Ribeiro
-      given: Antonio Luiz P
-  citation-key: ribeiro_aiecg_2024
-  container-title: European Heart Journal
-  container-title-short: European Heart Journal
-  DOI: 10.1093/eurheartj/ehae809
-  ISSN: 0195-668X
-  issued:
-    - year: 2024
-      month: 12
-      day: 9
-  page: ehae809
-  title: >-
-    AI-ECG and prediction of new atrial fibrillation: when the heart tells the
-    age
-  type: article-journal
-  URL: https://doi.org/10.1093/eurheartj/ehae809
-- id: hempel_explainable_2025
-  abstract: >-
-    Aging affects the 12-lead electrocardiogram (ECG) and correlates with
-    cardiovascular disease (CVD). AI-ECG models estimate aging effects as a
-    novel biomarker but have only been evaluated on single ECGs—without
-    utilizing longitudinal data. We validated an AI-ECG model, originally
-    trained on Brazilian data, using a German cohort with over 20 years of
-    follow-up, demonstrating similar performance (r2 = 0.70) to the original
-    study (0.71). Incorporating longitudinal ECGs revealed a stronger
-    association with cardiovascular risk, increasing the hazard ratio for
-    mortality from 1.43 to 1.65. Moreover, aging effects were associated with
-    higher odds ratios for atrial fibrillation, heart failure, and mortality.
-    Using explainable AI methods revealed that the model aligns with clinical
-    knowledge by focusing on ECG features known to reflect aging. Our study
-    suggests that aging effects in longitudinal ECGs can be applied on
-    population level as a novel biomarker to identify patients at risk early.
-  author:
-    - family: Hempel
-      given: Philip
-    - family: Ribeiro
-      given: Antônio H.
-    - family: Vollmer
-      given: Marcus
-    - family: Bender
-      given: Theresa
-    - family: Dörr
-      given: Marcus
-    - family: Krefting
-      given: Dagmar
-    - family: Spicher
-      given: Nicolai
-  container-title: npj Digital Medicine
-  container-title-short: npj Digital Medicine
-  DOI: 10.1038/s41746-024-01428-7
-  ISSN: 2398-6352
-  issue: '1'
-  issued:
-    - year: 2025
-      month: 1
-      day: 13
-  page: '25'
-  title: >-
-    Explainable AI associates ECG aging effects with increased cardiovascular
-    risk in a longitudinal population study
-  type: article-journal
-  URL: https://doi.org/10.1038/s41746-024-01428-7
-  volume: '8'
-- id: ribeiro_efficient_2025
-  abstract: >-
-    Adversarial training can be used to learn models that are robust against
-    perturbations. For linear models, it can be formulated as a convex
-    optimization problem. Compared to methods proposed in the context of deep
-    learning, leveraging the optimization structure allows significantly faster
-    convergence rates. Still, the use of generic convex solvers can be
-    inefficient for large-scale problems. Here, we propose tailored optimization
-    algorithms for the adversarial training of linear models, which render
-    large-scale regression and classification problems more tractable. For
-    regression problems, we propose a family of solvers based on iterative ridge
-    regression and, for classification, a family of solvers based on projected
-    gradient descent. The methods are based on extended variable reformulations
-    of the original problem. We illustrate their efficiency in numerical
-    examples.
-  accessed:
-    - year: 2025
-      month: 2
-      day: 4
-  author:
-    - family: Ribeiro
-      given: Antônio H.
-    - family: Schön
-      given: Thomas B.
-    - family: Zahariah
-      given: Dave
-    - family: Bach
-      given: Francis
-  container-title: International Conference on Artificial Intelligence and Statistics (AISTATS)
-  issued:
-    - year: 2025
-  title: Efficient Optimization Algorithms for Linear Adversarial Training
-  type: article-journal
-
-- id: rajabi_deep_2025
-  abstract: >-
-    Cross-validation is commonly used to estimate machine learning model
-    performance on new samples. However, using it for both hyperparameter
-    selection and error estimation can lead to overestimating model performance,
-    especially with extensive hyperparameter searches that overly tailor models
-    to validation data. We demonstrate that deep learning further amplifies this
-    bias, with even minor model adjustments causing significant overestimation.
-    Our extensive experiments on simulated and real data focus on the bias from
-    early stopping during cross-validation. We find that overestimation
-    intensifies with network depth and is especially severe in small datasets,
-    which are common in physiological signal processing applications. Selecting
-    the early stopping point during cross-validation can result in ROC-AUC
-    estimates exceeding 90\% on random data, and this effect persists across
-    various sample sizes, architectures, and network sizes.
-  accessed:
-    - year: 2024
-      month: 12
-      day: 1
-  author:
-    - family: Rajabi
-      given: Nona
-    - family: Ribeiro
-      given: Antonio H.
-    - family: Vasco
-      given: Miguel
-    - family: Kragic
-      given: Danica
-  container-title: International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
-  issued:
-    - year: 2025
-  language: en
-  source: openreview.net
-  title: 'Deep Learning Amplified Early Stopping Bias: Overestimating Performance on Small Datasets'
-  title-short: Amplified Early Stopping Bias
-  type: paper-conference

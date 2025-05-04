@@ -16,7 +16,8 @@ and creating new applications in medicine.
 {% for p in site.data.supervision %}
     {% for s in p.students %}
         {% if s.status == "In Progress" %}
-        <li>  <strong>{{ p.level }} level ({{ s.role}}):</strong> {{ s.student }}.  <i>{{ s.start }} - {{s.end}}.</i> <strong>{{ s.institution }}, {{ s.country }}</strong></li>
+        <li>  <strong>{{ p.level }} ({{ s.role}}):</strong>
+            </br> {{ s.student }}. <i>{{ s.project }}</i> </li>
         {% endif %}
         {% endfor %}
 {% endfor %}
@@ -29,7 +30,10 @@ and creating new applications in medicine.
 {% for p in site.data.supervision %}
     {% for s in p.students %}
         {% if s.status == "Complete" %}
-        <li>  <strong>{{ p.level }} level ({{ s.role}}):</strong> {{ s.student }}.  <i>{{ s.start }} - {{s.end}}.</i> <strong>{{ s.institution }}, {{ s.country }}</strong></li>
+        <li>  <strong>{{ p.level }} ({{ s.role}}):</strong> </br>
+            {{ s.student }}.  <i>{{ s.start }} - {{s.end}}.</i></br>
+            <a href={{s.thesis}}> {{s.project}}</a>
+        </li>
         {% endif %}
         {% endfor %}
 {% endfor %}

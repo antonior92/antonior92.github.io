@@ -1,7 +1,7 @@
 - level: Postdoc
   students:
     - student: Petrus Abreu
-      project: automatic ECG analysis and telehealth
+      project: Automatic ECG analysis and telehealth
       status: In Progress
       start: Mar 2024
       end: Oct 2025
@@ -27,7 +27,8 @@
       role: main supervisor
       country: Sweden
     - student: Daniel Gedon
-      project: Disentangled Representation Learning in Self-Supervised Models
+      project: On Deep Learning for Low Dimensional Representations
+      thesis: https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1849417&dswid=9555
       status: Complete
       start: Aug. 2019
       end: June 2024
@@ -37,7 +38,7 @@
 - level: M.Sc.
   students:
     - student: Wenhan Zhou
-      project: Conformal Prediction for Automatic Electrocardiogram Analysis
+      project: Conformal prediction for automatic electrocardiogram analysis
       status: In Progress
       start: Jan. 2025
       end: June 2025
