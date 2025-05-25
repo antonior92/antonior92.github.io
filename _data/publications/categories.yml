@@ -10,7 +10,7 @@
       - sau_prognostic_2024
       - sau_artificial_2024a
       - pastika_artificial_2024
-      - vonbachmann_evaluating_2022
+      - vonbachmann_evaluating_2024a
       - huang_generalization_2024
       - lu_decoding_2024
       - ribeiro_overparameterized_2023
@@ -58,19 +58,4 @@
       - ribeiro_lasso_2018
       - ribeiro_shooting_2017
       - ribeiro_selecting_2015
-
-- name: "Peer-reviewed but non-archival workshop papers"
-  letter: W
-  papers:
-      - rajabi_amplified_2024
-      - gedon_resnetbased_2021
-      - hendriks_deep_2021a
-      - ribeiro_occam_2021a
-      - ribeiro_overparametrized_2021
-      - ribeiro_deep_2019
-      - ribeiro_automatic_2018
-
-
-
-
 

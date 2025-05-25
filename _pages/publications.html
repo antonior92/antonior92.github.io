@@ -10,67 +10,47 @@ permalink: /publications
 I am interested in the intersection between machine learning, automatic control, signal processing, and to its application in medicine.
 <ul>
     <li> Samples of my work on <strong>machine learning:</strong>
-        AISTATS 2025 [C1], NeurIPS 2024 [C3], ICML 2024 [C5], Neurips 2023 [C6], AISTATS 2020 [C13].</li>
+        AISTATS 2025, NeurIPS 2024, ICML 2024, Neurips 2023, AISTATS 2020.</li>
     <li>  Samples of my work on <strong>system identification</strong> and <strong>signal processing:</strong>
-        Automatica (2025) [J2], IEEE Transactions on Signal Processing (2023) [J12],
-     ICASSP (2021) [C9], Automatica (2020) [J28].</li>
+        Automatica (2025), IEEE Transactions on Signal Processing (2023),
+     ICASSP (2021), Automatica (2020).</li>
     <li> Samples of my work on <strong>medical applications</strong>:
-        Plos Neglected Tropical Disease (2023) [J18]
-    Nature Communications (2021)[J24], Nature Communications (2020) [J29].</li>
+        Plos Neglected Tropical Disease (2023)
+    Nature Communications (2021), Nature Communications (2020).</li>
     <li> Examples of <strong>international collaborations in medicine</strong> include:
-        npj Digital Medicine (2025) [J1], Lancet Digital Medicine (2024) [J6], npj Digital Medicine (2024) [J8],  IEEE Transactions on Biomedical Engineering (2023) [J10],
-    Circulation (2023) [J15].</li>
+        npj Digital Medicine (2025), Lancet Digital Medicine (2024), npj Digital Medicine (2024),  IEEE Transactions on Biomedical Engineering (2023),
+    Circulation (2023).</li>
 </ul>
 
 
-See a curated publication list bellow:
+See a curated publication list below:
 
 {% for categories in site.data.publications.categories %}
     <h2>{{ categories.name }}</h2>
     <table>
-    {% assign pnumber = 0 %}
     {% for paper_id in categories.papers %}
-        {% for paper in site.data.publications.mypapers %}
-            {% if paper.id == paper_id %}
+        <tr>
+        {% assign pp = site.data.publications.refs.entries[paper_id] %}
+        {% unless pp.doi == blank %}
+            {% assign link =  "https://www.doi.org/" | append: pp.doi  %}
+        {% endunless %}
 
-                    {% assign pnumber = pnumber | plus: 1 %}
+        <td style="min-width: 170px;max-width: 170px;text-align:left ;"> <span style="font-size: 0.8em;"> {{ pp.journal }} ({{ pp.year }})</span> </td>
+        <td>  <a href= {{ link }} > {{ pp.title }}</a>  </br>
 
-                <!-- Paper title -->
-                <tr>
-                <td style="min-width: 40px;text-align:left ;">[{{ categories.letter }}{{ pnumber }}]</td>
-                <td>{{ paper.title }} ({{ paper.issued[0].year }}).
-
-                <!-- Paper Authors -->
-                    <i>
-                    {% assign var = 1 %}
-                    {% for author in paper.author %}
-                        {% if author.family == "Ribeiro" and author.given contains "Ant" and author.given contains "nio" and author.given contains "H"%}
-                             <strong> {{ author.given }} {{ author.family }}</strong>{% unless paper.author.size == var %}, {% endunless %}
-                        {% else %}
-                             {{ author.given }} {{ author.family }}{% unless paper.author.size == var %}, {% else%}. {% endunless %}
-                        {% endif %}
-                        {% assign var = var | plus: 1 %}
-                    {% endfor %}
-                    </i>
-
-                 <!-- Paper Venue -->
-                 {{ paper.container-title }}.
-
-                <!-- Paper Conference -->
-                {% assign var = 1 %}
-                {% unless paper.DOI == blank %}
-                    <a href="https://www.doi.org/{{ paper.DOI }}"> [doi] </a>
-                    {% assign var = var | plus: 1 %}
-                {% endunless %}
-                {% for addicional_info in site.data.publications.links[paper_id] %}
-                     {% unless var == 1 %} - {% endunless %} <a href="{{ addicional_info.link }}"> [{{ addicional_info.name }}] </a>
-                    {% assign var = var | plus: 1 %}
-                {% endfor %}
-                </td>
-                </tr>
+        <i><span style="font-size: 0.7em;">
+        {% assign var = 1 %}
+        {% for author in pp.author %}
+            {% if author.last == "Ribeiro" and author.first contains "Ant" and author.first contains "nio" and author.middle contains "H"%}
+                 <strong> {{ author.first }} {{ author.middle }} {{ author.last }}</strong>{% unless pp.author.size == var %}, {% endunless %}
+            {% else %}
+                 {{ author.first }} {{ author.middle }} {{ author.last }}{% unless pp.author.size == var %}, {% else%}. {% endunless %}
             {% endif %}
+            {% assign var = var | plus: 1 %}
         {% endfor %}
+        </span></i>
+        </td>
+        </tr>
     {% endfor %}
-
     </table>
 {% endfor %}
