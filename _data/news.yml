@@ -1,3 +1,9 @@
+- date: "2025-05-26"
+  text: "🏆  I am now a member of ELLIS (European Laboratory for Learning and Intelligent Systems)."
+  tag: cv
+  links:
+    - https://ellis.eu/
+
 - date: "2025-04-04"
   text: "📜 New paper at ICML. Human-Aligned Image Models Improve Visual Decoding from the Brain"
   tag: cv
