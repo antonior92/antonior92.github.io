@@ -1,16 +1,7 @@
 # Website
--  maybe use Jenkyll Scholar
-- Add midia session
-- Add selected publications and publications summary
-- Fix google analytics
-- 
-- []
-
-
-
-# CV info to check document
-- [ ] Update CV according to the latest updates during recent applications
-- [ ] Add preamble to publication list.
+- dont have your name in the contents table! And "about me" shouldnt be bigger than your name
+- Maybe make publication per year (mixing journal and conference)
+- buy new domain
 
 
 

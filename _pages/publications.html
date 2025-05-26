@@ -26,15 +26,19 @@ See a curated publication list below:
 
 {% for categories in site.data.publications.categories %}
     <h2>{{ categories.name }}</h2>
-    <table>
+    <table style="border-collapse: separate; border-spacing: 20px 30px;">
     {% for paper_id in categories.papers %}
-        <tr>
+        <tr style="line-height: 15px; height: 20px;">
         {% assign pp = site.data.publications.refs.entries[paper_id] %}
+        {%  assign mylinks = site.data.publications.links[paper_id] %}
+        {% unless mylinks[0] == blank %}
+            {% assign link =  mylinks[0].link  %}
+        {% endunless %}
         {% unless pp.doi == blank %}
             {% assign link =  "https://www.doi.org/" | append: pp.doi  %}
         {% endunless %}
 
-        <td style="min-width: 170px;max-width: 170px;text-align:left ;"> <span style="font-size: 0.8em;"> {{ pp.journal }} ({{ pp.year }})</span> </td>
+        <td style="min-width: 140px;max-width: 140px;text-align:left ;"> <span style="font-size: 0.7em;"> {{ pp.journal }} ({{ pp.year }})</span> </td>
         <td>  <a href= {{ link }} > {{ pp.title }}</a>  </br>
 
         <i><span style="font-size: 0.7em;">
