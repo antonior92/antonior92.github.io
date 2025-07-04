@@ -5,7 +5,7 @@
   abstract: >-
     Na minha apresentação, irei apresentar ferramentas analíticas para o treinamento robusto de modelos. Mostrarei como essa análise oferece insights sobre o fenômeno de "double-descent". Em seguida, discutirei avanços recentes que revelam o potencial dessas ferramentas no treinamento e estimativa de modelos com um grande número de parâmetros. Explorarei também as aplicações potenciais na medicina, detalhando planos para integrar essa abordagem ao meu trabalho em andamento sobre marcadores de risco de pacientes derivados de aprendizado de máquina a partir de Eletrocardiogramas, que agora estão avançando para ensaios clínicos.
 - name: AI-ECG for Diagnosis, Prognosis, and Screening Lessons from the CODE Study and Beyond
-  date: Upcoming - April 2025
+  date: April 2025
   venue:  Empowering Patients with Digital Health, Taiwan
   type: invited university
 - name: Data-driven ECG analysis

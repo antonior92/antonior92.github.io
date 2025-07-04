@@ -1,31 +1,31 @@
 - conference: International Conference on Learning Representations (ICLR)
   year: 2025
-  nmanuscripts: 3 papers/year
+  nmanuscripts: 3
 - conference: Neural Information Processing Systems (NeurIPS)
-  year: 2024
-  nmanuscripts: 6 papers/year
+  year: 2024, 2025
+  nmanuscripts: 6+5
 - conference: International Conference on Artificial Intelligence and Statistics (AISTATS)
   year: 2020-2024
-  nmanuscripts: 4 papers/year
+  nmanuscripts: 4
 - conference: IFAC Symposium on System Identification (SysId)
   year: 2021, 2024
-  nmanuscripts: 2 paper/year
+  nmanuscripts: 2
 - conference: Learning for Dynamics and Control (L4DC)
   year: 2021, 2022
-  nmanuscripts: 4 paper/year
+  nmanuscripts: 4
 - conference: European Control Conference (ECC)
   year: 2020, 2021
   nmanuscripts: 1
 - conference: IEEE Conference on Decision and Control (CDC)
   year: 2020, 2024
-  nmanuscripts: 1 paper / year
+  nmanuscripts: 3
   note: Submited jointly for IEEE L-CSS and IEEE Conference on Decision and Control (CDC).
 - conference: IFAC World Conference
   year: 2017, 2020, 2023
-  nmanuscripts: 1 paper / year
+  nmanuscripts: 1+1+1
 - conference: American Control Conference
   year: 2018, 2024
-  nmanuscripts: 1 paper / year
+  nmanuscripts: 1+1
 - conference: International Conference on Modelling, Identification and Control
   year: 2017
-  nmanuscripts: 1 paper / year
+  nmanuscripts: 1
