@@ -1,16 +1,18 @@
 ROOT=..
 NAME=publicationlist
+REFS=refs
 TEMPLATE=$(NAME)_template
 DATA=$(ROOT)/_data/
 RENDER=$(ROOT)/scripts/render_from_template.py
+CLEAN=$(ROOT)/scripts/clean_latex_yaml.py
+REPLACE=$(ROOT)/scripts/replace_journal_names.py
 
-
-all: $(NAME).pdf
+all: $(NAME).pdf $(REFS).yml
 
 $(NAME).pdf: $(NAME).tex $(NAME).sty $(NAME).bbl $(NAME).sty ../_cv/mycv.sty
 	pdflatex -interaction=nonstopmode $<
 
-$(NAME).bbl: $(NAME).bcf refs.bib
+$(NAME).bbl: $(NAME).bcf $(REFS).bib
 	bibtex $(NAME)
 
 $(NAME).bcf: $(NAME).tex $(NAME).sty
@@ -19,7 +21,11 @@ $(NAME).bcf: $(NAME).tex $(NAME).sty
 $(NAME).sty: $(TEMPLATE) $(DATA)/publications/* $(RENDER)
 	python  $(RENDER) $(TEMPLATE) $(DATA) -o ./$@
 
-
+$(REFS).yml:  $(REFS).bib $(CLEAN) $(REPLACE)
+	pybtex-convert refs.bib refs.yaml
+	mv refs.yaml refs.yml
+	python $(CLEAN) refs.yml refs.yml
+	python $(REPLACE) refs.yml refs.yml
 
 .PHONY : clean
 clean :

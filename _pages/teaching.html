@@ -10,8 +10,10 @@ permalink: /teaching
 
 <ul>
 {% for p in site.data.teaching %}
+  {% unless p.position == "Teaching assistant" %}
   <li><a href="{{p.link}}"> {{ p.course }}  </a> ({{ p.university }}, {{ p.year }}, {{p.semester}}).
        {{ p.level}}  level course.  {{ p.position }}.
 </li>
+    {% endunless %}
 {% endfor %}
 </ul>
