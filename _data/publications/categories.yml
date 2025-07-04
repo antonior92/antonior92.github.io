@@ -1,6 +1,7 @@
 - name: Journal articles
   letter: J
   papers:
+      - rajabi_exploring_2025
       - sau_artificial_2025
       - hempel_explainable_2025
       - pillonetto_deep_2025
@@ -39,6 +40,7 @@
 - name: Conference papers
   letter: C
   papers:
+      - khattak_contrasting_2025
       - rajabi_humanaligned_2025
       - ribeiro_efficient_2025
       - rajabi_deep_2025
