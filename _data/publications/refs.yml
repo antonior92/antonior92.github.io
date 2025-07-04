@@ -240,11 +240,11 @@ entries:
       middle: B.
       last: Schön
   gedon_resnetbased_2021:
-    type: inproceedings
+    type: article
     title: ResNet-based ECG Diagnosis of Myocardial Infarction in the Emergency Department
-    booktitle: 'Machine Learning from Ground Truth: New Medical Imaging Datasets for
-      Unsolved Medical Problems Workshop at NeurIPS'
     year: '2021'
+    journal: 'Machine learning from ground truth: New medical imaging datasets for
+      unsolved medical problems Workshop at NeurIPS'
     copyright: All rights reserved
     author:
     - first: Daniel
@@ -590,6 +590,68 @@ entries:
     - first: Antônio
       middle: H.
       last: Ribeiro
+  khattak_contrasting_2025:
+    type: article
+    title: Contrasting by Augmented Patient Electrocardiograms to Learn Representations
+      for a Foundation Model
+    year: '2025'
+    journal: International Conference on Artificial Intelligence in Medicine
+    volume: '15735'
+    pages: 202–206
+    doi: 10.1007/978-3-031-95841-0_38
+    urldate: '2025-07-04'
+    langid: english
+    author:
+    - first: Gul
+      middle: Rukh
+      last: Khattak
+    - first: Konstantinos
+      last: Patlatzoglou
+    - first: Yixiu
+      last: Liang
+    - first: Libor
+      last: Pastika
+    - first: Boroumand
+      last: Zeidaabadi
+    - first: Joseph
+      last: Barker
+    - first: Mehak
+      last: Gurnani
+    - first: Antonio
+      middle: H.
+      last: Ribeiro
+    - first: Jeffrey
+      last: Annis
+    - first: Antonio
+      middle: Luiz Pinho
+      last: Ribeiro
+    - first: Nicholas
+      last: Peters
+    - first: Junbo
+      last: Ge
+    - first: Daniel
+      middle: B.
+      last: Kramer
+    - first: Jonathan
+      middle: W.
+      last: Waks
+    - first: Evan
+      last: Brittain
+    - first: Arunashis
+      last: Sau
+    - first: Fu
+      middle: Siong
+      last: Ng
+    editor:
+    - first: Riccardo
+      last: Bellazzi
+    - first: José
+      middle: Manuel
+      last: Juarez Herrero
+    - first: Lucia
+      last: Sacchi
+    - first: Blaž
+      last: Zupan
   lima_deep_2021:
     type: article
     title: Deep Neural Network Estimated Electrocardiographic-Age as a Mortality Predictor
@@ -1462,6 +1524,34 @@ entries:
       last: Vasco
     - first: Danica
       last: Kragic
+  rajabi_exploring_2025:
+    type: article
+    title: Exploring the Feasibility of Olfactory Brain–Computer Interfaces
+    year: '2025'
+    journal: Scientific Reports
+    volume: '15'
+    number: '1'
+    pages: 1–13
+    publisher: Nature Publishing Group
+    urldate: '2025-07-04'
+    file: /Users/antoniohortaribeiro/Zotero/storage/MVHYJS5M/s41598-025-01488-z.html
+    author:
+    - first: Nona
+      last: Rajabi
+    - first: Irene
+      last: Zanettin
+    - first: Antônio
+      middle: H.
+      last: Ribeiro
+    - first: Miguel
+      last: Vasco
+    - first: 'M\aarten '
+      last: Björkman
+    - first: Johan
+      middle: N.
+      last: Lundström
+    - first: Danica
+      last: Kragic
   rajabi_humanaligned_2025:
     type: article
     title: Human-Aligned Image Models Improve Visual Decoding from the Brain
@@ -1815,7 +1905,8 @@ entries:
   ribeiro_lasso_2018:
     type: article
     title: Lasso Regularization Paths for NARMAX Models via Coordinate Descent
-    year: 2018
+    year: '2018'
+    month: June
     journal: ACC
     pages: 5268–5273
     doi: 10.23919/ACC.2018.8430924
