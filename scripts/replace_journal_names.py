@@ -10,6 +10,7 @@ journal_replacements = {
     r"IFAC Workshop on Automatic Control in Offshore Oil and Gas Production": "IFAC Oil and Gas",
     r"NeurIPS 2024 Workshop on Scientific Methods for Understanding Deep Learning": "NeurIPS Workshop Sci4DL",
     r"Machine Learning for Health (ML4H) Workshop at NeurIPS": "NeurIPS Workshop ML4H",
+    r"International Conference on Artificial Intelligence in Medicine": "AIME",
     r".*\(([^()]+)\)\s*$": r"\1"
 }
 

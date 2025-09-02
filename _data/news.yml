@@ -1,4 +1,11 @@
 - date: "2025-05-26"
+  text: "🎬   I gave the plenary talk at SBAI (Simpósio Brasileiro de Automação Inteligente), a major brazilian conferences in inteligent systems and automatic control."
+  tag: cv
+  links:
+    - images/some_pictures/2025-SBAI1.jpeg
+    - images/some_pictures/2025-SBAI2.jpeg
+
+- date: "2025-05-26"
   text: "🏆  I am now a member of ELLIS (European Laboratory for Learning and Intelligent Systems)."
   tag: cv
   links:

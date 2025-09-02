@@ -1,5 +1,14 @@
 - level: Postdoc
   students:
+    - student: Elis Stefansson
+      project: Complexity and robustness in learning and decision-making
+      status: In Progress
+      start: Set. 2025
+      end: Aug 2027
+      institution: Uppsala
+      role: supervisor
+      country: Sweden
+      link: https://scholar.google.com/citations?user=ZLNXDxIAAAAJ
     - student: Petrus Abreu
       project: Automatic ECG analysis and telehealth
       status: In Progress
@@ -8,6 +17,7 @@
       institution: UFMG
       role: co-supervisor
       country: Brazil
+      link: https://scholar.google.com/citations?user=sCnQTW4AAAAJ
 - level: Ph.D.
   students:
     - student: Jiawei Li
@@ -18,6 +28,7 @@
       institution: Uppsala University
       role: main supervisor
       country: Sweden
+      link: https://www.uu.se/en/contact-and-organisation/staff?query=N25-547
     - student: David Väviggreen
       project: Robust methods for unsupervised machine learning
       status: In Progress
@@ -25,6 +36,15 @@
       end: Jan. 2030
       institution: Uppsala University
       role: main supervisor
+      country: Sweden
+      link: https://www.uu.se/en/contact-and-organisation/staff?query=N24-2659
+    - student: Bror Hultberg
+      project: Anytime inference and decision making under uncertainty with application to precision medicine
+      status: In Progress
+      start: Sep. 2025
+      end: Aug 20230
+      institution: Uppsala University
+      role: co-supervisor
       country: Sweden
     - student: Daniel Gedon
       project: On Deep Learning for Low Dimensional Representations
@@ -39,9 +59,10 @@
   students:
     - student: Wenhan Zhou
       project: Conformal prediction for automatic electrocardiogram analysis
-      status: In Progress
+      status: Complete
       start: Jan. 2025
       end: June 2025
+      thesis: https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1988396&dswid=-5138
       institution: Uppsala University
       role: supervisor
       country: Sweden
@@ -53,6 +74,7 @@
       institution: KTH
       role: supervisor
       country: Sweden
+      thesis: https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1886984&dswid=471
     - student: Oscar Larsson
       status: Complete
       start: Feb. 2022

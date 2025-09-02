@@ -1,7 +1,23 @@
+- course:  System Identification & Empirical modeling
+  position: Lecturer
+  university: Uppsala University, Sweden
+  year: Fall 2025
+  semester: Period 1
+  level: MSc
+  language: English
+  link: https://uppsala.instructure.com/courses/111118
+- course:  Advanced Probabilistic Machine Learning
+  position: Lecturer
+  university: Uppsala University, Sweden
+  year: Fall 2025
+  semester: Period 1
+  level: MSc
+  language: English
+  link: https://uppsala.instructure.com/courses/111118
 - course: Reinforcement Learning
   position: Lecturer
   university: Uppsala University, Sweden
-  year: 2025
+  year: Spring 2025
   semester: Period 4
   level: MSc
   language: English
@@ -9,7 +25,7 @@
 - course: Statistical Machine Learning
   position: Lecturer
   university: Uppsala University, Sweden
-  year: 2025
+  year: Spring 2025
   semester: Period 3
   level: MSc
   language: English
@@ -22,7 +38,7 @@
     I also updated the course structure, lecture content and added exercises based on
     previous year feedback.
   university: Uppsala University, Sweden
-  year: 2022
+  year: Fall 2022
   semester: Period 1
   level: MSc
   link: https://uppsala.instructure.com/courses/71173
@@ -38,7 +54,7 @@
 - position: Teaching assistant
   role: I was responsible for the design of the course assignment.
   university: WASP Graduate School, Sweden
-  year: 2022
+  year: Fall 2022
   semester: Period 1
   course: Artificial Intelligence and Machine Learning
   level: PhD
@@ -57,7 +73,7 @@
   position: Lecturer
   role: I was involved in lecturing and in the preparation of the exam.
   university: Uppsala University, Sweden
-  year: 2021
+  year: Fall 2021
   semester: Period 1
   level: MSc
   link: https://uppsala.instructure.com/courses/53069
@@ -82,7 +98,7 @@
     all the assignments.
   position: Course developer and organizer
   university: Uppsala University, Sweden
-  year: 2021
+  year: Fall 2021
   semester: Period 1
   level: PhD
   link: http://www.it.uu.se/research/systems_and_control/education/2021/overparameterized-ml
@@ -97,7 +113,7 @@
   position: Teaching assistant
   role: I was responsible for in preparing the assignment.
   university: Uppsala University, Sweden
-  year: 2021
+  year: Spring 2021
   semester: Period 4
   level: PhD
   link: https://uppsala.instructure.com/courses/38705
