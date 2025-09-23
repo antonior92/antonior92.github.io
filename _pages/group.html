@@ -7,62 +7,31 @@ permalink: /group
 
 <h1>Research group:</h1>
 
-
-I recently joined Uppsala University as Assistant Professor and I am expanding my group.
 We work on machine learning, signal processing and automatic control. Developing basic theory
 and creating new applications in medicine.
 
 <ul>
-{% for p in site.data.supervision %}
-    {% for s in p.students %}
-        {% if s.status == "In Progress" %}
-        <li>  <strong>{{ p.level }} ({{ s.role}}):</strong> <a href={{s.link}}> {{ s.student }}</a>. <i>{{ s.project }}</i> </li>
-        {% endif %}
-        {% endfor %}
+{% for s in site.data.supervision.current %}
+    <li>  <strong>{{ s.level }}:</strong> <a href={{s.link}}> {{ s.student }}</a>. <i>{{ s.project }}</i> </li>
 {% endfor %}
 </ul>
-
 
 <h2>Alumni:</h2>
-
 <ul>
-{% for p in site.data.supervision %}
+{% for p in site.data.supervision.alumni %}
+    <li> <strong> {{ p.level }}</strong>
+    <ul>
     {% for s in p.students %}
-        {% if s.status == "Complete" %}
-        <li>  <strong>{{ p.level }} ({{ s.role}}):</strong>
-            {{ s.student }}.   <a href={{s.thesis}}> {{s.project}}</a><i> (Defence: {{s.end}}).</i>
-        </li>
-        {% endif %}
+        <li>  {{ s.student }}.   <a href={{s.thesis}}> {{s.project}}</a><i> (Defence: {{s.end}}).</i> </li>
         {% endfor %}
+        </ul></li>
 {% endfor %}
+
+
+<li> <strong>  Visiting students</strong>
+    <ul>
+    {% for s in site.data.supervision.visiting %}
+        <li>  {{ s.student }}. <i>{{s.project}}.</i>  <strong> {{s.period}} ({{ s.institution}}, {{ s.country }}).</strong>  </li>
+    {% endfor %}
+</ul></li>
 </ul>
-
-
-
-<h1> Updates from students</h1>
-<div class="news">
-<table>
-{% for entry in site.data.news %}
-    {% if entry.tag == "student" %}
-  <tr>
-    <td style="min-width: 30px;" class="datev">{{ entry.date }}</td>
-      <td style="width: 90%">
-          {{entry.text}}
-          {% if entry.link %}
-          <a href="{{entry.link}}">(link)</a>
-          {% endif %}
-          {% if entry.links %}
-                {% for l in entry.links %}
-                          <a href="{{l}}">(link)</a>
-
-                {% endfor %}
-          {% endif %}
-          {% if entry.photo %}
-           <a href="{{entry.photo}}">(photo)</a>
-          {% endif %}
-      </td>
-  </tr>
-     {% endif %}
-{% endfor %}
- </table>
-</div>

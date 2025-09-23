@@ -1,65 +1,17 @@
-- level: Postdoc
+- level: Ph.D. (co-supervisor)
   students:
-    - student: Elis Stefansson
-      project: Complexity and robustness in learning and decision-making
-      status: In Progress
-      start: Set. 2025
-      end: Aug 2027
-      institution: Uppsala
-      role: supervisor
-      country: Sweden
-      link: https://scholar.google.com/citations?user=ZLNXDxIAAAAJ
-    - student: Petrus Abreu
-      project: Automatic ECG analysis and telehealth
-      status: In Progress
-      start: Mar 2024
-      end: Oct 2025
-      institution: UFMG
-      role: co-supervisor
-      country: Brazil
-      link: https://scholar.google.com/citations?user=sCnQTW4AAAAJ
-- level: Ph.D.
-  students:
-    - student: Jiawei Li
-      project: Foundation models for electrocardiography
-      status: In Progress
-      start: April. 2025
-      end: April 2030
-      institution: Uppsala University
-      role: main supervisor
-      country: Sweden
-      link: https://www.uu.se/en/contact-and-organisation/staff?query=N25-547
-    - student: David Väviggreen
-      project: Robust methods for unsupervised machine learning
-      status: In Progress
-      start: Jan. 2025
-      end: Jan. 2030
-      institution: Uppsala University
-      role: main supervisor
-      country: Sweden
-      link: https://www.uu.se/en/contact-and-organisation/staff?query=N24-2659
-    - student: Bror Hultberg
-      project: Anytime inference and decision making under uncertainty with application to precision medicine
-      status: In Progress
-      start: Sep. 2025
-      end: Aug 20230
-      institution: Uppsala University
-      role: co-supervisor
-      country: Sweden
     - student: Daniel Gedon
       project: On Deep Learning for Low Dimensional Representations
       thesis: https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1849417&dswid=9555
-      status: Complete
       start: Aug. 2019
       end: June 2024
       institution: Uppsala University
       role: co-supervisor
       country: Sweden
-- level: M.Sc.
+- level: M.Sc. (supervisor)
   students:
     - student: Wenhan Zhou
       project: Conformal prediction for automatic electrocardiogram analysis
-      status: Complete
       start: Jan. 2025
       end: June 2025
       thesis: https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1988396&dswid=-5138
@@ -67,7 +19,6 @@
       role: supervisor
       country: Sweden
     - student: Arvid Eriksson
-      status: Complete
       start: Jan 2024
       end: June 2024
       project: Adversarial training for the diagnosis of the ECG
@@ -76,7 +27,6 @@
       country: Sweden
       thesis: https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1886984&dswid=471
     - student: Oscar Larsson
-      status: Complete
       start: Feb. 2022
       end: July 2022
       project: Generation and Detection of Adversarial Attacks in the Power Grid
@@ -85,7 +35,6 @@
       country: Sweden
       thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1679176
     - student: Theogene Habineza
-      status: Complete
       start: Jan. 2022
       end: June 2022
       project: Deep Learning-Based Risk Prediction of Atrial Fibrillation Using the 12-lead ECG
@@ -93,10 +42,11 @@
       role: supervisor
       country: Sweden
       thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1684444
+
+- level: M.Sc. (subject reviewer)
+  students:
     - student: Johan Millberg
-      role: subject reviwer (ämnesgranskare)
       level: MSc
-      status: Complete
       start: Jan. 2023
       end: June 2023
       role: subject reviewer
@@ -105,9 +55,7 @@
       country: Sweden
       thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1767708
     - student: Christie Courtnage
-      role: subject reviwer (ämnesgranskare)
       level: MSc
-      status: Complete
       start: Jan. 2022
       end: June 2022
       role: subject reviewer
@@ -116,7 +64,6 @@
       country: Sweden
       thesis: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1697410
     - student: Meenal Pathak
-      status: Complete
       start: Feb. 2022
       end: Apr. 2022
       project: Automated Accounting using Machine Learning
