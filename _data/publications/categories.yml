@@ -1,6 +1,8 @@
 - name: Journal articles
   letter: J
   papers:
+      - brant_prediction_2025
+      - sumwiza_evaluation_2025
       - rajabi_exploring_2025
       - sau_artificial_2025
       - hempel_explainable_2025
@@ -40,6 +42,8 @@
 - name: Conference papers
   letter: C
   papers:
+      -  ribeiro_kernel_2025
+      - reyna_detection_2025
       - khattak_contrasting_2025
       - rajabi_humanaligned_2025
       - ribeiro_efficient_2025

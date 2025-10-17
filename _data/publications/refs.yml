@@ -130,6 +130,45 @@ entries:
       last: Ribeiro
     - first: Honghuang
       last: Lin
+  brant_prediction_2025:
+    type: article
+    title: 'Prediction of Atrial Fibrillation From the ECG in the Community Using
+      Deep Learning: A Multinational Study'
+    year: '2025'
+    journal: 'Circulation: Arrhythmia and Electrophysiology'
+    publisher: American Heart Association
+    doi: 10.1161/CIRCEP.125.013734
+    urldate: '2025-10-16'
+    author:
+    - first: Luisa
+      middle: C.C.
+      last: Brant
+    - first: Antônio
+      middle: H.
+      last: Ribeiro
+    - first: Oseiwe
+      middle: B.
+      last: Eromosele
+    - first: Marcelo
+      middle: M.
+      last: Pinto-Filho
+    - first: Sandhi
+      middle: M.
+      last: Barreto
+    - first: Bruce
+      middle: B.
+      last: Duncan
+    - first: Martin
+      middle: G.
+      last: Larson
+    - first: Emelia
+      middle: J.
+      last: Benjamin
+    - first: Antonio
+      middle: L.P.
+      last: Ribeiro
+    - first: Honghuang
+      last: Lin
   eriksson_transferability_2024:
     type: article
     title: Transferability and Adversarial Training in Automatic Classification of
@@ -642,16 +681,6 @@ entries:
     - first: Fu
       middle: Siong
       last: Ng
-    editor:
-    - first: Riccardo
-      last: Bellazzi
-    - first: José
-      middle: Manuel
-      last: Juarez Herrero
-    - first: Lucia
-      last: Sacchi
-    - first: Blaž
-      last: Zupan
   lima_deep_2021:
     type: article
     title: Deep Neural Network Estimated Electrocardiographic-Age as a Mortality Predictor
@@ -1592,6 +1621,76 @@ entries:
       last: Björkman
     - first: Danica
       last: Kragic
+  reyna_detection_2025:
+    type: article
+    title: 'Detection of Chagas Disease from the ECG: The George B. Moody PhysioNet
+      Challenge 2025'
+    shorttitle: Detection of Chagas Disease from the ECG
+    year: '2025'
+    month: October
+    journal: CinC
+    eprint: '2510.02202'
+    primaryclass: cs
+    doi: 10.48550/arXiv.2510.02202
+    urldate: '2025-10-16'
+    abstract: 'Objective: Chagas disease is a parasitic infection that is endemic
+      to South America, Central America, and, more recently, the U.S., primarily transmitted
+      by insects. Chronic Chagas disease can cause cardiovascular diseases and digestive
+      problems. Serological testing capacities for Chagas disease are limited, but
+      Chagas cardiomyopathy often manifests in ECGs, providing an opportunity to prioritize
+      patients for testing and treatment. Approach: The George B. Moody PhysioNet
+      Challenge 2025 invites teams to develop algorithmic approaches for identifying
+      Chagas disease from electrocardiograms (ECGs). Main results: This Challenge
+      provides multiple innovations. First, we leveraged several datasets with labels
+      from patient reports and serological testing, provided a large dataset with
+      weak labels and smaller datasets with strong labels. Second, we augmented the
+      data to support model robustness and generalizability to unseen data sources.
+      Third, we applied an evaluation metric that captured the local serological testing
+      capacity for Chagas disease to frame the machine learning problem as a triage
+      task. Significance: Over 630 participants from 111 teams submitted over 1300
+      entries during the Challenge, representing diverse approaches from academia
+      and industry worldwide.'
+    archiveprefix: arXiv
+    copyright: All rights reserved
+    keywords: Computer Science - Artificial Intelligence,Computer Science - Machine
+      Learning
+    file: /Users/antoniohortaribeiro/Zotero/storage/MGVBNQ3U/Reyna et al. - 2025 -
+      Detection of Chagas Disease from the ECG The George B. Moody PhysioNet Challenge
+      2025.pdf;/Users/antoniohortaribeiro/Zotero/storage/S7YZ3YKG/2510.html
+    author:
+    - first: Matthew
+      middle: A.
+      last: Reyna
+    - first: Zuzana
+      last: Koscova
+    - first: Jan
+      last: Pavlus
+    - first: Soheil
+      last: Saghafi
+    - first: James
+      last: Weigle
+    - first: Andoni
+      last: Elola
+    - first: Salman
+      last: Seyedi
+    - first: Kiersten
+      last: Campbell
+    - first: Qiao
+      last: Li
+    - first: Ali
+      middle: Bahrami
+      last: Rad
+    - first: Antônio
+      middle: H.
+      last: Ribeiro
+    - first: Antonio
+      middle: Luiz P.
+      last: Ribeiro
+    - first: Reza
+      last: Sameni
+    - first: Gari
+      middle: D.
+      last: Clifford
   ribeiro_aiecg_2024:
     type: article
     title: 'AI-ECG and Prediction of New Atrial Fibrillation: When the Heart Tells
@@ -1902,6 +2001,24 @@ entries:
     - first: Antonio
       middle: H.
       last: Ribeiro
+  ribeiro_kernel_2025:
+    type: article
+    title: 'Kernel Learning with Adversarial Features: Numerical Efficiency and Adaptive
+      Regularization'
+    year: '2025'
+    journal: NeurIPS
+    author:
+    - first: Antonio
+      middle: H.
+      last: Ribeiro
+    - first: David
+      last: Vävinggren
+    - first: Dave
+      last: Zachariah
+    - first: Thomas
+      last: Schön
+    - first: Francis
+      last: Bach
   ribeiro_lasso_2018:
     type: article
     title: Lasso Regularization Paths for NARMAX Models via Coordinate Descent
@@ -2947,6 +3064,51 @@ entries:
     - first: Fu
       middle: Siong
       last: Ng
+  sumwiza_evaluation_2025:
+    type: article
+    title: 'Evaluation of AI ECG Age in the Prediction of Cardiovascular Diseases
+      and Risk Factors: Exploratory Data Analysis'
+    year: '2025'
+    month: November
+    journal: Journal of Electrocardiology
+    volume: '93'
+    pages: '154123'
+    issn: 0022-0736
+    doi: 10.1016/j.jelectrocard.2025.154123
+    abstract: 'Cardiovascular diseases (CVDs) are the most widespread cause of death
+      across the world, and this aspect requires a better risk stratification method.
+      Effectively, this paper tests the potential of the artificial intelligence (AI)-predicted
+      electrocardiogram (ECG) age as a novel CVD risk predictor biomarker. We used
+      the CODE-15 % data (over 344,000 ECG records with clinical annotation) to create
+      a logistic regression model that incorporated age predicted from ECG, as well
+      as demographic and comorbidity variables, to evaluate cardiovascular outcomes.
+      The model performed better with ECG-predicted age than using chronological age
+      alone, with a 92 % receiver operating characteristic curve area (AUROC) for
+      atrial fibrillation (AF) detection, compared to 88 % when chronological age
+      was used alone. From the results, the ECG-predicted age showed a stronger correlation
+      with AF (r = 0.17), bundle branch blocks (r = 0.14), and Chagas disease (r = 0.074)
+      than chronological age. Sex-specific patterns were also observed; male sex had
+      an increased risk of sinus bradycardia (odds ratio [OR]: 3.090), while female
+      sex had a lower risk of having a left bundle branch block (LBBB) OR: 0.885)
+      with the variable of ECG-predicted age. These results demonstrate how ECG-predicted
+      age may be used as a biologically meaningful indicator for cardiovascular risk
+      assessment. This study advances personalized medicine by offering a cost-effective
+      and scalable method for detecting CVD, particularly in under-resourced regions
+      that lack conventional biomarkers.'
+    keywords: AI predicted ECG age,Atrial fibrillation,Cardiovascular disease,Logistic
+      regression,Risk prediction
+    author:
+    - first: Kellen
+      last: Sumwiza
+    - first: Antonio
+      middle: H.
+      last: Ribeiro
+    - first: Gerard
+      last: Rushingabigwi
+    - first: Pierre
+      last: Bakunzibake
+    - first: Celestin
+      last: Twizere
   taleb_can_2024:
     type: article
     title: Can Transformers Smell Like Humans?
