@@ -9,9 +9,8 @@ permalink: /talks
 
 <ul>
 {% for t in site.data.talks %}
-  {% if t.type == "invited university" or  t.type == "invited conference" %}
-  <li>{{ t.venue }} ({{ t.date }}){% unless t.youtube == blank %} <a href="https://www.youtube.com/embed/{{ t.youtube }}">(video)</a> {% endunless %}
-  {% unless t.slide == blank %} <a href="{{ t.slide }}">(slide)</a> {% endunless %} {% unless t.slidelive == blank %} <a href="{{ t.slide }}">(slidelive)</a> {% endunless %}
+  {% if t.type == "invited university" or  t.type == "invited conference"  or  t.type == "invited company" or  t.type == "invited nonprofit"  %}
+  <li>{{ t.venue }} ({{ t.date }})
   {% endif %}
   </li>
 {% endfor %}

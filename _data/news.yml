@@ -1,5 +1,18 @@
+
+- date: "2025-11-28"
+  text: "🏆  I am now a Scilifelab Group leader."
+  tag: cv
+  links:
+    - https://www.scilifelab.se/researchers/antonio-h-ribeiro/
+
+- date: "2025-11-20"
+  text: "🎬  I participated as Faculty in the World Heart Federation emerging learders programme. Teaching the next emerging learders cohorts about AI.  "
+  tag: cv
+  links:
+    - images/some_pictures/2025-emergingleaders.jpeg
+
 - date: "2025-05-26"
-  text: "🎬   I gave the plenary talk at SBAI (Simpósio Brasileiro de Automação Inteligente), a major brazilian conferences in inteligent systems and automatic control."
+  text: "🎬   I gave the plenary talk at SBAI (Simpósio Brasileiro de Automação Inteligente)."
   tag: cv
   links:
     - images/some_pictures/2025-SBAI1.jpeg

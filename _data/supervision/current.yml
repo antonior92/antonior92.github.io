@@ -38,11 +38,27 @@
   institution: Uppsala University
   country: Sweden
   link: https://www.uu.se/en/contact-and-organisation/staff?query=N25-1309
-- student: Victoria Sitati
-  project: Interpretability and repeatability in  AI-ECG diagnosis (CORE-AI program)
-  level: Visiting student
-  start: Sep. 2025
-  end: Nov. 2025
-  institution:
+- student: Sabereh Hassanyazdi
+  project: Machine Learning for Modeling Breathing Signals and Predicting Physiological Markers
+  start: Jan 2026
+  institution: Uppsala University
+  level: M.Sc. (supervisor)
   country: Sweden
-  link: https://www.linkedin.com/in/victoriasitati
+- student: André Ramos Ekengren
+  project: Methods for Combining Patient Characteristics and Signal in AI-ECG
+  start: Jan 2026
+  institution: Uppsala University
+  level: M.Sc. (supervisor)
+  country: Sweden
+- student: Aditya Khadkikar
+  project:  Federated Machine Learning Techniques for Automated ECG Classification
+  start: Jan 2026
+  institution: Uppsala University
+  level: M.Sc. (subject reviewer)
+  country: Sweden
+- student: Olle Wernersson
+  project: Interpretable deep-learning models for automatic ECG classification
+  start: Jan 2026 (upcoming project)
+  institution: Uppsala University
+  level: M.Sc. (subject reviewer)
+  country: Sweden

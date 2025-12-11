@@ -8,12 +8,31 @@ permalink: /teaching
 <h1>Teaching </h1>
 
 
+<h2>Upcoming </h2>
+
 <ul>
 {% for p in site.data.teaching %}
   {% unless p.position == "Teaching assistant" %}
-  <li><a href="{{p.link}}"> {{ p.course }}  (</a> {{ p.year }}).
-       {{ p.level}}  level course.  {{ p.position }}.
-</li>
+    {% if p.upcoming %}
+    <li>
+      {{ p.year }}  {{ p.season }} - <a href="{{p.link}}"> {{ p.course }}</a>.
+       {{ p.level }}  level course.  {{ p.position }}.
+    </li>
+    {% endif %}
+    {% endunless %}
+{% endfor %}
+</ul>
+
+
+<h2>Past courses </h2>
+<ul>
+{% for p in site.data.teaching %}
+  {% unless p.position == "Teaching assistant" %}
+    {% unless p.upcoming  %}
+    <li> {{ p.year }}  {{ p.season }} - <a href="{{p.link}}"> {{ p.course }}</a>.
+       {{ p.level }}  level course ({{ p.nstudents }} students, {{p.ncredits}} credits).  {{ p.position }}.
+    </li>
+    {% endunless %}
     {% endunless %}
 {% endfor %}
 </ul>

@@ -1469,6 +1469,79 @@ entries:
     - first: Fu
       middle: Siong
       last: Ng
+  patlatzoglou_cost_2025:
+    type: article
+    title: The Cost of Explainability in Artificial Intelligence-Enhanced Electrocardiogram
+      Models
+    year: '2025'
+    month: December
+    journal: npj Digital Medicine
+    volume: '8'
+    number: '1'
+    pages: '747'
+    publisher: Nature Publishing Group
+    issn: 2398-6352
+    doi: 10.1038/s41746-025-02122-y
+    urldate: '2025-12-11'
+    abstract: Artificial intelligence-enhanced electrocardiogram (AI-ECG) models have
+      shown outstanding performance in diagnostic and prognostic tasks, yet their
+      black-box nature hampers clinical adoption. Meanwhile, a growing demand for
+      explainable AI in medicine underscores the need for transparent, trustworthy
+      decision-making. Moving beyond post-hoc explainability techniques that have
+      shown unreliable results, we focus on explicit representation learning using
+      variational autoencoders (VAE) to capture inherently interpretable ECG features.
+      While VAEs have demonstrated potential for ECG interpretability, the presumed
+      performance-explainability trade-off remains underexplored, with many studies
+      relying on complex, non-linear methods that obscure the morphological information
+      of the features. In this work, we present a novel framework (VAE-SCAN) to model
+      bi-directional, interpretable associations between ECG features and clinical
+      factors. We also investigate how different representations affect ECG decoding
+      performance across models with varying levels of explainability. Our findings
+      demonstrate the cost introduced by intrinsic ECG interpretability, based on
+      which we discuss potential implications and directions.
+    copyright: 2025 The Author(s)
+    langid: english
+    keywords: Biomarkers,Cardiovascular diseases,Electrodiagnosis
+    file: /Users/antoniohortaribeiro/Zotero/storage/4EY9NTQG/Patlatzoglou et al. -
+      2025 - The cost of explainability in artificial intelligence-enhanced electrocardiogram
+      models.pdf
+    author:
+    - first: Konstantinos
+      last: Patlatzoglou
+    - first: Libor
+      last: Pastika
+    - first: Joseph
+      last: Barker
+    - first: Ewa
+      last: Sieliwonczyk
+    - first: Gul
+      middle: Rukh
+      last: Khattak
+    - first: Boroumand
+      last: Zeidaabadi
+    - first: Antônio
+      middle: H.
+      last: Ribeiro
+    - first: James
+      middle: S.
+      last: Ware
+    - first: Nicholas
+      middle: S.
+      last: Peters
+    - first: Antonio
+      middle: Luiz P.
+      last: Ribeiro
+    - first: Daniel
+      middle: B.
+      last: Kramer
+    - first: Jonathan
+      middle: W.
+      last: Waks
+    - first: Arunashis
+      last: Sau
+    - first: Fu
+      middle: Siong
+      last: Ng
   pillonetto_deep_2025:
     type: article
     title: 'Deep Networks for System Identification: A Survey'
@@ -2127,12 +2200,11 @@ entries:
       of these results is illustrated by shedding light on whether or not overparameterized
       linear models can be adversarially robust. We show that adding features to linear
       models might be either a source of additional robustness or brittleness. We
-      show that these differences appear due to scaling and how the \$\textbackslashell
-      _1\$ and \$\textbackslashell _2\$ norms of random projections concentrate. We
-      also show how the reformulation we propose allows for solving adversarial training
-      as a convex optimization problem. This is then used as a tool to study how adversarial
-      training and other regularization methods might affect the robustness of the
-      estimated models.
+      show that these differences appear due to scaling and how the \$\ell_1\$ and
+      \$\ell_2\$ norms of random projections concentrate. We also show how the reformulation
+      we propose allows for solving adversarial training as a convex optimization
+      problem. This is then used as a tool to study how adversarial training and other
+      regularization methods might affect the robustness of the estimated models.
     archiveprefix: arXiv
     copyright: All rights reserved
     keywords: Computer Science - Cryptography and Security,Computer Science - Machine
@@ -2355,16 +2427,15 @@ entries:
       input perturbations that are adversarially constructed. Adversarial training
       is one of the most effective approaches to defend against such examples. We
       show that for linear regression problems, adversarial training can be formulated
-      as a convex problem. This fact is then used to show that \$\textbackslashell
-      _\textbackslashinfty \$-adversarial training produces sparse solutions and has
-      many similarities to the lasso method. Similarly, \$\textbackslashell _2\$-adversarial
-      training has similarities with ridge regression. We use a robust regression
-      framework to analyze and understand these similarities and also point to some
-      differences. Finally, we show how adversarial training behaves differently from
-      other regularization methods when estimating overparameterized models (i.e.,
-      models with more parameters than datapoints). It minimizes a sum of three terms
-      which regularizes the solution, but unlike lasso and ridge regression, it can
-      sharply transition into an interpolation mode. We show that for sufficiently
+      as a convex problem. This fact is then used to show that \$\ell_\infty\$-adversarial
+      training produces sparse solutions and has many similarities to the lasso method.
+      Similarly, \$\ell_2\$-adversarial training has similarities with ridge regression.
+      We use a robust regression framework to analyze and understand these similarities
+      and also point to some differences. Finally, we show how adversarial training
+      behaves differently from other regularization methods when estimating overparameterized
+      models (i.e., models with more parameters than datapoints). It minimizes a sum
+      of three terms which regularizes the solution, but unlike lasso and ridge regression,
+      it can sharply transition into an interpolation mode. We show that for sufficiently
       many features or sufficiently small regularization parameters, the learned model
       perfectly interpolates the training data while still exhibiting good out-of-sample
       performance.
@@ -3378,4 +3449,47 @@ entries:
       last: Ribeiro
     - first: Joachim
       middle: A.
+      last: Behar
+  zvuloni_multisource_2025:
+    type: article
+    title: A Multi-Source Domain Fine-Tuning Framework for Deep Generalization Performance
+      in Physiological Time Series Analysis
+    year: '2025'
+    journal: 'Machine Learning: Health'
+    issn: 3049-477X
+    doi: 10.1088/3049-477X/ae2ac5
+    urldate: '2025-12-11'
+    abstract: A major challenge in translating medical AI systems into clinical practice
+      is their limited generalization. In the field of physiological time series analysis,
+      we propose a fine-tuning framework that leverages multiple small annotated datasets
+      from diverse domains to improve out-of-distribution generalization performance
+      (OOD-GP). Through an ablation study, we demonstrate the performance of our framework
+      by evaluating the role of incorporating a greater number of independent datasets
+      for tine-tuning to improve OOD-GP. Our experiments involve thirteen publicly
+      available ECG and EEG datasets across four distinct tasks. In addition, we develop
+      a method to measure the alignment of the latent space of target domains. We
+      use this method to interpret our results, suggesting that multi-source domain
+      training facilitates the learning of robust cross-domain features while minimizing
+      learning of shortcut features. To support further research, we provide reproducible
+      source code, establishing a framework and benchmark for studies on OOD-GP [URL
+      provided upon publication.
+    langid: english
+    file: /Users/antoniohortaribeiro/Zotero/storage/PEJGPC8J/Zvuloni et al. - 2025
+      - A multi-source domain fine-tuning framework for deep generalization performance
+      in physiological tim.pdf
+    author:
+    - first: Eran
+      last: Zvuloni
+    - first: Guido
+      last: Gagliardi
+    - first: Antonio
+      middle: Horta
+      last: Ribeiro
+    - first: Antonio
+      middle: Luiz Pinho
+      last: Ribeiro
+    - first: Maarten
+      last: De Vos
+    - first: Joachim
+      middle: A
       last: Behar

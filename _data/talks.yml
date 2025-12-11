@@ -1,3 +1,13 @@
+- name: How Computers Learn to Make Predictions
+  date: November 2025
+  type: invited nonprofit
+  venue: World Heart Federation / Fondazione Menarini (Faculty for Emmerging Leaders)
+  slide:
+- name: Robustness in Machine Learning from Adversarial Attacks to Clinical Use
+  date: November 2025
+  venue: Scaleout, Sweden
+  type: invited company
+  slide: https://docs.google.com/presentation/d/1zX8qef8RynHiNYhGBFFdg1Mb_5HZ37RDEwuXO42AQ18/edit?usp=sharing
 - name: Robustez em Aprendizado de Máquina Do Treinamento Adversarial ao Uso Clínico
   date: July 2025
   venue:  SBAI , Brazil (Plenary talk)
@@ -308,10 +318,3 @@
   publications:
     - lima_deep_2021
     - ribeiro_automatic_2020
-- name: "Beyond exploding and vanishing gradients: analysing RNN training using attractors and smoothness"
-  slidelive: 38930165
-  venue: International Conference On Artificial Intelligence And Statistics (AISTATS)
-  date: 2020
-  type: conference
-  publications:
-    - ribeiro_exploding_2020
