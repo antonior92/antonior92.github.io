@@ -1,0 +1,42 @@
+name: Build CV and Publication List
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install LaTeX and dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-bibtex-extra texlive-fonts-recommended bibtex
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: pip install python-liquid pyyaml pybtex latexcodec
+
+      - name: Build CV
+        working-directory: _cv
+        run: make
+
+      - name: Build Publication List
+        working-directory: _publicationlist
+        run: make
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-outputs
+          path: |
+            _cv/main.pdf
+            _publicationlist/publicationlist.pdf
+            _publicationlist/refs.yml
