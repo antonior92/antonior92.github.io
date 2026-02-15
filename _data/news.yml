@@ -1,3 +1,14 @@
+- date: "2025-12-11"
+  text: "📜 New paper at npj Digital Medicine. The Cost of Explainability in AI-Enhanced ECG Models."
+  tag: publication
+  links:
+    - https://doi.org/10.1038/s41746-025-02122-y
+
+- date: "2025-12-11"
+  text: "📜 New paper at Machine Learning: Health. A Multi-Source Domain Fine-Tuning Framework for Deep Generalization in Physiological Time Series."
+  tag: publication
+  links:
+    - https://doi.org/10.1088/3049-477X/ae2ac5
 
 - date: "2025-11-28"
   text: "🏆  I am now a Scilifelab Group leader."
@@ -5,11 +16,43 @@
   links:
     - https://www.scilifelab.se/researchers/antonio-h-ribeiro/
 
+- date: "2025-11-25"
+  text: "📜 New paper at Journal of Electrocardiology. Evaluation of AI ECG Age in the Prediction of Cardiovascular Diseases and Risk Factors."
+  tag: publication
+  links:
+    - https://doi.org/10.1016/j.jelectrocard.2025.154123
+
 - date: "2025-11-20"
   text: "🎬  I participated as Faculty in the World Heart Federation emerging learders programme. Teaching the next emerging learders cohorts about AI.  "
   tag: cv
   links:
     - images/some_pictures/2025-emergingleaders.jpeg
+
+- date: "2025-10-16"
+  text: "📜 New paper at Circulation: Arrhythmia and Electrophysiology. Prediction of Atrial Fibrillation From the ECG Using Deep Learning: A Multinational Study."
+  tag: publication
+  links:
+    - https://doi.org/10.1161/CIRCEP.125.013734
+
+- date: "2025-10-02"
+  text: "📜 New paper at NeurIPS. Kernel Learning with Adversarial Features: Numerical Efficiency and Adaptive Regularization."
+  tag: publication
+
+- date: "2025-10-02"
+  text: "📜 New paper at CinC. Detection of Chagas Disease from the ECG: The George B. Moody PhysioNet Challenge 2025."
+  tag: publication
+  links:
+    - https://doi.org/10.48550/arXiv.2510.02202
+
+- date: "2025-07-04"
+  text: "📜 New paper at AIME. Contrasting by Augmented Patient Electrocardiograms to Learn Representations for a Foundation Model."
+  tag: publication
+  links:
+    - https://doi.org/10.1007/978-3-031-95841-0_38
+
+- date: "2025-07-04"
+  text: "📜 New paper at Scientific Reports. Exploring the Feasibility of Olfactory Brain-Computer Interfaces."
+  tag: publication
 
 - date: "2025-05-26"
   text: "🎬   I gave the plenary talk at SBAI (Simpósio Brasileiro de Automação Inteligente)."
@@ -25,13 +68,28 @@
     - https://ellis.eu/
 
 - date: "2025-04-04"
-  text: "📜 New paper at ICML. Human-Aligned Image Models Improve Visual Decoding from the Brain"
-  tag: cv
+  text: "📜 New paper at ICML. Human-Aligned Image Models Improve Visual Decoding from the Brain."
+  tag: publication
   links:
     - https://arxiv.org/abs/2502.03081
+
+- date: "2025-04-04"
+  text: "📜 New paper at ICASSP. Deep Learning Amplified Early Stopping Bias: Overestimating Performance on Small Datasets."
+  tag: publication
+
+- date: "2025-03-01"
+  text: "📜 New paper at The Lancet Digital Health. AI-Enhanced ECG for the Identification of a Sex-Related Cardiovascular Risk Continuum."
+  tag: publication
+
+- date: "2025-02-04"
+  text: "📜 New paper at AISTATS. Efficient Optimization Algorithms for Linear Adversarial Training."
+  tag: publication
+  links:
+    - https://arxiv.org/abs/2410.12677
+
 - date: "2025-01-13"
   text: "📜 New paper at npj Digital Medicine. Evaluating AI-ECG in a longitudinal study."
-  tag: cv
+  tag: publication
   links:
     - https://doi.org/10.1038/s41746-024-01428-7
 
