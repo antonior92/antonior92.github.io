@@ -1,14 +1,15 @@
+- date: "2026-01-19"
+  text: "📜 New paper at Machine Learning: Health. A Multi-Source Domain Fine-Tuning Framework for Deep Generalization in Physiological Time Series."
+  tag: publication
+  links:
+    - https://doi.org/10.1088/3049-477X/ae2ac5
+
+
 - date: "2025-12-11"
   text: "📜 New paper at npj Digital Medicine. The Cost of Explainability in AI-Enhanced ECG Models."
   tag: publication
   links:
     - https://doi.org/10.1038/s41746-025-02122-y
-
-- date: "2025-12-11"
-  text: "📜 New paper at Machine Learning: Health. A Multi-Source Domain Fine-Tuning Framework for Deep Generalization in Physiological Time Series."
-  tag: publication
-  links:
-    - https://doi.org/10.1088/3049-477X/ae2ac5
 
 - date: "2025-11-28"
   text: "🏆  I am now a Scilifelab Group leader."
