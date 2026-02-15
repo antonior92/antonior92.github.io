@@ -9,3 +9,17 @@ Gemfile.lock
 node_modules
 package.json
 .idea
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.run.xml
+*.bcf
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*-blx.bib
+*-nhblx.bib
