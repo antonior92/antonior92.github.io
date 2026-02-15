@@ -24,10 +24,6 @@ jobs:
       - name: Install Python dependencies
         run: pip install python-liquid pyyaml pybtex latexcodec
 
-      - name: Build CV
-        working-directory: _cv
-        run: make
-
       - name: Build Publication List
         working-directory: _publicationlist
         run: make
