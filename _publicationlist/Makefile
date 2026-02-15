@@ -27,6 +27,9 @@ $(REFS).yml:  $(REFS).bib $(CLEAN) $(REPLACE)
 	python $(CLEAN) refs.yml refs.yml
 	python $(REPLACE) refs.yml refs.yml
 
-.PHONY : clean
+fetch:
+	python $(ROOT)/scripts/fetch_refs_from_zotero.py -o $(REFS).bib
+
+.PHONY : clean fetch
 clean :
 	rm *.log *.aux *.out *.bcf *.bbl *blx.bib *.blg *.log *.run.xml *.stderr *.stdout *.synctex.gz publicationlist.sty *.pdf
