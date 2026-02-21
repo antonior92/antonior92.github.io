@@ -1,45 +1,26 @@
-"""Extract and print all unique publication venues (journals/conferences)."""
-import yaml
+"""Extract and print all unique publication venues from a BibTeX file."""
+import re
 import argparse
 from pathlib import Path
 
-DEFAULT_REFS = Path(__file__).parent.parent / "_data" / "publications" / "refs.yml"
-DEFAULT_CATEGORIES = Path(__file__).parent.parent / "_data" / "publications" / "categories.yml"
+DEFAULT_REFS = Path(__file__).parent.parent / "_publicationlist" / "refs.bib"
 
 
-def load_yaml(path):
-    with open(path, encoding="utf-8") as f:
-        return yaml.safe_load(f)
+def extract_journals(bib_path):
+    text = Path(bib_path).read_text(encoding="utf-8")
+    # Match: journal = {value} or journal = "value"
+    pattern = re.compile(r'^\s*journal\s*=\s*[{"](.*?)[}"],?\s*$', re.MULTILINE)
+    return {m.group(1).strip() for m in pattern.finditer(text)}
 
 
 def main():
-    parser = argparse.ArgumentParser(description="List unique publication venues.")
-    parser.add_argument("--refs", default=DEFAULT_REFS, help="Path to refs.yml")
-    parser.add_argument("--categories", default=DEFAULT_CATEGORIES, help="Path to categories.yml")
+    parser = argparse.ArgumentParser(description="List unique publication venues from a BibTeX file.")
+    parser.add_argument("--refs", default=DEFAULT_REFS, help="Path to refs.bib")
     args = parser.parse_args()
 
-    entries = load_yaml(args.refs)["entries"]
-    categories = load_yaml(args.categories)
-
-    # Build a mapping from paper id -> category name
-    paper_category = {}
-    for cat in categories:
-        for paper_id in cat.get("papers", []):
-            paper_category[paper_id] = cat["name"]
-
-    # Collect venues per category
-    venues_by_category = {}
-    for paper_id, entry in entries.items():
-        venue = entry.get("journal")
-        if not venue:
-            continue
-        category = paper_category.get(paper_id, "Other")
-        venues_by_category.setdefault(category, set()).add(venue)
-
-    for category, venues in sorted(venues_by_category.items()):
-        print(f"\n{category}:")
-        for venue in sorted(venues):
-            print(f"  {venue}")
+    venues = extract_journals(args.refs)
+    for venue in sorted(venues):
+        print(venue)
 
 
 if __name__ == "__main__":
