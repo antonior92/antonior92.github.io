@@ -205,3 +205,10 @@ eriksson_transferability_2024:
 ribeiro_efficient_2025:
   - name: arxiv
     link: https://arxiv.org/abs/2410.12677
+ribeiro_kernel_2025:
+  - name: arxiv
+    link: https://arxiv.org/abs/2510.20883
+  - name: neurips
+    link: https://neurips.cc/virtual/2025/loc/san-diego/poster/116102
+  - name: openreview
+    link: https://openreview.net/forum?id=nsE0QN904q

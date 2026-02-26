@@ -1,6 +1,7 @@
 - name: Journal articles
   letter: J
   papers:
+      - gu_cardiac_2026
       - zvuloni_multisource_2025
       - patlatzoglou_cost_2025
       - brant_prediction_2025
@@ -15,7 +16,7 @@
       - sau_prognostic_2024
       - sau_artificial_2024a
       - pastika_artificial_2024
-      - vonbachmann_evaluating_2024a
+      - vonbachmann_evaluating_2024
       - huang_generalization_2024
       - lu_decoding_2024
       - ribeiro_overparameterized_2023
@@ -35,7 +36,7 @@
       - meirajr_contextualized_2020
       - paixao_evaluation_2020
       - ribeiro_smoothness_2020
-      - ribeiro_automatic_2020a
+      - ribeiro_automatic_2020
       - virtanen_scipy_2020
       - ribeiro_teleelectrocardiography_2019
       - paixao_evaluation_2019
@@ -44,6 +45,7 @@
 - name: Conference papers
   letter: C
   papers:
+      - barsbey_interaction_2026
       - ribeiro_kernel_2025
       - reyna_detection_2025
       - khattak_contrasting_2025
@@ -58,8 +60,7 @@
       - ribeiro_occam_2021b
       - ribeiro_how_2021
       - gedon_first_2021
-      - oliveira_explaining_2020a
-      - ribeiro_automatic_2020
+      - oliveira_explaining_2020
       - ribeiro_exploding_2020
       - oliveira_explaining_2020
       - andersson_deep_2019

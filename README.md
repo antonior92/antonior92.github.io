@@ -5,15 +5,17 @@
 My favorite way to run this page locally is to just use the docker image
 from [Starefossen/docker-github-pages](https://github.com/Starefossen/docker-github-pages).
 
-That is just run:
+If you a running for the first time, you need to create the image
 ```
 git clone https://github.com/github/pages-gem.git
 cd pages-gem
 make image
 cd ..
 rm -rf pages-gem
+```
 
-
+After the image is created each time you can 
+```
 docker run --rm -it \
     -p 4000:4000 \
     -v ${PWD}:/src/site \
