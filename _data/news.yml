@@ -1,3 +1,16 @@
+- date: "2026-02-24"
+  text: "📜 New paper at Nature Machine on fondation models for health monitoring is the cover of February issue"
+  tag: publication
+  links:
+    - images/some_pictures/2026-cover.png
+    - https://doi.org/10.1038/s42256-026-01180-5
+
+- date: "2026-01-27"
+  text: "📜 New paper at ICLR. On the Interaction of Compressibility and Adversarial Robustness."
+  tag: publication
+  links:
+    - https://arxiv.org/abs/2507.17725
+
 - date: "2026-01-19"
   text: "📜 New paper at Machine Learning: Health. A Multi-Source Domain Fine-Tuning Framework for Deep Generalization in Physiological Time Series."
   tag: publication
