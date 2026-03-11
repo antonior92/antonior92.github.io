@@ -1,4 +1,70 @@
 entries:
+  sau_comparison_2025:
+    type: article
+    title: A comparison of artificial intelligence–enhanced electrocardiography approaches
+      for the prediction of time to mortality using electrocardiogram images
+    volume: '6'
+    copyright: https://creativecommons.org/licenses/by/4.0/
+    issn: 2634-3916
+    url: https://academic.oup.com/ehjdh/article/6/2/180/7903004
+    doi: 10.1093/ehjdh/ztae090
+    abstract: Abstract Aims Most artificial intelligence-enhanced electrocardiogram
+      (AI-ECG) models used to predict adverse events including death require that
+      the ECGs be stored digitally. However, the majority of clinical facilities worldwide
+      store ECGs as images. Methods and results A total of 1 163 401 ECGs (189 539
+      patients) from a secondary care data set were available as both natively digital
+      traces and PDF images. A digitization pipeline extracted signals from PDFs.
+      Separate 1D convolutional neural network (CNN) models were trained on natively
+      digital or digitized ECGs, with a discrete-time survival loss function to predict
+      time to mortality. A 2D CNN model was trained on 310 \xd 7 868\u 2005px ECG
+      images. External validation was performed in 958 954 ECGs (645 373 patients)
+      from a Brazilian primary care cohort and 1022 ECGs (1022 patients) from a Chagas
+      disease cohort. The image 2D CNN model and digitized 1D CNN model performed
+      comparably to natively digital 1D CNN model in internal [C-index 0.780 (0.779–0.781),
+      0.772 (0.771–0.774), and 0.775 (0.774–0.776), respectively] and external validation.
+      Models trained on natively digital 1D ECGs had comparable performance when applied
+      to digitized 1D ECGs [C-index 0.773 (0.771–0.774)]. Conclusion Both the image
+      2D CNN and digitized 1D CNN enable mortality prediction from ECG images, with
+      comparable performance to natively digital 1D CNN. Models trained on natively
+      digital 1D ECGs can also be applied to digitized 1D ECGs, without any significant
+      loss in performance. This work allows AI-ECG mortality prediction to be applied
+      in diverse global settings lacking digital ECG infrastructure.
+    language: en
+    number: '2'
+    urldate: '2026-03-11'
+    journal: European Heart Journal - Digital Health
+    month: March
+    year: '2025'
+    pages: 180–189
+    author:
+    - first: Arunashis
+      last: Sau
+    - first: Boroumand
+      last: Zeidaabadi
+    - first: Konstantinos
+      last: Patlatzoglou
+    - first: Libor
+      last: Pastika
+    - first: Antônio
+      middle: H
+      last: Ribeiro
+    - first: Ester
+      last: Sabino
+    - first: Nicholas
+      middle: S
+      last: Peters
+    - first: Antonio
+      middle: Luiz P
+      last: Ribeiro
+    - first: Daniel
+      middle: B
+      last: Kramer
+    - first: Jonathan
+      middle: W
+      last: Waks
+    - first: Fu
+      middle: Siong
+      last: Ng
   gu_cardiac_2026:
     type: article
     title: Cardiac health assessment across scenarios and devices using a multimodal
@@ -258,6 +324,99 @@ entries:
     - first: Luis
       middle: A.
       last: Aguirre
+  vonbachmann_evaluating_2024:
+    type: article
+    title: Evaluating regression and probabilistic methods for ECG-based electrolyte
+      prediction
+    volume: '14'
+    copyright: 2024 The Author(s)
+    issn: 2045-2322
+    url: https://www.nature.com/articles/s41598-024-65223-w
+    doi: 10.1038/s41598-024-65223-w
+    abstract: Imbalances in electrolyte concentrations can have severe consequences,
+      but accurate and accessible measurements could improve patient outcomes. The
+      current measurement method based on blood tests is accurate but invasive and
+      time-consuming and is often unavailable for example in remote locations or an
+      ambulance setting. In this paper, we explore the use of deep neural networks
+      (DNNs) for regression tasks to accurately predict continuous electrolyte concentrations
+      from electrocardiograms (ECGs), a quick and widely adopted tool. We analyze
+      our DNN models on a novel dataset of over 290,000 ECGs across four major electrolytes
+      and compare their performance with traditional machine learning models. For
+      improved understanding, we also study the full spectrum from continuous predictions
+      to a binary classification of extreme concentration levels. Finally, we investigate
+      probabilistic regression approaches and explore uncertainty estimates for enhanced
+      clinical usefulness. Our results show that DNNs outperform traditional models
+      but model performance varies significantly across different electrolytes. While
+      discretization leads to good classification performance, it does not address
+      the original problem of continuous concentration level prediction. Probabilistic
+      regression has practical potential, but our uncertainty estimates are not perfectly
+      calibrated. Our study is therefore a first step towards developing an accurate
+      and reliable ECG-based method for electrolyte concentration level prediction—a
+      method with high potential impact within multiple clinical scenarios.
+    language: en
+    number: '1'
+    urldate: '2024-08-19'
+    journal: Scientific Reports
+    publisher: Nature Publishing Group
+    month: July
+    year: '2024'
+    pages: '15273'
+    author:
+    - first: Philipp
+      prelast: von
+      last: Bachmann
+    - first: Daniel
+      last: Gedon
+    - first: Fredrik
+      middle: K.
+      last: Gustafsson
+    - first: Antônio
+      middle: H.
+      last: Ribeiro
+    - first: Erik
+      last: Lampa
+    - first: Stefan
+      last: Gustafsson
+    - first: Johan
+      last: Sundström
+    - first: Thomas
+      middle: B.
+      last: Schön
+  rajabi_humanaligned_2025:
+    type: article
+    title: Human-Aligned Image Models Improve Visual Decoding from the Brain
+    copyright: All rights reserved
+    url: http://arxiv.org/abs/2502.03081
+    doi: 10.48550/arXiv.2502.03081
+    abstract: Decoding visual images from brain activity has significant potential
+      for advancing brain-computer interaction and enhancing the understanding of
+      human perception. Recent approaches align the representation spaces of images
+      and brain activity to enable visual decoding. In this paper, we introduce the
+      use of human-aligned image encoders to map brain signals to images. We hypothesize
+      that these models more effectively capture perceptual attributes associated
+      with the rapid visual stimuli presentations commonly used in visual brain data
+      recording experiments. Our empirical results support this hypothesis, demonstrating
+      that this simple modification improves image retrieval accuracy by up to 21%
+      compared to state-of-the-art methods. Comprehensive experiments confirm consistent
+      performance improvements across diverse EEG architectures, image encoders, alignment
+      methods, participants, and brain imaging modalities.
+    journal: ICML
+    year: '2025'
+    note: arXiv:2502.03081 [cs]
+    author:
+    - first: Nona
+      last: Rajabi
+    - first: Antônio
+      middle: H.
+      last: Ribeiro
+    - first: Miguel
+      last: Vasco
+    - first: Farzaneh
+      last: Taleb
+    - first: 'M\rarten '
+      last: Björkman
+    - first: Danica
+      last: Kragic
   sangha_detection_2023:
     type: article
     title: Detection of Left Ventricular Systolic Dysfunction from Electrocardiographic
@@ -709,46 +868,11 @@ entries:
       last: Ribeiro
     - first: Miguel
       last: Vasco
-    - first: 'M\rarten '
+    - first: 'Mårten '
       last: Björkman
     - first: Johan
       middle: N.
       last: Lundström
-    - first: Danica
-      last: Kragic
-  rajabi_humanaligned_2025:
-    type: article
-    title: Human-Aligned Image Models Improve Visual Decoding from the Brain
-    copyright: All rights reserved
-    url: http://arxiv.org/abs/2502.03081
-    doi: 10.48550/arXiv.2502.03081
-    abstract: Decoding visual images from brain activity has significant potential
-      for advancing brain-computer interaction and enhancing the understanding of
-      human perception. Recent approaches align the representation spaces of images
-      and brain activity to enable visual decoding. In this paper, we introduce the
-      use of human-aligned image encoders to map brain signals to images. We hypothesize
-      that these models more effectively capture perceptual attributes associated
-      with the rapid visual stimuli presentations commonly used in visual brain data
-      recording experiments. Our empirical results support this hypothesis, demonstrating
-      that this simple modification improves image retrieval accuracy by up to 21%
-      compared to state-of-the-art methods. Comprehensive experiments confirm consistent
-      performance improvements across diverse EEG architectures, image encoders, alignment
-      methods, participants, and brain imaging modalities.
-    journal: ICML
-    year: '2025'
-    note: arXiv:2502.03081 [cs]
-    author:
-    - first: Nona
-      last: Rajabi
-    - first: Antônio
-      middle: H.
-      last: Ribeiro
-    - first: Miguel
-      last: Vasco
-    - first: Farzaneh
-      last: Taleb
-    - first: 'M\rarten '
-      last: Björkman
     - first: Danica
       last: Kragic
   sau_artificial_2025:
@@ -1621,57 +1745,6 @@ entries:
     - first: Antônio
       middle: H.
       last: Ribeiro
-  vonbachmann_evaluating_2024a:
-    type: article
-    title: Evaluating regression and probabilistic methods for ECG-based electrolyte
-      prediction
-    volume: '14'
-    copyright: All rights reserved
-    doi: 10.1038/s41598-024-65223-w
-    abstract: Imbalances in electrolyte concentrations can have severe consequences,
-      but accurate and accessible measurements could improve patient outcomes. The
-      current measurement method based on blood tests is accurate but invasive and
-      time-consuming and is often unavailable for example in remote locations or an
-      ambulance setting. In this paper, we explore the use of deep neural networks
-      (DNNs) for regression tasks to accurately predict continuous electrolyte concentrations
-      from electrocardiograms (ECGs), a quick and widely adopted tool. We analyze
-      our DNN models on a novel dataset of over 290,000 ECGs across four major electrolytes
-      and compare their performance with traditional machine learning models. For
-      improved understanding, we also study the full spectrum from continuous predictions
-      to a binary classification of extreme concentration levels. Finally, we investigate
-      probabilistic regression approaches and explore uncertainty estimates for enhanced
-      clinical usefulness. Our results show that DNNs outperform traditional models
-      but model performance varies significantly across different electrolytes. While
-      discretization leads to good classification performance, it does not address
-      the original problem of continuous concentration level prediction. Probabilistic
-      regression has practical potential, but our uncertainty estimates are not perfectly
-      calibrated. Our study is therefore a first step towards developing an accurate
-      and reliable ECG-based method for electrolyte concentration level prediction—a
-      method with high potential impact within multiple clinical scenarios.
-    number: '15273'
-    journal: Scientific Reports
-    year: '2024'
-    note: arXiv:2212.13890
-    author:
-    - first: Philipp
-      last: Von Bachmann
-    - first: Daniel
-      last: Gedon
-    - first: Fredrik
-      middle: K.
-      last: Gustafsson
-    - first: Antônio
-      middle: H.
-      last: Ribeiro
-    - first: Erik
-      last: Lampa
-    - first: Stefan
-      last: Gustafsson
-    - first: Johan
-      last: Sundström
-    - first: Thomas
-      middle: B.
-      last: Schön
   gustafsson_development_2022:
     type: article
     title: Development and validation of deep learning ECG-based prediction of myocardial

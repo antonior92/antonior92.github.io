@@ -1,0 +1,193 @@
+# Journals
+- name: Journal of Electrocardiology
+  count: 4
+  tag: medical
+  type: journal
+  impact_factor: 1.2
+- name: Nature Communications
+  count: 3
+  tag: interdisciplinary
+  type: journal
+  impact_factor: 15.7 
+- name: npj Digital Medicine
+  count: 3
+  tag: medical
+  type: journal
+  impact_factor: 15.1
+- name: Scientific Reports
+  count: 3
+  tag: interdisciplinary
+  type: journal
+  impact_factor: 3.9
+- name: European Heart Journal - Digital Health
+  count: 3
+  tag: medical
+  type: journal
+  impact_factor: 3.5
+- name: The Lancet Digital Health
+  count: 2
+  tag: medical
+  type: journal
+  impact_factor: 24.1
+- name: 'Circulation: Cardiovascular Quality and Outcomes'
+  count: 2
+  tag: medical
+  type: journal
+  impact_factor: 4.4
+- name: Automatica
+  count: 2
+  tag: system-identification
+  type: journal
+  impact_factor: 6.7
+- name: Nature Machine Intelligence
+  count: 1
+  tag: machine-learning
+  type: journal
+  impact_factor: 18.4
+- name: Circulation
+  count: 1
+  tag: medical
+  type: journal
+  impact_factor: 38.7
+- name: 'Circulation: Arrhythmia and Electrophysiology'
+  count: 1
+  tag: medical
+  type: journal
+  impact_factor: 9.8
+- name: European Heart Journal
+  count: 1
+  tag: medical
+  type: journal
+  impact_factor: 35.6
+- name: Nature Cardiovascular Research
+  count: 1
+  tag: medical
+  type: journal
+  impact_factor: 10.8
+- name: Future Cardiology
+  count: 1
+  tag: medical
+  type: journal
+  impact_factor: 1.0
+- name: IEEE Signal Processing Letters
+  count: 1
+  tag: signal-processing
+  type: journal
+  impact_factor: 3.9
+- name: Frontiers in Cardiovascular Medicine
+  count: 1
+  tag: medical
+  type: journal
+  impact_factor: 2.8
+- name: Plos Neglected Tropical Diseases
+  count: 1
+  tag: medical
+  type: journal
+  impact_factor: 3.2
+- name: IEEE Transactions on Biomedical Engineering
+  count: 1
+  tag: medical
+  type: journal
+  impact_factor: 4.5
+- name: IEEE Transactions on Signal Processing
+  count: 1
+  tag: signal-processing
+  type: journal
+  impact_factor: 6.5
+- name: Hearts
+  count: 1
+  tag: medical
+  type: journal
+- name: Global Heart
+  count: 1
+  tag: medical
+  type: journal
+  impact_factor: 3.1
+- name: Neurocomputing
+  count: 1
+  tag: machine-learning
+  type: journal
+  impact_factor: 6.0
+- name: Nature Methods
+  count: 1
+  tag: interdisciplinary
+  type: journal
+  impact_factor: 32.1
+- name: Communications of the ACM
+  count: 1
+  tag: machine-learning
+  type: journal
+  impact_factor: 11.1
+- name: 'Machine Learning: Health'
+  count: 1
+  tag: machine-learning
+  type: journal
+# Conferences — Machine Learning
+- name: NeurIPS
+  count: 3
+  tag: machine-learning
+  type: conference
+- name: ICML
+  count: 2
+  tag: machine-learning
+  type: conference
+- name: AISTATS
+  count: 2
+  tag: machine-learning
+  type: conference
+- name: ICLR
+  count: 1
+  tag: machine-learning
+  type: conference
+- name: ECML-PKDD
+  count: 1
+  tag: machine-learning
+  type: conference
+# Conferences — Signal Processing
+- name: ICASSP
+  count: 2
+  tag: signal-processing
+  type: conference
+# Conferences — System Identification
+- name: SYSID
+  count: 2
+  tag: system-identification
+  type: conference
+- name: ACC
+  count: 1
+  tag: system-identification
+  type: conference
+- name: CDC
+  count: 1
+  tag: system-identification
+  type: conference
+- name: IFAC World Congress
+  count: 1
+  tag: system-identification
+  type: conference
+- name: IFAC Oil and Gas
+  count: 1
+  tag: system-identification
+  type: conference
+# Conferences — Medical
+- name: AIME
+  count: 1
+  tag: medical
+  type: conference
+# Workshops
+- name: NeurIPS Workshop on Scientific Methods for Understanding Deep Learning
+  count: 1
+  tag: machine-learning
+  type: workshop
+- name: TOPML
+  count: 1
+  tag: machine-learning
+  type: workshop
+- name: Machine Learning for Health (ML4H) Workshop at NeurIPS
+  count: 1
+  tag: machine-learning
+  type: workshop
+- name: Machine learning from ground truth - New medical imaging datasets for unsolved medical problems Workshop at NeurIPS
+  count: 1
+  tag: medical
+  type: workshop
