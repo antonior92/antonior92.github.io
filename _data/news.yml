@@ -1,3 +1,7 @@
+- date: "2026-03-28"
+  text: "🏆 I was awarded a WASP Academic PhD Project grant. The project is titled: \"Large-Scale Robust Machine Learning via Minmax Formulations\"."
+  tag: cv
+
 - date: "2026-02-24"
   text: "📜 New paper at Nature Machine on fondation models for health monitoring is the cover of February issue"
   tag: publication
