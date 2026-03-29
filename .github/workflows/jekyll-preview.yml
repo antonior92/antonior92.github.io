@@ -17,13 +17,17 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          bundler-cache: true
+
+      - name: Install dependencies
+        run: bundle install
+        env:
+          BUNDLE_PATH: ${{ runner.temp }}/bundle
 
       - name: Build Jekyll site
         run: bundle exec jekyll build --destination _site
         env:
           JEKYLL_ENV: production
-          BUNDLE_PATH: vendor/bundle
+          BUNDLE_PATH: ${{ runner.temp }}/bundle
 
       - name: Upload site artifact
         uses: actions/upload-artifact@v4
