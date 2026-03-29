@@ -1,3 +1,14 @@
+- projectname: "Large-Scale Robust Machine Learning via Minimax Formulations"
+  year: 2026
+  role: Main applicant
+  ammount:  4.5 million SEK
+  ammount-sek: 4.5 million SEK
+  agencies: WASP (Wallenberg AI, Autonomous Systems and Software Program)
+  country: Sweden
+  description: |
+    Modern machine learning systems perform well when training and deployment data follow the same distribution, yet they often fail under distribution shift, noise, or adversarial perturbations—an especially serious limitation in high-stakes applications such as medicine. This project develops a principled and scalable foundation for robust machine learning by formulating training as a minimax problem.
+    The central idea is to cast robustness within a unified minimax framework, where learning optimizes performance against worst-case distributions drawn from structured uncertainty sets. This formulation encompasses causality, distributionally robust optimization, and adversarial training within a single framework, with a particular focus on nonlinear models and large-scale settings. The project pursues three complementary aims: establishing  robust training using minimax, developing the analysis for nonlinear models using kernel methods and deep networks, and proposing computationally efficient algorithms for large-scale robust learning through tractable reformulations of minimax objectives.
+    This project builds on recent publications from main PI on robust machine learning and significantly extends it from adversarial scenarios to new broader notions of data uncertainty. By unifying robustness paradigms, providing nonlinear analysis, and developing scalable optimization methods, the project delivers principled and practical approaches to reliable machine learning, with direct relevance to real-world applications such as biomedical signal analysis and to WASP’s goals of trustworthy, mathematically grounded AI.
 - projectname: "Digital Biomarkers from the Electrocardiogram using Artificial Intelligence"
   year: 2024
   role: Main applicant

@@ -14,7 +14,7 @@ $(NAME).pdf: $(NAME).tex $(NAME).sty $(NAME).bbl $(NAME).sty ../_cv/mycv.sty
 	pdflatex -interaction=nonstopmode $<
 
 $(NAME).bbl: $(NAME).bcf $(REFS).bib
-	bibtex $(NAME)
+	biber $(NAME)
 
 $(NAME).bcf: $(NAME).tex $(NAME).sty
 	pdflatex -interaction=nonstopmode $<
