@@ -3,6 +3,7 @@ name: Build CV and Publication List
 on:
   push:
     branches: [master]
+  pull_request:
 
 jobs:
   build:
@@ -14,7 +15,7 @@ jobs:
       - name: Install LaTeX and dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-bibtex-extra texlive-fonts-recommended
+          sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-bibtex-extra texlive-fonts-recommended biber
 
       - name: Set up Python
         uses: actions/setup-python@v5
