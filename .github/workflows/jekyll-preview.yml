@@ -2,7 +2,6 @@ name: Jekyll PR Preview
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened, closed]
 
 concurrency:
   group: pr-preview-${{ github.event.pull_request.number }}
@@ -21,37 +20,23 @@ jobs:
           bundler-cache: true
 
       - name: Build Jekyll site
-        if: github.event.action != 'closed'
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
 
-      - name: Deploy preview to Surge
-        if: github.event.action != 'closed'
-        env:
-          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
-          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-        run: |
-          npm install -g surge
-          surge _site pr-${{ github.event.pull_request.number }}-antonior92.surge.sh
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jekyll-site
+          path: _site/
 
-      - name: Teardown preview on close
-        if: github.event.action == 'closed'
-        env:
-          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
-          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-        run: |
-          npm install -g surge
-          surge teardown pr-${{ github.event.pull_request.number }}-antonior92.surge.sh
-
-      - name: Comment preview URL on PR
-        if: github.event.action != 'closed'
+      - name: Comment on PR
         uses: actions/github-script@v7
         with:
           script: |
-            const url = `http://pr-${{ github.event.pull_request.number }}-antonior92.surge.sh`;
+            const runUrl = `https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}`;
             const marker = '<!-- jekyll-preview -->';
-            const body = `${marker}\n🔍 **Jekyll preview deployed:** ${url}`;
+            const body = `${marker}\n📦 **Jekyll preview built.** Download the \`jekyll-site\` artifact from the [workflow run](${runUrl}), unzip it, and open \`index.html\` in your browser.`;
 
             const comments = await github.rest.issues.listComments({
               owner: context.repo.owner,
